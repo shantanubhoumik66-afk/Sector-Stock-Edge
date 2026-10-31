@@ -62,10 +62,13 @@ function sectorDetail(s){
 }
 /* ---------- Tab 1: Right valuation (Nifty 500 from data.json) ---------- */
 function valTab(){
+  if(sel){$("app").innerHTML=valCard(D.valuation.find(v=>v.symbol==sel));return}
+  if(!$("q")){$("app").innerHTML=`<input id="q" placeholder="Search stock name or symbol"><div id="vres"></div>`;
+    $("q").addEventListener("input",e=>{qy=e.target.value;sel=null;valTab()});}
+  if($("q").value!==qy)$("q").value=qy;
   const q=qy.trim().toLowerCase();
   const m=q?D.valuation.filter(v=>v.symbol.toLowerCase().includes(q)||v.name.toLowerCase().includes(q)).slice(0,8):[];
-  $("app").innerHTML=`<input id="q" placeholder="Search stock name or symbol" value="${esc(qy)}" oninput="qy=this.value;sel=null;valTab();$('q').focus()">`+
-  (sel?valCard(D.valuation.find(v=>v.symbol==sel)):m.map(v=>`<div class="card" onclick="sel='${v.symbol}';valTab()"><span class="sym">${esc(v.symbol)}</span> <span class="mu">${esc(v.name)}</span></div>`).join("")||(q?"<p class='mu'>Not found. Only Nifty 500 stocks are covered here.</p>":"<p class='mu'>Type a stock name to see its valuation.</p>"));
+  $("vres").innerHTML=m.map(v=>`<div class="card" onclick="sel='${v.symbol}';valTab()"><span class="sym">${esc(v.symbol)}</span> <span class="mu">${esc(v.name)}</span></div>`).join("")||(q?"<p class='mu'>Not found. Only Nifty 500 stocks are covered here.</p>":"<p class='mu'>Type a stock name to see its valuation.</p>");
 }
 function valCard(v){
   if(!v)return "<p class='mu'>Not found.</p>";
@@ -117,11 +120,13 @@ function searchTab(){
   const list=SX&&SX.stocks?SX.stocks:[];
   if(!list.length){$("app").innerHTML="<p class='mu'>Stock data not built yet. Run the 'Update stock search' workflow once.</p>";return}
   if(ssel){$("app").innerHTML=`<button class="back" onclick="ssel=null;searchTab()">← Back to search</button>`+stockCard(list.find(s=>s.symbol==ssel));return}
+  if(!$("sq")){$("app").innerHTML=`<input id="sq" placeholder="Type stock name or symbol"><div id="sres"></div>`;
+    $("sq").addEventListener("input",e=>{sq=e.target.value;searchTab()});}
+  if($("sq").value!==sq)$("sq").value=sq;
   const q=sq.trim().toLowerCase();
   const m=q?list.filter(s=>s.symbol.toLowerCase().includes(q)||s.name.toLowerCase().includes(q)).slice(0,8):[];
-  $("app").innerHTML=`<input id="sq" placeholder="Type stock name or symbol" value="${esc(sq)}" oninput="sq=this.value;searchTab();$('sq').focus()">`+
-  (m.map(s=>`<div class="card" onclick="ssel='${s.symbol}';searchTab()"><span class="sym">${esc(s.symbol)}</span> <span class="mu">${esc(s.name)}</span> ${s.fno?'<span class="tag fno">F&amp;O</span>':''}</div>`).join("")||
-   (q?"<p class='mu'>Not found in Nifty 500 or F&amp;O list.</p>":"<p class='mu'>Covers Nifty 50, Next 50, 200, 500 and F&amp;O stocks.</p>"));
+  $("sres").innerHTML=m.map(s=>`<div class="card" onclick="ssel='${s.symbol}';searchTab()"><span class="sym">${esc(s.symbol)}</span> <span class="mu">${esc(s.name)}</span> ${s.fno?'<span class="tag fno">F&amp;O</span>':''}</div>`).join("")||
+   (q?"<p class='mu'>Not found in Nifty 500 or F&amp;O list.</p>":"<p class='mu'>Covers Nifty 50, Next 50, 200, 500 and F&amp;O stocks.</p>");
 }
 /* ---------- Tab 4: F&O Stocks ---------- */
 function foTab(){
