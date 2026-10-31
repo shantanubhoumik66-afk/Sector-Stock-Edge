@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-31T08:23:38.732365Z",
+"updated": "2026-10-31T08:49:32.137459Z",
 "nifty": {
 "r1": 1.5,
 "r3": -5.2,
@@ -9,13 +9,13 @@
 "top": [
 {
 "name": "Information Technology",
-"score": 8.8,
+"score": 8.9,
 "n": 25,
 "improving": true,
 "driver": "US/Europe tech spending, rupee, deal wins",
 "reasons": [
 "3M +2.8% vs Nifty -5.2%",
-"1M +8.2% vs Nifty +1.5%",
+"1M +8.6% vs Nifty +1.5%",
 "56% of stocks above 200-day average",
 "Momentum improving in the last month"
 ],
@@ -30,6 +30,15 @@
 "score": 44.7
 },
 {
+"symbol": "CYIENT",
+"name": "Cyient Ltd.",
+"price": 1134.9,
+"r1": 8.6,
+"r3": 35.3,
+"rs3": 40.5,
+"score": 40.5
+},
+{
 "symbol": "LTTS",
 "name": "L&T Technology Services Ltd.",
 "price": 4280.2,
@@ -37,26 +46,17 @@
 "r3": 20.9,
 "rs3": 26.1,
 "score": 39.9
-},
-{
-"symbol": "CYIENT",
-"name": "Cyient Ltd.",
-"price": 1144.6,
-"r1": 6.8,
-"r3": 33.3,
-"rs3": 38.5,
-"score": 38.8
 }
 ]
 },
 {
 "name": "Healthcare",
-"score": 5.2,
+"score": 5.3,
 "n": 44,
 "improving": false,
 "driver": "US generics pricing, domestic demand, approvals",
 "reasons": [
-"3M -2.7% vs Nifty -5.2%",
+"3M -2.5% vs Nifty -5.2%",
 "1M -3.0% vs Nifty +1.5%",
 "66% of stocks above 200-day average",
 "Momentum slowing in the last month"
@@ -74,32 +74,32 @@
 {
 "symbol": "ACUTAAS",
 "name": "Acutaas Chemicals Ltd.",
-"price": 3976.7,
-"r1": 23.7,
-"r3": 20.4,
-"rs3": 25.6,
-"score": 46.7
+"price": 4003.6,
+"r1": 21.2,
+"r3": 23.9,
+"rs3": 29.1,
+"score": 47.0
 },
 {
 "symbol": "GLAND",
 "name": "Gland Pharma Ltd.",
-"price": 3074.5,
-"r1": 6.2,
-"r3": 21.8,
-"rs3": 27.0,
-"score": 44.4
+"price": 3095.9,
+"r1": 3.6,
+"r3": 23.9,
+"rs3": 29.1,
+"score": 45.5
 }
 ]
 },
 {
 "name": "Consumer Services",
-"score": 3.3,
+"score": 2.5,
 "n": 23,
 "improving": false,
 "driver": "Discretionary spending, income growth",
 "reasons": [
-"3M +0.6% vs Nifty -5.2%",
-"1M -4.4% vs Nifty +1.5%",
+"3M +0.1% vs Nifty -5.2%",
+"1M -4.7% vs Nifty +1.5%",
 "48% of stocks above 200-day average",
 "Momentum slowing in the last month"
 ],
@@ -151,11 +151,11 @@
 {
 "symbol": "CEMPRO",
 "name": "Cemindia Projects Ltd.",
-"price": 1287.4,
-"r1": 5.1,
-"r3": -4.0,
-"rs3": 1.2,
-"score": 39.9
+"price": 1265.0,
+"r1": 3.4,
+"r3": -6.9,
+"rs3": -1.7,
+"score": 37.3
 },
 {
 "symbol": "KPIL",
@@ -179,13 +179,13 @@
 },
 {
 "name": "Metals & Mining",
-"score": -12.4,
+"score": -12.6,
 "n": 18,
 "improving": false,
 "driver": "Global commodity prices, China demand, infra demand",
 "reasons": [
 "3M -9.9% vs Nifty -5.2%",
-"1M -9.0% vs Nifty +1.5%",
+"1M -9.6% vs Nifty +1.5%",
 "11% of stocks above 200-day average",
 "Momentum slowing in the last month"
 ],
@@ -221,14 +221,14 @@
 },
 {
 "name": "Chemicals",
-"score": -12.4,
+"score": -12.5,
 "n": 26,
 "improving": false,
 "driver": "Global demand, China competition, input costs",
 "reasons": [
-"3M -14.8% vs Nifty -5.2%",
-"1M -8.7% vs Nifty +1.5%",
-"19% of stocks above 200-day average",
+"3M -14.5% vs Nifty -5.2%",
+"1M -8.0% vs Nifty +1.5%",
+"15% of stocks above 200-day average",
 "Momentum slowing in the last month"
 ],
 "stocks": [
@@ -280,13 +280,13 @@
 "de": 167.38,
 "mcap_cr": 42245,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 33.3 vs sector median 18.4",
+"PE 33.3 vs sector median 19.1",
 "P/B 3.9 vs sector median 2.0",
 "ROE 13%"
 ]
@@ -386,7 +386,7 @@
 "eg": -0.01,
 "rg": 0.12,
 "de": 0.13,
-"mcap_cr": null,
+"mcap_cr": 33557,
 "sector_med": {
 "pe": 44.5,
 "ev": 29.7,
@@ -403,7 +403,7 @@
 "name": "APL Apollo Tubes Ltd.",
 "industry": "Capital Goods",
 "price": 2165.1,
-"pe": 45.91,
+"pe": 46.54,
 "fpe": 33.56,
 "pb": 10.59,
 "ev": 29.73,
@@ -411,7 +411,7 @@
 "eg": 0.25,
 "rg": 0.34,
 "de": 16.77,
-"peg": 1.81,
+"peg": 1.84,
 "mcap_cr": 60116,
 "sector_med": {
 "pe": 44.5,
@@ -420,9 +420,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 45.9 vs sector median 44.5",
+"PE 46.5 vs sector median 44.5",
 "EV/EBITDA 29.7 vs sector median 29.7",
-"PEG 1.81",
+"PEG 1.84",
 "ROE 25%"
 ]
 },
@@ -442,13 +442,13 @@
 "peg": 0.41,
 "mcap_cr": 64750,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 20.7 vs sector median 18.4",
+"PE 20.7 vs sector median 19.1",
 "P/B 3.0 vs sector median 2.0",
 "PEG 0.41",
 "ROE 16%"
@@ -496,13 +496,13 @@
 "peg": 0.85,
 "mcap_cr": 18417,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 15.6 vs sector median 18.4",
+"PE 15.6 vs sector median 19.1",
 "P/B 2.4 vs sector median 2.0",
 "PEG 0.85"
 ]
@@ -539,7 +539,7 @@
 "name": "Aavas Financiers Ltd.",
 "industry": "Financial Services",
 "price": 1062.9,
-"pe": 12.02,
+"pe": 12.57,
 "fpe": 9.45,
 "pb": 1.56,
 "ev": null,
@@ -547,18 +547,18 @@
 "eg": 0.11,
 "rg": 0.09,
 "de": 305.37,
-"peg": 1.1,
+"peg": 1.15,
 "mcap_cr": 8428,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 12.0 vs sector median 18.4",
+"PE 12.6 vs sector median 19.1",
 "P/B 1.6 vs sector median 2.0",
-"PEG 1.10",
+"PEG 1.15",
 "ROE 14%"
 ]
 },
@@ -567,7 +567,7 @@
 "name": "Abbott India Ltd.",
 "industry": "Healthcare",
 "price": 25635.0,
-"pe": 33.08,
+"pe": 33.57,
 "fpe": 28.36,
 "pb": 11.41,
 "ev": 27.23,
@@ -575,7 +575,7 @@
 "eg": 0.17,
 "rg": 0.04,
 "de": 3.6,
-"peg": 1.93,
+"peg": 1.96,
 "mcap_cr": 54473,
 "sector_med": {
 "pe": 46.4,
@@ -584,9 +584,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 33.1 vs sector median 46.4",
+"PE 33.6 vs sector median 46.4",
 "EV/EBITDA 27.2 vs sector median 30.0",
-"PEG 1.93"
+"PEG 1.96"
 ]
 },
 {
@@ -621,7 +621,7 @@
 "name": "Acutaas Chemicals Ltd.",
 "industry": "Healthcare",
 "price": 4003.6,
-"pe": 75.45,
+"pe": 74.95,
 "fpe": 50.81,
 "pb": 17.65,
 "ev": 53.91,
@@ -629,7 +629,7 @@
 "eg": 0.73,
 "rg": 0.44,
 "de": 0.79,
-"peg": 1.04,
+"peg": 1.03,
 "mcap_cr": 32778,
 "sector_med": {
 "pe": 46.4,
@@ -638,9 +638,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 75.5 vs sector median 46.4",
+"PE 74.9 vs sector median 46.4",
 "EV/EBITDA 53.9 vs sector median 30.0",
-"PEG 1.04",
+"PEG 1.03",
 "ROE 26%"
 ]
 },
@@ -815,7 +815,7 @@
 "name": "Aditya Birla Capital Ltd.",
 "industry": "Financial Services",
 "price": 369.45,
-"pe": 23.15,
+"pe": 23.87,
 "fpe": 14.56,
 "pb": 2.81,
 "ev": null,
@@ -823,18 +823,18 @@
 "eg": 0.39,
 "rg": 0.31,
 "de": 495.94,
-"peg": 0.59,
+"peg": 0.61,
 "mcap_cr": 101154,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 23.1 vs sector median 18.4",
+"PE 23.9 vs sector median 19.1",
 "P/B 2.8 vs sector median 2.0",
-"PEG 0.59"
+"PEG 0.61"
 ]
 },
 {
@@ -876,13 +876,13 @@
 "de": 1.56,
 "mcap_cr": 23309,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 22.6 vs sector median 18.4",
+"PE 22.6 vs sector median 19.1",
 "P/B 6.0 vs sector median 2.0",
 "ROE 27%"
 ]
@@ -919,7 +919,7 @@
 "name": "Aegis Logistics Ltd.",
 "industry": "Oil Gas & Consumable Fuels",
 "price": 1096.7,
-"pe": 31.05,
+"pe": 28.89,
 "fpe": 26.19,
 "pb": 5.79,
 "ev": 19.67,
@@ -927,7 +927,7 @@
 "eg": 0.45,
 "rg": -0.04,
 "de": 51.01,
-"peg": 0.69,
+"peg": 0.64,
 "mcap_cr": 38494,
 "sector_med": {
 "pe": 12.4,
@@ -936,9 +936,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 31.1 vs sector median 12.4",
+"PE 28.9 vs sector median 12.4",
 "EV/EBITDA 19.7 vs sector median 7.2",
-"PEG 0.69",
+"PEG 0.64",
 "ROE 17%"
 ]
 },
@@ -1002,7 +1002,7 @@
 "name": "Afcons Infrastructure Ltd.",
 "industry": "Construction",
 "price": 206.04,
-"pe": 54.51,
+"pe": 53.1,
 "fpe": 14.06,
 "pb": 1.39,
 "ev": 10.03,
@@ -1018,7 +1018,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 54.5 vs sector median 21.7",
+"PE 53.1 vs sector median 21.7",
 "EV/EBITDA 10.0 vs sector median 14.1"
 ]
 },
@@ -1106,7 +1106,7 @@
 "name": "Allied Blenders and Distillers Ltd.",
 "industry": "Fast Moving Consumer Goods",
 "price": 698.25,
-"pe": 85.57,
+"pe": 84.13,
 "fpe": 44.6,
 "pb": 11.88,
 "ev": 37.3,
@@ -1114,7 +1114,7 @@
 "eg": 0.15,
 "rg": 0.16,
 "de": 84.09,
-"peg": 5.78,
+"peg": 5.68,
 "mcap_cr": 19531,
 "sector_med": {
 "pe": 42.2,
@@ -1123,9 +1123,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 85.6 vs sector median 42.2",
+"PE 84.1 vs sector median 42.2",
 "EV/EBITDA 37.3 vs sector median 25.2",
-"PEG 5.78",
+"PEG 5.68",
 "ROE 13%"
 ]
 },
@@ -1145,13 +1145,13 @@
 "peg": 0.86,
 "mcap_cr": 12571,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 13.6 vs sector median 33.8",
+"PE 13.6 vs sector median 33.9",
 "EV/EBITDA 8.5 vs sector median 19.5",
 "PEG 0.86"
 ]
@@ -1222,13 +1222,13 @@
 "de": 5.34,
 "mcap_cr": 37392,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 82.3 vs sector median 18.4",
+"PE 82.3 vs sector median 19.1",
 "P/B 29.0 vs sector median 2.0",
 "ROE 43%"
 ]
@@ -1277,13 +1277,13 @@
 "peg": 0.4,
 "mcap_cr": 25814,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 22.8 vs sector median 18.4",
+"PE 22.8 vs sector median 19.1",
 "P/B 3.9 vs sector median 2.0",
 "PEG 0.40",
 "ROE 18%"
@@ -1319,7 +1319,7 @@
 "name": "Anupam Rasayan India Ltd.",
 "industry": "Chemicals",
 "price": 1143.5,
-"pe": 71.92,
+"pe": 74.35,
 "fpe": 28.68,
 "pb": 3.9,
 "ev": 33.76,
@@ -1335,7 +1335,7 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 71.9 vs sector median 30.2",
+"PE 74.3 vs sector median 30.2",
 "EV/EBITDA 33.8 vs sector median 19.4"
 ]
 },
@@ -1372,7 +1372,7 @@
 "name": "Apollo Hospitals Enterprise Ltd.",
 "industry": "Healthcare",
 "price": 8448.0,
-"pe": 59.91,
+"pe": 58.16,
 "fpe": 38.86,
 "pb": 12.81,
 "ev": 34.81,
@@ -1380,7 +1380,7 @@
 "eg": 0.34,
 "rg": 0.21,
 "de": 85.15,
-"peg": 1.76,
+"peg": 1.71,
 "mcap_cr": 121469,
 "sector_med": {
 "pe": 46.4,
@@ -1389,9 +1389,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 59.9 vs sector median 46.4",
+"PE 58.2 vs sector median 46.4",
 "EV/EBITDA 34.8 vs sector median 30.0",
-"PEG 1.76"
+"PEG 1.71"
 ]
 },
 {
@@ -1410,13 +1410,13 @@
 "peg": 0.01,
 "mcap_cr": 24003,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 13.8 vs sector median 33.8",
+"PE 13.8 vs sector median 33.9",
 "EV/EBITDA 7.2 vs sector median 19.5",
 "PEG 0.01"
 ]
@@ -1437,13 +1437,13 @@
 "peg": 0.51,
 "mcap_cr": 9580,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 9.7 vs sector median 18.4",
+"PE 9.7 vs sector median 19.1",
 "P/B 1.9 vs sector median 2.0",
 "PEG 0.51"
 ]
@@ -1464,13 +1464,13 @@
 "peg": 0.34,
 "mcap_cr": 23070,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 52.3 vs sector median 33.8",
+"PE 52.3 vs sector median 33.9",
 "EV/EBITDA 23.4 vs sector median 19.5",
 "PEG 0.34"
 ]
@@ -1489,7 +1489,7 @@
 "rg": 0.12,
 "de": 344.74,
 "peg": 24.46,
-"mcap_cr": null,
+"mcap_cr": 85065,
 "sector_med": {
 "pe": 44.5,
 "ev": 29.7,
@@ -1597,7 +1597,7 @@
 "de": 22.45,
 "mcap_cr": 69664,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
@@ -1637,7 +1637,7 @@
 "name": "Aurobindo Pharma Ltd.",
 "industry": "Healthcare",
 "price": 1681.4,
-"pe": 26.51,
+"pe": 26.27,
 "fpe": 17.94,
 "pb": 2.58,
 "ev": 13.55,
@@ -1645,7 +1645,7 @@
 "eg": 0.26,
 "rg": 0.16,
 "de": 21.31,
-"peg": 1.03,
+"peg": 1.02,
 "mcap_cr": 96744,
 "sector_med": {
 "pe": 46.4,
@@ -1654,9 +1654,9 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 26.5 vs sector median 46.4",
+"PE 26.3 vs sector median 46.4",
 "EV/EBITDA 13.6 vs sector median 30.0",
-"PEG 1.03"
+"PEG 1.02"
 ]
 },
 {
@@ -1675,13 +1675,13 @@
 "peg": 1.12,
 "mcap_cr": 41795,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 19.6 vs sector median 18.4",
+"PE 19.6 vs sector median 19.1",
 "P/B 2.8 vs sector median 2.0",
 "PEG 1.12"
 ]
@@ -1755,13 +1755,13 @@
 "peg": 0.33,
 "mcap_cr": 378983,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 12.7 vs sector median 18.4",
+"PE 12.7 vs sector median 19.1",
 "P/B 1.6 vs sector median 2.0",
 "PEG 0.33",
 "ROE 14%"
@@ -1862,13 +1862,13 @@
 "peg": 0.82,
 "mcap_cr": 142568,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 51.1 vs sector median 18.4",
+"PE 51.1 vs sector median 19.1",
 "P/B 18.1 vs sector median 2.0",
 "PEG 0.82"
 ]
@@ -1878,7 +1878,7 @@
 "name": "Bajaj Auto Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 10350.0,
-"pe": 22.01,
+"pe": 22.08,
 "fpe": 20.53,
 "pb": 7.8,
 "ev": 16.49,
@@ -1886,18 +1886,18 @@
 "eg": 0.64,
 "rg": 0.57,
 "de": 69.65,
-"peg": 0.34,
-"mcap_cr": 284422,
+"peg": 0.35,
+"mcap_cr": 284188,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 22.0 vs sector median 33.8",
+"PE 22.1 vs sector median 33.9",
 "EV/EBITDA 16.5 vs sector median 19.5",
-"PEG 0.34",
+"PEG 0.35",
 "ROE 36%"
 ]
 },
@@ -1917,13 +1917,13 @@
 "peg": 0.95,
 "mcap_cr": 584487,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 27.0 vs sector median 18.4",
+"PE 27.0 vs sector median 19.1",
 "P/B 4.7 vs sector median 2.0",
 "PEG 0.95",
 "ROE 19%"
@@ -1945,13 +1945,13 @@
 "peg": 2.08,
 "mcap_cr": 266857,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 26.5 vs sector median 18.4",
+"PE 26.5 vs sector median 19.1",
 "P/B 3.4 vs sector median 2.0",
 "PEG 2.08"
 ]
@@ -1971,13 +1971,13 @@
 "de": 0.01,
 "mcap_cr": 113709,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 12.9 vs sector median 18.4",
+"PE 12.9 vs sector median 19.1",
 "P/B 1.6 vs sector median 2.0",
 "ROE 12%"
 ]
@@ -1998,13 +1998,13 @@
 "peg": 1.26,
 "mcap_cr": 64483,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
-"verdict": "HIGH",
+"verdict": "OK",
 "why": [
-"PE 23.0 vs sector median 18.4",
+"PE 23.0 vs sector median 19.1",
 "P/B 2.7 vs sector median 2.0",
 "PEG 1.26",
 "ROE 12%"
@@ -2026,13 +2026,13 @@
 "peg": 0.51,
 "mcap_cr": 40067,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 28.5 vs sector median 33.8",
+"PE 28.5 vs sector median 33.9",
 "EV/EBITDA 15.1 vs sector median 19.5",
 "PEG 0.51"
 ]
@@ -2078,13 +2078,13 @@
 "peg": 0.03,
 "mcap_cr": 24865,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 13.4 vs sector median 18.4",
+"PE 13.4 vs sector median 19.1",
 "P/B 0.9 vs sector median 2.0",
 "PEG 0.03",
 "ROE 7%"
@@ -2105,13 +2105,13 @@
 "de": null,
 "mcap_cr": 123389,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 6.2 vs sector median 18.4",
+"PE 6.2 vs sector median 19.1",
 "P/B 0.7 vs sector median 2.0",
 "ROE 11%"
 ]
@@ -2132,13 +2132,13 @@
 "peg": 0.17,
 "mcap_cr": 60487,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 4.8 vs sector median 18.4",
+"PE 4.8 vs sector median 19.1",
 "P/B 0.6 vs sector median 2.0",
 "PEG 0.17",
 "ROE 14%"
@@ -2160,13 +2160,13 @@
 "peg": 0.28,
 "mcap_cr": 62578,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 7.8 vs sector median 18.4",
+"PE 7.8 vs sector median 19.1",
 "P/B 1.7 vs sector median 2.0",
 "PEG 0.28",
 "ROE 23%"
@@ -2214,13 +2214,13 @@
 "de": 29.1,
 "mcap_cr": 19966,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 34.5 vs sector median 33.8",
+"PE 34.5 vs sector median 33.9",
 "EV/EBITDA 18.4 vs sector median 19.5"
 ]
 },
@@ -2229,7 +2229,7 @@
 "name": "Berger Paints India Ltd.",
 "industry": "Consumer Durables",
 "price": 465.1,
-"pe": 44.42,
+"pe": 44.55,
 "fpe": 35.96,
 "pb": 7.84,
 "ev": 29.4,
@@ -2246,7 +2246,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 44.4 vs sector median 46.0",
+"PE 44.5 vs sector median 46.0",
 "EV/EBITDA 29.4 vs sector median 28.9",
 "PEG 1.56"
 ]
@@ -2346,13 +2346,13 @@
 "de": 76.47,
 "mcap_cr": 84051,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "HIGH",
 "why": [
-"PE 116.5 vs sector median 33.8",
+"PE 116.5 vs sector median 33.9",
 "EV/EBITDA 30.6 vs sector median 19.5"
 ]
 },
@@ -2415,7 +2415,7 @@
 "name": "Bharti Airtel Ltd.",
 "industry": "Telecommunication",
 "price": 1973.7,
-"pe": 41.22,
+"pe": 41.26,
 "fpe": 24.0,
 "pb": 7.61,
 "ev": 12.31,
@@ -2423,7 +2423,7 @@
 "eg": 0.35,
 "rg": 0.18,
 "de": 100.42,
-"peg": 1.17,
+"peg": 1.18,
 "mcap_cr": 1231324,
 "sector_med": {
 "pe": 40.8,
@@ -2432,9 +2432,9 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 41.2 vs sector median 40.8",
+"PE 41.3 vs sector median 40.8",
 "EV/EBITDA 12.3 vs sector median 21.5",
-"PEG 1.17",
+"PEG 1.18",
 "ROE 20%"
 ]
 },
@@ -2481,13 +2481,13 @@
 "peg": 0.52,
 "mcap_cr": 118952,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 44.9 vs sector median 18.4",
+"PE 44.9 vs sector median 19.1",
 "P/B 12.3 vs sector median 2.0",
 "PEG 0.52"
 ]
@@ -2614,15 +2614,15 @@
 "eg": -0.37,
 "rg": 0.22,
 "de": 0.8,
-"mcap_cr": null,
+"mcap_cr": 139222,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "HIGH",
 "why": [
-"PE 58.9 vs sector median 33.8",
+"PE 58.9 vs sector median 33.9",
 "EV/EBITDA 47.5 vs sector median 19.5"
 ]
 },
@@ -2827,13 +2827,13 @@
 "peg": 1.03,
 "mcap_cr": 13384,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 14.5 vs sector median 33.8",
+"PE 14.5 vs sector median 33.9",
 "EV/EBITDA 8.6 vs sector median 19.5",
 "PEG 1.03"
 ]
@@ -2854,13 +2854,13 @@
 "peg": 6.14,
 "mcap_cr": 33030,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 36.2 vs sector median 18.4",
+"PE 36.2 vs sector median 19.1",
 "P/B 10.1 vs sector median 2.0",
 "PEG 6.14"
 ]
@@ -2881,13 +2881,13 @@
 "peg": 0.89,
 "mcap_cr": 9582,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 8.2 vs sector median 18.4",
+"PE 8.2 vs sector median 19.1",
 "P/B 1.5 vs sector median 2.0",
 "PEG 0.89",
 "ROE 19%"
@@ -2909,13 +2909,13 @@
 "peg": 0.48,
 "mcap_cr": 106616,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 5.2 vs sector median 18.4",
+"PE 5.2 vs sector median 19.1",
 "P/B 0.8 vs sector median 2.0",
 "PEG 0.48",
 "ROE 15%"
@@ -2926,7 +2926,7 @@
 "name": "Canara HSBC Life Insurance Company Ltd.",
 "industry": "Financial Services",
 "price": 121.41,
-"pe": 83.73,
+"pe": 86.11,
 "fpe": 63.9,
 "pb": 7.09,
 "ev": 75.08,
@@ -2934,18 +2934,18 @@
 "eg": 0.05,
 "rg": 0.1,
 "de": 15.26,
-"peg": 17.44,
+"peg": 17.94,
 "mcap_cr": 11484,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 83.7 vs sector median 18.4",
+"PE 86.1 vs sector median 19.1",
 "P/B 7.1 vs sector median 2.0",
-"PEG 17.44",
+"PEG 17.94",
 "ROE 8%"
 ]
 },
@@ -2992,13 +2992,13 @@
 "peg": 0.22,
 "mcap_cr": 22153,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 16.9 vs sector median 18.4",
+"PE 16.9 vs sector median 19.1",
 "P/B 2.8 vs sector median 2.0",
 "PEG 0.22",
 "ROE 18%"
@@ -3036,9 +3036,9 @@
 "name": "Cartrade Tech Ltd.",
 "industry": "Consumer Services",
 "price": 2189.8,
-"pe": 47.38,
-"fpe": 28.64,
-"pb": 4.02,
+"pe": 47.34,
+"fpe": 27.86,
+"pb": 4.22,
 "ev": 38.57,
 "roe": 0.1,
 "eg": -0.01,
@@ -3052,7 +3052,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 47.4 vs sector median 49.8",
+"PE 47.3 vs sector median 49.8",
 "EV/EBITDA 38.6 vs sector median 34.2",
 "ROE 10%"
 ]
@@ -3097,13 +3097,13 @@
 "de": 81.81,
 "mcap_cr": 12445,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 24.1 vs sector median 33.8",
+"PE 24.1 vs sector median 33.9",
 "EV/EBITDA 8.9 vs sector median 19.5",
 "ROE 11%"
 ]
@@ -3113,7 +3113,7 @@
 "name": "Cemindia Projects Ltd.",
 "industry": "Construction",
 "price": 1265.0,
-"pe": 35.49,
+"pe": 36.12,
 "fpe": 22.18,
 "pb": 9.06,
 "ev": 21.07,
@@ -3121,7 +3121,7 @@
 "eg": 0.03,
 "rg": 0.07,
 "de": 37.71,
-"peg": 13.65,
+"peg": 13.89,
 "mcap_cr": 23330,
 "sector_med": {
 "pe": 21.7,
@@ -3130,9 +3130,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 35.5 vs sector median 21.7",
+"PE 36.1 vs sector median 21.7",
 "EV/EBITDA 21.1 vs sector median 14.1",
-"PEG 13.65"
+"PEG 13.89"
 ]
 },
 {
@@ -3151,13 +3151,13 @@
 "peg": 0.26,
 "mcap_cr": 26005,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 5.4 vs sector median 18.4",
+"PE 5.4 vs sector median 19.1",
 "P/B 0.6 vs sector median 2.0",
 "PEG 0.26",
 "ROE 12%"
@@ -3179,13 +3179,13 @@
 "peg": 3.81,
 "mcap_cr": 26397,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 56.0 vs sector median 18.4",
+"PE 56.0 vs sector median 19.1",
 "P/B 13.5 vs sector median 2.0",
 "PEG 3.81"
 ]
@@ -3286,13 +3286,13 @@
 "peg": 4.03,
 "mcap_cr": 16070,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 62.1 vs sector median 18.4",
+"PE 62.1 vs sector median 19.1",
 "P/B 8.5 vs sector median 2.0",
 "PEG 4.03"
 ]
@@ -3302,7 +3302,7 @@
 "name": "Cholamandalam Financial Holdings Ltd.",
 "industry": "Financial Services",
 "price": 1351.3,
-"pe": 9.41,
+"pe": 9.51,
 "fpe": 7.07,
 "pb": 1.64,
 "ev": null,
@@ -3313,13 +3313,13 @@
 "peg": 0.24,
 "mcap_cr": 25374,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 9.4 vs sector median 18.4",
+"PE 9.5 vs sector median 19.1",
 "P/B 1.6 vs sector median 2.0",
 "PEG 0.24"
 ]
@@ -3340,13 +3340,13 @@
 "peg": 0.56,
 "mcap_cr": 136035,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 21.7 vs sector median 18.4",
+"PE 21.7 vs sector median 19.1",
 "P/B 3.9 vs sector median 2.0",
 "PEG 0.56",
 "ROE 21%"
@@ -3394,13 +3394,13 @@
 "peg": 0.5,
 "mcap_cr": 21223,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 13.5 vs sector median 18.4",
+"PE 13.5 vs sector median 19.1",
 "P/B 1.9 vs sector median 2.0",
 "PEG 0.50",
 "ROE 14%"
@@ -3608,13 +3608,13 @@
 "peg": 1.87,
 "mcap_cr": 16243,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 31.8 vs sector median 18.4",
+"PE 31.8 vs sector median 19.1",
 "P/B 12.3 vs sector median 2.0",
 "PEG 1.87"
 ]
@@ -3625,7 +3625,7 @@
 "industry": "Healthcare",
 "price": 1245.6,
 "pe": 46.63,
-"fpe": 30.12,
+"fpe": 29.61,
 "pb": 6.38,
 "ev": 30.9,
 "roe": 0.14,
@@ -3715,13 +3715,13 @@
 "peg": 0.89,
 "mcap_cr": 26863,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 47.9 vs sector median 33.8",
+"PE 47.9 vs sector median 33.9",
 "EV/EBITDA 20.9 vs sector median 19.5",
 "PEG 0.89",
 "ROE 12%"
@@ -3743,13 +3743,13 @@
 "peg": 0.03,
 "mcap_cr": 16406,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 10.4 vs sector median 18.4",
+"PE 10.4 vs sector median 19.1",
 "P/B 1.8 vs sector median 2.0",
 "PEG 0.03",
 "ROE 20%"
@@ -3838,7 +3838,7 @@
 "name": "Cyient Ltd.",
 "industry": "Information Technology",
 "price": 1134.9,
-"pe": 33.05,
+"pe": 33.4,
 "fpe": 15.73,
 "pb": 2.34,
 "ev": 14.4,
@@ -3854,7 +3854,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 33.0 vs sector median 27.2",
+"PE 33.4 vs sector median 27.2",
 "EV/EBITDA 14.4 vs sector median 16.8",
 "ROE 7%"
 ]
@@ -3917,7 +3917,7 @@
 "name": "Dabur India Ltd.",
 "industry": "Fast Moving Consumer Goods",
 "price": 365.6,
-"pe": 33.85,
+"pe": 33.15,
 "fpe": 27.81,
 "pb": 5.68,
 "ev": 24.61,
@@ -3925,7 +3925,7 @@
 "eg": 0.15,
 "rg": 0.11,
 "de": 10.91,
-"peg": 2.21,
+"peg": 2.17,
 "mcap_cr": 64856,
 "sector_med": {
 "pe": 42.2,
@@ -3934,9 +3934,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 33.9 vs sector median 42.2",
+"PE 33.1 vs sector median 42.2",
 "EV/EBITDA 24.6 vs sector median 25.2",
-"PEG 2.21"
+"PEG 2.17"
 ]
 },
 {
@@ -4049,7 +4049,7 @@
 "name": "Delhivery Ltd.",
 "industry": "Services",
 "price": 386.0,
-"pe": 159.5,
+"pe": 327.12,
 "fpe": 34.99,
 "pb": 2.97,
 "ev": 100.55,
@@ -4065,7 +4065,7 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 159.5 vs sector median 25.3",
+"PE 327.1 vs sector median 25.3",
 "EV/EBITDA 100.5 vs sector median 15.4"
 ]
 },
@@ -4098,7 +4098,7 @@
 "name": "Divi's Laboratories Ltd.",
 "industry": "Healthcare",
 "price": 9780.0,
-"pe": 88.74,
+"pe": 87.69,
 "fpe": 64.59,
 "pb": 15.49,
 "ev": 64.66,
@@ -4106,7 +4106,7 @@
 "eg": 0.66,
 "rg": 0.28,
 "de": 0.04,
-"peg": 1.35,
+"peg": 1.33,
 "mcap_cr": 259628,
 "sector_med": {
 "pe": 46.4,
@@ -4115,9 +4115,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 88.7 vs sector median 46.4",
+"PE 87.7 vs sector median 46.4",
 "EV/EBITDA 64.7 vs sector median 30.0",
-"PEG 1.35"
+"PEG 1.33"
 ]
 },
 {
@@ -4179,7 +4179,7 @@
 "name": "Dr. Reddy's Laboratories Ltd.",
 "industry": "Healthcare",
 "price": 1352.0,
-"pe": 40.05,
+"pe": 40.25,
 "fpe": 22.9,
 "pb": 2.92,
 "ev": 22.61,
@@ -4195,7 +4195,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 40.0 vs sector median 46.4",
+"PE 40.3 vs sector median 46.4",
 "EV/EBITDA 22.6 vs sector median 30.0",
 "ROE 7%"
 ]
@@ -4205,7 +4205,7 @@
 "name": "E.I.D. Parry (India) Ltd.",
 "industry": "Fast Moving Consumer Goods",
 "price": 600.45,
-"pe": 23.06,
+"pe": 24.07,
 "fpe": 8.02,
 "pb": 1.21,
 "ev": 5.12,
@@ -4221,7 +4221,7 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 23.1 vs sector median 42.2",
+"PE 24.1 vs sector median 42.2",
 "EV/EBITDA 5.1 vs sector median 25.2"
 ]
 },
@@ -4257,7 +4257,7 @@
 "name": "EMBASSY OFFICE PARKS REIT",
 "industry": "Realty",
 "price": null,
-"pe": 92.48,
+"pe": 92.71,
 "fpe": 26.97,
 "pb": 1.7,
 "ev": null,
@@ -4273,7 +4273,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 92.5 vs sector median 35.2"
+"PE 92.7 vs sector median 35.2"
 ]
 },
 {
@@ -4292,13 +4292,13 @@
 "peg": 1.61,
 "mcap_cr": 198205,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 34.4 vs sector median 33.8",
+"PE 34.4 vs sector median 33.9",
 "EV/EBITDA 33.4 vs sector median 19.5",
 "PEG 1.61"
 ]
@@ -4363,7 +4363,7 @@
 "name": "Emami Ltd.",
 "industry": "Fast Moving Consumer Goods",
 "price": 359.75,
-"pe": 20.98,
+"pe": 21.63,
 "fpe": 17.88,
 "pb": 5.37,
 "ev": 15.53,
@@ -4379,7 +4379,7 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 21.0 vs sector median 42.2",
+"PE 21.6 vs sector median 42.2",
 "EV/EBITDA 15.5 vs sector median 25.2"
 ]
 },
@@ -4454,13 +4454,13 @@
 "peg": 4.05,
 "mcap_cr": 31978,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 32.4 vs sector median 33.8",
+"PE 32.4 vs sector median 33.9",
 "EV/EBITDA 15.6 vs sector median 19.5",
 "PEG 4.05"
 ]
@@ -4470,7 +4470,7 @@
 "name": "Engineers India Ltd.",
 "industry": "Construction",
 "price": 251.85,
-"pe": 15.78,
+"pe": 18.05,
 "fpe": 17.86,
 "pb": 4.51,
 "ev": 16.83,
@@ -4478,18 +4478,18 @@
 "eg": 1.42,
 "rg": -0.06,
 "de": 0.53,
-"peg": 0.11,
+"peg": 0.13,
 "mcap_cr": 14155,
 "sector_med": {
 "pe": 21.7,
 "ev": 14.1,
 "pb": 2.9
 },
-"verdict": "LOW",
+"verdict": "OK",
 "why": [
-"PE 15.8 vs sector median 21.7",
+"PE 18.1 vs sector median 21.7",
 "EV/EBITDA 16.8 vs sector median 14.1",
-"PEG 0.11"
+"PEG 0.13"
 ]
 },
 {
@@ -4561,13 +4561,13 @@
 "peg": 1.08,
 "mcap_cr": 28517,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 30.6 vs sector median 33.8",
+"PE 30.6 vs sector median 33.9",
 "EV/EBITDA 15.0 vs sector median 19.5",
 "PEG 1.08"
 ]
@@ -4615,13 +4615,13 @@
 "peg": 0.36,
 "mcap_cr": 83919,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 16.6 vs sector median 18.4",
+"PE 16.6 vs sector median 19.1",
 "P/B 2.0 vs sector median 2.0",
 "PEG 0.36",
 "ROE 13%"
@@ -4722,13 +4722,13 @@
 "peg": 2.33,
 "mcap_cr": 11715,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 10.5 vs sector median 18.4",
+"PE 10.5 vs sector median 19.1",
 "P/B 1.5 vs sector median 2.0",
 "PEG 2.33",
 "ROE 15%"
@@ -4749,13 +4749,13 @@
 "de": null,
 "mcap_cr": 22867,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 19.7 vs sector median 33.8",
+"PE 19.7 vs sector median 33.9",
 "EV/EBITDA 14.0 vs sector median 19.5",
 "ROE 29%"
 ]
@@ -4898,7 +4898,7 @@
 "name": "Gabriel India Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 1425.0,
-"pe": 73.61,
+"pe": 73.76,
 "fpe": 35.01,
 "pb": 14.98,
 "ev": 55.84,
@@ -4906,18 +4906,18 @@
 "eg": 0.41,
 "rg": 0.3,
 "de": 10.64,
-"peg": 1.81,
+"peg": 1.82,
 "mcap_cr": 27308,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "HIGH",
 "why": [
-"PE 73.6 vs sector median 33.8",
+"PE 73.8 vs sector median 33.9",
 "EV/EBITDA 55.8 vs sector median 19.5",
-"PEG 1.81"
+"PEG 1.82"
 ]
 },
 {
@@ -4988,13 +4988,13 @@
 "de": null,
 "mcap_cr": 54536,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 6.1 vs sector median 18.4",
+"PE 6.1 vs sector median 19.1",
 "P/B 0.6 vs sector median 2.0",
 "ROE 9%"
 ]
@@ -5004,7 +5004,7 @@
 "name": "Gillette India Ltd.",
 "industry": "Fast Moving Consumer Goods",
 "price": 7077.0,
-"pe": 34.05,
+"pe": 34.07,
 "fpe": null,
 "pb": 24.37,
 "ev": 23.71,
@@ -5187,15 +5187,15 @@
 "name": "Godrej Consumer Products Ltd.",
 "industry": "Fast Moving Consumer Goods",
 "price": 818.0,
-"pe": 43.3,
-"fpe": 30.71,
-"pb": 6.63,
+"pe": 43.72,
+"fpe": 30.29,
+"pb": 6.62,
 "ev": 25.88,
 "roe": 0.16,
 "eg": 0.14,
 "rg": 0.15,
 "de": 40.0,
-"peg": 3.14,
+"peg": 3.17,
 "mcap_cr": 83719,
 "sector_med": {
 "pe": 42.2,
@@ -5204,9 +5204,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 43.3 vs sector median 42.2",
+"PE 43.7 vs sector median 42.2",
 "EV/EBITDA 25.9 vs sector median 25.2",
-"PEG 3.14",
+"PEG 3.17",
 "ROE 16%"
 ]
 },
@@ -5347,7 +5347,7 @@
 "name": "Gravita India Ltd.",
 "industry": "Metals & Mining",
 "price": 1387.9,
-"pe": 24.94,
+"pe": 25.4,
 "fpe": 18.72,
 "pb": 3.82,
 "ev": 20.75,
@@ -5355,7 +5355,7 @@
 "eg": 0.06,
 "rg": 0.4,
 "de": 32.91,
-"peg": 3.96,
+"peg": 4.03,
 "mcap_cr": 10111,
 "sector_med": {
 "pe": 15.2,
@@ -5364,9 +5364,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 24.9 vs sector median 15.2",
+"PE 25.4 vs sector median 15.2",
 "EV/EBITDA 20.7 vs sector median 9.2",
-"PEG 3.96",
+"PEG 4.03",
 "ROE 16%"
 ]
 },
@@ -5518,13 +5518,13 @@
 "peg": 0.41,
 "mcap_cr": 41323,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 14.0 vs sector median 18.4",
+"PE 14.0 vs sector median 19.1",
 "P/B 1.9 vs sector median 2.0",
 "PEG 0.41",
 "ROE 14%"
@@ -5546,13 +5546,13 @@
 "peg": 7.94,
 "mcap_cr": 99095,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 33.4 vs sector median 18.4",
+"PE 33.4 vs sector median 19.1",
 "P/B 11.5 vs sector median 2.0",
 "PEG 7.94",
 "ROE 36%"
@@ -5574,13 +5574,13 @@
 "peg": 0.71,
 "mcap_cr": 1068825,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
-"verdict": "OK",
+"verdict": "LOW",
 "why": [
-"PE 15.1 vs sector median 18.4",
+"PE 15.1 vs sector median 19.1",
 "P/B 1.8 vs sector median 2.0",
 "PEG 0.71",
 "ROE 11%"
@@ -5591,7 +5591,7 @@
 "name": "HDFC Life Insurance Company Ltd.",
 "industry": "Financial Services",
 "price": 524.9,
-"pe": 54.62,
+"pe": 55.43,
 "fpe": 45.06,
 "pb": 6.01,
 "ev": 46.96,
@@ -5599,18 +5599,18 @@
 "eg": 0.12,
 "rg": 0.18,
 "de": 15.92,
-"peg": 4.37,
+"peg": 4.43,
 "mcap_cr": 114011,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 54.6 vs sector median 18.4",
+"PE 55.4 vs sector median 19.1",
 "P/B 6.0 vs sector median 2.0",
-"PEG 4.37",
+"PEG 4.43",
 "ROE 11%"
 ]
 },
@@ -5702,26 +5702,26 @@
 "name": "Hero MotoCorp Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 5167.0,
-"pe": 17.24,
-"fpe": 15.93,
-"pb": 4.42,
+"pe": 18.99,
+"fpe": 15.94,
+"pb": 4.78,
 "ev": 13.07,
 "roe": 0.27,
 "eg": 0.42,
 "rg": 0.23,
 "de": 6.01,
-"peg": 0.41,
+"peg": 0.45,
 "mcap_cr": 103424,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 17.2 vs sector median 33.8",
+"PE 19.0 vs sector median 33.9",
 "EV/EBITDA 13.1 vs sector median 19.5",
-"PEG 0.41",
+"PEG 0.45",
 "ROE 27%"
 ]
 },
@@ -5731,8 +5731,8 @@
 "industry": "Information Technology",
 "price": 501.8,
 "pe": 21.98,
-"fpe": 18.47,
-"pb": 4.24,
+"fpe": 18.34,
+"pb": 4.84,
 "ev": 12.57,
 "roe": 0.21,
 "eg": 0.17,
@@ -5867,7 +5867,7 @@
 "name": "Hindustan Petroleum Corporation Ltd.",
 "industry": "Oil Gas & Consumable Fuels",
 "price": 340.55,
-"pe": 50.45,
+"pe": 50.68,
 "fpe": 5.92,
 "pb": 1.38,
 "ev": 13.46,
@@ -5883,7 +5883,7 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 50.5 vs sector median 12.4",
+"PE 50.7 vs sector median 12.4",
 "EV/EBITDA 13.5 vs sector median 7.2",
 "ROE 3%"
 ]
@@ -5976,26 +5976,26 @@
 "name": "Home First Finance Company India Ltd.",
 "industry": "Financial Services",
 "price": 1072.0,
-"pe": 18.38,
-"fpe": 13.58,
+"pe": 19.09,
+"fpe": 13.59,
 "pb": 2.4,
 "ev": null,
 "roe": 0.14,
 "eg": 0.29,
 "rg": 0.33,
 "de": 262.7,
-"peg": 0.64,
+"peg": 0.67,
 "mcap_cr": 11210,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 18.4 vs sector median 18.4",
+"PE 19.1 vs sector median 19.1",
 "P/B 2.4 vs sector median 2.0",
-"PEG 0.64",
+"PEG 0.67",
 "ROE 14%"
 ]
 },
@@ -6004,7 +6004,7 @@
 "name": "Honasa Consumer Ltd.",
 "industry": "Fast Moving Consumer Goods",
 "price": 442.1,
-"pe": 57.27,
+"pe": 57.57,
 "fpe": 41.61,
 "pb": 10.17,
 "ev": 52.57,
@@ -6021,7 +6021,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 57.3 vs sector median 42.2",
+"PE 57.6 vs sector median 42.2",
 "EV/EBITDA 52.6 vs sector median 25.2",
 "PEG 0.48"
 ]
@@ -6070,13 +6070,13 @@
 "peg": 0.19,
 "mcap_cr": 28641,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 6.7 vs sector median 18.4",
+"PE 6.7 vs sector median 19.1",
 "P/B 1.3 vs sector median 2.0",
 "PEG 0.19"
 ]
@@ -6096,13 +6096,13 @@
 "de": 3.12,
 "mcap_cr": 155277,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 33.9 vs sector median 33.8",
+"PE 33.9 vs sector median 33.9",
 "EV/EBITDA 19.4 vs sector median 19.5",
 "ROE 24%"
 ]
@@ -6123,13 +6123,13 @@
 "peg": 0.78,
 "mcap_cr": 1003854,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 17.2 vs sector median 18.4",
+"PE 17.2 vs sector median 19.1",
 "P/B 2.6 vs sector median 2.0",
 "PEG 0.78",
 "ROE 16%"
@@ -6151,13 +6151,13 @@
 "peg": 1.27,
 "mcap_cr": 59500,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 33.7 vs sector median 18.4",
+"PE 33.7 vs sector median 19.1",
 "P/B 4.1 vs sector median 2.0",
 "PEG 1.27",
 "ROE 13%"
@@ -6179,13 +6179,13 @@
 "peg": 2.03,
 "mcap_cr": 78985,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 31.1 vs sector median 18.4",
+"PE 31.1 vs sector median 19.1",
 "P/B 3.8 vs sector median 2.0",
 "PEG 2.03",
 "ROE 14%"
@@ -6196,7 +6196,7 @@
 "name": "ICICI Prudential Asset Management Company Ltd.",
 "industry": "Financial Services",
 "price": 2706.9,
-"pe": 37.86,
+"pe": 37.71,
 "fpe": 28.43,
 "pb": 25.05,
 "ev": 26.84,
@@ -6204,18 +6204,18 @@
 "eg": 0.06,
 "rg": 0.12,
 "de": null,
-"peg": 6.21,
+"peg": 6.18,
 "mcap_cr": 133791,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 37.9 vs sector median 18.4",
+"PE 37.7 vs sector median 19.1",
 "P/B 25.0 vs sector median 2.0",
-"PEG 6.21",
+"PEG 6.18",
 "ROE 76%"
 ]
 },
@@ -6234,13 +6234,13 @@
 "de": null,
 "mcap_cr": 86363,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 10.4 vs sector median 18.4",
+"PE 10.4 vs sector median 19.1",
 "P/B 1.2 vs sector median 2.0",
 "ROE 12%"
 ]
@@ -6250,26 +6250,26 @@
 "name": "IDFC First Bank Ltd.",
 "industry": "Financial Services",
 "price": 72.0,
-"pe": 20.87,
-"fpe": 10.45,
-"pb": 1.25,
+"pe": 27.8,
+"fpe": 10.52,
+"pb": 1.27,
 "ev": null,
 "roe": 0.06,
 "eg": 2.46,
 "rg": 0.33,
 "de": null,
-"peg": 0.08,
+"peg": 0.11,
 "mcap_cr": 62089,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
-"verdict": "LOW",
+"verdict": "OK",
 "why": [
-"PE 20.9 vs sector median 18.4",
-"P/B 1.2 vs sector median 2.0",
-"PEG 0.08",
+"PE 27.8 vs sector median 19.1",
+"P/B 1.3 vs sector median 2.0",
+"PEG 0.11",
 "ROE 6%"
 ]
 },
@@ -6288,13 +6288,13 @@
 "de": 22.72,
 "mcap_cr": 14730,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 85.4 vs sector median 18.4",
+"PE 85.4 vs sector median 19.1",
 "P/B 1.6 vs sector median 2.0"
 ]
 },
@@ -6304,7 +6304,7 @@
 "industry": "Financial Services",
 "price": 527.65,
 "pe": 9.06,
-"fpe": 6.63,
+"fpe": 6.69,
 "pb": 1.46,
 "ev": null,
 "roe": 0.17,
@@ -6314,13 +6314,13 @@
 "peg": 0.09,
 "mcap_cr": 22521,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 9.1 vs sector median 18.4",
+"PE 9.1 vs sector median 19.1",
 "P/B 1.5 vs sector median 2.0",
 "PEG 0.09",
 "ROE 17%"
@@ -6331,7 +6331,7 @@
 "name": "INOX India Ltd.",
 "industry": "Capital Goods",
 "price": 1860.2,
-"pe": 66.44,
+"pe": 66.27,
 "fpe": 40.53,
 "pb": 15.11,
 "ev": 50.48,
@@ -6347,7 +6347,7 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 66.4 vs sector median 44.5",
+"PE 66.3 vs sector median 44.5",
 "EV/EBITDA 50.5 vs sector median 29.7"
 ]
 },
@@ -6408,7 +6408,7 @@
 "name": "ITC Hotels Ltd.",
 "industry": "Consumer Services",
 "price": 167.17,
-"pe": 37.82,
+"pe": 38.25,
 "fpe": 28.07,
 "pb": 2.95,
 "ev": 21.12,
@@ -6416,7 +6416,7 @@
 "eg": 0.5,
 "rg": 0.26,
 "de": 0.71,
-"peg": 0.76,
+"peg": 0.77,
 "mcap_cr": 34825,
 "sector_med": {
 "pe": 49.8,
@@ -6425,9 +6425,9 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 37.8 vs sector median 49.8",
+"PE 38.3 vs sector median 49.8",
 "EV/EBITDA 21.1 vs sector median 34.2",
-"PEG 0.76",
+"PEG 0.77",
 "ROE 8%"
 ]
 },
@@ -6461,7 +6461,7 @@
 "name": "ITI Ltd.",
 "industry": "Telecommunication",
 "price": 215.95,
-"pe": 114.26,
+"pe": 117.36,
 "fpe": null,
 "pb": 10.9,
 "ev": 397.27,
@@ -6477,7 +6477,7 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 114.3 vs sector median 40.8",
+"PE 117.4 vs sector median 40.8",
 "EV/EBITDA 397.3 vs sector median 21.5"
 ]
 },
@@ -6553,13 +6553,13 @@
 "peg": 0.63,
 "mcap_cr": 116580,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 8.8 vs sector median 18.4",
+"PE 8.8 vs sector median 19.1",
 "P/B 1.3 vs sector median 2.0",
 "PEG 0.63",
 "ROE 16%"
@@ -6581,13 +6581,13 @@
 "peg": 1.46,
 "mcap_cr": 8973,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 17.2 vs sector median 18.4",
+"PE 17.2 vs sector median 19.1",
 "P/B 6.6 vs sector median 2.0",
 "PEG 1.46"
 ]
@@ -6625,7 +6625,7 @@
 "name": "Indian Oil Corporation Ltd.",
 "industry": "Oil Gas & Consumable Fuels",
 "price": 130.15,
-"pe": 5.33,
+"pe": 5.26,
 "fpe": 6.92,
 "pb": 0.82,
 "ev": 4.5,
@@ -6633,7 +6633,7 @@
 "eg": null,
 "rg": 0.39,
 "de": 58.45,
-"mcap_cr": null,
+"mcap_cr": 183788,
 "sector_med": {
 "pe": 12.4,
 "ev": 7.2,
@@ -6661,13 +6661,13 @@
 "peg": 0.15,
 "mcap_cr": 55343,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 8.4 vs sector median 18.4",
+"PE 8.4 vs sector median 19.1",
 "P/B 1.4 vs sector median 2.0",
 "PEG 0.15",
 "ROE 18%"
@@ -6714,13 +6714,13 @@
 "peg": 1.26,
 "mcap_cr": 95884,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 13.0 vs sector median 18.4",
+"PE 13.0 vs sector median 19.1",
 "P/B 1.6 vs sector median 2.0",
 "PEG 1.26",
 "ROE 13%"
@@ -6741,13 +6741,13 @@
 "de": 565.12,
 "mcap_cr": 27952,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 14.2 vs sector median 18.4",
+"PE 14.2 vs sector median 19.1",
 "P/B 1.9 vs sector median 2.0",
 "ROE 14%"
 ]
@@ -6757,7 +6757,7 @@
 "name": "Indraprastha Gas Ltd.",
 "industry": "Oil Gas & Consumable Fuels",
 "price": 139.19,
-"pe": 19.49,
+"pe": 15.26,
 "fpe": 9.89,
 "pb": 1.69,
 "ev": 9.32,
@@ -6771,9 +6771,9 @@
 "ev": 7.2,
 "pb": 1.7
 },
-"verdict": "HIGH",
+"verdict": "OK",
 "why": [
-"PE 19.5 vs sector median 12.4",
+"PE 15.3 vs sector median 12.4",
 "EV/EBITDA 9.3 vs sector median 7.2"
 ]
 },
@@ -6818,13 +6818,13 @@
 "de": null,
 "mcap_cr": 65292,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 21.8 vs sector median 18.4",
+"PE 21.8 vs sector median 19.1",
 "P/B 1.0 vs sector median 2.0",
 "ROE 5%"
 ]
@@ -6913,7 +6913,7 @@
 "name": "Intellect Design Arena Ltd.",
 "industry": "Information Technology",
 "price": 504.55,
-"pe": 20.17,
+"pe": 24.25,
 "fpe": 12.25,
 "pb": 2.21,
 "ev": 15.42,
@@ -6921,7 +6921,7 @@
 "eg": 0.08,
 "rg": 0.2,
 "de": 4.96,
-"peg": 2.49,
+"peg": 2.99,
 "mcap_cr": 7096,
 "sector_med": {
 "pe": 27.2,
@@ -6930,9 +6930,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 20.2 vs sector median 27.2",
+"PE 24.2 vs sector median 27.2",
 "EV/EBITDA 15.4 vs sector median 16.8",
-"PEG 2.49"
+"PEG 2.99"
 ]
 },
 {
@@ -6942,7 +6942,7 @@
 "price": 4877.6,
 "pe": null,
 "fpe": 21.05,
-"pb": 37.76,
+"pb": 27.04,
 "ev": 25.37,
 "roe": -0.6,
 "eg": null,
@@ -6964,7 +6964,7 @@
 "name": "International Gemological Institute Ltd.",
 "industry": "Services",
 "price": 397.75,
-"pe": 26.71,
+"pe": 27.32,
 "fpe": 21.25,
 "pb": 9.82,
 "ev": 19.34,
@@ -6972,7 +6972,7 @@
 "eg": 0.43,
 "rg": 0.31,
 "de": 8.55,
-"peg": 0.62,
+"peg": 0.64,
 "mcap_cr": 17189,
 "sector_med": {
 "pe": 25.3,
@@ -6981,9 +6981,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 26.7 vs sector median 25.3",
+"PE 27.3 vs sector median 25.3",
 "EV/EBITDA 19.3 vs sector median 15.4",
-"PEG 0.62"
+"PEG 0.64"
 ]
 },
 {
@@ -7084,13 +7084,13 @@
 "peg": 4.1,
 "mcap_cr": 11060,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "HIGH",
 "why": [
-"PE 48.0 vs sector median 33.8",
+"PE 48.0 vs sector median 33.9",
 "EV/EBITDA 17.1 vs sector median 19.5",
 "PEG 4.10",
 "ROE 16%"
@@ -7111,13 +7111,13 @@
 "de": 100.97,
 "mcap_cr": 8701,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 17.4 vs sector median 33.8",
+"PE 17.4 vs sector median 33.9",
 "EV/EBITDA 8.7 vs sector median 19.5",
 "ROE 9%"
 ]
@@ -7127,7 +7127,7 @@
 "name": "JM Financial Ltd.",
 "industry": "Financial Services",
 "price": 107.78,
-"pe": 10.48,
+"pe": 9.98,
 "fpe": 7.19,
 "pb": 0.97,
 "ev": null,
@@ -7137,13 +7137,13 @@
 "de": 102.44,
 "mcap_cr": 10315,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 10.5 vs sector median 18.4",
+"PE 10.0 vs sector median 19.1",
 "P/B 1.0 vs sector median 2.0"
 ]
 },
@@ -7152,9 +7152,9 @@
 "name": "JSW Cement Ltd.",
 "industry": "Construction Materials",
 "price": 115.5,
-"pe": 20.52,
-"fpe": 20.7,
-"pb": 2.3,
+"pe": 20.3,
+"fpe": 20.63,
+"pb": 2.36,
 "ev": 14.62,
 "roe": 0.11,
 "eg": -0.1,
@@ -7168,7 +7168,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 20.5 vs sector median 35.6",
+"PE 20.3 vs sector median 35.6",
 "EV/EBITDA 14.6 vs sector median 15.4",
 "ROE 11%"
 ]
@@ -7324,13 +7324,13 @@
 "peg": 0.46,
 "mcap_cr": 12905,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 5.5 vs sector median 18.4",
+"PE 5.5 vs sector median 19.1",
 "P/B 0.7 vs sector median 2.0",
 "PEG 0.46",
 "ROE 15%"
@@ -7433,13 +7433,13 @@
 "de": 31.95,
 "mcap_cr": 135034,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 77.8 vs sector median 18.4",
+"PE 77.8 vs sector median 19.1",
 "P/B 1.1 vs sector median 2.0",
 "ROE 1%"
 ]
@@ -7458,7 +7458,7 @@
 "rg": 0.14,
 "de": 205.32,
 "peg": 12.6,
-"mcap_cr": null,
+"mcap_cr": 27747,
 "sector_med": {
 "pe": 49.8,
 "ev": 34.2,
@@ -7754,13 +7754,13 @@
 "peg": 0.31,
 "mcap_cr": 34423,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 11.6 vs sector median 18.4",
+"PE 11.6 vs sector median 19.1",
 "P/B 2.2 vs sector median 2.0",
 "PEG 0.31",
 "ROE 21%"
@@ -7771,7 +7771,7 @@
 "name": "Kaynes Technology India Ltd.",
 "industry": "Capital Goods",
 "price": 3131.0,
-"pe": 62.15,
+"pe": 61.05,
 "fpe": 35.8,
 "pb": 4.52,
 "ev": 34.91,
@@ -7787,7 +7787,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 62.1 vs sector median 44.5",
+"PE 61.0 vs sector median 44.5",
 "EV/EBITDA 34.9 vs sector median 29.7"
 ]
 },
@@ -7832,13 +7832,13 @@
 "peg": 5.72,
 "mcap_cr": 14710,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 42.4 vs sector median 18.4",
+"PE 42.4 vs sector median 19.1",
 "P/B 9.1 vs sector median 2.0",
 "PEG 5.72",
 "ROE 23%"
@@ -7913,13 +7913,13 @@
 "peg": 0.82,
 "mcap_cr": 459194,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 21.4 vs sector median 18.4",
+"PE 21.4 vs sector median 19.1",
 "P/B 2.4 vs sector median 2.0",
 "PEG 0.82",
 "ROE 12%"
@@ -7966,13 +7966,13 @@
 "peg": 0.54,
 "mcap_cr": 61256,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 17.5 vs sector median 18.4",
+"PE 17.5 vs sector median 19.1",
 "P/B 2.1 vs sector median 2.0",
 "PEG 0.54",
 "ROE 12%"
@@ -8049,13 +8049,13 @@
 "peg": 0.48,
 "mcap_cr": 27157,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 4.7 vs sector median 18.4",
+"PE 4.7 vs sector median 19.1",
 "P/B 0.7 vs sector median 2.0",
 "PEG 0.48"
 ]
@@ -8093,7 +8093,7 @@
 "name": "LTM Ltd.",
 "industry": "Information Technology",
 "price": 4233.5,
-"pe": 23.24,
+"pe": 24.03,
 "fpe": 18.43,
 "pb": 4.85,
 "ev": 14.82,
@@ -8109,7 +8109,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 23.2 vs sector median 27.2",
+"PE 24.0 vs sector median 27.2",
 "EV/EBITDA 14.8 vs sector median 16.8",
 "ROE 21%"
 ]
@@ -8202,7 +8202,7 @@
 "name": "Lenskart Solutions Ltd.",
 "industry": "Consumer Services",
 "price": 678.2,
-"pe": 183.3,
+"pe": 182.8,
 "fpe": 94.4,
 "pb": 13.48,
 "ev": 90.11,
@@ -8211,7 +8211,7 @@
 "rg": 0.43,
 "de": 34.98,
 "peg": 0.71,
-"mcap_cr": 117426,
+"mcap_cr": 117466,
 "sector_med": {
 "pe": 49.8,
 "ev": 34.2,
@@ -8219,7 +8219,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 183.3 vs sector median 49.8",
+"PE 182.8 vs sector median 49.8",
 "EV/EBITDA 90.1 vs sector median 34.2",
 "PEG 0.71"
 ]
@@ -8238,15 +8238,15 @@
 "rg": 0.07,
 "de": 0.43,
 "peg": 0.2,
-"mcap_cr": 484811,
+"mcap_cr": 242406,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 8.1 vs sector median 18.4",
+"PE 8.1 vs sector median 19.1",
 "P/B 2.7 vs sector median 2.0",
 "PEG 0.20"
 ]
@@ -8281,7 +8281,7 @@
 "name": "Lloyds Metals And Energy Ltd.",
 "industry": "Metals & Mining",
 "price": 1825.3,
-"pe": 21.42,
+"pe": 21.4,
 "fpe": 12.95,
 "pb": 7.41,
 "ev": 15.06,
@@ -8362,7 +8362,7 @@
 "name": "MMTC Ltd.",
 "industry": "Services",
 "price": 50.44,
-"pe": 17.16,
+"pe": 16.93,
 "fpe": null,
 "pb": 3.57,
 "ev": -32.73,
@@ -8379,7 +8379,7 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 17.2 vs sector median 25.3",
+"PE 16.9 vs sector median 25.3",
 "EV/EBITDA -32.7 vs sector median 15.4",
 "PEG 0.13"
 ]
@@ -8399,13 +8399,13 @@
 "de": 15.29,
 "mcap_cr": 49526,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 20.3 vs sector median 33.8",
+"PE 20.3 vs sector median 33.9",
 "EV/EBITDA 10.0 vs sector median 19.5"
 ]
 },
@@ -8466,7 +8466,7 @@
 "name": "Mahindra & Mahindra Financial Services Ltd.",
 "industry": "Financial Services",
 "price": 261.7,
-"pe": 10.11,
+"pe": 10.23,
 "fpe": 9.07,
 "pb": 1.32,
 "ev": null,
@@ -8477,13 +8477,13 @@
 "peg": 0.17,
 "mcap_cr": 36366,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 10.1 vs sector median 18.4",
+"PE 10.2 vs sector median 19.1",
 "P/B 1.3 vs sector median 2.0",
 "PEG 0.17",
 "ROE 14%"
@@ -8505,13 +8505,13 @@
 "peg": 0.51,
 "mcap_cr": 341053,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 17.0 vs sector median 33.8",
+"PE 17.0 vs sector median 33.9",
 "EV/EBITDA 10.5 vs sector median 19.5",
 "PEG 0.51"
 ]
@@ -8521,7 +8521,7 @@
 "name": "Manappuram Finance Ltd.",
 "industry": "Financial Services",
 "price": 289.0,
-"pe": 17.01,
+"pe": 17.78,
 "fpe": 9.44,
 "pb": 1.69,
 "ev": null,
@@ -8532,13 +8532,13 @@
 "peg": 0.06,
 "mcap_cr": 27147,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 17.0 vs sector median 18.4",
+"PE 17.8 vs sector median 19.1",
 "P/B 1.7 vs sector median 2.0",
 "PEG 0.06"
 ]
@@ -8573,7 +8573,7 @@
 "name": "Mankind Pharma Ltd.",
 "industry": "Healthcare",
 "price": 2492.8,
-"pe": 45.52,
+"pe": 45.96,
 "fpe": 34.73,
 "pb": 5.85,
 "ev": 25.91,
@@ -8581,8 +8581,8 @@
 "eg": 0.39,
 "rg": 0.17,
 "de": 30.36,
-"peg": 1.17,
-"mcap_cr": 102964,
+"peg": 1.18,
+"mcap_cr": 102952,
 "sector_med": {
 "pe": 46.4,
 "ev": 30.0,
@@ -8590,9 +8590,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 45.5 vs sector median 46.4",
+"PE 46.0 vs sector median 46.4",
 "EV/EBITDA 25.9 vs sector median 30.0",
-"PEG 1.17",
+"PEG 1.18",
 "ROE 14%"
 ]
 },
@@ -8638,13 +8638,13 @@
 "de": 0.08,
 "mcap_cr": 358325,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 26.6 vs sector median 33.8",
+"PE 26.6 vs sector median 33.9",
 "EV/EBITDA 16.9 vs sector median 19.5",
 "ROE 13%"
 ]
@@ -8665,13 +8665,13 @@
 "peg": 5.99,
 "mcap_cr": 41414,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 223.5 vs sector median 18.4",
+"PE 223.5 vs sector median 19.1",
 "P/B 7.8 vs sector median 2.0",
 "PEG 5.99"
 ]
@@ -8736,7 +8736,7 @@
 "price": 223.01,
 "pe": null,
 "fpe": 166.0,
-"pb": 25.08,
+"pb": 23.2,
 "ev": -80.65,
 "roe": -0.36,
 "eg": null,
@@ -8769,13 +8769,13 @@
 "peg": 0.14,
 "mcap_cr": 14885,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 29.8 vs sector median 33.8",
+"PE 29.8 vs sector median 33.9",
 "EV/EBITDA 22.7 vs sector median 19.5",
 "PEG 0.14"
 ]
@@ -8795,13 +8795,13 @@
 "de": 10.79,
 "mcap_cr": 23304,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 33.8 vs sector median 33.8",
+"PE 33.8 vs sector median 33.9",
 "EV/EBITDA 24.8 vs sector median 19.5"
 ]
 },
@@ -8811,7 +8811,7 @@
 "industry": "Financial Services",
 "price": 941.95,
 "pe": 29.2,
-"fpe": 16.67,
+"fpe": 15.96,
 "pb": 4.4,
 "ev": null,
 "roe": null,
@@ -8821,13 +8821,13 @@
 "peg": 3.36,
 "mcap_cr": 56797,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 29.2 vs sector median 18.4",
+"PE 29.2 vs sector median 19.1",
 "P/B 4.4 vs sector median 2.0",
 "PEG 3.36"
 ]
@@ -8874,15 +8874,15 @@
 "rg": 0.85,
 "de": 0.11,
 "peg": 0.64,
-"mcap_cr": null,
+"mcap_cr": 81159,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 66.6 vs sector median 18.4",
+"PE 66.6 vs sector median 19.1",
 "P/B 19.3 vs sector median 2.0",
 "PEG 0.64"
 ]
@@ -8903,13 +8903,13 @@
 "peg": 0.22,
 "mcap_cr": 96698,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 8.5 vs sector median 18.4",
+"PE 8.5 vs sector median 19.1",
 "P/B 2.4 vs sector median 2.0",
 "PEG 0.22",
 "ROE 32%"
@@ -9159,7 +9159,7 @@
 "name": "Narayana Hrudayalaya Ltd.",
 "industry": "Healthcare",
 "price": 1720.2,
-"pe": 40.57,
+"pe": 42.55,
 "fpe": 24.41,
 "pb": 7.7,
 "ev": 23.63,
@@ -9167,7 +9167,7 @@
 "eg": 0.05,
 "rg": 0.78,
 "de": 129.03,
-"peg": 7.51,
+"peg": 7.88,
 "mcap_cr": 34937,
 "sector_med": {
 "pe": 46.4,
@@ -9176,9 +9176,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 40.6 vs sector median 46.4",
+"PE 42.5 vs sector median 46.4",
 "EV/EBITDA 23.6 vs sector median 30.0",
-"PEG 7.51"
+"PEG 7.88"
 ]
 },
 {
@@ -9358,13 +9358,13 @@
 "de": 1.61,
 "mcap_cr": 57924,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 36.4 vs sector median 18.4",
+"PE 36.4 vs sector median 19.1",
 "P/B 12.1 vs sector median 2.0",
 "ROE 35%"
 ]
@@ -9385,13 +9385,13 @@
 "peg": 1.92,
 "mcap_cr": 32032,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 29.9 vs sector median 18.4",
+"PE 29.9 vs sector median 19.1",
 "P/B 7.7 vs sector median 2.0",
 "PEG 1.92"
 ]
@@ -9521,7 +9521,7 @@
 "de": 82.45,
 "mcap_cr": 14661,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
@@ -9535,7 +9535,7 @@
 "name": "Olectra Greentech Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 951.1,
-"pe": 44.01,
+"pe": 43.63,
 "fpe": 21.97,
 "pb": 6.36,
 "ev": 23.08,
@@ -9545,13 +9545,13 @@
 "de": 30.84,
 "mcap_cr": 7807,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 44.0 vs sector median 33.8",
+"PE 43.6 vs sector median 33.9",
 "EV/EBITDA 23.1 vs sector median 19.5"
 ]
 },
@@ -9571,13 +9571,13 @@
 "peg": 0.13,
 "mcap_cr": 104624,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 124.0 vs sector median 18.4",
+"PE 124.0 vs sector median 19.1",
 "P/B 6.3 vs sector median 2.0",
 "PEG 0.13",
 "ROE 5%"
@@ -9612,7 +9612,7 @@
 "name": "Oracle Financial Services Software Ltd.",
 "industry": "Information Technology",
 "price": 9995.0,
-"pe": 24.48,
+"pe": 24.62,
 "fpe": 21.52,
 "pb": 11.32,
 "ev": 16.71,
@@ -9629,7 +9629,7 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 24.5 vs sector median 27.2",
+"PE 24.6 vs sector median 27.2",
 "EV/EBITDA 16.7 vs sector median 16.8",
 "PEG 0.86",
 "ROE 47%"
@@ -9640,7 +9640,7 @@
 "name": "PB Fintech Ltd.",
 "industry": "Financial Services",
 "price": 1000.1,
-"pe": 56.73,
+"pe": 62.2,
 "fpe": 31.79,
 "pb": 6.32,
 "ev": 70.18,
@@ -9648,18 +9648,18 @@
 "eg": 0.92,
 "rg": 0.4,
 "de": 4.92,
-"peg": 0.61,
+"peg": 0.67,
 "mcap_cr": 46216,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 56.7 vs sector median 18.4",
+"PE 62.2 vs sector median 19.1",
 "P/B 6.3 vs sector median 2.0",
-"PEG 0.61"
+"PEG 0.67"
 ]
 },
 {
@@ -9747,7 +9747,7 @@
 "industry": "Financial Services",
 "price": 1060.0,
 "pe": 11.78,
-"fpe": 10.06,
+"fpe": 10.16,
 "pb": 1.44,
 "ev": null,
 "roe": null,
@@ -9757,13 +9757,13 @@
 "peg": 2.74,
 "mcap_cr": 27645,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 11.8 vs sector median 18.4",
+"PE 11.8 vs sector median 19.1",
 "P/B 1.4 vs sector median 2.0",
 "PEG 2.74"
 ]
@@ -9801,7 +9801,7 @@
 "name": "PVR INOX Ltd.",
 "industry": "Media Entertainment & Publication",
 "price": 1495.1,
-"pe": 34.31,
+"pe": 34.2,
 "fpe": 23.07,
 "pb": 1.98,
 "ev": 13.23,
@@ -9812,13 +9812,13 @@
 "peg": 0.23,
 "mcap_cr": 14373,
 "sector_med": {
-"pe": 35.3,
+"pe": 35.2,
 "ev": 14.8,
 "pb": 1.9
 },
 "verdict": "OK",
 "why": [
-"PE 34.3 vs sector median 35.3",
+"PE 34.2 vs sector median 35.2",
 "EV/EBITDA 13.2 vs sector median 14.8",
 "PEG 0.23",
 "ROE 6%"
@@ -9961,7 +9961,7 @@
 "name": "Phoenix Mills Ltd.",
 "industry": "Realty",
 "price": 1957.2,
-"pe": 54.87,
+"pe": 54.52,
 "fpe": 39.47,
 "pb": 6.37,
 "ev": 28.58,
@@ -9969,7 +9969,7 @@
 "eg": 0.23,
 "rg": 0.13,
 "de": 37.21,
-"peg": 2.35,
+"peg": 2.34,
 "mcap_cr": 70008,
 "sector_med": {
 "pe": 35.2,
@@ -9978,9 +9978,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 54.9 vs sector median 35.2",
+"PE 54.5 vs sector median 35.2",
 "EV/EBITDA 28.6 vs sector median 26.3",
-"PEG 2.35"
+"PEG 2.34"
 ]
 },
 {
@@ -10052,13 +10052,13 @@
 "peg": 0.25,
 "mcap_cr": 17697,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 110.3 vs sector median 18.4",
+"PE 110.3 vs sector median 19.1",
 "P/B 3.0 vs sector median 2.0",
 "PEG 0.25",
 "ROE 3%"
@@ -10069,7 +10069,7 @@
 "name": "Piramal Finance Ltd.",
 "industry": "Financial Services",
 "price": 1817.0,
-"pe": 21.74,
+"pe": 22.32,
 "fpe": 12.31,
 "pb": 1.34,
 "ev": null,
@@ -10080,13 +10080,13 @@
 "peg": 0.34,
 "mcap_cr": 42977,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 21.7 vs sector median 18.4",
+"PE 22.3 vs sector median 19.1",
 "P/B 1.3 vs sector median 2.0",
 "PEG 0.34",
 "ROE 7%"
@@ -10185,13 +10185,13 @@
 "peg": 0.1,
 "mcap_cr": 40657,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 36.1 vs sector median 18.4",
+"PE 36.1 vs sector median 19.1",
 "P/B 2.9 vs sector median 2.0",
 "PEG 0.10",
 "ROE 9%"
@@ -10213,13 +10213,13 @@
 "peg": 1.89,
 "mcap_cr": 103491,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 4.0 vs sector median 18.4",
+"PE 4.0 vs sector median 19.1",
 "P/B 0.7 vs sector median 2.0",
 "PEG 1.89"
 ]
@@ -10317,13 +10317,13 @@
 "de": 224.57,
 "mcap_cr": 22436,
 "sector_med": {
-"pe": 35.3,
+"pe": 35.2,
 "ev": 14.8,
 "pb": 1.9
 },
 "verdict": "OK",
 "why": [
-"PE 159.2 vs sector median 35.3",
+"PE 159.2 vs sector median 35.2",
 "EV/EBITDA 17.6 vs sector median 14.8"
 ]
 },
@@ -10332,15 +10332,15 @@
 "name": "Privi Speciality Chemicals Ltd.",
 "industry": "Chemicals",
 "price": 3218.1,
-"pe": 33.7,
+"pe": 35.93,
 "fpe": 23.06,
-"pb": 7.98,
+"pb": 8.9,
 "ev": 19.35,
 "roe": 0.26,
 "eg": 0.25,
 "rg": 0.14,
 "de": 61.89,
-"peg": 1.37,
+"peg": 1.46,
 "mcap_cr": 12571,
 "sector_med": {
 "pe": 30.2,
@@ -10349,9 +10349,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 33.7 vs sector median 30.2",
+"PE 35.9 vs sector median 30.2",
 "EV/EBITDA 19.4 vs sector median 19.4",
-"PEG 1.37",
+"PEG 1.46",
 "ROE 26%"
 ]
 },
@@ -10371,13 +10371,13 @@
 "peg": 0.41,
 "mcap_cr": 141191,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 6.2 vs sector median 18.4",
+"PE 6.2 vs sector median 19.1",
 "P/B 0.9 vs sector median 2.0",
 "PEG 0.41",
 "ROE 15%"
@@ -10388,7 +10388,7 @@
 "name": "R R Kabel Ltd.",
 "industry": "Capital Goods",
 "price": 2055.7,
-"pe": 33.51,
+"pe": 34.61,
 "fpe": 25.99,
 "pb": 7.65,
 "ev": 22.89,
@@ -10396,7 +10396,7 @@
 "eg": 0.55,
 "rg": 0.53,
 "de": 19.0,
-"peg": 0.6,
+"peg": 0.62,
 "mcap_cr": 23251,
 "sector_med": {
 "pe": 44.5,
@@ -10405,9 +10405,9 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 33.5 vs sector median 44.5",
+"PE 34.6 vs sector median 44.5",
 "EV/EBITDA 22.9 vs sector median 29.7",
-"PEG 0.60",
+"PEG 0.62",
 "ROE 25%"
 ]
 },
@@ -10427,13 +10427,13 @@
 "peg": 9.75,
 "mcap_cr": 54504,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 25.3 vs sector median 18.4",
+"PE 25.3 vs sector median 19.1",
 "P/B 1.3 vs sector median 2.0",
 "PEG 9.75",
 "ROE 4%"
@@ -10452,15 +10452,15 @@
 "eg": -0.21,
 "rg": -0.13,
 "de": 606.31,
-"mcap_cr": null,
+"mcap_cr": 75205,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 5.0 vs sector median 18.4",
+"PE 5.0 vs sector median 19.1",
 "P/B 0.8 vs sector median 2.0",
 "ROE 17%"
 ]
@@ -10521,15 +10521,15 @@
 "name": "Radico Khaitan Ltd",
 "industry": "Fast Moving Consumer Goods",
 "price": 4086.7,
-"pe": 68.74,
-"fpe": 49.71,
+"pe": 66.33,
+"fpe": 48.04,
 "pb": 14.92,
 "ev": 45.2,
 "roe": 0.24,
 "eg": 0.66,
 "rg": 0.17,
 "de": 10.74,
-"peg": 1.04,
+"peg": 1.0,
 "mcap_cr": 54757,
 "sector_med": {
 "pe": 42.2,
@@ -10538,9 +10538,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 68.7 vs sector median 42.2",
+"PE 66.3 vs sector median 42.2",
 "EV/EBITDA 45.2 vs sector median 25.2",
-"PEG 1.04",
+"PEG 1.00",
 "ROE 24%"
 ]
 },
@@ -10549,7 +10549,7 @@
 "name": "Rail Vikas Nigam Ltd.",
 "industry": "Construction",
 "price": 179.67,
-"pe": 43.19,
+"pe": 41.69,
 "fpe": 36.67,
 "pb": 3.81,
 "ev": 46.26,
@@ -10557,7 +10557,7 @@
 "eg": 0.17,
 "rg": 0.11,
 "de": 49.08,
-"peg": 2.56,
+"peg": 2.47,
 "mcap_cr": 37462,
 "sector_med": {
 "pe": 21.7,
@@ -10566,9 +10566,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 43.2 vs sector median 21.7",
+"PE 41.7 vs sector median 21.7",
 "EV/EBITDA 46.3 vs sector median 14.1",
-"PEG 2.56"
+"PEG 2.47"
 ]
 },
 {
@@ -10629,7 +10629,7 @@
 "name": "Ramkrishna Forgings Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 646.9,
-"pe": 63.73,
+"pe": 111.15,
 "fpe": 32.29,
 "pb": 3.56,
 "ev": 19.6,
@@ -10637,18 +10637,18 @@
 "eg": 2.89,
 "rg": 0.2,
 "de": 74.42,
-"peg": 0.22,
+"peg": 0.38,
 "mcap_cr": 11981,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 63.7 vs sector median 33.8",
+"PE 111.2 vs sector median 33.9",
 "EV/EBITDA 19.6 vs sector median 19.5",
-"PEG 0.22"
+"PEG 0.38"
 ]
 },
 {
@@ -10656,7 +10656,7 @@
 "name": "Redington Ltd.",
 "industry": "Services",
 "price": 326.95,
-"pe": 16.41,
+"pe": 15.03,
 "fpe": 10.59,
 "pb": 2.52,
 "ev": 10.73,
@@ -10664,7 +10664,7 @@
 "eg": 0.77,
 "rg": 0.35,
 "de": 27.26,
-"peg": 0.21,
+"peg": 0.2,
 "mcap_cr": 25560,
 "sector_med": {
 "pe": 25.3,
@@ -10673,9 +10673,9 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 16.4 vs sector median 25.3",
+"PE 15.0 vs sector median 25.3",
 "EV/EBITDA 10.7 vs sector median 15.4",
-"PEG 0.21"
+"PEG 0.20"
 ]
 },
 {
@@ -10691,7 +10691,7 @@
 "eg": -0.22,
 "rg": 0.3,
 "de": 46.28,
-"mcap_cr": null,
+"mcap_cr": 1576398,
 "sector_med": {
 "pe": 12.4,
 "ev": 7.2,
@@ -10709,14 +10709,14 @@
 "industry": "Power",
 "price": 17.91,
 "pe": null,
-"fpe": null,
+"fpe": 3.97,
 "pb": 0.46,
 "ev": 8.12,
 "roe": null,
 "eg": 0.47,
 "rg": 0.04,
 "de": 92.35,
-"mcap_cr": null,
+"mcap_cr": 7407,
 "sector_med": {
 "pe": 23.1,
 "ev": 14.1,
@@ -10759,7 +10759,7 @@
 "name": "SBI Cards and Payment Services Ltd.",
 "industry": "Financial Services",
 "price": 525.0,
-"pe": 18.63,
+"pe": 19.16,
 "fpe": 14.61,
 "pb": 2.91,
 "ev": null,
@@ -10767,18 +10767,18 @@
 "eg": 0.75,
 "rg": 0.21,
 "de": 278.65,
-"peg": 0.25,
+"peg": 0.26,
 "mcap_cr": 49962,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 18.6 vs sector median 18.4",
+"PE 19.2 vs sector median 19.1",
 "P/B 2.9 vs sector median 2.0",
-"PEG 0.25",
+"PEG 0.26",
 "ROE 16%"
 ]
 },
@@ -10798,13 +10798,13 @@
 "peg": 5.7,
 "mcap_cr": 166425,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 62.7 vs sector median 18.4",
+"PE 62.7 vs sector median 19.1",
 "P/B 8.1 vs sector median 2.0",
 "PEG 5.70",
 "ROE 14%"
@@ -10840,7 +10840,7 @@
 "name": "SPR Auto Technologies Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 4373.6,
-"pe": 32.51,
+"pe": 34.18,
 "fpe": 22.93,
 "pb": 6.64,
 "ev": 22.34,
@@ -10848,18 +10848,18 @@
 "eg": 0.08,
 "rg": 0.53,
 "de": 65.22,
-"peg": 4.06,
+"peg": 4.27,
 "mcap_cr": 20288,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 32.5 vs sector median 33.8",
+"PE 34.2 vs sector median 33.9",
 "EV/EBITDA 22.3 vs sector median 19.5",
-"PEG 4.06"
+"PEG 4.27"
 ]
 },
 {
@@ -10868,7 +10868,7 @@
 "industry": "Chemicals",
 "price": 2335.5,
 "pe": 30.33,
-"fpe": 26.54,
+"fpe": 26.4,
 "pb": 4.52,
 "ev": 17.13,
 "roe": 0.16,
@@ -10960,7 +10960,7 @@
 "de": 273.03,
 "mcap_cr": 13410,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
@@ -10974,7 +10974,7 @@
 "name": "Samvardhana Motherson International Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 156.5,
-"pe": 38.55,
+"pe": 37.71,
 "fpe": 22.48,
 "pb": 4.02,
 "ev": 15.47,
@@ -10982,18 +10982,18 @@
 "eg": 1.04,
 "rg": 0.17,
 "de": 43.91,
-"peg": 0.37,
+"peg": 0.36,
 "mcap_cr": 166370,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "LOW",
 "why": [
-"PE 38.5 vs sector median 33.8",
+"PE 37.7 vs sector median 33.9",
 "EV/EBITDA 15.5 vs sector median 19.5",
-"PEG 0.37"
+"PEG 0.36"
 ]
 },
 {
@@ -11012,13 +11012,13 @@
 "peg": 2.07,
 "mcap_cr": 25664,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "HIGH",
 "why": [
-"PE 79.2 vs sector median 33.8",
+"PE 79.2 vs sector median 33.9",
 "EV/EBITDA 37.3 vs sector median 19.5",
 "PEG 2.07"
 ]
@@ -11066,13 +11066,13 @@
 "peg": 3.27,
 "mcap_cr": 55863,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "HIGH",
 "why": [
-"PE 42.5 vs sector median 33.8",
+"PE 42.5 vs sector median 33.9",
 "EV/EBITDA 29.5 vs sector median 19.5",
 "PEG 3.27",
 "ROE 22%"
@@ -11083,7 +11083,7 @@
 "name": "Schneider Electric Infrastructure Ltd.",
 "industry": "Capital Goods",
 "price": 1091.1,
-"pe": 141.89,
+"pe": 142.63,
 "fpe": 45.65,
 "pb": 33.65,
 "ev": 78.03,
@@ -11099,7 +11099,7 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 141.9 vs sector median 44.5",
+"PE 142.6 vs sector median 44.5",
 "EV/EBITDA 78.0 vs sector median 29.7"
 ]
 },
@@ -11135,7 +11135,7 @@
 "name": "Shree Cement Ltd.",
 "industry": "Construction Materials",
 "price": 22995.0,
-"pe": 52.11,
+"pe": 52.4,
 "fpe": 36.87,
 "pb": 3.48,
 "ev": 17.3,
@@ -11151,7 +11151,7 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 52.1 vs sector median 35.6",
+"PE 52.4 vs sector median 35.6",
 "EV/EBITDA 17.3 vs sector median 15.4",
 "ROE 7%"
 ]
@@ -11172,13 +11172,13 @@
 "peg": 0.5,
 "mcap_cr": 193694,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 13.7 vs sector median 18.4",
+"PE 13.7 vs sector median 19.1",
 "P/B 1.7 vs sector median 2.0",
 "PEG 0.50",
 "ROE 15%"
@@ -11216,7 +11216,7 @@
 "name": "Siemens Energy India Ltd.",
 "industry": "Capital Goods",
 "price": 2803.3,
-"pe": 67.08,
+"pe": 66.43,
 "fpe": 50.02,
 "pb": 20.75,
 "ev": 48.42,
@@ -11224,7 +11224,7 @@
 "eg": 0.68,
 "rg": 0.39,
 "de": 4.48,
-"peg": 0.99,
+"peg": 0.98,
 "mcap_cr": 99831,
 "sector_med": {
 "pe": 44.5,
@@ -11233,9 +11233,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 67.1 vs sector median 44.5",
+"PE 66.4 vs sector median 44.5",
 "EV/EBITDA 48.4 vs sector median 29.7",
-"PEG 0.99"
+"PEG 0.98"
 ]
 },
 {
@@ -11270,7 +11270,7 @@
 "name": "Signatureglobal (India) Ltd.",
 "industry": "Realty",
 "price": 702.5,
-"pe": 9.28,
+"pe": 9.47,
 "fpe": 12.74,
 "pb": 5.34,
 "ev": -82.25,
@@ -11286,7 +11286,7 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 9.3 vs sector median 35.2",
+"PE 9.5 vs sector median 35.2",
 "EV/EBITDA -82.3 vs sector median 26.3"
 ]
 },
@@ -11321,7 +11321,7 @@
 "name": "Solar Industries India Ltd.",
 "industry": "Chemicals",
 "price": 18800.0,
-"pe": 88.29,
+"pe": 85.43,
 "fpe": 53.73,
 "pb": 27.1,
 "ev": 55.54,
@@ -11329,7 +11329,7 @@
 "eg": 0.93,
 "rg": 0.7,
 "de": 23.27,
-"peg": 0.95,
+"peg": 0.92,
 "mcap_cr": 170121,
 "sector_med": {
 "pe": 30.2,
@@ -11338,9 +11338,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 88.3 vs sector median 30.2",
+"PE 85.4 vs sector median 30.2",
 "EV/EBITDA 55.5 vs sector median 19.4",
-"PEG 0.95"
+"PEG 0.92"
 ]
 },
 {
@@ -11359,13 +11359,13 @@
 "peg": 2.58,
 "mcap_cr": 55672,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "HIGH",
 "why": [
-"PE 74.2 vs sector median 33.8",
+"PE 74.2 vs sector median 33.9",
 "EV/EBITDA 46.8 vs sector median 19.5",
 "PEG 2.58",
 "ROE 12%"
@@ -11376,26 +11376,26 @@
 "name": "Star Health and Allied Insurance Company Ltd.",
 "industry": "Financial Services",
 "price": 530.4,
-"pe": 29.66,
-"fpe": 18.52,
+"pe": 30.41,
+"fpe": 18.51,
 "pb": 3.08,
 "ev": null,
 "roe": 0.08,
 "eg": 1.1,
 "rg": 14.08,
 "de": null,
-"peg": 0.27,
+"peg": 0.28,
 "mcap_cr": 31209,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "HIGH",
 "why": [
-"PE 29.7 vs sector median 18.4",
+"PE 30.4 vs sector median 19.1",
 "P/B 3.1 vs sector median 2.0",
-"PEG 0.27",
+"PEG 0.28",
 "ROE 8%"
 ]
 },
@@ -11415,13 +11415,13 @@
 "peg": 1.04,
 "mcap_cr": 887861,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 10.3 vs sector median 18.4",
+"PE 10.3 vs sector median 19.1",
 "P/B 1.4 vs sector median 2.0",
 "PEG 1.04",
 "ROE 15%"
@@ -11541,7 +11541,7 @@
 "name": "Sun TV Network Ltd.",
 "industry": "Media Entertainment & Publication",
 "price": 607.55,
-"pe": 15.37,
+"pe": 15.55,
 "fpe": 13.65,
 "pb": 1.89,
 "ev": 7.02,
@@ -11549,18 +11549,18 @@
 "eg": 0.17,
 "rg": 0.13,
 "de": 0.84,
-"peg": 0.9,
+"peg": 0.91,
 "mcap_cr": 23943,
 "sector_med": {
-"pe": 35.3,
+"pe": 35.2,
 "ev": 14.8,
 "pb": 1.9
 },
 "verdict": "LOW",
 "why": [
-"PE 15.4 vs sector median 35.3",
+"PE 15.6 vs sector median 35.2",
 "EV/EBITDA 7.0 vs sector median 14.8",
-"PEG 0.90"
+"PEG 0.91"
 ]
 },
 {
@@ -11579,13 +11579,13 @@
 "peg": 0.58,
 "mcap_cr": 43437,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 19.6 vs sector median 18.4",
+"PE 19.6 vs sector median 19.1",
 "P/B 2.9 vs sector median 2.0",
 "PEG 0.58"
 ]
@@ -11751,7 +11751,7 @@
 "name": "TBO Tek Ltd.",
 "industry": "Consumer Services",
 "price": 1532.2,
-"pe": 61.41,
+"pe": 63.55,
 "fpe": 30.96,
 "pb": 10.57,
 "ev": 35.66,
@@ -11759,7 +11759,7 @@
 "eg": 0.32,
 "rg": 0.81,
 "de": 48.76,
-"peg": 1.9,
+"peg": 1.97,
 "mcap_cr": 16399,
 "sector_med": {
 "pe": 49.8,
@@ -11768,9 +11768,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 61.4 vs sector median 49.8",
+"PE 63.6 vs sector median 49.8",
 "EV/EBITDA 35.7 vs sector median 34.2",
-"PEG 1.90"
+"PEG 1.97"
 ]
 },
 {
@@ -11778,7 +11778,7 @@
 "name": "TD Power Systems Ltd.",
 "industry": "Capital Goods",
 "price": 713.9,
-"pe": 81.12,
+"pe": 81.78,
 "fpe": 47.99,
 "pb": 20.81,
 "ev": 58.5,
@@ -11786,7 +11786,7 @@
 "eg": 0.72,
 "rg": 0.72,
 "de": 1.69,
-"peg": 1.13,
+"peg": 1.14,
 "mcap_cr": 22948,
 "sector_med": {
 "pe": 44.5,
@@ -11795,9 +11795,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 81.1 vs sector median 44.5",
+"PE 81.8 vs sector median 44.5",
 "EV/EBITDA 58.5 vs sector median 29.7",
-"PEG 1.13",
+"PEG 1.14",
 "ROE 28%"
 ]
 },
@@ -11815,15 +11815,15 @@
 "rg": 0.39,
 "de": 320.88,
 "peg": 1.04,
-"mcap_cr": null,
+"mcap_cr": 199367,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "HIGH",
 "why": [
-"PE 52.1 vs sector median 33.8",
+"PE 52.1 vs sector median 33.9",
 "EV/EBITDA 25.1 vs sector median 19.5",
 "PEG 1.04",
 "ROE 37%"
@@ -11845,13 +11845,13 @@
 "peg": 0.53,
 "mcap_cr": 134892,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 22.7 vs sector median 18.4",
+"PE 22.7 vs sector median 19.1",
 "P/B 2.8 vs sector median 2.0",
 "PEG 0.53",
 "ROE 14%"
@@ -11923,7 +11923,7 @@
 "rg": 0.11,
 "de": 9.83,
 "peg": 1.17,
-"mcap_cr": null,
+"mcap_cr": 905463,
 "sector_med": {
 "pe": 27.2,
 "ev": 16.8,
@@ -12008,13 +12008,13 @@
 "de": 0.01,
 "mcap_cr": 28475,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 95.7 vs sector median 18.4",
+"PE 95.7 vs sector median 19.1",
 "P/B 1.0 vs sector median 2.0"
 ]
 },
@@ -12023,9 +12023,9 @@
 "name": "Tata Motors Ltd.",
 "industry": "Capital Goods",
 "price": 396.35,
-"pe": 23.11,
-"fpe": 16.9,
-"pb": 9.56,
+"pe": 34.8,
+"fpe": 16.69,
+"pb": 11.46,
 "ev": 14.72,
 "roe": null,
 "eg": null,
@@ -12039,7 +12039,7 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 23.1 vs sector median 44.5",
+"PE 34.8 vs sector median 44.5",
 "EV/EBITDA 14.7 vs sector median 29.7"
 ]
 },
@@ -12058,7 +12058,7 @@
 "de": 70.36,
 "mcap_cr": 97747,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
@@ -12281,7 +12281,7 @@
 "name": "Tenneco Clean Air India Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 431.7,
-"pe": 29.25,
+"pe": 28.99,
 "fpe": 21.14,
 "pb": 14.54,
 "ev": 33.47,
@@ -12291,13 +12291,13 @@
 "de": 4.29,
 "mcap_cr": 17424,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 29.2 vs sector median 33.8",
+"PE 29.0 vs sector median 33.9",
 "EV/EBITDA 33.5 vs sector median 19.5"
 ]
 },
@@ -12333,7 +12333,7 @@
 "name": "The New India Assurance Company Ltd.",
 "industry": "Financial Services",
 "price": 158.94,
-"pe": 35.64,
+"pe": 33.96,
 "fpe": 8.22,
 "pb": 0.68,
 "ev": 7.48,
@@ -12343,13 +12343,13 @@
 "de": null,
 "mcap_cr": 26193,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 35.6 vs sector median 18.4",
+"PE 34.0 vs sector median 19.1",
 "P/B 0.7 vs sector median 2.0"
 ]
 },
@@ -12408,7 +12408,7 @@
 "name": "Timken India Ltd.",
 "industry": "Capital Goods",
 "price": 2852.0,
-"pe": 48.2,
+"pe": 51.35,
 "fpe": 34.07,
 "pb": 7.36,
 "ev": 32.21,
@@ -12416,7 +12416,7 @@
 "eg": 0.15,
 "rg": 0.17,
 "de": 0.5,
-"peg": 3.26,
+"peg": 3.47,
 "mcap_cr": 21452,
 "sector_med": {
 "pe": 44.5,
@@ -12425,9 +12425,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 48.2 vs sector median 44.5",
+"PE 51.4 vs sector median 44.5",
 "EV/EBITDA 32.2 vs sector median 29.7",
-"PEG 3.26"
+"PEG 3.47"
 ]
 },
 {
@@ -12462,7 +12462,7 @@
 "name": "Titan Company Ltd.",
 "industry": "Consumer Durables",
 "price": 4436.5,
-"pe": 68.35,
+"pe": 68.38,
 "fpe": 49.68,
 "pb": 25.08,
 "ev": 47.31,
@@ -12479,7 +12479,7 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 68.3 vs sector median 46.0",
+"PE 68.4 vs sector median 46.0",
 "EV/EBITDA 47.3 vs sector median 28.9",
 "PEG 1.09"
 ]
@@ -12568,15 +12568,15 @@
 "name": "Trent Ltd.",
 "industry": "Consumer Services",
 "price": 3017.3,
-"pe": 84.87,
-"fpe": 59.25,
-"pb": 20.7,
+"pe": 88.95,
+"fpe": 59.12,
+"pb": 23.03,
 "ev": 49.27,
 "roe": 0.27,
 "eg": 0.23,
 "rg": 0.23,
 "de": 29.49,
-"peg": 3.67,
+"peg": 3.85,
 "mcap_cr": 160892,
 "sector_med": {
 "pe": 49.8,
@@ -12585,9 +12585,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 84.9 vs sector median 49.8",
+"PE 89.0 vs sector median 49.8",
 "EV/EBITDA 49.3 vs sector median 34.2",
-"PEG 3.67",
+"PEG 3.85",
 "ROE 27%"
 ]
 },
@@ -12623,7 +12623,7 @@
 "name": "Triveni Turbine Ltd.",
 "industry": "Capital Goods",
 "price": 470.05,
-"pe": 44.51,
+"pe": 44.47,
 "fpe": 30.38,
 "pb": 10.32,
 "ev": 33.66,
@@ -12658,13 +12658,13 @@
 "de": 5.36,
 "mcap_cr": 41037,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 66.0 vs sector median 33.8",
+"PE 66.0 vs sector median 33.9",
 "EV/EBITDA 20.3 vs sector median 19.5"
 ]
 },
@@ -12684,13 +12684,13 @@
 "peg": 0.32,
 "mcap_cr": 27662,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 9.3 vs sector median 18.4",
+"PE 9.3 vs sector median 19.1",
 "P/B 0.8 vs sector median 2.0",
 "PEG 0.32",
 "ROE 9%"
@@ -12710,15 +12710,15 @@
 "rg": 0.24,
 "de": 37.74,
 "peg": 43.35,
-"mcap_cr": 62511,
+"mcap_cr": 62510,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "HIGH",
 "why": [
-"PE 52.0 vs sector median 33.8",
+"PE 52.0 vs sector median 33.9",
 "EV/EBITDA 29.5 vs sector median 19.5",
 "PEG 43.35"
 ]
@@ -12764,13 +12764,13 @@
 "peg": 1.23,
 "mcap_cr": 10417,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "OK",
 "why": [
-"PE 21.3 vs sector median 18.4",
+"PE 21.3 vs sector median 19.1",
 "P/B 2.4 vs sector median 2.0",
 "PEG 1.23",
 "ROE 11%"
@@ -12781,7 +12781,7 @@
 "name": "UltraTech Cement Ltd.",
 "industry": "Construction Materials",
 "price": 11045.0,
-"pe": 36.51,
+"pe": 36.93,
 "fpe": 26.83,
 "pb": 4.42,
 "ev": 19.7,
@@ -12789,7 +12789,7 @@
 "eg": 0.21,
 "rg": 0.19,
 "de": 37.69,
-"peg": 1.71,
+"peg": 1.73,
 "mcap_cr": 324794,
 "sector_med": {
 "pe": 35.6,
@@ -12798,9 +12798,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 36.5 vs sector median 35.6",
+"PE 36.9 vs sector median 35.6",
 "EV/EBITDA 19.7 vs sector median 15.4",
-"PEG 1.71",
+"PEG 1.73",
 "ROE 11%"
 ]
 },
@@ -12820,13 +12820,13 @@
 "peg": 0.22,
 "mcap_cr": 141985,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 6.5 vs sector median 18.4",
+"PE 6.5 vs sector median 19.1",
 "P/B 1.0 vs sector median 2.0",
 "PEG 0.22",
 "ROE 16%"
@@ -13061,7 +13061,7 @@
 "rg": 0.14,
 "de": 26.89,
 "peg": 7.05,
-"mcap_cr": 39540,
+"mcap_cr": 39536,
 "sector_med": {
 "pe": 49.8,
 "ev": 34.2,
@@ -13133,7 +13133,7 @@
 "industry": "Capital Goods",
 "price": 2304.0,
 "pe": 17.98,
-"fpe": 14.85,
+"fpe": 14.52,
 "pb": 4.14,
 "ev": 10.43,
 "roe": 0.27,
@@ -13158,15 +13158,15 @@
 "name": "Welspun Corp Ltd.",
 "industry": "Capital Goods",
 "price": 2341.6,
-"pe": 27.85,
+"pe": 26.75,
 "fpe": 20.88,
-"pb": 5.81,
+"pb": 6.75,
 "ev": 22.07,
 "roe": 0.24,
 "eg": 0.13,
 "rg": 0.07,
 "de": 9.95,
-"peg": 2.11,
+"peg": 2.03,
 "mcap_cr": 61749,
 "sector_med": {
 "pe": 44.5,
@@ -13175,9 +13175,9 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 27.8 vs sector median 44.5",
+"PE 26.8 vs sector median 44.5",
 "EV/EBITDA 22.1 vs sector median 29.7",
-"PEG 2.11",
+"PEG 2.03",
 "ROE 24%"
 ]
 },
@@ -13302,13 +13302,13 @@
 "peg": 0.19,
 "mcap_cr": 47557,
 "sector_med": {
-"pe": 18.4,
+"pe": 19.1,
 "ev": 27.3,
 "pb": 2.0
 },
 "verdict": "LOW",
 "why": [
-"PE 11.5 vs sector median 18.4",
+"PE 11.5 vs sector median 19.1",
 "P/B 0.9 vs sector median 2.0",
 "PEG 0.19",
 "ROE 8%"
@@ -13319,7 +13319,7 @@
 "name": "ZF Commercial Vehicle Control Systems India Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 2101.5,
-"pe": 2.2,
+"pe": 2.21,
 "fpe": 31.57,
 "pb": 6.48,
 "ev": 33.07,
@@ -13329,13 +13329,13 @@
 "de": 1.49,
 "mcap_cr": 23916,
 "sector_med": {
-"pe": 33.8,
+"pe": 33.9,
 "ev": 19.5,
 "pb": 5.5
 },
 "verdict": "OK",
 "why": [
-"PE 2.2 vs sector median 33.8",
+"PE 2.2 vs sector median 33.9",
 "EV/EBITDA 33.1 vs sector median 19.5"
 ]
 },
@@ -13354,13 +13354,13 @@
 "de": 2.26,
 "mcap_cr": 6378,
 "sector_med": {
-"pe": 35.3,
+"pe": 35.2,
 "ev": 14.8,
 "pb": 1.9
 },
 "verdict": "OK",
 "why": [
-"PE 36.3 vs sector median 35.3",
+"PE 36.3 vs sector median 35.2",
 "EV/EBITDA 16.3 vs sector median 14.8"
 ]
 },
@@ -13394,15 +13394,15 @@
 "name": "Zensar Technolgies Ltd.",
 "industry": "Information Technology",
 "price": 535.5,
-"pe": 15.73,
-"fpe": 13.97,
+"pe": 15.87,
+"fpe": 14.05,
 "pb": 2.58,
 "ev": 11.03,
 "roe": null,
 "eg": 0.01,
 "rg": 0.09,
 "de": 1.68,
-"peg": 17.48,
+"peg": 17.63,
 "mcap_cr": 12161,
 "sector_med": {
 "pe": 27.2,
@@ -13411,9 +13411,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 15.7 vs sector median 27.2",
+"PE 15.9 vs sector median 27.2",
 "EV/EBITDA 11.0 vs sector median 16.8",
-"PEG 17.48"
+"PEG 17.63"
 ]
 },
 {
@@ -13421,7 +13421,7 @@
 "name": "Zydus Lifesciences Ltd.",
 "industry": "Healthcare",
 "price": 1245.5,
-"pe": 26.4,
+"pe": 27.76,
 "fpe": 24.96,
 "pb": 4.62,
 "ev": 19.88,
@@ -13437,7 +13437,7 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 26.4 vs sector median 46.4",
+"PE 27.8 vs sector median 46.4",
 "EV/EBITDA 19.9 vs sector median 30.0"
 ]
 },
