@@ -29,19 +29,19 @@ nav button:active{transform:scale(.95)}
 <button id="t0" onclick="go(0)">Sector</button><button id="t1" onclick="go(1)">Right valuation</button><button id="t2" onclick="go(2)">Order book</button><button id="t3" onclick="go(3)">Search</button><button id="t4" onclick="go(4)">F&amp;O Stocks</button>
 </nav>
 <script>
-let RS=null,D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
+let SR=null,SEC=null,TR=false,TRD=null,BT=null,RS=null,D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const n=v=>v==null?"–":Number(v).toLocaleString("en-IN",{maximumFractionDigits:2});
 const p=v=>v==null?"–":`<span class="${v>=0?"pos":"neg"}">${v>0?"+":""}${n(v)}%</span>`;
 async function j(f){try{return await (await fetch(f+"?t="+Date.now(),{cache:"no-store"})).json()}catch(e){return null}}
 async function load(){
-  D=await j("data.json"); SX=await j("stocks.json");
+  D=await j("data.json"); SX=await j("stocks.json"); TRD=await j("track_record.json"); BT=await j("backtest.json"); SEC=await j("sectors.json");
   const t=(D&&D.updated)||(SX&&SX.updated);
   $("upd").textContent=t?"Data updated: "+new Date(t).toLocaleString():"No data yet. Run the GitHub Actions once.";
   render();
 }
-function go(t){RS=null;tab=t;sec=null;sel=null;ord=null;fsel=null;ssel=null;render()}
+function go(t){SR=null;RS=null;tab=t;sec=null;sel=null;ord=null;fsel=null;ssel=null;render()}
 function render(){
   [0,1,2,3,4].forEach(i=>$("t"+i).className=i==tab?"on":"");
   if(tab<3&&(!D||!D.updated)){$("app").innerHTML="<p class='mu'>Sector data not available yet.</p>";return}
@@ -49,18 +49,39 @@ function render(){
 }
 /* ---------- Tab 0: Sector ---------- */
 function sectorTab(){
-  if(sec!==null)return sectorDetail(D.sectors[sub][sec]);
-  const L=D.sectors[sub],nf=D.nifty;
-  $("app").innerHTML=`<div class="mu">Nifty: 1M ${p(nf.r1)} · 3M ${p(nf.r3)}</div>
+  if(!SEC||!SEC.sectors||!SEC.sectors.length){$("app").innerHTML="<p class='mu'>Sector ranking not built yet. Run the 'Update sector ranking' workflow once.</p>";return}
+  if(SR!==null){$("app").innerHTML=sectorReason(SR);return}
+  if(sec!==null){$("app").innerHTML=`<button class="back" onclick="sec=null;render()">← Back</button>`+sectorStocks(sec);return}
+  const all=SEC.sectors.map((x,i)=>i);
+  const L=sub=="top"?all.slice(0,3):all.slice(-3).reverse();
+  const f=SEC.flows||{};
+  $("app").innerHTML=`<div class="card"><div class="mu">${esc(f.text||"")}</div></div>
   <div class="row"><button class="btn g ${sub=="top"?"on":""}" onclick="sub='top';render()">Top performer</button><button class="btn b ${sub=="under"?"on":""}" onclick="sub='under';render()">Underperformer</button></div>`+
-  L.map((s,i)=>`<div class="card" onclick="sec=${i};render()"><div class="top"><span class="sym">${esc(s.name)}</span><span class="${s.score>=0?"pos":"neg"}">${s.score}</span></div>
-  <div class="mu">Typical driver: ${esc(s.driver)}</div><div style="font-size:13px;margin-top:4px">${s.reasons.map(esc).join(" · ")}</div></div>`).join("")+
-  (sub=="top"&&D.sectors.emerging&&D.sectors.emerging.length?`<div class="mu" style="margin-top:12px">Watch next (momentum improving): ${D.sectors.emerging.map(esc).join(", ")}</div>`:"");
+  L.map(i=>{const x=SEC.sectors[i];return `<div class="card" onclick="sec=${i};render()"><div class="top"><span class="sym">${esc(x.name)}</span><span class="${x.score>=50?"pos":"neg"}">${n(x.score)}/100</span></div>
+  <div class="mu">${x.n} stocks · median 3M ${p(x.tech_rs3)} vs Nifty</div>
+  <div class="row" style="margin:8px 0 0"><button class="btn" style="flex:none;padding:8px 12px" onclick="event.stopPropagation();SR=${i};render()">Reason for performance</button></div></div>`}).join("");
 }
-function sectorDetail(s){
-  $("app").innerHTML=`<button class="back" onclick="sec=null;render()">← Back</button><h2>${esc(s.name)}</h2><div class="mu">Top 3 performing stocks</div>`+
-  s.stocks.map(x=>`<div class="card"><div class="top"><span><span class="sym">${esc(x.symbol)}</span> <span class="mu">${esc(x.name)}</span></span><b>₹${n(x.price)}</b></div>
-  <div style="font-size:13px;margin-top:4px">1M ${p(x.r1)} · 3M ${p(x.r3)} · vs Nifty (3M) ${p(x.rs3)}</div></div>`).join("");
+function sectorStocks(i){
+  const x=SEC.sectors[i];
+  return `<h2>${esc(x.name)}: top 3 outperforming stocks</h2>`+x.stocks.map(s=>`<div class="card"><div class="top"><span><span class="sym">${esc(s.symbol)}</span> <span class="mu">${esc(s.name)}</span></span><b>₹${n(s.price)}</b></div>
+  <div style="font-size:13px;margin-top:4px">3M ${p(s.rs3)} vs Nifty · momentum ${n(s.momentum)} · ${esc(s.bias)}</div></div>`).join("");
+}
+function sectorReason(i){
+  const x=SEC.sectors[i]; const top=x.group=="TOP"; const want=top?"UP":"DOWN";
+  const row=f=>`<div class="card"><div class="top"><b>${esc(f.label)}</b><span class="mu">weight ${f.weight}%</span></div>
+   <div class="bar"><i style="width:${f.pct==null?0:f.pct}%;background:${f.dir=="UP"?"var(--gd)":f.dir=="DOWN"?"var(--bdc)":"var(--ac)"}"></i></div>
+   <div style="font-size:13px">${esc(f.text)}</div><div class="mu">Source: ${esc(f.src)} · rank ${f.pct==null?"–":n(f.pct)}/100</div></div>`;
+  const main=x.factors.filter(f=>f.dir==want), other=x.factors.filter(f=>f.dir!=want);
+  const hl=(x.headlines||[]).map(h=>`<div class="card"><div>${esc(h.title)}</div>${h.link?`<a href="${esc(h.link)}" target="_blank" rel="noopener">Source: ${esc(h.src)}</a>`:""}</div>`).join("")||"<p class='mu'>No matching official policy headlines this period.</p>";
+  return `<button class="back" onclick="SR=null;render()">← Back</button>
+  <div class="card"><div class="top"><span class="sym">${esc(x.name)}</span><span class="badge ${top?"LOW":x.group=="UNDER"?"HIGH":"NA"}">${top?"TOP PERFORMER":x.group=="UNDER"?"UNDERPERFORMER":"MIDDLE"}</span></div>
+  <h2>Score ${n(x.score)}/100 · ${x.n} stocks</h2>
+  <p class="mu">${top?"Why it is outperforming":"Why it is underperforming"}: the factors below that point ${top?"up":"down"}.</p></div>`+
+  (main.map(row).join("")||"<p class='mu'>No factor clearly points this way.</p>")+
+  `<h2>Other factors</h2>`+other.map(row).join("")+
+  `<h2>Official policy headlines</h2>`+hl+
+  `<p class="mu">${esc((SEC.flows||{}).text||"")}</p>
+  <p class="mu">Scores rank sectors against each other. Reasons explain the ranking but don't prove cause. Not advice.</p>`;
 }
 /* ---------- Tab 1: Right valuation (Nifty 500 from data.json) ---------- */
 function valTab(){
@@ -132,6 +153,7 @@ function searchTab(){
 }
 /* ---------- Tab 4: F&O Stocks ---------- */
 function foTab(){
+  if(TR){$("app").innerHTML=trPage();return}
   if(RS){$("app").innerHTML=reasonPage();return}
   const list=SX&&SX.stocks?SX.stocks:[];
   if(!list.length){$("app").innerHTML="<p class='mu'>Stock data not built yet.</p>";return}
@@ -139,11 +161,20 @@ function foTab(){
   const all=list.filter(s=>s.fno);
   const shown=all.filter(s=>fq=="all"||s.bias==fq);
   $("app").innerHTML=`<div class="mu">${all.length} F&amp;O stocks, sorted by momentum score. Tap the UPSIDE or DOWNSIDE button for its reasons.</div>
-  <div class="row"><button class="btn ${fq=="all"?"on":""}" onclick="fq='all';foTab()">All</button><button class="btn g ${fq=="UPSIDE"?"on":""}" onclick="fq='UPSIDE';foTab()">Upside</button><button class="btn b ${fq=="DOWNSIDE"?"on":""}" onclick="fq='DOWNSIDE';foTab()">Downside</button></div>`+
+  <div class="row"><button class="btn ${fq=="all"?"on":""}" onclick="fq='all';foTab()">All</button><button class="btn g ${fq=="UPSIDE"?"on":""}" onclick="fq='UPSIDE';foTab()">Upside</button><button class="btn b ${fq=="DOWNSIDE"?"on":""}" onclick="fq='DOWNSIDE';foTab()">Downside</button><button class="btn" onclick="TR=true;foTab()">Track record</button></div>`+
   shown.map(s=>{const dir=s.bias=="DOWNSIDE"||(s.bias=="NEUTRAL"&&s.down>s.up)?"DOWNSIDE":"UPSIDE";
     return `<div class="card" onclick="fsel='${s.symbol}';foTab()"><div class="top"><span><span class="sym">${esc(s.symbol)}</span><div class="mu">${esc(s.name)}</div></span>
     <span><b>${n(s.momentum)}</b> <button class="badge ${dir=='UPSIDE'?'LOW':'HIGH'}" style="border:0;cursor:pointer" onclick="event.stopPropagation();RS={sym:'${s.symbol}',dir:'${dir}'};foTab()">${dir}</button></span></div>
     <div class="mu">₹${n(s.price)} · RSI ${n(s.rsi)} · ${s.mcap_cr!=null?"₹"+n(s.mcap_cr)+" cr":""} · ${s.bias}</div></div>`}).join("")||"<p class='mu'>No stocks in this group.</p>";
+}
+function trPage(){
+  const back=`<button class="back" onclick="TR=false;foTab()">← Back to F&amp;O list</button>`;
+  const live=(TRD&&TRD.summary||[]).map(r=>`<div class="card"><div class="top"><b>${esc(r.bias)} · ${esc(r.confidence)}</b><span>${r.hit_rate==null?"–":n(r.hit_rate)+"%"}</span></div><div class="mu">${r.picks} picks · avg excess vs Nifty ${p(r.avg_excess)}</div></div>`).join("")||"<p class='mu'>No live record yet. It fills after the first full month of snapshots.</p>";
+  const bt=(BT&&BT.summary||[]).map(r=>`<div class="card"><div class="top"><b>${esc(r.bias)}</b><span>${r.hit_rate==null?"–":n(r.hit_rate)+"%"}</span></div><div class="mu">${r.signals} signals · avg excess vs Nifty ${p(r.avg_excess)}</div></div>`).join("")||"<p class='mu'>Backtest not run yet.</p>";
+  return `${back}<h2>Live track record (frozen monthly picks)</h2>${live}
+  <h2>Backtest, price signals only</h2>${bt}
+  ${BT&&BT.baseline!=null?`<p class="mu">Baseline: ${n(BT.baseline)}% of all stocks beat the Nifty in the same months. ${esc(BT.note||"")}</p>`:""}
+  <p class="mu">Hit rate = share of UPSIDE picks that beat the Nifty, or DOWNSIDE picks that lagged it, over the next month. Only a clear gap above the baseline suggests a real edge, and small samples are unreliable.</p>`;
 }
 function reasonPage(){
   const s=(SX&&SX.stocks||[]).find(x=>x.symbol==RS.sym); const R=s&&s.reasons&&s.reasons[RS.dir];
