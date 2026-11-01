@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-01T02:08:26.874715Z",
+"updated": "2026-11-01T17:11:27.052747Z",
 "nifty": {
 "r1": 1.5,
 "r3": -5.2
@@ -53,6 +53,10 @@
 ],
 "mcap_cr": 37392,
 "industry": "Asset Management",
+"eg": -0.119,
+"rg": 0.161,
+"roe": 0.42988998,
+"de": 5.337,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -250,6 +254,10 @@
 ],
 "mcap_cr": 1231324,
 "industry": "Telecom Services",
+"eg": 0.351,
+"rg": 0.184,
+"roe": 0.20151,
+"de": 100.415,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -424,6 +432,10 @@
 ],
 "mcap_cr": 316597,
 "industry": "Internet Retail",
+"eg": 0.857,
+"rg": 0.776,
+"roe": 0.01588,
+"de": 18.412,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -581,6 +593,10 @@
 ],
 "mcap_cr": 115533,
 "industry": "Lodging",
+"eg": 0.23,
+"rg": 0.208,
+"roe": 0.16541,
+"de": 22.018,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -754,6 +770,10 @@
 ],
 "mcap_cr": 116580,
 "industry": "Banks - Regional",
+"eg": 0.14,
+"rg": 0.144,
+"roe": 0.16139999,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -949,6 +969,10 @@
 ],
 "mcap_cr": 34423,
 "industry": "Banks - Regional",
+"eg": 0.37,
+"rg": 0.21,
+"roe": 0.20989001,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -1138,6 +1162,10 @@
 ],
 "mcap_cr": 459194,
 "industry": "Banks - Regional",
+"eg": 0.262,
+"rg": 0.207,
+"roe": 0.11835,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -1317,6 +1345,10 @@
 ],
 "mcap_cr": 100112,
 "industry": "Internet Retail",
+"eg": 2.5,
+"rg": 0.291,
+"roe": null,
+"de": 82.829,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -1459,6 +1491,10 @@
 ],
 "mcap_cr": 141985,
 "industry": "Banks - Regional",
+"eg": 0.293,
+"rg": 0.156,
+"roe": 0.16291,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -1646,6 +1682,10 @@
 ],
 "mcap_cr": 386533,
 "industry": "Information Technology Services",
+"eg": 0.108,
+"rg": 0.022,
+"roe": 0.24648,
+"de": 7.905,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -1804,6 +1844,10 @@
 ],
 "mcap_cr": 196203,
 "industry": "Information Technology Services",
+"eg": 0.045,
+"rg": 0.091,
+"roe": 0.15939,
+"de": 27.753,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -1968,6 +2012,10 @@
 ],
 "mcap_cr": 96744,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.258,
+"rg": 0.163,
+"roe": null,
+"de": 21.31,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -2115,6 +2163,10 @@
 ],
 "mcap_cr": 81810,
 "industry": "Telecom Services",
+"eg": 0.232,
+"rg": 0.109,
+"roe": null,
+"de": 85.654,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -2247,6 +2299,10 @@
 ],
 "mcap_cr": 90606,
 "industry": "Information Technology Services",
+"eg": 0.192,
+"rg": 0.548,
+"roe": 0.13347,
+"de": 26.74,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -2411,6 +2467,10 @@
 ],
 "mcap_cr": 43641,
 "industry": "Household & Personal Products",
+"eg": 1.909,
+"rg": 1.587,
+"roe": null,
+"de": 12.506,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -2571,10 +2631,14 @@
 "down_reasons": [
 "Resignation of Director/KMP/SMP: Cyient Limited has informed the Exchange about Resignation of Director/KMP/SMP",
 "Trading Window: Cyient Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"Conglomerates sector median 3M return is -8.0% vs Nifty (price data)"
+"Conglomerates sector median 3M return is -10.9% vs Nifty (price data)"
 ],
 "mcap_cr": 11832,
 "industry": "Conglomerates",
+"eg": -0.001,
+"rg": 0.255,
+"roe": 0.0694,
+"de": 49.22,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -2660,7 +2724,7 @@
 {
 "cat": "Sector demand",
 "dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
+"text": "Conglomerates sector median 3M return is -10.9% vs Nifty (price data)",
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
@@ -2677,8 +2741,8 @@
 "ev": 14.4,
 "pb": 2.34,
 "why": [
-"PE 33.4 vs sector median 31.9",
-"EV/EBITDA 14.4 vs sector 21.1"
+"PE 33.4 vs sector median 30.3",
+"EV/EBITDA 14.4 vs sector 20.3"
 ]
 }
 },
@@ -2732,6 +2796,10 @@
 ],
 "mcap_cr": 171180,
 "industry": "Real Estate - Development",
+"eg": 0.101,
+"rg": -0.233,
+"roe": 0.10311,
+"de": 0.69,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -2859,7 +2927,7 @@
 "pb": 3.76,
 "why": [
 "PE 37.5 vs sector median 25.2",
-"EV/EBITDA 163.1 vs sector 19.9",
+"EV/EBITDA 163.1 vs sector 20.2",
 "PEG 3.71"
 ]
 }
@@ -2913,6 +2981,10 @@
 ],
 "mcap_cr": 324603,
 "industry": "Aerospace & Defense",
+"eg": 0.149,
+"rg": 0.144,
+"roe": null,
+"de": 0.16,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -3046,6 +3118,10 @@
 ],
 "mcap_cr": 117426,
 "industry": "Medical Instruments & Supplies",
+"eg": 2.581,
+"rg": 0.433,
+"roe": null,
+"de": 34.983,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -3203,6 +3279,10 @@
 ],
 "mcap_cr": 48206,
 "industry": "Information Technology Services",
+"eg": 0.107,
+"rg": 0.175,
+"roe": 0.17743999,
+"de": 24.675,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -3352,6 +3432,10 @@
 ],
 "mcap_cr": 78090,
 "industry": "Utilities - Renewable",
+"eg": 0.028,
+"rg": 0.185,
+"roe": null,
+"de": 113.111,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -3501,6 +3585,10 @@
 ],
 "mcap_cr": 99768,
 "industry": "Information Technology Services",
+"eg": -0.263,
+"rg": 0.303,
+"roe": 0.22918,
+"de": 6.696,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -3638,9 +3726,9 @@
 "up": 80,
 "down": 0,
 "up_reasons": [
-"Results filed. Latest earnings growth +23%",
-"Results filed. Latest earnings growth +23%",
-"Beats Nifty by 9.0% over 3 months (price data)"
+"Beats Nifty by 9.0% over 3 months (price data)",
+"Delivery buying rising, average 51% (NSE bhavcopy)",
+"Price above 50-day average (price data)"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: The Phoenix Mills Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
@@ -3648,25 +3736,13 @@
 ],
 "mcap_cr": 70008,
 "industry": "Real Estate - Diversified",
+"eg": 0.071,
+"rg": 0.034,
+"roe": 0.12944001,
+"de": 54.31,
 "reasons": {
 "UPSIDE": {
 "items": [
-{
-"cat": "Results",
-"dir": "UP",
-"text": "Results filed. Latest earnings growth +23%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/PHOENIXLTD_30102026191824_PML_outcome_of_Board_Meeting_sd.pdf",
-"date": "30-Oct-202"
-},
-{
-"cat": "Results",
-"dir": "UP",
-"text": "Results filed. Latest earnings growth +23%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/PHOENIXLTD_28092026220628_Covering_Letter_Reg_44_Scrutinizers_Report_sd.pdf",
-"date": "28-Sep-202"
-},
 {
 "cat": "Relative strength",
 "dir": "UP",
@@ -3708,9 +3784,9 @@
 "date": ""
 }
 ],
-"count": 7,
-"cats": 4,
-"confidence": "HIGH"
+"count": 5,
+"cats": 3,
+"confidence": "MEDIUM"
 },
 "DOWNSIDE": {
 "items": [
@@ -3739,12 +3815,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 53.6,
-"ev": 28.6,
+"ev": 28.0,
 "pb": 6.37,
 "why": [
 "PE 53.6 vs sector median 54.3",
-"EV/EBITDA 28.6 vs sector 26.3",
-"PEG 2.30"
+"EV/EBITDA 28.0 vs sector 26.0",
+"PEG 7.55"
 ]
 }
 },
@@ -3798,6 +3874,10 @@
 ],
 "mcap_cr": 141191,
 "industry": "Banks - Regional",
+"eg": 0.15,
+"rg": 0.074,
+"roe": 0.15059,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -3977,6 +4057,10 @@
 ],
 "mcap_cr": 37946,
 "industry": "Metal Fabrication",
+"eg": 4.657,
+"rg": 0.974,
+"roe": 0.0859,
+"de": 17.821,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -4141,6 +4225,10 @@
 ],
 "mcap_cr": 14373,
 "industry": "Entertainment",
+"eg": 1.492,
+"rg": 0.155,
+"roe": 0.06,
+"de": 85.371,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -4321,6 +4409,10 @@
 ],
 "mcap_cr": 55672,
 "industry": "Auto Parts",
+"eg": 0.288,
+"rg": 0.349,
+"roe": 0.11879,
+"de": 10.085,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -4432,7 +4524,7 @@
 "pb": 8.65,
 "why": [
 "PE 74.2 vs sector median 33.5",
-"EV/EBITDA 46.8 vs sector 21.6",
+"EV/EBITDA 46.8 vs sector 20.6",
 "PEG 2.58"
 ]
 }
@@ -4483,6 +4575,10 @@
 "down_reasons": [],
 "mcap_cr": null,
 "industry": "Information Technology Services",
+"eg": 0.15,
+"rg": 0.112,
+"roe": 0.45573002,
+"de": 9.83,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -4640,6 +4736,10 @@
 ],
 "mcap_cr": 175535,
 "industry": "Information Technology Services",
+"eg": 0.325,
+"rg": 0.156,
+"roe": 0.19186,
+"de": 7.249,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -4822,6 +4922,10 @@
 ],
 "mcap_cr": 112631,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": -0.357,
+"rg": -0.015,
+"roe": 0.07342,
+"de": 18.565,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -4985,6 +5089,10 @@
 ],
 "mcap_cr": 44556,
 "industry": "Chemicals",
+"eg": 0.806,
+"rg": 0.57,
+"roe": 0.22584999,
+"de": 27.964,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -5015,7 +5123,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +101%",
+"text": "Results filed. Latest earnings growth +81%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/NAVINFLUOR_30102026144801_NFILoutcome2026signed.pdf",
 "date": "30-Oct-202"
@@ -5108,12 +5216,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 48.9,
-"ev": 36.2,
-"pb": 11.19,
+"ev": 31.9,
+"pb": 9.98,
 "why": [
 "PE 48.9 vs sector median 19.5",
-"EV/EBITDA 36.2 vs sector 13.9",
-"PEG 0.49"
+"EV/EBITDA 31.9 vs sector 13.8",
+"PEG 0.61"
 ]
 }
 },
@@ -5154,8 +5262,8 @@
 "up": 80,
 "down": 5,
 "up_reasons": [
-"Results filed. Latest earnings growth +21%",
-"Results filed. Latest earnings growth +21%",
+"Results filed. Latest earnings growth +96%",
+"Results filed. Latest earnings growth +96%",
 "Beats Nifty by 19.3% over 3 months (price data)"
 ],
 "down_reasons": [
@@ -5165,13 +5273,17 @@
 ],
 "mcap_cr": 32373,
 "industry": "Steel",
+"eg": 0.961,
+"rg": 0.345,
+"roe": 0.10938,
+"de": 10.28,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +21%",
+"text": "Results filed. Latest earnings growth +96%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/SHYAMMETL_31102026130904_outcomeofBM.pdf",
 "date": "31-Oct-202"
@@ -5179,7 +5291,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +21%",
+"text": "Results filed. Latest earnings growth +96%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/SHYAMMETL_31102026130218_outcomeofBM.pdf",
 "date": "31-Oct-202"
@@ -5280,12 +5392,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 29.0,
-"ev": 13.4,
+"ev": 11.3,
 "pb": 2.88,
 "why": [
 "PE 29.0 vs sector median 23.5",
-"EV/EBITDA 13.4 vs sector 10.7",
-"PEG 1.40"
+"EV/EBITDA 11.3 vs sector 10.7",
+"PEG 0.30"
 ]
 }
 },
@@ -5339,6 +5451,10 @@
 ],
 "mcap_cr": 160892,
 "industry": "Apparel Retail",
+"eg": 0.231,
+"rg": 0.219,
+"roe": 0.27062,
+"de": 29.486,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -5495,6 +5611,10 @@
 ],
 "mcap_cr": 32778,
 "industry": "Specialty Chemicals",
+"eg": 0.728,
+"rg": 0.427,
+"roe": 0.26114,
+"de": 0.789,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -5602,11 +5722,11 @@
 "valuation": {
 "verdict": "HIGH",
 "pe": 74.9,
-"ev": 53.9,
+"ev": 52.3,
 "pb": 17.65,
 "why": [
 "PE 74.9 vs sector median 45.3",
-"EV/EBITDA 53.9 vs sector 30.8",
+"EV/EBITDA 52.3 vs sector 30.8",
 "PEG 1.03"
 ]
 }
@@ -5659,6 +5779,10 @@
 ],
 "mcap_cr": 69664,
 "industry": "Auto Manufacturers",
+"eg": null,
+"rg": 0.629,
+"roe": -0.066989996,
+"de": 22.455,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -5792,6 +5916,10 @@
 ],
 "mcap_cr": 22508,
 "industry": "Oil & Gas Refining & Marketing",
+"eg": 2.124,
+"rg": 0.259,
+"roe": 0.50865,
+"de": 16.197,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -5972,6 +6100,10 @@
 ],
 "mcap_cr": 46758,
 "industry": "Building Products & Equipment",
+"eg": 3.037,
+"rg": 0.895,
+"roe": null,
+"de": 9.604,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -6121,6 +6253,10 @@
 ],
 "mcap_cr": 83919,
 "industry": "Banks - Regional",
+"eg": 0.455,
+"rg": 0.364,
+"roe": 0.13272001,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -6284,6 +6420,10 @@
 ],
 "mcap_cr": 27308,
 "industry": "Auto Parts",
+"eg": 0.414,
+"rg": 0.368,
+"roe": 0.15182,
+"de": 59.067,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -6399,12 +6539,12 @@
 "valuation": {
 "verdict": "HIGH",
 "pe": 67.0,
-"ev": 55.8,
+"ev": 60.0,
 "pb": 14.95,
 "why": [
 "PE 67.0 vs sector median 33.5",
-"EV/EBITDA 55.8 vs sector 21.6",
-"PEG 1.65"
+"EV/EBITDA 60.0 vs sector 20.6",
+"PEG 1.62"
 ]
 }
 },
@@ -6452,12 +6592,16 @@
 "Results filed. Latest earnings growth +22%"
 ],
 "down_reasons": [
+"General Updates: Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: ICICI Bank Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, for the quarter ended September 30, 2026,",
-"Certificate under SEBI (Depositories and Participants) Regulations, 2018: ICICI Bank Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, for the quarter ended September 30, 2026 ",
 "Lending and Deposit Rates of Scheduled Commercial Banks \u2013 October 2026"
 ],
 "mcap_cr": 1003869,
 "industry": "Banks - Regional",
+"eg": 0.221,
+"rg": 0.158,
+"roe": 0.1649,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -6535,17 +6679,17 @@
 {
 "cat": "Governance/regulatory",
 "dir": "DOWN",
-"text": "Certificate under SEBI (Depositories and Participants) Regulations, 2018: ICICI Bank Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, for the quarter ended September 30, 2026,",
+"text": "General Updates: Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
 "src": "NSE corporate filing",
-"link": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_08102026173642_Regulation_74_5__Certificate_NSE_BSE_20260930-BONDS.pdf",
-"date": "08-Oct-202"
+"link": "https://nsearchives.nseindia.com/corporate/ICICI2022_01112026094235_BSENSE01112026.pdf",
+"date": "01-Nov-202"
 },
 {
 "cat": "Governance/regulatory",
 "dir": "DOWN",
-"text": "Certificate under SEBI (Depositories and Participants) Regulations, 2018: ICICI Bank Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, for the quarter ended September 30, 2026 ",
+"text": "Certificate under SEBI (Depositories and Participants) Regulations, 2018: ICICI Bank Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, for the quarter ended September 30, 2026,",
 "src": "NSE corporate filing",
-"link": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_08102026172408_Regulation_74_5__Certificate_BSE_NSE_20260930-EQUITY.pdf",
+"link": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_08102026173642_Regulation_74_5__Certificate_NSE_BSE_20260930-BONDS.pdf",
 "date": "08-Oct-202"
 },
 {
@@ -6644,6 +6788,10 @@
 ],
 "mcap_cr": 17189,
 "industry": "Other Precious Metals & Mining",
+"eg": 0.43,
+"rg": 0.31,
+"roe": null,
+"de": 8.552,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -6767,7 +6915,7 @@
 "up_reasons": [
 "Dividend: Sun TV Network Limited has informed the Exchange that Board of Directors at its meeting held on October 30, 2026, declared Interim Dividend of Rs. 3.75 per equity share.",
 "Record Date: Sun TV Network Limited has informed the Exchange that Record date for the purpose of Dividend  is 05-Nov-2026.",
-"Results filed. Latest earnings growth +17%"
+"PE 15.5 vs sector median 25.9: low valuation"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Sun TV Network Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
@@ -6776,6 +6924,10 @@
 ],
 "mcap_cr": 23943,
 "industry": "Broadcasting",
+"eg": 0.028,
+"rg": -0.17,
+"roe": 0.11924,
+"de": 0.802,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -6794,22 +6946,6 @@
 "src": "NSE corporate filing",
 "link": "https://nsearchives.nseindia.com/corporate/SUNTV1_26102026170446_Record_Date_-_Intimation_05112026_SD.pdf",
 "date": "26-Oct-202"
-},
-{
-"cat": "Results",
-"dir": "UP",
-"text": "Results filed. Latest earnings growth +17%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/SUNTV1_30102026164805_SunTVOutcome30102026final.pdf",
-"date": "30-Oct-202"
-},
-{
-"cat": "Results",
-"dir": "UP",
-"text": "Results filed. Latest earnings growth +17%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/SUNTV1_21092026181914_SunTVVotingresults2026.pdf",
-"date": "21-Sep-202"
 },
 {
 "cat": "Valuation",
@@ -6860,8 +6996,8 @@
 "date": ""
 }
 ],
-"count": 10,
-"cats": 5,
+"count": 8,
+"cats": 4,
 "confidence": "HIGH"
 },
 "DOWNSIDE": {
@@ -6897,14 +7033,14 @@
 }
 },
 "valuation": {
-"verdict": "LOW",
+"verdict": "OK",
 "pe": 15.5,
-"ev": 7.0,
+"ev": 12.6,
 "pb": 1.89,
 "why": [
 "PE 15.5 vs sector median 25.9",
-"EV/EBITDA 7.0 vs sector 11.6",
-"PEG 0.91"
+"EV/EBITDA 12.6 vs sector 121.9",
+"PEG 5.55"
 ]
 }
 },
@@ -6956,6 +7092,10 @@
 ],
 "mcap_cr": 12161,
 "industry": "Information Technology Services",
+"eg": 0.044,
+"rg": 0.145,
+"roe": 0.17148,
+"de": 1.325,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -7114,6 +7254,10 @@
 ],
 "mcap_cr": 426232,
 "industry": "Marine Shipping",
+"eg": 0.092,
+"rg": 0.237,
+"roe": 0.15635,
+"de": 62.663,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -7253,6 +7397,10 @@
 ],
 "mcap_cr": 43846,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.49,
+"rg": 0.353,
+"roe": 0.27533,
+"de": 3.173,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -7394,6 +7542,10 @@
 ],
 "mcap_cr": 60116,
 "industry": "Steel",
+"eg": 0.253,
+"rg": 0.345,
+"roe": 0.25322,
+"de": 16.771,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -7544,6 +7696,10 @@
 ],
 "mcap_cr": null,
 "industry": "Auto Parts",
+"eg": -0.367,
+"rg": 0.22,
+"roe": null,
+"de": 0.8,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -7631,7 +7787,7 @@
 "pb": 9.38,
 "why": [
 "PE 58.9 vs sector median 33.5",
-"EV/EBITDA 47.5 vs sector 21.6"
+"EV/EBITDA 47.5 vs sector 20.6"
 ]
 }
 },
@@ -7685,6 +7841,10 @@
 ],
 "mcap_cr": 259628,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.657,
+"rg": 0.278,
+"roe": null,
+"de": 0.042,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -7825,6 +7985,10 @@
 ],
 "mcap_cr": 51086,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.469,
+"rg": 0.196,
+"roe": null,
+"de": 2.738,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -7963,6 +8127,10 @@
 ],
 "mcap_cr": 22158,
 "industry": "Electrical Equipment & Parts",
+"eg": -0.235,
+"rg": 0.06,
+"roe": null,
+"de": 3.021,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -8034,7 +8202,7 @@
 "pb": 9.92,
 "why": [
 "PE 28.4 vs sector median 37.1",
-"EV/EBITDA 20.2 vs sector 25.7"
+"EV/EBITDA 20.2 vs sector 26.9"
 ]
 }
 },
@@ -8087,6 +8255,10 @@
 ],
 "mcap_cr": 479970,
 "industry": "Information Technology Services",
+"eg": -0.0,
+"rg": 0.014,
+"roe": 0.29951,
+"de": 8.567,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -8257,6 +8429,10 @@
 ],
 "mcap_cr": 34825,
 "industry": "Resorts & Casinos",
+"eg": 0.5,
+"rg": 0.256,
+"roe": 0.08214,
+"de": 0.711,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -8397,6 +8573,10 @@
 ],
 "mcap_cr": 8653,
 "industry": "Lodging",
+"eg": 0.208,
+"rg": 0.092,
+"roe": null,
+"de": 96.367,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -8562,6 +8742,10 @@
 ],
 "mcap_cr": 103228,
 "industry": "Internet Retail",
+"eg": null,
+"rg": 0.344,
+"roe": -0.36481,
+"de": 1.161,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -8694,6 +8878,10 @@
 ],
 "mcap_cr": 33093,
 "industry": "Diagnostics & Research",
+"eg": 0.208,
+"rg": 0.117,
+"roe": null,
+"de": 11.614,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -8826,6 +9014,10 @@
 ],
 "mcap_cr": 21842,
 "industry": "Marine Shipping",
+"eg": 1.594,
+"rg": 0.669,
+"roe": null,
+"de": 6.409,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -8982,6 +9174,10 @@
 ],
 "mcap_cr": 38178,
 "industry": "Textile Manufacturing",
+"eg": 0.582,
+"rg": 0.189,
+"roe": 0.17977,
+"de": 5.474,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -9069,7 +9265,7 @@
 "pb": 6.13,
 "why": [
 "PE 36.7 vs sector median 31.9",
-"EV/EBITDA 23.4 vs sector 18.5",
+"EV/EBITDA 23.4 vs sector 16.8",
 "PEG 0.63"
 ]
 }
@@ -9118,10 +9314,14 @@
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: BEML Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018",
 "Trading Window: BEML Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"Conglomerates sector median 3M return is -8.0% vs Nifty (price data)"
+"Conglomerates sector median 3M return is -10.9% vs Nifty (price data)"
 ],
 "mcap_cr": 16563,
 "industry": "Conglomerates",
+"eg": null,
+"rg": 0.293,
+"roe": null,
+"de": 10.529,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -9199,7 +9399,7 @@
 {
 "cat": "Sector demand",
 "dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
+"text": "Conglomerates sector median 3M return is -10.9% vs Nifty (price data)",
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
@@ -9224,8 +9424,8 @@
 "ev": 47.6,
 "pb": 5.65,
 "why": [
-"PE 27.8 vs sector median 31.9",
-"EV/EBITDA 47.6 vs sector 21.1"
+"PE 27.8 vs sector median 30.3",
+"EV/EBITDA 47.6 vs sector 20.3"
 ]
 }
 },
@@ -9279,6 +9479,10 @@
 ],
 "mcap_cr": 142568,
 "industry": "Financial Data & Stock Exchanges",
+"eg": 0.621,
+"rg": 0.64,
+"roe": null,
+"de": 0.0,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -9411,6 +9615,10 @@
 ],
 "mcap_cr": 20265,
 "industry": "Information Technology Services",
+"eg": 0.303,
+"rg": 0.222,
+"roe": 0.15663,
+"de": 59.879,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -9584,6 +9792,10 @@
 ],
 "mcap_cr": 129972,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 1.26,
+"rg": 0.334,
+"roe": 0.23973,
+"de": 42.471,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -9764,6 +9976,10 @@
 ],
 "mcap_cr": 30346,
 "industry": "Oil & Gas Refining & Marketing",
+"eg": 2.031,
+"rg": 0.574,
+"roe": 0.29083002,
+"de": 59.887,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -9789,6 +10005,14 @@
 "text": "Record Date: Mangalore Refinery and Petrochemicals Limited has informed the Exchange that Record date for the purpose of Dividend  is 21-Oct-2026.",
 "src": "NSE corporate filing",
 "link": "https://nsearchives.nseindia.com/corporate/MRPL_14102026204241_ResultsSD.pdf",
+"date": "14-Oct-202"
+},
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +203%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/MRPL_14102026203802_ResultsSD.pdf",
 "date": "14-Oct-202"
 },
 {
@@ -9832,8 +10056,8 @@
 "date": ""
 }
 ],
-"count": 8,
-"cats": 5,
+"count": 9,
+"cats": 6,
 "confidence": "HIGH"
 },
 "DOWNSIDE": {
@@ -9877,13 +10101,14 @@
 }
 },
 "valuation": {
-"verdict": "OK",
+"verdict": "LOW",
 "pe": 6.9,
-"ev": 5.3,
-"pb": 2.14,
+"ev": 3.9,
+"pb": 1.78,
 "why": [
 "PE 6.9 vs sector median 10.3",
-"EV/EBITDA 5.3 vs sector 6.4"
+"EV/EBITDA 3.9 vs sector 6.4",
+"PEG 0.03"
 ]
 }
 },
@@ -9935,6 +10160,10 @@
 ],
 "mcap_cr": 31681,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": null,
+"rg": 0.281,
+"roe": -0.02579,
+"de": 71.93,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -10085,6 +10314,10 @@
 ],
 "mcap_cr": 124239,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": -0.359,
+"rg": 0.22,
+"roe": null,
+"de": 42.304,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -10216,6 +10449,10 @@
 ],
 "mcap_cr": 19531,
 "industry": "Beverages - Wineries & Distilleries",
+"eg": 0.148,
+"rg": 0.157,
+"roe": 0.13321,
+"de": 84.092,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -10388,6 +10625,10 @@
 ],
 "mcap_cr": 48909,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.724,
+"rg": 0.208,
+"roe": null,
+"de": 8.492,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -10528,6 +10769,10 @@
 ],
 "mcap_cr": 45407,
 "industry": "Information Technology Services",
+"eg": 0.666,
+"rg": 0.02,
+"roe": 0.20207001,
+"de": 7.863,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -10724,6 +10969,10 @@
 ],
 "mcap_cr": 37519,
 "industry": "Education & Training Services",
+"eg": null,
+"rg": 0.239,
+"roe": null,
+"de": 23.018,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -10847,6 +11096,10 @@
 ],
 "mcap_cr": 16185,
 "industry": "Diagnostics & Research",
+"eg": -0.521,
+"rg": -0.086,
+"roe": 0.0388,
+"de": 10.443,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -11004,6 +11257,10 @@
 ],
 "mcap_cr": 213919,
 "industry": "Utilities - Renewable",
+"eg": 0.163,
+"rg": 0.416,
+"roe": 0.07338,
+"de": 375.343,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -11154,6 +11411,10 @@
 ],
 "mcap_cr": 121469,
 "industry": "Medical Care Facilities",
+"eg": 0.341,
+"rg": 0.206,
+"roe": null,
+"de": 85.146,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -11286,6 +11547,10 @@
 ],
 "mcap_cr": 23330,
 "industry": "Engineering & Construction",
+"eg": 0.026,
+"rg": 0.07,
+"roe": null,
+"de": 37.711,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -11420,6 +11685,10 @@
 ],
 "mcap_cr": 111400,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": -0.35,
+"rg": -0.011,
+"roe": 0.08327,
+"de": 1.969,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -11569,6 +11838,10 @@
 ],
 "mcap_cr": 166370,
 "industry": "Auto Parts",
+"eg": 1.042,
+"rg": 0.166,
+"roe": null,
+"de": 43.908,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -11656,7 +11929,7 @@
 "pb": 4.02,
 "why": [
 "PE 37.7 vs sector median 33.5",
-"EV/EBITDA 15.5 vs sector 21.6",
+"EV/EBITDA 15.5 vs sector 20.6",
 "PEG 0.36"
 ]
 }
@@ -11707,6 +11980,10 @@
 ],
 "mcap_cr": 17924,
 "industry": "Biotechnology",
+"eg": 4.505,
+"rg": 0.374,
+"roe": -0.00027000002,
+"de": 29.638,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -11832,6 +12109,10 @@
 ],
 "mcap_cr": 43425,
 "industry": "Oil & Gas Refining & Marketing",
+"eg": 0.351,
+"rg": -0.532,
+"roe": null,
+"de": 10.507,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -11962,8 +12243,12 @@
 "Credit Services sector median 3M return is -14.3% vs Nifty (price data)",
 "PE 36.1 vs sector median 14.1: high valuation"
 ],
-"mcap_cr": 40657,
+"mcap_cr": 40659,
 "industry": "Credit Services",
+"eg": 3.484,
+"rg": 0.921,
+"roe": 0.09206,
+"de": 431.207,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -12092,7 +12377,7 @@
 "up": 65,
 "down": 25,
 "up_reasons": [
-"Results filed. Latest earnings growth +86%",
+"Results filed. Latest earnings growth +77%",
 "Beats Nifty by 23.3% over 3 months (price data)",
 "Price above 50-day average (price data)"
 ],
@@ -12103,13 +12388,17 @@
 ],
 "mcap_cr": 31307,
 "industry": "Electronic Components",
+"eg": 0.773,
+"rg": 0.745,
+"roe": 0.14868,
+"de": 24.492,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +86%",
+"text": "Results filed. Latest earnings growth +77%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/SYRMASGS_30102026174253_1pressrelease.pdf",
 "date": "30-Oct-202"
@@ -12202,12 +12491,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 74.3,
-"ev": 49.9,
-"pb": 10.94,
+"ev": 44.1,
+"pb": 10.31,
 "why": [
 "PE 74.3 vs sector median 70.4",
-"EV/EBITDA 49.9 vs sector 34.9",
-"PEG 0.86"
+"EV/EBITDA 44.1 vs sector 34.9",
+"PEG 0.96"
 ]
 }
 },
@@ -12259,6 +12548,10 @@
 ],
 "mcap_cr": 23614,
 "industry": "Software - Application",
+"eg": 0.1,
+"rg": 0.15,
+"roe": 0.23868,
+"de": 4.903,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -12417,6 +12710,10 @@
 ],
 "mcap_cr": null,
 "industry": "Auto Manufacturers",
+"eg": 0.502,
+"rg": 0.394,
+"roe": 0.3723,
+"de": 320.877,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -12556,7 +12853,7 @@
 "up_reasons": [
 "Dividend: BIRLASOFT LIMITED has informed the Exchange that Board of Directors at its meeting held on October 28, 2026, declared Interim Dividend of Rs. 3 per equity share.",
 "Record Date: BIRLASOFT LIMITED has informed the Exchange that Record date for the purpose of Dividend  is 05-Nov-2026.",
-"Results filed. Latest earnings growth +51%"
+"Results filed. Latest earnings growth +37%"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: BIRLASOFT LIMITED has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
@@ -12565,6 +12862,10 @@
 ],
 "mcap_cr": 9033,
 "industry": "Information Technology Services",
+"eg": 0.368,
+"rg": 0.066,
+"roe": 0.15286,
+"de": 3.903,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -12587,7 +12888,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +51%",
+"text": "Results filed. Latest earnings growth +37%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/BSOFT_28102026170934_SEOutcome28102026.pdf",
 "date": "28-Oct-202"
@@ -12696,12 +12997,12 @@
 "valuation": {
 "verdict": "LOW",
 "pe": 14.8,
-"ev": 7.0,
-"pb": 2.19,
+"ev": 7.4,
+"pb": 2.08,
 "why": [
 "PE 14.8 vs sector median 23.0",
-"EV/EBITDA 7.0 vs sector 15.4",
-"PEG 0.29"
+"EV/EBITDA 7.4 vs sector 15.4",
+"PEG 0.40"
 ]
 }
 },
@@ -12753,6 +13054,10 @@
 ],
 "mcap_cr": 22907,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.534,
+"rg": 0.22,
+"roe": null,
+"de": 29.735,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -12894,6 +13199,10 @@
 ],
 "mcap_cr": 62578,
 "industry": "Banks - Regional",
+"eg": 0.281,
+"rg": 0.327,
+"roe": 0.23286,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -13081,6 +13390,10 @@
 ],
 "mcap_cr": 26660,
 "industry": "Drug Manufacturers - General",
+"eg": 0.821,
+"rg": 0.516,
+"roe": null,
+"de": 24.131,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -13202,9 +13515,9 @@
 "up": 65,
 "down": 30,
 "up_reasons": [
-"Results filed. Latest earnings growth +84%",
-"Results filed. Latest earnings growth +84%",
-"Results filed. Latest earnings growth +84%"
+"Results filed. Latest earnings growth +1285%",
+"Results filed. Latest earnings growth +1285%",
+"Results filed. Latest earnings growth +1285%"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Welspun Living Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
@@ -13213,13 +13526,17 @@
 ],
 "mcap_cr": 20625,
 "industry": "Textile Manufacturing",
+"eg": 12.846,
+"rg": 0.176,
+"roe": 0.088479996,
+"de": 47.296,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +84%",
+"text": "Results filed. Latest earnings growth +1285%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/WELSPUNIND_31102026202305_Reg30_NewspaperAdvt30102026_signed.pdf",
 "date": "31-Oct-202"
@@ -13227,7 +13544,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +84%",
+"text": "Results filed. Latest earnings growth +1285%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/WELSPUNIND_30102026133455_Reg_33_Results_Sep2026_Signed.pdf",
 "date": "30-Oct-202"
@@ -13235,7 +13552,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +84%",
+"text": "Results filed. Latest earnings growth +1285%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/WELSPUNIND_25092026190818_Reg44_Votingresults_signed.pdf",
 "date": "25-Sep-202"
@@ -13336,12 +13653,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 47.9,
-"ev": 24.4,
-"pb": 4.27,
+"ev": 19.9,
+"pb": 4.06,
 "why": [
 "PE 47.9 vs sector median 31.9",
-"EV/EBITDA 24.4 vs sector 18.5",
-"PEG 0.57"
+"EV/EBITDA 19.9 vs sector 16.8",
+"PEG 0.04"
 ]
 }
 },
@@ -13393,6 +13710,10 @@
 ],
 "mcap_cr": 35393,
 "industry": "Communication Equipment",
+"eg": 4.021,
+"rg": 1.436,
+"roe": 0.18656,
+"de": 33.675,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -13566,6 +13887,10 @@
 ],
 "mcap_cr": 78985,
 "industry": "Insurance - Diversified",
+"eg": 0.153,
+"rg": 0.189,
+"roe": 0.13627,
+"de": 0.16,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -13671,13 +13996,13 @@
 }
 },
 "valuation": {
-"verdict": "HIGH",
+"verdict": "OK",
 "pe": 31.1,
 "ev": 21.5,
 "pb": 3.78,
 "why": [
 "PE 31.1 vs sector median 32.5",
-"EV/EBITDA 21.5 vs sector 14.5",
+"EV/EBITDA 21.5 vs sector 21.5",
 "PEG 2.03"
 ]
 }
@@ -13730,6 +14055,10 @@
 ],
 "mcap_cr": 8954,
 "industry": "Electrical Equipment & Parts",
+"eg": 1.354,
+"rg": 0.607,
+"roe": 0.20497,
+"de": 34.449,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -13873,7 +14202,7 @@
 "pb": 5.41,
 "why": [
 "PE 29.4 vs sector median 37.1",
-"EV/EBITDA 18.9 vs sector 25.7",
+"EV/EBITDA 18.9 vs sector 26.9",
 "PEG 0.22"
 ]
 }
@@ -13928,6 +14257,10 @@
 ],
 "mcap_cr": 123389,
 "industry": "Banks - Regional",
+"eg": 0.312,
+"rg": 0.199,
+"roe": 0.11885,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -14083,6 +14416,10 @@
 ],
 "mcap_cr": 33030,
 "industry": "Financial Data & Stock Exchanges",
+"eg": 0.059,
+"rg": 0.202,
+"roe": null,
+"de": 10.23,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -14233,6 +14570,10 @@
 ],
 "mcap_cr": 332848,
 "industry": "Tobacco",
+"eg": -0.16,
+"rg": -0.111,
+"roe": null,
+"de": 3.293,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -14356,6 +14697,10 @@
 ],
 "mcap_cr": 22844,
 "industry": "Engineering & Construction",
+"eg": 0.452,
+"rg": 0.038,
+"roe": null,
+"de": 45.814,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -14521,6 +14866,10 @@
 ],
 "mcap_cr": 112771,
 "industry": "Consumer Electronics",
+"eg": 0.272,
+"rg": 0.155,
+"roe": null,
+"de": 5.99,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -14616,7 +14965,7 @@
 "pb": 14.71,
 "why": [
 "PE 61.8 vs sector median 50.1",
-"EV/EBITDA 41.3 vs sector 35.7",
+"EV/EBITDA 41.3 vs sector 36.5",
 "PEG 2.27"
 ]
 }
@@ -14669,6 +15018,10 @@
 ],
 "mcap_cr": 102722,
 "industry": "Steel",
+"eg": 1.693,
+"rg": 2.086,
+"roe": null,
+"de": 145.214,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -14811,6 +15164,10 @@
 ],
 "mcap_cr": 532702,
 "industry": "Engineering & Construction",
+"eg": 0.325,
+"rg": 0.169,
+"roe": 0.17875,
+"de": 105.287,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -14983,6 +15340,10 @@
 ],
 "mcap_cr": 102964,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.389,
+"rg": 0.173,
+"roe": 0.1356,
+"de": 30.365,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -15124,6 +15485,10 @@
 ],
 "mcap_cr": 103714,
 "industry": "Household & Personal Products",
+"eg": 0.247,
+"rg": 0.214,
+"roe": null,
+"de": 12.394,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -15280,6 +15645,10 @@
 ],
 "mcap_cr": null,
 "industry": "Financial Data & Stock Exchanges",
+"eg": 1.034,
+"rg": 0.853,
+"roe": null,
+"de": 0.113,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -15396,6 +15765,10 @@
 ],
 "mcap_cr": 32032,
 "industry": "Asset Management",
+"eg": 0.156,
+"rg": 0.225,
+"roe": null,
+"de": 282.325,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -15534,20 +15907,32 @@
 "up": 40,
 "down": 15,
 "up_reasons": [
+"Dividend: Power Grid Corporation of India Limited has informed the Exchange that Board of Directors at its meeting held on November 01, 2026, declared Interim Dividend of Rs. 3 per equity share.",
 "Record Date: Power Grid Corporation of India Limited has informed the Exchange that Record date for the purpose of Dividend  is 06-Nov-2026, if declared by the Board.",
-"Delivery buying rising, average 55% (NSE bhavcopy)",
-"Price above 50-day average (price data)"
+"Delivery buying rising, average 55% (NSE bhavcopy)"
 ],
 "down_reasons": [
+"General Updates: Power Grid Corporation of India Limited has informed the Exchange regarding disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements Regulations, 2015",
 "General Updates: Power Grid Corporation of India Limited has informed the Exchange about Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
-"Trading Window: Power Grid Corporation of India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"Certificate under SEBI (Depositories and Participants) Regulations, 2018: Power Grid Corporation of India Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018"
+"Trading Window: Power Grid Corporation of India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015"
 ],
 "mcap_cr": 246466,
 "industry": "Utilities - Regulated Electric",
+"eg": -0.008,
+"rg": 0.027,
+"roe": null,
+"de": 150.813,
 "reasons": {
 "UPSIDE": {
 "items": [
+{
+"cat": "Corporate action",
+"dir": "UP",
+"text": "Dividend: Power Grid Corporation of India Limited has informed the Exchange that Board of Directors at its meeting held on November 01, 2026, declared Interim Dividend of Rs. 3 per equity share.",
+"src": "NSE corporate filing",
+"link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026201556_Dividend_Cover.pdf",
+"date": "01-Nov-202"
+},
 {
 "cat": "Corporate action",
 "dir": "UP",
@@ -15581,12 +15966,20 @@
 "date": ""
 }
 ],
-"count": 4,
+"count": 5,
 "cats": 3,
 "confidence": "MEDIUM"
 },
 "DOWNSIDE": {
 "items": [
+{
+"cat": "Governance/regulatory",
+"dir": "DOWN",
+"text": "General Updates: Power Grid Corporation of India Limited has informed the Exchange regarding disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements Regulations, 2015",
+"src": "NSE corporate filing",
+"link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026205525_CTUIL_Signed.pdf",
+"date": "01-Nov-202"
+},
 {
 "cat": "Governance/regulatory",
 "dir": "DOWN",
@@ -15602,14 +15995,6 @@
 "src": "NSE corporate filing",
 "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_28102026153854_BSENSEReg30dt28102026.pdf",
 "date": "28-Oct-202"
-},
-{
-"cat": "Governance/regulatory",
-"dir": "DOWN",
-"text": "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Power Grid Corporation of India Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
-"src": "NSE corporate filing",
-"link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_12102026174244_BSENSEReg30dt12102026DP_signed.pdf",
-"date": "12-Oct-202"
 },
 {
 "cat": "Valuation",
@@ -15640,7 +16025,7 @@
 "pb": 2.45,
 "why": [
 "PE 15.5 vs sector median 10.8",
-"EV/EBITDA 9.9 vs sector 9.8"
+"EV/EBITDA 9.9 vs sector 9.4"
 ]
 }
 },
@@ -15694,6 +16079,10 @@
 ],
 "mcap_cr": 101533,
 "industry": "Packaged Foods",
+"eg": 0.159,
+"rg": 0.14,
+"roe": 0.0759,
+"de": 10.772,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -15851,6 +16240,10 @@
 ],
 "mcap_cr": 64875,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 9.307,
+"rg": 0.231,
+"roe": null,
+"de": 5.646,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -15984,6 +16377,10 @@
 ],
 "mcap_cr": 39700,
 "industry": "Packaged Foods",
+"eg": 0.861,
+"rg": 0.274,
+"roe": null,
+"de": 21.295,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -16140,6 +16537,10 @@
 ],
 "mcap_cr": 21451,
 "industry": "Specialty Chemicals",
+"eg": 0.341,
+"rg": 0.275,
+"roe": null,
+"de": 18.646,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -16304,6 +16705,10 @@
 ],
 "mcap_cr": 46705,
 "industry": "Biotechnology",
+"eg": -0.128,
+"rg": -0.226,
+"roe": null,
+"de": 1.772,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -16435,6 +16840,10 @@
 ],
 "mcap_cr": 18596,
 "industry": "Oil & Gas Refining & Marketing",
+"eg": -0.226,
+"rg": 0.273,
+"roe": null,
+"de": 2.784,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -16598,6 +17007,10 @@
 ],
 "mcap_cr": 21223,
 "industry": "Banks - Regional",
+"eg": 0.267,
+"rg": 0.27,
+"roe": 0.14113,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -16785,6 +17198,10 @@
 ],
 "mcap_cr": 31877,
 "industry": "Diagnostics & Research",
+"eg": 0.278,
+"rg": 0.191,
+"roe": null,
+"de": 7.83,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -16933,6 +17350,10 @@
 ],
 "mcap_cr": 21033,
 "industry": "Specialty Industrial Machinery",
+"eg": 13.094,
+"rg": 2.0,
+"roe": 0.22548,
+"de": 50.95,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -17056,11 +17477,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 111.3,
-"ev": 66.0,
+"ev": 68.6,
 "pb": 22.55,
 "why": [
 "PE 111.3 vs sector median 50.0",
-"EV/EBITDA 66.0 vs sector 36.5",
+"EV/EBITDA 68.6 vs sector 36.5",
 "PEG 0.08"
 ]
 }
@@ -17114,6 +17535,10 @@
 ],
 "mcap_cr": 170121,
 "industry": "Specialty Chemicals",
+"eg": 0.927,
+"rg": 0.703,
+"roe": null,
+"de": 23.271,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -17254,6 +17679,10 @@
 ],
 "mcap_cr": 16399,
 "industry": "Travel Services",
+"eg": 0.323,
+"rg": 0.811,
+"roe": null,
+"de": 48.762,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -17410,6 +17839,10 @@
 ],
 "mcap_cr": 22659,
 "industry": "Software - Application",
+"eg": null,
+"rg": 0.414,
+"roe": -0.21533,
+"de": 7.15,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -17559,6 +17992,10 @@
 ],
 "mcap_cr": 14890,
 "industry": "Diagnostics & Research",
+"eg": 0.373,
+"rg": 0.228,
+"roe": null,
+"de": 44.15,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -17708,6 +18145,10 @@
 ],
 "mcap_cr": 33468,
 "industry": "Building Products & Equipment",
+"eg": 0.256,
+"rg": 0.21,
+"roe": 0.16178,
+"de": 22.339,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -17815,11 +18256,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 62.7,
-"ev": 38.4,
+"ev": 38.9,
 "pb": 9.59,
 "why": [
 "PE 62.7 vs sector median 62.6",
-"EV/EBITDA 38.4 vs sector 32.8",
+"EV/EBITDA 38.9 vs sector 32.8",
 "PEG 2.45"
 ]
 }
@@ -17872,6 +18313,10 @@
 ],
 "mcap_cr": 16999,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": -0.968,
+"rg": -0.231,
+"roe": null,
+"de": 9.928,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -18019,6 +18464,10 @@
 ],
 "mcap_cr": 35510,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.419,
+"rg": 0.228,
+"roe": null,
+"de": 30.567,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -18168,6 +18617,10 @@
 ],
 "mcap_cr": 118952,
 "industry": "Capital Markets",
+"eg": 0.857,
+"rg": 0.652,
+"roe": null,
+"de": 3.028,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -18317,6 +18770,10 @@
 ],
 "mcap_cr": 188600,
 "industry": "Airlines",
+"eg": null,
+"rg": 0.259,
+"roe": -0.6012,
+"de": 1738.69,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -18436,6 +18893,10 @@
 ],
 "mcap_cr": 304146,
 "industry": "Steel",
+"eg": 2.252,
+"rg": 0.207,
+"roe": 0.31928,
+"de": 61.529,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -18617,6 +19078,10 @@
 ],
 "mcap_cr": 104624,
 "industry": "Software - Infrastructure",
+"eg": 9.844,
+"rg": 0.285,
+"roe": 0.053439997,
+"de": 1.589,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -18773,6 +19238,10 @@
 ],
 "mcap_cr": 25664,
 "industry": "Auto Parts",
+"eg": 0.383,
+"rg": 0.333,
+"roe": null,
+"de": 19.023,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -18868,7 +19337,7 @@
 "pb": 8.29,
 "why": [
 "PE 79.2 vs sector median 33.5",
-"EV/EBITDA 37.3 vs sector 21.6",
+"EV/EBITDA 37.3 vs sector 20.6",
 "PEG 2.07"
 ]
 }
@@ -18910,8 +19379,9 @@
 "up": 40,
 "down": 30,
 "up_reasons": [
-"Beats Nifty by 6.0% over 3 months (price data)",
-"Price above 200-day average, long-term uptrend (price data)"
+"Results filed. Latest earnings growth +11%",
+"Results filed. Latest earnings growth +11%",
+"Results filed. Latest earnings growth +11%"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: SPR Auto Technologies Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
@@ -18920,9 +19390,37 @@
 ],
 "mcap_cr": 20288,
 "industry": "Auto Parts",
+"eg": 0.106,
+"rg": 0.647,
+"roe": 0.16858,
+"de": 31.449,
 "reasons": {
 "UPSIDE": {
 "items": [
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +11%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/SHRIPISTON_31102026222448_INVPRESSRELEASEQ2.pdf",
+"date": "31-Oct-202"
+},
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +11%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/SHRIPISTON_30102026181739_OUTCOMEOFBM30102026FINAL.pdf",
+"date": "30-Oct-202"
+},
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +11%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/SHRIPISTON_23102026235323_SEINTIMATIONSRUTINIZERSREPORTVOTINGRESULTS.pdf",
+"date": "23-Oct-202"
+},
 {
 "cat": "Relative strength",
 "dir": "UP",
@@ -18940,9 +19438,9 @@
 "date": ""
 }
 ],
-"count": 2,
-"cats": 2,
-"confidence": "LOW"
+"count": 5,
+"cats": 3,
+"confidence": "MEDIUM"
 },
 "DOWNSIDE": {
 "items": [
@@ -19003,12 +19501,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 33.3,
-"ev": 22.3,
-"pb": 6.64,
+"ev": 19.9,
+"pb": 4.72,
 "why": [
 "PE 33.3 vs sector median 33.5",
-"EV/EBITDA 22.3 vs sector 21.6",
-"PEG 4.16"
+"EV/EBITDA 19.9 vs sector 20.6",
+"PEG 3.14"
 ]
 }
 },
@@ -19060,6 +19558,10 @@
 ],
 "mcap_cr": 22948,
 "industry": "Specialty Industrial Machinery",
+"eg": 0.72,
+"rg": 0.721,
+"roe": 0.28465998,
+"de": 1.689,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -19208,6 +19710,10 @@
 ],
 "mcap_cr": 10338,
 "industry": "Furnishings, Fixtures & Appliances",
+"eg": -0.294,
+"rg": 0.121,
+"roe": null,
+"de": 8.621,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -19339,6 +19845,10 @@
 ],
 "mcap_cr": 28578,
 "industry": "Utilities - Renewable",
+"eg": 0.995,
+"rg": 0.896,
+"roe": 0.11504,
+"de": 330.058,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -19446,11 +19956,11 @@
 "valuation": {
 "verdict": "LOW",
 "pe": 35.0,
-"ev": 17.8,
+"ev": 17.9,
 "pb": 3.25,
 "why": [
 "PE 35.0 vs sector median 67.1",
-"EV/EBITDA 17.8 vs sector 23.3",
+"EV/EBITDA 17.9 vs sector 23.3",
 "PEG 0.35"
 ]
 }
@@ -19504,6 +20014,10 @@
 ],
 "mcap_cr": 65647,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.755,
+"rg": 0.213,
+"roe": 0.20596,
+"de": 11.898,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -19611,11 +20125,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 46.2,
-"ev": 25.7,
-"pb": 7.48,
+"ev": 26.9,
+"pb": 7.7,
 "why": [
 "PE 46.2 vs sector median 37.1",
-"EV/EBITDA 25.7 vs sector 25.7",
+"EV/EBITDA 26.9 vs sector 26.9",
 "PEG 0.61"
 ]
 }
@@ -19668,6 +20182,10 @@
 ],
 "mcap_cr": 23070,
 "industry": "Auto Parts",
+"eg": 1.532,
+"rg": 0.15,
+"roe": null,
+"de": 55.868,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -19771,7 +20289,7 @@
 "pb": 5.86,
 "why": [
 "PE 52.7 vs sector median 33.5",
-"EV/EBITDA 23.4 vs sector 21.6",
+"EV/EBITDA 23.4 vs sector 20.6",
 "PEG 0.34"
 ]
 }
@@ -19824,6 +20342,10 @@
 ],
 "mcap_cr": 15792,
 "industry": "Specialty Industrial Machinery",
+"eg": 0.213,
+"rg": 0.259,
+"roe": null,
+"de": 31.025,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -19996,6 +20518,10 @@
 ],
 "mcap_cr": 26863,
 "industry": "Auto Parts",
+"eg": 0.538,
+"rg": 0.471,
+"roe": 0.12347,
+"de": 70.635,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -20103,11 +20629,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 47.9,
-"ev": 20.9,
+"ev": 21.3,
 "pb": 4.87,
 "why": [
 "PE 47.9 vs sector median 33.5",
-"EV/EBITDA 20.9 vs sector 21.6",
+"EV/EBITDA 21.3 vs sector 20.6",
 "PEG 0.89"
 ]
 }
@@ -20160,6 +20686,10 @@
 ],
 "mcap_cr": 14155,
 "industry": "Engineering & Construction",
+"eg": 1.422,
+"rg": -0.058,
+"roe": null,
+"de": 0.534,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -20340,6 +20870,10 @@
 ],
 "mcap_cr": 17435,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.532,
+"rg": 0.443,
+"roe": null,
+"de": 0.314,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -20443,7 +20977,7 @@
 "pb": 2.87,
 "why": [
 "PE 21.8 vs sector median 37.1",
-"EV/EBITDA 21.3 vs sector 25.7",
+"EV/EBITDA 21.3 vs sector 26.9",
 "PEG 0.41"
 ]
 }
@@ -20491,10 +21025,14 @@
 "down_reasons": [
 "Trading Window: FORCE MOTORS LTD has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: FORCE MOTORS LTD has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
-"Trading Window: FORCE MOTORS LTD has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015"
+"Results filed. Latest earnings growth -16%"
 ],
 "mcap_cr": 22867,
 "industry": "Auto Manufacturers",
+"eg": -0.162,
+"rg": 0.405,
+"roe": 0.29333,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -20538,14 +21076,6 @@
 "date": "14-Oct-202"
 },
 {
-"cat": "Governance/regulatory",
-"dir": "DOWN",
-"text": "Trading Window: FORCE MOTORS LTD has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"src": "NSE corporate filing",
-"link": "https://nsearchives.nseindia.com/corporate/FORCEMOTORS_28092026165312_Intimation_of_Trading_Window_Closure_for_Sep_2026.pdf",
-"date": "28-Sep-202"
-},
-{
 "cat": "Results",
 "dir": "DOWN",
 "text": "Results filed. Latest earnings growth -16%",
@@ -20586,7 +21116,7 @@
 "date": ""
 }
 ],
-"count": 8,
+"count": 7,
 "cats": 4,
 "confidence": "HIGH"
 }
@@ -20650,6 +21180,10 @@
 ],
 "mcap_cr": 28583,
 "industry": "Health Information Services",
+"eg": 0.279,
+"rg": 0.207,
+"roe": null,
+"de": 26.873,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -20789,6 +21323,10 @@
 ],
 "mcap_cr": 20595,
 "industry": "Specialty Industrial Machinery",
+"eg": -0.201,
+"rg": 0.24,
+"roe": null,
+"de": 42.609,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -20952,6 +21490,10 @@
 ],
 "mcap_cr": 25275,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 9.628,
+"rg": 1.192,
+"roe": null,
+"de": 16.072,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -21099,6 +21641,10 @@
 ],
 "mcap_cr": 27645,
 "industry": "Mortgage Finance",
+"eg": 0.058,
+"rg": 0.082,
+"roe": 0.12297,
+"de": 305.73,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -21246,6 +21792,10 @@
 ],
 "mcap_cr": 25560,
 "industry": "Information Technology Services",
+"eg": 0.767,
+"rg": 0.346,
+"roe": null,
+"de": 27.26,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -21394,6 +21944,10 @@
 ],
 "mcap_cr": 12201,
 "industry": "Metal Fabrication",
+"eg": null,
+"rg": 0.553,
+"roe": 0.05613,
+"de": 63.959,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -21422,22 +21976,6 @@
 "date": "27-Oct-202"
 },
 {
-"cat": "Results",
-"dir": "UP",
-"text": "Results filed. Latest earnings growth +289%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/RKFORGE_30102026162103_OutcomeWithFinRes30Oct2026.pdf",
-"date": "30-Oct-202"
-},
-{
-"cat": "Results",
-"dir": "UP",
-"text": "Results filed. Latest earnings growth +289%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/RKFORGE_27102026171928_Q2FY27EarningCallintimation.pdf",
-"date": "27-Oct-202"
-},
-{
 "cat": "Valuation",
 "dir": "UP",
 "text": "PE 63.7 vs sector median 90.1: low valuation",
@@ -21462,9 +22000,9 @@
 "date": ""
 }
 ],
-"count": 8,
-"cats": 5,
-"confidence": "HIGH"
+"count": 6,
+"cats": 4,
+"confidence": "MEDIUM"
 },
 "DOWNSIDE": {
 "items": [
@@ -21533,12 +22071,11 @@
 "valuation": {
 "verdict": "LOW",
 "pe": 63.7,
-"ev": 19.6,
+"ev": 16.6,
 "pb": 3.57,
 "why": [
 "PE 63.7 vs sector median 90.1",
-"EV/EBITDA 19.6 vs sector 20.7",
-"PEG 0.22"
+"EV/EBITDA 16.6 vs sector 20.7"
 ]
 }
 },
@@ -21590,6 +22127,10 @@
 ],
 "mcap_cr": 82968,
 "industry": "Building Materials",
+"eg": -0.151,
+"rg": 0.238,
+"roe": 0.06852,
+"de": 9.112,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -21769,6 +22310,10 @@
 ],
 "mcap_cr": 42397,
 "industry": "Communication Equipment",
+"eg": 116.0,
+"rg": 1.446,
+"roe": 0.2292,
+"de": 21.77,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -21917,6 +22462,10 @@
 ],
 "mcap_cr": 61749,
 "industry": "Steel",
+"eg": 0.132,
+"rg": 0.062,
+"roe": 0.24476999,
+"de": 9.947,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -22024,11 +22573,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 26.1,
-"ev": 22.1,
+"ev": 22.5,
 "pb": 5.81,
 "why": [
 "PE 26.1 vs sector median 23.5",
-"EV/EBITDA 22.1 vs sector 10.7",
+"EV/EBITDA 22.5 vs sector 10.7",
 "PEG 1.98"
 ]
 }
@@ -22081,6 +22630,10 @@
 ],
 "mcap_cr": 30895,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": null,
+"rg": 0.259,
+"roe": null,
+"de": 42.284,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -22236,6 +22789,10 @@
 ],
 "mcap_cr": 12898,
 "industry": "Software - Infrastructure",
+"eg": 0.771,
+"rg": 0.2,
+"roe": null,
+"de": 13.131,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -22370,6 +22927,10 @@
 ],
 "mcap_cr": 110402,
 "industry": "Utilities - Regulated Gas",
+"eg": 1.393,
+"rg": 0.326,
+"roe": 0.13597,
+"de": 24.939,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -22441,7 +23002,7 @@
 "pb": 1.14,
 "why": [
 "PE 8.7 vs sector median 17.0",
-"EV/EBITDA 7.3 vs sector 8.3",
+"EV/EBITDA 7.3 vs sector 11.3",
 "PEG 0.06"
 ]
 }
@@ -22495,6 +23056,10 @@
 ],
 "mcap_cr": 202225,
 "industry": "Building Materials",
+"eg": 0.513,
+"rg": 0.214,
+"roe": null,
+"de": 135.044,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -22637,6 +23202,10 @@
 ],
 "mcap_cr": 125522,
 "industry": "Information Technology Services",
+"eg": -0.003,
+"rg": 0.136,
+"roe": 0.21041,
+"de": 9.186,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -22786,6 +23355,10 @@
 ],
 "mcap_cr": 324794,
 "industry": "Building Materials",
+"eg": 0.213,
+"rg": 0.188,
+"roe": 0.114980005,
+"de": 37.694,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -22934,6 +23507,10 @@
 ],
 "mcap_cr": 14150,
 "industry": "Software - Application",
+"eg": 0.129,
+"rg": 0.239,
+"roe": null,
+"de": 89.594,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -23090,6 +23667,10 @@
 ],
 "mcap_cr": 22153,
 "industry": "Credit Services",
+"eg": 0.775,
+"rg": 0.582,
+"roe": 0.17907,
+"de": 383.398,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -23253,6 +23834,10 @@
 ],
 "mcap_cr": 13465,
 "industry": "Steel",
+"eg": -0.307,
+"rg": 0.131,
+"roe": 0.123100005,
+"de": 16.979,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -23416,6 +24001,10 @@
 ],
 "mcap_cr": 42255,
 "industry": "Drug Manufacturers - General",
+"eg": 0.157,
+"rg": 0.166,
+"roe": null,
+"de": 1.467,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -23556,6 +24145,10 @@
 ],
 "mcap_cr": 14181,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.284,
+"rg": 0.266,
+"roe": null,
+"de": 6.295,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -23667,7 +24260,7 @@
 "pb": 2.42,
 "why": [
 "PE 66.5 vs sector median 37.1",
-"EV/EBITDA 38.4 vs sector 25.7",
+"EV/EBITDA 38.4 vs sector 26.9",
 "PEG 2.34"
 ]
 }
@@ -23719,6 +24312,10 @@
 ],
 "mcap_cr": 14414,
 "industry": "Household & Personal Products",
+"eg": 1.19,
+"rg": 0.27,
+"roe": null,
+"de": 9.586,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -23859,6 +24456,10 @@
 ],
 "mcap_cr": 99795,
 "industry": "Telecom Services",
+"eg": -0.024,
+"rg": 0.04,
+"roe": 0.18832001,
+"de": 55.704,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -23989,6 +24590,10 @@
 ],
 "mcap_cr": 73528,
 "industry": "Marine Shipping",
+"eg": -0.215,
+"rg": 0.17,
+"roe": 0.098780006,
+"de": 44.645,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -24144,6 +24749,10 @@
 ],
 "mcap_cr": 17430,
 "industry": "Building Products & Equipment",
+"eg": 0.439,
+"rg": 0.238,
+"roe": 0.19986,
+"de": 13.274,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -24325,6 +24934,10 @@
 ],
 "mcap_cr": 56797,
 "industry": "Capital Markets",
+"eg": 1.961,
+"rg": 0.675,
+"roe": 0.18935,
+"de": 172.269,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -24490,6 +25103,10 @@
 ],
 "mcap_cr": 175479,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": -0.195,
+"rg": 0.508,
+"roe": 0.15653,
+"de": 76.781,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -24663,6 +25280,10 @@
 ],
 "mcap_cr": 165038,
 "industry": "Utilities - Independent Power Producers",
+"eg": 1.48,
+"rg": 0.528,
+"roe": 0.13699001,
+"de": 169.745,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -24820,6 +25441,10 @@
 ],
 "mcap_cr": 284422,
 "industry": "Auto Manufacturers",
+"eg": 0.638,
+"rg": 0.574,
+"roe": 0.3556,
+"de": 69.647,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -24943,6 +25568,10 @@
 ],
 "mcap_cr": 54231,
 "industry": "Specialty Chemicals",
+"eg": 0.285,
+"rg": 0.12,
+"roe": null,
+"de": 9.165,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -25074,6 +25703,10 @@
 ],
 "mcap_cr": 25374,
 "industry": "Credit Services",
+"eg": 0.393,
+"rg": 0.139,
+"roe": null,
+"de": 623.156,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -25205,6 +25838,10 @@
 ],
 "mcap_cr": 198205,
 "industry": "Auto Manufacturers",
+"eg": 0.213,
+"rg": 0.315,
+"roe": null,
+"de": 2.048,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -25329,6 +25966,10 @@
 ],
 "mcap_cr": 99095,
 "industry": "Asset Management",
+"eg": 0.042,
+"rg": 0.105,
+"roe": 0.36407003,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -25439,6 +26080,10 @@
 ],
 "mcap_cr": null,
 "industry": "Oil & Gas Refining & Marketing",
+"eg": 1.736,
+"rg": 0.422,
+"roe": 0.22622,
+"de": 58.206,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -25595,6 +26240,10 @@
 ],
 "mcap_cr": 73848,
 "industry": "Oil & Gas Integrated",
+"eg": 0.914,
+"rg": 0.577,
+"roe": null,
+"de": 58.741,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -25727,6 +26376,10 @@
 ],
 "mcap_cr": 887861,
 "industry": "Banks - Regional",
+"eg": 0.099,
+"rg": 0.103,
+"roe": 0.15177,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -25867,6 +26520,10 @@
 ],
 "mcap_cr": 47763,
 "industry": "Telecom Services",
+"eg": 0.86,
+"rg": 0.096,
+"roe": 0.3376,
+"de": 371.497,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -26016,6 +26673,10 @@
 ],
 "mcap_cr": 101154,
 "industry": "Financial Conglomerates",
+"eg": 0.435,
+"rg": 0.366,
+"roe": 0.11417,
+"de": 423.606,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -26164,6 +26825,10 @@
 ],
 "mcap_cr": 91715,
 "industry": "Utilities - Independent Power Producers",
+"eg": 0.391,
+"rg": 0.23,
+"roe": 0.07776,
+"de": 207.431,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -26314,6 +26979,10 @@
 ],
 "mcap_cr": 306657,
 "industry": "Utilities - Regulated Electric",
+"eg": 0.386,
+"rg": 0.212,
+"roe": 0.14458,
+"de": 126.0,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -26344,7 +27013,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +12%",
+"text": "Results filed. Latest earnings growth +39%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/9425178051_31102026144738_QFRQ2FY27_Final.pdf",
 "date": "31-Oct-202"
@@ -26413,12 +27082,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 11.0,
-"ev": 9.8,
+"ev": 9.0,
 "pb": 1.51,
 "why": [
 "PE 11.0 vs sector median 10.8",
-"EV/EBITDA 9.8 vs sector 9.8",
-"PEG 0.94"
+"EV/EBITDA 9.0 vs sector 9.4",
+"PEG 0.29"
 ]
 }
 },
@@ -26459,7 +27128,7 @@
 "up": 30,
 "down": 50,
 "up_reasons": [
-"Results filed. Latest earnings growth +110%",
+"Results filed. Latest earnings growth +388%",
 "PE 29.7 vs sector median 55.4: low valuation",
 "Delivery buying rising, average 56% (NSE bhavcopy)"
 ],
@@ -26470,13 +27139,17 @@
 ],
 "mcap_cr": 31209,
 "industry": "Insurance - Life",
+"eg": 3.88,
+"rg": 55.72,
+"roe": 0.09466,
+"de": 0.725,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +110%",
+"text": "Results filed. Latest earnings growth +388%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/STARHEALTH_27102026205846_1BMOutcome.pdf",
 "date": "27-Oct-202"
@@ -26577,11 +27250,12 @@
 "valuation": {
 "verdict": "LOW",
 "pe": 29.7,
-"ev": null,
-"pb": 4.13,
+"ev": 25.2,
+"pb": 2.99,
 "why": [
 "PE 29.7 vs sector median 55.4",
-"PEG 0.27"
+"EV/EBITDA 25.2 vs sector 47.0",
+"PEG 0.08"
 ]
 }
 },
@@ -26633,6 +27307,10 @@
 ],
 "mcap_cr": 11841,
 "industry": "Farm & Heavy Construction Machinery",
+"eg": 0.223,
+"rg": 0.205,
+"roe": null,
+"de": 0.393,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -26782,6 +27460,10 @@
 ],
 "mcap_cr": 134965,
 "industry": "Specialty Industrial Machinery",
+"eg": 1.185,
+"rg": 0.238,
+"roe": 0.11255,
+"de": 22.496,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -26930,6 +27612,10 @@
 ],
 "mcap_cr": 17677,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.159,
+"rg": 0.196,
+"roe": null,
+"de": 0.127,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -27089,10 +27775,14 @@
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Carborundum Universal Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
 "Trading Window: Carborundum Universal Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"Conglomerates sector median 3M return is -8.0% vs Nifty (price data)"
+"PE 93.2 vs sector median 70.2: high valuation"
 ],
 "mcap_cr": 19628,
-"industry": "Conglomerates",
+"industry": "Tools & Accessories",
+"eg": 0.235,
+"rg": 0.194,
+"roe": null,
+"de": 10.292,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -27136,17 +27826,9 @@
 "date": "25-Sep-202"
 },
 {
-"cat": "Sector demand",
-"dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
-"src": "Yahoo Finance prices",
-"link": "",
-"date": ""
-},
-{
 "cat": "Valuation",
 "dir": "DOWN",
-"text": "PE 93.2 vs sector median 31.9: high valuation",
+"text": "PE 93.2 vs sector median 70.2: high valuation",
 "src": "Yahoo Finance",
 "link": "",
 "date": ""
@@ -27176,9 +27858,9 @@
 "date": ""
 }
 ],
-"count": 7,
-"cats": 5,
-"confidence": "HIGH"
+"count": 6,
+"cats": 4,
+"confidence": "MEDIUM"
 }
 },
 "valuation": {
@@ -27187,8 +27869,8 @@
 "ev": 32.5,
 "pb": 5.03,
 "why": [
-"PE 93.2 vs sector median 31.9",
-"EV/EBITDA 32.5 vs sector 21.1",
+"PE 93.2 vs sector median 70.2",
+"EV/EBITDA 32.5 vs sector 31.1",
 "PEG 3.96"
 ]
 }
@@ -27240,6 +27922,10 @@
 ],
 "mcap_cr": 46666,
 "industry": "Specialty Chemicals",
+"eg": 0.204,
+"rg": 0.24,
+"roe": null,
+"de": 28.94,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -27390,6 +28076,10 @@
 ],
 "mcap_cr": 114011,
 "industry": "Insurance - Life",
+"eg": 0.125,
+"rg": 0.185,
+"roe": 0.11256,
+"de": 15.919,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -27469,7 +28159,7 @@
 "pb": 6.01,
 "why": [
 "PE 55.4 vs sector median 55.4",
-"EV/EBITDA 47.0 vs sector 50.7",
+"EV/EBITDA 47.0 vs sector 47.0",
 "PEG 4.43"
 ]
 }
@@ -27515,11 +28205,15 @@
 ],
 "down_reasons": [
 "Trading Window: Indraprastha Gas Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"Results filed. Latest earnings growth -44%",
-"Results filed. Latest earnings growth -44%"
+"Results filed. Latest earnings growth -94%",
+"Results filed. Latest earnings growth -94%"
 ],
 "mcap_cr": 19487,
 "industry": "Utilities - Regulated Gas",
+"eg": -0.942,
+"rg": 0.429,
+"roe": 0.086969994,
+"de": 0.803,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -27549,7 +28243,7 @@
 {
 "cat": "Results",
 "dir": "DOWN",
-"text": "Results filed. Latest earnings growth -44%",
+"text": "Results filed. Latest earnings growth -94%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/IGL1_30102026194508_IGLUFRSep2026.pdf",
 "date": "30-Oct-202"
@@ -27557,7 +28251,7 @@
 {
 "cat": "Results",
 "dir": "DOWN",
-"text": "Results filed. Latest earnings growth -44%",
+"text": "Results filed. Latest earnings growth -94%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/IGL1_28102026161502_IGLIntimationEarningCall02112026.pdf",
 "date": "28-Oct-202"
@@ -27565,7 +28259,7 @@
 {
 "cat": "Results",
 "dir": "DOWN",
-"text": "Results filed. Latest earnings growth -44%",
+"text": "Results filed. Latest earnings growth -94%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/IGL1_25092026172504_IGL_Scrutnizer_report_AGM.PDF",
 "date": "25-Sep-202"
@@ -27603,11 +28297,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 19.5,
-"ev": 9.3,
+"ev": 15.3,
 "pb": 1.69,
 "why": [
 "PE 19.5 vs sector median 17.0",
-"EV/EBITDA 9.3 vs sector 8.3"
+"EV/EBITDA 15.3 vs sector 11.3"
 ]
 }
 },
@@ -27657,6 +28351,10 @@
 ],
 "mcap_cr": 16913,
 "industry": "Specialty Industrial Machinery",
+"eg": -0.049,
+"rg": 0.092,
+"roe": null,
+"de": 7.251,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -27797,6 +28495,10 @@
 ],
 "mcap_cr": 77087,
 "industry": "Internet Content & Information",
+"eg": 0.514,
+"rg": 0.122,
+"roe": 0.04445,
+"de": 0.495,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -27959,6 +28661,10 @@
 ],
 "mcap_cr": 22436,
 "industry": "Entertainment",
+"eg": null,
+"rg": 0.238,
+"roe": null,
+"de": 224.567,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -28083,6 +28789,10 @@
 ],
 "mcap_cr": 54757,
 "industry": "Beverages - Wineries & Distilleries",
+"eg": 0.663,
+"rg": 0.168,
+"roe": 0.23958999,
+"de": 10.744,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -28221,6 +28931,10 @@
 ],
 "mcap_cr": 54504,
 "industry": "Banks - Regional",
+"eg": 0.026,
+"rg": 0.231,
+"roe": 0.04045,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -28368,6 +29082,10 @@
 ],
 "mcap_cr": 19699,
 "industry": "Health Information Services",
+"eg": 0.151,
+"rg": 0.225,
+"roe": 0.10735,
+"de": 8.819,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -28549,6 +29267,10 @@
 ],
 "mcap_cr": 60487,
 "industry": "Banks - Regional",
+"eg": 0.284,
+"rg": 0.174,
+"roe": 0.1407,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -28708,6 +29430,10 @@
 ],
 "mcap_cr": 8076,
 "industry": "Footwear & Accessories",
+"eg": 0.23,
+"rg": 0.039,
+"roe": null,
+"de": 86.9,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -28819,6 +29545,10 @@
 ],
 "mcap_cr": 14612,
 "industry": "Utilities - Renewable",
+"eg": null,
+"rg": 1.092,
+"roe": null,
+"de": 231.875,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -28933,6 +29663,10 @@
 ],
 "mcap_cr": 9419,
 "industry": "Specialty Industrial Machinery",
+"eg": 0.097,
+"rg": 0.105,
+"roe": 0.10295,
+"de": 14.401,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -29105,6 +29839,10 @@
 ],
 "mcap_cr": 103424,
 "industry": "Auto Manufacturers",
+"eg": 0.422,
+"rg": 0.225,
+"roe": 0.26927,
+"de": 6.007,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -29236,6 +29974,10 @@
 ],
 "mcap_cr": 72463,
 "industry": "Oil & Gas Refining & Marketing",
+"eg": -0.061,
+"rg": 0.334,
+"roe": 0.02623,
+"de": 140.204,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -29363,8 +30105,12 @@
 "Trading Window: Kfin Technologies Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
 "Price below 50-day average (price data)"
 ],
-"mcap_cr": 14710,
+"mcap_cr": 14713,
 "industry": "Software - Application",
+"eg": 0.074,
+"rg": 0.299,
+"roe": 0.22589001,
+"de": 4.632,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -29470,6 +30216,7 @@
 "up": 25,
 "down": 55,
 "up_reasons": [
+"Results filed. Latest earnings growth +36%",
 "Delivery buying rising, average 54% (NSE bhavcopy)",
 "RSI 51 in healthy uptrend zone (price data)"
 ],
@@ -29480,9 +30227,21 @@
 ],
 "mcap_cr": 23304,
 "industry": "Auto Parts",
+"eg": 0.36,
+"rg": 0.472,
+"roe": 0.34418,
+"de": 13.838,
 "reasons": {
 "UPSIDE": {
 "items": [
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +36%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/MSWIL_30102026164959_Results.pdf",
+"date": "30-Oct-202"
+},
 {
 "cat": "Delivery",
 "dir": "UP",
@@ -29500,8 +30259,8 @@
 "date": ""
 }
 ],
-"count": 2,
-"cats": 2,
+"count": 3,
+"cats": 3,
 "confidence": "LOW"
 },
 "DOWNSIDE": {
@@ -29563,11 +30322,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 33.8,
-"ev": 24.8,
-"pb": 10.78,
+"ev": 22.2,
+"pb": 10.79,
 "why": [
 "PE 33.8 vs sector median 33.5",
-"EV/EBITDA 24.8 vs sector 21.6"
+"EV/EBITDA 22.2 vs sector 20.6",
+"PEG 0.94"
 ]
 }
 },
@@ -29620,6 +30380,10 @@
 ],
 "mcap_cr": 283547,
 "industry": "Oil & Gas Integrated",
+"eg": 0.214,
+"rg": 0.257,
+"roe": null,
+"de": 42.548,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -29743,6 +30507,10 @@
 ],
 "mcap_cr": 62598,
 "industry": "Real Estate - Diversified",
+"eg": -0.193,
+"rg": 0.159,
+"roe": 0.07752,
+"de": 105.493,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -29798,7 +30566,7 @@
 "pb": 3.85,
 "why": [
 "PE 54.9 vs sector median 54.3",
-"EV/EBITDA 23.9 vs sector 26.3"
+"EV/EBITDA 23.9 vs sector 26.0"
 ]
 }
 },
@@ -29850,6 +30618,10 @@
 ],
 "mcap_cr": 12645,
 "industry": "Specialty Industrial Machinery",
+"eg": null,
+"rg": 3.84,
+"roe": null,
+"de": 11.693,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -30021,6 +30793,10 @@
 ],
 "mcap_cr": 12476,
 "industry": "Confectioners",
+"eg": -0.154,
+"rg": 0.061,
+"roe": null,
+"de": 76.606,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -30183,6 +30959,10 @@
 ],
 "mcap_cr": 20724,
 "industry": "Chemicals",
+"eg": 2.348,
+"rg": 0.618,
+"roe": 0.17601,
+"de": 27.026,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -30266,11 +31046,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 19.5,
-"ev": 12.7,
+"ev": 12.6,
 "pb": 3.2,
 "why": [
 "PE 19.5 vs sector median 19.5",
-"EV/EBITDA 12.7 vs sector 13.9",
+"EV/EBITDA 12.6 vs sector 13.8",
 "PEG 0.08"
 ]
 }
@@ -30321,6 +31101,10 @@
 ],
 "mcap_cr": 14845,
 "industry": "Restaurants",
+"eg": 3.0,
+"rg": 0.165,
+"roe": null,
+"de": 203.327,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -30447,6 +31231,10 @@
 ],
 "mcap_cr": 103622,
 "industry": "Real Estate - Development",
+"eg": 0.286,
+"rg": 0.176,
+"roe": 0.18639,
+"de": 41.126,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -30574,7 +31362,7 @@
 "pb": 4.1,
 "why": [
 "PE 23.9 vs sector median 25.2",
-"EV/EBITDA 17.6 vs sector 19.9",
+"EV/EBITDA 17.6 vs sector 20.2",
 "PEG 0.83"
 ]
 }
@@ -30626,6 +31414,10 @@
 ],
 "mcap_cr": 34114,
 "industry": "Medical Care Facilities",
+"eg": -0.002,
+"rg": 0.265,
+"roe": null,
+"de": 29.869,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -30777,6 +31569,10 @@
 ],
 "mcap_cr": 10357,
 "industry": "Utilities - Regulated Gas",
+"eg": -0.393,
+"rg": 0.139,
+"roe": null,
+"de": 3.461,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -30839,7 +31635,7 @@
 "pb": 1.61,
 "why": [
 "PE 14.5 vs sector median 17.0",
-"EV/EBITDA 7.2 vs sector 8.3"
+"EV/EBITDA 7.2 vs sector 11.3"
 ]
 }
 },
@@ -30891,6 +31687,10 @@
 ],
 "mcap_cr": 24805,
 "industry": "Computer Hardware",
+"eg": 3.241,
+"rg": 3.357,
+"roe": 0.27276,
+"de": 15.817,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -31047,6 +31847,10 @@
 ],
 "mcap_cr": 25829,
 "industry": "Capital Markets",
+"eg": 0.572,
+"rg": 0.154,
+"roe": 0.18416001,
+"de": 113.707,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -31203,6 +32007,10 @@
 ],
 "mcap_cr": 378983,
 "industry": "Banks - Regional",
+"eg": 0.39,
+"rg": 0.211,
+"roe": 0.13885,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -31340,6 +32148,10 @@
 ],
 "mcap_cr": 40067,
 "industry": "Auto Parts",
+"eg": 0.564,
+"rg": 0.252,
+"roe": null,
+"de": 37.524,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -31435,7 +32247,7 @@
 "pb": 3.66,
 "why": [
 "PE 28.5 vs sector median 33.5",
-"EV/EBITDA 15.1 vs sector 21.6",
+"EV/EBITDA 15.1 vs sector 20.6",
 "PEG 0.51"
 ]
 }
@@ -31489,6 +32301,10 @@
 ],
 "mcap_cr": 123604,
 "industry": "Oil & Gas Refining & Marketing",
+"eg": -0.215,
+"rg": 0.421,
+"roe": 0.16174999,
+"de": 62.165,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -31633,8 +32449,8 @@
 "up": 0,
 "down": 40,
 "up_reasons": [
-"Results filed. Latest earnings growth +15%",
-"Results filed. Latest earnings growth +15%"
+"Results filed. Latest earnings growth +24%",
+"Results filed. Latest earnings growth +24%"
 ],
 "down_reasons": [
 "General Updates: CDSL has informed the Exchange about Disclosure under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (SEBI Listing Regulations).",
@@ -31643,13 +32459,17 @@
 ],
 "mcap_cr": 26397,
 "industry": "Capital Markets",
+"eg": 0.24,
+"rg": 0.222,
+"roe": 0.26432,
+"de": 0.083,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +15%",
+"text": "Results filed. Latest earnings growth +24%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/CDSL_31102026142410_Press_release_Signed.pdf",
 "date": "31-Oct-202"
@@ -31657,7 +32477,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +15%",
+"text": "Results filed. Latest earnings growth +24%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf",
 "date": "31-Oct-202"
@@ -31742,12 +32562,12 @@
 "valuation": {
 "verdict": "HIGH",
 "pe": 56.0,
-"ev": 38.3,
-"pb": 13.47,
+"ev": 35.6,
+"pb": 13.31,
 "why": [
 "PE 56.0 vs sector median 22.1",
-"EV/EBITDA 38.3 vs sector 24.5",
-"PEG 3.81"
+"EV/EBITDA 35.6 vs sector 23.1",
+"PEG 2.33"
 ]
 }
 },
@@ -31793,10 +32613,14 @@
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: General Insurance Corporation of India has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
 "Trading Window: General Insurance Corporation of India has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"Results filed. Latest earnings growth -31%"
+"Underperforming Nifty last month, -4.4% (price data)"
 ],
 "mcap_cr": 54536,
 "industry": "Insurance - Reinsurance",
+"eg": 0.032,
+"rg": 0.187,
+"roe": 0.093839996,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -31832,22 +32656,6 @@
 "date": "28-Sep-202"
 },
 {
-"cat": "Results",
-"dir": "DOWN",
-"text": "Results filed. Latest earnings growth -31%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/GICRE_30102026201103_signedOutcomeofBM30102026.pdf",
-"date": "30-Oct-202"
-},
-{
-"cat": "Results",
-"dir": "DOWN",
-"text": "Results filed. Latest earnings growth -31%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/GICRE_24092026222346_SE_intimation_VR_Reg_44_54th_AGM_and_Scrutinizer_Report.pdf",
-"date": "24-Sep-202"
-},
-{
 "cat": "Relative strength",
 "dir": "DOWN",
 "text": "Underperforming Nifty last month, -4.4% (price data)",
@@ -31880,18 +32688,20 @@
 "date": ""
 }
 ],
-"count": 8,
-"cats": 4,
-"confidence": "HIGH"
+"count": 6,
+"cats": 3,
+"confidence": "MEDIUM"
 }
 },
 "valuation": {
 "verdict": "OK",
 "pe": 6.1,
-"ev": null,
-"pb": 0.59,
+"ev": 2.3,
+"pb": 0.54,
 "why": [
-"PE 6.1 vs sector median 6.1"
+"PE 6.1 vs sector median 6.1",
+"EV/EBITDA 2.3 vs sector 2.3",
+"PEG 1.92"
 ]
 }
 },
@@ -31939,6 +32749,10 @@
 ],
 "mcap_cr": 23061,
 "industry": "Household & Personal Products",
+"eg": 0.094,
+"rg": 0.108,
+"roe": null,
+"de": 0.002,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -32072,6 +32886,10 @@
 ],
 "mcap_cr": 1069149,
 "industry": "Banks - Regional",
+"eg": 0.213,
+"rg": 0.808,
+"roe": 0.11005,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -32251,6 +33069,10 @@
 ],
 "mcap_cr": 197849,
 "industry": "Aluminum",
+"eg": 0.751,
+"rg": 0.321,
+"roe": null,
+"de": 72.598,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -32385,6 +33207,10 @@
 ],
 "mcap_cr": 213717,
 "industry": "Other Industrial Metals & Mining",
+"eg": 1.421,
+"rg": 0.761,
+"roe": 0.95413,
+"de": 22.209,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -32549,6 +33375,10 @@
 ],
 "mcap_cr": 55534,
 "industry": "Steel",
+"eg": 0.108,
+"rg": 0.182,
+"roe": 0.16900998,
+"de": 35.926,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -32720,6 +33550,10 @@
 ],
 "mcap_cr": 15623,
 "industry": "Building Materials",
+"eg": -0.1,
+"rg": 0.31,
+"roe": 0.11292,
+"de": 71.17,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -32867,6 +33701,10 @@
 ],
 "mcap_cr": null,
 "industry": "Restaurants",
+"eg": 0.06,
+"rg": 0.137,
+"roe": null,
+"de": 205.318,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -33007,6 +33845,10 @@
 ],
 "mcap_cr": 14435,
 "industry": "Software - Application",
+"eg": -0.288,
+"rg": 0.065,
+"roe": 0.15335,
+"de": 20.694,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -33114,11 +33956,11 @@
 "valuation": {
 "verdict": "LOW",
 "pe": 27.2,
-"ev": 13.4,
+"ev": 13.1,
 "pb": 3.92,
 "why": [
 "PE 27.2 vs sector median 35.2",
-"EV/EBITDA 13.4 vs sector 24.1"
+"EV/EBITDA 13.1 vs sector 24.1"
 ]
 }
 },
@@ -33168,6 +34010,10 @@
 ],
 "mcap_cr": 14885,
 "industry": "Auto Parts",
+"eg": 2.158,
+"rg": 0.332,
+"roe": null,
+"de": 55.351,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -33247,7 +34093,7 @@
 "pb": 5.64,
 "why": [
 "PE 30.2 vs sector median 33.5",
-"EV/EBITDA 22.7 vs sector 21.6",
+"EV/EBITDA 22.7 vs sector 20.6",
 "PEG 0.14"
 ]
 }
@@ -33289,8 +34135,8 @@
 "up": 25,
 "down": 65,
 "up_reasons": [
-"Results filed. Latest earnings growth +14%",
-"Results filed. Latest earnings growth +14%",
+"Results filed. Latest earnings growth +422%",
+"Results filed. Latest earnings growth +422%",
 "Outperforming Nifty last month, +6.0% (price data)"
 ],
 "down_reasons": [
@@ -33300,13 +34146,17 @@
 ],
 "mcap_cr": 15200,
 "industry": "Electronic Components",
+"eg": 4.222,
+"rg": 0.425,
+"roe": 0.07164,
+"de": 25.375,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +14%",
+"text": "Results filed. Latest earnings growth +422%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/PGEL_27102026192248_BSENSEOUTCOMEOFBM27102026.pdf",
 "date": "27-Oct-202"
@@ -33314,7 +34164,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +14%",
+"text": "Results filed. Latest earnings growth +422%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/PGEL_30092026192923_VotingResult29092026.pdf",
 "date": "30-Sep-202"
@@ -33407,12 +34257,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 70.4,
-"ev": 34.8,
-"pb": 4.96,
+"ev": 33.5,
+"pb": 4.9,
 "why": [
 "PE 70.4 vs sector median 70.4",
-"EV/EBITDA 34.8 vs sector 34.9",
-"PEG 5.14"
+"EV/EBITDA 33.5 vs sector 34.9",
+"PEG 0.17"
 ]
 }
 },
@@ -33464,6 +34314,10 @@
 ],
 "mcap_cr": 17697,
 "industry": "Software - Infrastructure",
+"eg": 4.5,
+"rg": 0.24,
+"roe": 0.03287,
+"de": 5.859,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -33630,6 +34484,10 @@
 ],
 "mcap_cr": null,
 "industry": "Oil & Gas Refining & Marketing",
+"eg": 0.407,
+"rg": 0.298,
+"roe": 0.08759,
+"de": 44.325,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -33729,11 +34587,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 19.2,
-"ev": 10.6,
+"ev": 10.7,
 "pb": 1.67,
 "why": [
 "PE 19.2 vs sector median 10.3",
-"EV/EBITDA 10.6 vs sector 6.4",
+"EV/EBITDA 10.7 vs sector 6.4",
 "PEG 0.47"
 ]
 }
@@ -33787,6 +34645,10 @@
 ],
 "mcap_cr": 393656,
 "industry": "Luxury Goods",
+"eg": 0.628,
+"rg": 0.293,
+"roe": null,
+"de": 195.001,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -33933,6 +34795,10 @@
 ],
 "mcap_cr": 54473,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.171,
+"rg": 0.043,
+"roe": null,
+"de": 3.602,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -34043,6 +34909,10 @@
 ],
 "mcap_cr": 364481,
 "industry": "Utilities - Independent Power Producers",
+"eg": 1.346,
+"rg": 0.445,
+"roe": 0.27018,
+"de": 80.458,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -34187,6 +35057,10 @@
 ],
 "mcap_cr": 13019,
 "industry": "Specialty Chemicals",
+"eg": -0.094,
+"rg": 0.348,
+"roe": null,
+"de": 41.317,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -34317,6 +35191,10 @@
 ],
 "mcap_cr": 102931,
 "industry": "Specialty Industrial Machinery",
+"eg": 0.439,
+"rg": 0.318,
+"roe": 0.53408,
+"de": 0.835,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -34416,11 +35294,11 @@
 "valuation": {
 "verdict": "HIGH",
 "pe": 78.5,
-"ev": 49.3,
+"ev": 50.7,
 "pb": 31.26,
 "why": [
 "PE 78.5 vs sector median 50.0",
-"EV/EBITDA 49.3 vs sector 36.5",
+"EV/EBITDA 50.7 vs sector 36.5",
 "PEG 1.79"
 ]
 }
@@ -34472,6 +35350,10 @@
 ],
 "mcap_cr": 11210,
 "industry": "Mortgage Finance",
+"eg": 0.287,
+"rg": 0.258,
+"roe": 0.14279,
+"de": 262.697,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -34623,6 +35505,10 @@
 ],
 "mcap_cr": 86363,
 "industry": "Banks - Regional",
+"eg": -0.313,
+"rg": -0.074,
+"roe": 0.11817,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -34777,6 +35663,10 @@
 ],
 "mcap_cr": 91961,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": 0.16,
+"rg": 0.32,
+"roe": null,
+"de": 29.388,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -34939,6 +35829,10 @@
 ],
 "mcap_cr": 14287,
 "industry": "Aerospace & Defense",
+"eg": -0.279,
+"rg": -0.105,
+"roe": null,
+"de": 0.95,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -34972,6 +35866,14 @@
 "src": "NSE corporate filing",
 "link": "https://nsearchives.nseindia.com/corporate/ZENTEC_24092026150650_Intimation_-_Trading_Window_Closure.pdf",
 "date": "24-Sep-202"
+},
+{
+"cat": "Results",
+"dir": "DOWN",
+"text": "Results filed. Latest earnings growth -28%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/ZENTEC_01112026184856_SEPR30092026.pdf",
+"date": "01-Nov-202"
 },
 {
 "cat": "Results",
@@ -35022,7 +35924,7 @@
 "date": ""
 }
 ],
-"count": 8,
+"count": 9,
 "cats": 6,
 "confidence": "HIGH"
 }
@@ -35031,7 +35933,7 @@
 "verdict": "HIGH",
 "pe": 79.3,
 "ev": 62.9,
-"pb": 7.56,
+"pb": 7.59,
 "why": [
 "PE 79.3 vs sector median 42.7",
 "EV/EBITDA 62.9 vs sector 35.8"
@@ -35084,6 +35986,10 @@
 ],
 "mcap_cr": 16070,
 "industry": "Capital Markets",
+"eg": 0.154,
+"rg": 0.344,
+"roe": null,
+"de": 49.768,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -35231,6 +36137,10 @@
 ],
 "mcap_cr": 30556,
 "industry": "Information Technology Services",
+"eg": 0.17,
+"rg": 0.129,
+"roe": 0.20788,
+"de": 9.045,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -35411,6 +36321,10 @@
 ],
 "mcap_cr": 108027,
 "industry": "Steel",
+"eg": 0.212,
+"rg": 0.427,
+"roe": 0.054640003,
+"de": 41.616,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -35558,6 +36472,10 @@
 ],
 "mcap_cr": 36977,
 "industry": "Building Materials",
+"eg": 0.077,
+"rg": 0.237,
+"roe": 0.13616,
+"de": 101.329,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -35707,6 +36625,10 @@
 ],
 "mcap_cr": 87058,
 "industry": "Software - Infrastructure",
+"eg": 0.285,
+"rg": 0.066,
+"roe": 0.47409,
+"de": 0.468,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -35879,6 +36801,10 @@
 ],
 "mcap_cr": 23251,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.554,
+"rg": 0.518,
+"roe": 0.24992001,
+"de": 18.999,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -36002,11 +36928,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 34.6,
-"ev": 22.9,
+"ev": 23.4,
 "pb": 7.65,
 "why": [
 "PE 34.6 vs sector median 37.1",
-"EV/EBITDA 22.9 vs sector 25.7",
+"EV/EBITDA 23.4 vs sector 26.9",
 "PEG 0.62"
 ]
 }
@@ -36048,9 +36974,9 @@
 "up": 0,
 "down": 55,
 "up_reasons": [
-"Results filed. Latest earnings growth +258%",
-"Results filed. Latest earnings growth +258%",
-"Results filed. Latest earnings growth +258%"
+"Results filed. Latest earnings growth +60%",
+"Results filed. Latest earnings growth +60%",
+"Results filed. Latest earnings growth +60%"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Aarti Industries Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
@@ -36059,13 +36985,17 @@
 ],
 "mcap_cr": 15806,
 "industry": "Specialty Chemicals",
+"eg": 0.598,
+"rg": 0.75,
+"roe": 0.099029996,
+"de": 82.777,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +258%",
+"text": "Results filed. Latest earnings growth +60%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/AARTIIND_31102026120815_AARTIIND_Newspaper.pdf",
 "date": "31-Oct-202"
@@ -36073,7 +37003,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +258%",
+"text": "Results filed. Latest earnings growth +60%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/AARTIIND_30102026190215_AARTIIND_Results.pdf",
 "date": "30-Oct-202"
@@ -36081,7 +37011,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +258%",
+"text": "Results filed. Latest earnings growth +60%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/AARTIIND_22092026193703_AARTIIND_Voting.pdf",
 "date": "22-Sep-202"
@@ -36166,12 +37096,12 @@
 "valuation": {
 "verdict": "LOW",
 "pe": 26.7,
-"ev": 15.6,
-"pb": 2.65,
+"ev": 14.7,
+"pb": 2.51,
 "why": [
 "PE 26.7 vs sector median 45.3",
-"EV/EBITDA 15.6 vs sector 30.8",
-"PEG 0.10"
+"EV/EBITDA 14.7 vs sector 30.8",
+"PEG 0.45"
 ]
 }
 },
@@ -36221,6 +37151,10 @@
 ],
 "mcap_cr": 41795,
 "industry": "Capital Markets",
+"eg": 0.175,
+"rg": 0.141,
+"roe": null,
+"de": 24.59,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -36368,6 +37302,10 @@
 ],
 "mcap_cr": 61140,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": -0.217,
+"rg": 0.109,
+"roe": null,
+"de": 14.267,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -36520,6 +37458,10 @@
 ],
 "mcap_cr": null,
 "industry": "Farm & Heavy Construction Machinery",
+"eg": 0.01,
+"rg": 0.116,
+"roe": null,
+"de": 344.737,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -36648,6 +37590,10 @@
 ],
 "mcap_cr": 36050,
 "industry": "Building Products & Equipment",
+"eg": 0.48,
+"rg": 0.159,
+"roe": null,
+"de": 6.168,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -36772,6 +37718,10 @@
 ],
 "mcap_cr": 113709,
 "industry": "Asset Management",
+"eg": -0.224,
+"rg": 0.242,
+"roe": 0.11598,
+"de": 0.012,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -36921,6 +37871,10 @@
 ],
 "mcap_cr": 270389,
 "industry": "Aerospace & Defense",
+"eg": 0.199,
+"rg": 0.265,
+"roe": 0.26748,
+"de": 0.324,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -37036,11 +37990,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 42.3,
-"ev": 30.4,
+"ev": 30.6,
 "pb": 10.28,
 "why": [
 "PE 42.3 vs sector median 42.7",
-"EV/EBITDA 30.4 vs sector 35.8",
+"EV/EBITDA 30.6 vs sector 35.8",
 "PEG 2.12"
 ]
 }
@@ -37091,6 +38045,10 @@
 ],
 "mcap_cr": 21867,
 "industry": "Unknown",
+"eg": null,
+"rg": null,
+"roe": null,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -37203,6 +38161,10 @@
 ],
 "mcap_cr": 17192,
 "industry": "Real Estate - Development",
+"eg": 0.191,
+"rg": -0.135,
+"roe": 0.11078,
+"de": 82.897,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -37294,11 +38256,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 23.7,
-"ev": 13.9,
+"ev": 14.1,
 "pb": 2.4,
 "why": [
 "PE 23.7 vs sector median 25.2",
-"EV/EBITDA 13.9 vs sector 19.9",
+"EV/EBITDA 14.1 vs sector 20.2",
 "PEG 1.24"
 ]
 }
@@ -37353,6 +38315,10 @@
 ],
 "mcap_cr": 106616,
 "industry": "Banks - Regional",
+"eg": 0.108,
+"rg": -0.13,
+"roe": 0.1512,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -37514,6 +38480,10 @@
 ],
 "mcap_cr": 12445,
 "industry": "Auto Parts",
+"eg": -0.396,
+"rg": 0.262,
+"roe": 0.10792,
+"de": 81.807,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -37601,7 +38571,7 @@
 "pb": 2.51,
 "why": [
 "PE 24.1 vs sector median 33.5",
-"EV/EBITDA 8.9 vs sector 21.6"
+"EV/EBITDA 8.9 vs sector 20.6"
 ]
 }
 },
@@ -37653,6 +38623,10 @@
 ],
 "mcap_cr": 26005,
 "industry": "Banks - Regional",
+"eg": 0.206,
+"rg": 0.11,
+"roe": 0.1201,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -37834,6 +38808,10 @@
 ],
 "mcap_cr": 126668,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.434,
+"rg": 0.301,
+"roe": 0.16371,
+"de": 1.885,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -37953,7 +38931,7 @@
 "pb": 14.47,
 "why": [
 "PE 92.2 vs sector median 37.1",
-"EV/EBITDA 70.9 vs sector 25.7",
+"EV/EBITDA 70.9 vs sector 26.9",
 "PEG 2.12"
 ]
 }
@@ -38007,6 +38985,10 @@
 ],
 "mcap_cr": 136035,
 "industry": "Credit Services",
+"eg": 0.386,
+"rg": 0.32,
+"roe": 0.20577,
+"de": 671.801,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -38160,6 +39142,10 @@
 ],
 "mcap_cr": 7606,
 "industry": "Specialty Chemicals",
+"eg": 0.006,
+"rg": 0.247,
+"roe": 0.14706999,
+"de": 0.128,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -38251,12 +39237,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 32.7,
-"ev": 20.6,
-"pb": 4.8,
+"ev": 19.9,
+"pb": 4.55,
 "why": [
 "PE 32.7 vs sector median 45.3",
-"EV/EBITDA 20.6 vs sector 30.8",
-"PEG 6.95"
+"EV/EBITDA 19.9 vs sector 30.8",
+"PEG 54.43"
 ]
 }
 },
@@ -38310,6 +39296,10 @@
 ],
 "mcap_cr": 239730,
 "industry": "Thermal Coal",
+"eg": 0.495,
+"rg": 0.642,
+"roe": 0.28326,
+"de": 12.018,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -38364,7 +39354,7 @@
 {
 "cat": "Valuation",
 "dir": "UP",
-"text": "PE 7.2 vs sector median 10.4: low valuation",
+"text": "PE 7.2 vs sector median 13.7: low valuation",
 "src": "Yahoo Finance",
 "link": "",
 "date": ""
@@ -38444,8 +39434,8 @@
 "ev": 4.4,
 "pb": 1.88,
 "why": [
-"PE 7.2 vs sector median 10.4",
-"EV/EBITDA 4.4 vs sector 12.8",
+"PE 7.2 vs sector median 13.7",
+"EV/EBITDA 4.4 vs sector 21.2",
 "PEG 0.15"
 ]
 }
@@ -38498,6 +39488,10 @@
 ],
 "mcap_cr": 13031,
 "industry": "Biotechnology",
+"eg": 0.103,
+"rg": 0.251,
+"roe": 0.14332,
+"de": 0.084,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -38658,6 +39652,10 @@
 ],
 "mcap_cr": 35064,
 "industry": "Unknown",
+"eg": null,
+"rg": null,
+"roe": null,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -38770,6 +39768,10 @@
 ],
 "mcap_cr": 57992,
 "industry": "Medical Care Facilities",
+"eg": 0.023,
+"rg": 0.175,
+"roe": null,
+"de": 34.15,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -38920,6 +39922,10 @@
 ],
 "mcap_cr": 438105,
 "industry": "Household & Personal Products",
+"eg": 0.039,
+"rg": 0.122,
+"roe": 0.21564,
+"de": 3.405,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -39066,6 +40072,10 @@
 ],
 "mcap_cr": 155277,
 "industry": "Auto Manufacturers",
+"eg": -0.239,
+"rg": 0.185,
+"roe": 0.24121,
+"de": 3.12,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -39218,6 +40228,10 @@
 ],
 "mcap_cr": 29476,
 "industry": "Medical Care Facilities",
+"eg": -0.469,
+"rg": 0.353,
+"roe": null,
+"de": 166.226,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -39355,7 +40369,9 @@
 "up": 0,
 "down": 55,
 "up_reasons": [
-"PE 4.7 vs sector median 11.9: low valuation"
+"Results filed. Latest earnings growth +12%",
+"Results filed. Latest earnings growth +12%",
+"Results filed. Latest earnings growth +12%"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: LIC Housing Finance Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018 submitting the confirmation certificate for quarter e",
@@ -39364,9 +40380,37 @@
 ],
 "mcap_cr": 27157,
 "industry": "Mortgage Finance",
+"eg": 0.117,
+"rg": 0.076,
+"roe": 0.14310999,
+"de": 626.752,
 "reasons": {
 "UPSIDE": {
 "items": [
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +12%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/LICHSGFIN_30102026215336_Press_Release_Combine.pdf",
+"date": "30-Oct-202"
+},
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +12%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/LICHSGFIN_30102026204024_Quick_Financial_Result_September_2026.pdf",
+"date": "30-Oct-202"
+},
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +12%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/LICHSGFIN_23102026182216_Binder1.pdf",
+"date": "23-Oct-202"
+},
 {
 "cat": "Valuation",
 "dir": "UP",
@@ -39376,8 +40420,8 @@
 "date": ""
 }
 ],
-"count": 1,
-"cats": 1,
+"count": 4,
+"cats": 2,
 "confidence": "LOW"
 },
 "DOWNSIDE": {
@@ -39456,10 +40500,10 @@
 "verdict": "LOW",
 "pe": 4.7,
 "ev": null,
-"pb": 0.66,
+"pb": 0.62,
 "why": [
 "PE 4.7 vs sector median 11.9",
-"PEG 0.48"
+"PEG 0.40"
 ]
 }
 },
@@ -39510,6 +40554,10 @@
 ],
 "mcap_cr": 484811,
 "industry": "Insurance - Life",
+"eg": 0.4,
+"rg": 0.068,
+"roe": null,
+"de": 0.431,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -39597,7 +40645,7 @@
 "pb": 2.75,
 "why": [
 "PE 8.1 vs sector median 55.4",
-"EV/EBITDA 6.1 vs sector 50.7",
+"EV/EBITDA 6.1 vs sector 47.0",
 "PEG 0.20"
 ]
 }
@@ -39650,6 +40698,10 @@
 ],
 "mcap_cr": 13178,
 "industry": "Packaged Foods",
+"eg": 0.1,
+"rg": 0.173,
+"roe": 0.14446001,
+"de": 36.657,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -39821,6 +40873,10 @@
 ],
 "mcap_cr": 57771,
 "industry": "Aluminum",
+"eg": 0.911,
+"rg": 0.393,
+"roe": null,
+"de": 0.277,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -39942,22 +40998,26 @@
 "up": 0,
 "down": 55,
 "up_reasons": [
-"PE 19.0 vs sector median 31.9: low valuation"
+"PE 19.0 vs sector median 30.3: low valuation"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: NAVA LIMITED has informed the Exchange about Certificate under Regulation 74(5) SEBI (Depositories and Participants) Regulations, 2018 for the quarter ended September 30, 2026",
 "Trading Window: NAVA LIMITED has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"Conglomerates sector median 3M return is -8.0% vs Nifty (price data)"
+"Conglomerates sector median 3M return is -10.9% vs Nifty (price data)"
 ],
 "mcap_cr": 14415,
 "industry": "Conglomerates",
+"eg": -0.1,
+"rg": 0.016,
+"roe": null,
+"de": 20.684,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Valuation",
 "dir": "UP",
-"text": "PE 19.0 vs sector median 31.9: low valuation",
+"text": "PE 19.0 vs sector median 30.3: low valuation",
 "src": "Yahoo Finance",
 "link": "",
 "date": ""
@@ -39988,7 +41048,7 @@
 {
 "cat": "Sector demand",
 "dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
+"text": "Conglomerates sector median 3M return is -10.9% vs Nifty (price data)",
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
@@ -40037,8 +41097,8 @@
 "ev": 9.3,
 "pb": 1.65,
 "why": [
-"PE 19.0 vs sector median 31.9",
-"EV/EBITDA 9.3 vs sector 21.1"
+"PE 19.0 vs sector median 30.3",
+"EV/EBITDA 9.3 vs sector 20.3"
 ]
 }
 },
@@ -40089,6 +41149,10 @@
 ],
 "mcap_cr": 26193,
 "industry": "Insurance - Diversified",
+"eg": null,
+"rg": 0.021,
+"roe": -0.012359999,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -40180,11 +41244,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 34.0,
-"ev": 7.5,
+"ev": -9.3,
 "pb": 0.68,
 "why": [
 "PE 34.0 vs sector median 32.5",
-"EV/EBITDA 7.5 vs sector 14.5"
+"EV/EBITDA -9.3 vs sector 21.5"
 ]
 }
 },
@@ -40225,7 +41289,7 @@
 "up": 0,
 "down": 55,
 "up_reasons": [
-"Results filed. Latest earnings growth +38%"
+"Results filed. Latest earnings growth +60%"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Please find enclosed the Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations, 2018",
@@ -40234,13 +41298,17 @@
 ],
 "mcap_cr": 69467,
 "industry": "Utilities - Renewable",
+"eg": 0.6,
+"rg": 0.634,
+"roe": 0.034089997,
+"de": 191.669,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +38%",
+"text": "Results filed. Latest earnings growth +60%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/jkalita01_30102026174848_Q2FY27NGEL-Signed.pdf",
 "date": "30-Oct-202"
@@ -40317,12 +41385,12 @@
 "valuation": {
 "verdict": "HIGH",
 "pe": 107.1,
-"ev": 35.5,
-"pb": 3.66,
+"ev": 36.2,
+"pb": 3.65,
 "why": [
 "PE 107.1 vs sector median 67.1",
-"EV/EBITDA 35.5 vs sector 23.3",
-"PEG 2.78"
+"EV/EBITDA 36.2 vs sector 23.3",
+"PEG 1.78"
 ]
 }
 },
@@ -40374,6 +41442,10 @@
 ],
 "mcap_cr": 11443,
 "industry": "Building Materials",
+"eg": 0.775,
+"rg": 0.135,
+"roe": 0.04224,
+"de": 53.279,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -40522,6 +41594,10 @@
 ],
 "mcap_cr": 59867,
 "industry": "Real Estate - Development",
+"eg": 0.002,
+"rg": -0.061,
+"roe": 0.14687,
+"de": 13.82,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -40625,7 +41701,7 @@
 "pb": 3.14,
 "why": [
 "PE 22.8 vs sector median 25.2",
-"EV/EBITDA 16.7 vs sector 19.9",
+"EV/EBITDA 16.7 vs sector 20.2",
 "PEG 113.80"
 ]
 }
@@ -40678,6 +41754,10 @@
 ],
 "mcap_cr": 12571,
 "industry": "Specialty Chemicals",
+"eg": 0.246,
+"rg": 0.12,
+"roe": 0.25929,
+"de": 61.888,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -40809,11 +41889,11 @@
 "valuation": {
 "verdict": "LOW",
 "pe": 33.7,
-"ev": 19.4,
+"ev": 19.9,
 "pb": 7.98,
 "why": [
 "PE 33.7 vs sector median 45.3",
-"EV/EBITDA 19.4 vs sector 30.8",
+"EV/EBITDA 19.9 vs sector 30.8",
 "PEG 1.37"
 ]
 }
@@ -40867,6 +41947,10 @@
 ],
 "mcap_cr": 66501,
 "industry": "Steel",
+"eg": 3.198,
+"rg": 0.198,
+"roe": 0.09278,
+"de": 50.327,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -41021,6 +42105,10 @@
 ],
 "mcap_cr": 117627,
 "industry": "Specialty Industrial Machinery",
+"eg": 4.061,
+"rg": 0.148,
+"roe": null,
+"de": 2.213,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -41169,6 +42257,10 @@
 ],
 "mcap_cr": 40031,
 "industry": "Building Products & Equipment",
+"eg": 0.593,
+"rg": 0.404,
+"roe": 0.18656,
+"de": 1.245,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -41331,6 +42423,10 @@
 ],
 "mcap_cr": 110255,
 "industry": "Utilities - Independent Power Producers",
+"eg": 0.109,
+"rg": 0.056,
+"roe": null,
+"de": 168.051,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -41452,6 +42548,10 @@
 ],
 "mcap_cr": 145969,
 "industry": "Auto Manufacturers",
+"eg": null,
+"rg": 0.351,
+"roe": null,
+"de": 24.605,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -41572,6 +42672,10 @@
 ],
 "mcap_cr": 62511,
 "industry": "Auto Parts",
+"eg": 0.012,
+"rg": 0.238,
+"roe": null,
+"de": 37.74,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -41667,7 +42771,7 @@
 "pb": 9.15,
 "why": [
 "PE 52.0 vs sector median 33.5",
-"EV/EBITDA 29.5 vs sector 21.6",
+"EV/EBITDA 29.5 vs sector 20.6",
 "PEG 43.35"
 ]
 }
@@ -41722,6 +42826,10 @@
 ],
 "mcap_cr": 92895,
 "industry": "Other Industrial Metals & Mining",
+"eg": 1.039,
+"rg": -0.342,
+"roe": 0.48202,
+"de": 134.123,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -41902,6 +43010,10 @@
 ],
 "mcap_cr": 38494,
 "industry": "Oil & Gas Refining & Marketing",
+"eg": 0.449,
+"rg": -0.035,
+"roe": 0.17274,
+"de": 51.01,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -42058,6 +43170,10 @@
 ],
 "mcap_cr": 51431,
 "industry": "Luxury Goods",
+"eg": 0.316,
+"rg": 0.457,
+"roe": null,
+"de": 96.966,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -42206,6 +43322,10 @@
 ],
 "mcap_cr": 39556,
 "industry": "Solar",
+"eg": 0.53,
+"rg": 0.353,
+"roe": null,
+"de": 86.005,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -42344,7 +43464,8 @@
 "down": 60,
 "up_reasons": [
 "Results filed. Latest earnings growth +35%",
-"Results filed. Latest earnings growth +35%"
+"Results filed. Latest earnings growth +35%",
+"PE 47.3 vs sector median 70.2: low valuation"
 ],
 "down_reasons": [
 "Copy of Newspaper Publication: Pursuant to Regulation 47 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we enclose herewith newspaper publications relating to Unaudited Standalone and Consolidated",
@@ -42353,6 +43474,10 @@
 ],
 "mcap_cr": 21452,
 "industry": "Tools & Accessories",
+"eg": 0.352,
+"rg": 0.276,
+"roe": 0.15363,
+"de": 0.431,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -42371,10 +43496,18 @@
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/TIMKEN_29102026194548_SEIntimation_29Oct2026.pdf",
 "date": "29-Oct-202"
+},
+{
+"cat": "Valuation",
+"dir": "UP",
+"text": "PE 47.3 vs sector median 70.2: low valuation",
+"src": "Yahoo Finance",
+"link": "",
+"date": ""
 }
 ],
-"count": 2,
-"cats": 1,
+"count": 3,
+"cats": 2,
 "confidence": "LOW"
 },
 "DOWNSIDE": {
@@ -42452,11 +43585,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 47.3,
-"ev": 29.9,
+"ev": 29.8,
 "pb": 6.84,
 "why": [
-"PE 47.3 vs sector median 47.3",
-"EV/EBITDA 29.9 vs sector 29.9",
+"PE 47.3 vs sector median 70.2",
+"EV/EBITDA 29.8 vs sector 31.1",
 "PEG 1.34"
 ]
 }
@@ -42508,6 +43641,10 @@
 ],
 "mcap_cr": 23309,
 "industry": "Asset Management",
+"eg": -0.089,
+"rg": 0.039,
+"roe": 0.26514998,
+"de": 1.559,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -42670,6 +43807,10 @@
 ],
 "mcap_cr": null,
 "industry": "Specialty Industrial Machinery",
+"eg": -0.013,
+"rg": 0.124,
+"roe": null,
+"de": 0.128,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -42823,6 +43964,10 @@
 ],
 "mcap_cr": 9580,
 "industry": "Mortgage Finance",
+"eg": 0.19,
+"rg": 0.168,
+"roe": null,
+"de": 156.2,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -42970,6 +44115,10 @@
 ],
 "mcap_cr": 14805,
 "industry": "Specialty Chemicals",
+"eg": -0.131,
+"rg": 0.21,
+"roe": 0.12441,
+"de": 2.54,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -43150,6 +44299,10 @@
 ],
 "mcap_cr": 64750,
 "industry": "Banks - Regional",
+"eg": 0.511,
+"rg": 0.36,
+"roe": 0.15716,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -43329,6 +44482,10 @@
 ],
 "mcap_cr": 266857,
 "industry": "Financial Conglomerates",
+"eg": 0.127,
+"rg": 0.193,
+"roe": null,
+"de": 256.404,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -43477,6 +44634,10 @@
 ],
 "mcap_cr": 64483,
 "industry": "Mortgage Finance",
+"eg": 0.182,
+"rg": 0.176,
+"roe": 0.12416001,
+"de": 492.126,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -43657,6 +44818,10 @@
 ],
 "mcap_cr": 584487,
 "industry": "Credit Services",
+"eg": 0.284,
+"rg": 0.267,
+"roe": 0.19026,
+"de": 342.416,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -43820,6 +44985,10 @@
 ],
 "mcap_cr": 24865,
 "industry": "Banks - Regional",
+"eg": 4.594,
+"rg": 0.487,
+"roe": 0.07258,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -43999,6 +45168,10 @@
 ],
 "mcap_cr": 111763,
 "industry": "Packaged Foods",
+"eg": 0.136,
+"rg": 0.082,
+"roe": null,
+"de": 26.875,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -44163,6 +45336,10 @@
 ],
 "mcap_cr": 16243,
 "industry": "Information Technology Services",
+"eg": 0.141,
+"rg": 0.1,
+"roe": 0.382,
+"de": 4.104,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -44359,6 +45536,10 @@
 ],
 "mcap_cr": 9582,
 "industry": "Mortgage Finance",
+"eg": 0.092,
+"rg": 0.062,
+"roe": 0.19409999,
+"de": 608.658,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -44512,6 +45693,10 @@
 ],
 "mcap_cr": 11484,
 "industry": "Insurance - Life",
+"eg": 0.048,
+"rg": 0.105,
+"roe": 0.08396,
+"de": 15.256,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -44615,7 +45800,7 @@
 "pb": 7.09,
 "why": [
 "PE 86.1 vs sector median 55.4",
-"EV/EBITDA 75.1 vs sector 50.7",
+"EV/EBITDA 75.1 vs sector 47.0",
 "PEG 17.94"
 ]
 }
@@ -44667,6 +45852,10 @@
 ],
 "mcap_cr": 12428,
 "industry": "Packaged Foods",
+"eg": 0.29,
+"rg": 0.078,
+"roe": 0.19443001,
+"de": 46.024,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -44831,6 +46020,10 @@
 ],
 "mcap_cr": 14179,
 "industry": "Agricultural Inputs",
+"eg": -0.046,
+"rg": -0.118,
+"roe": null,
+"de": 10.274,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -44994,6 +46187,10 @@
 ],
 "mcap_cr": 13384,
 "industry": "Auto Parts",
+"eg": 0.14,
+"rg": 0.11,
+"roe": null,
+"de": 6.63,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -45129,7 +46326,7 @@
 "pb": 1.73,
 "why": [
 "PE 14.5 vs sector median 33.5",
-"EV/EBITDA 8.6 vs sector 21.6",
+"EV/EBITDA 8.6 vs sector 20.6",
 "PEG 1.03"
 ]
 }
@@ -45182,6 +46379,10 @@
 ],
 "mcap_cr": null,
 "industry": "Other Industrial Metals & Mining",
+"eg": 0.101,
+"rg": 0.075,
+"roe": null,
+"de": 0.049,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -45354,6 +46555,10 @@
 ],
 "mcap_cr": 16406,
 "industry": "Credit Services",
+"eg": 2.974,
+"rg": 1.089,
+"roe": 0.1973,
+"de": 282.89,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -45527,6 +46732,10 @@
 ],
 "mcap_cr": 123426,
 "industry": "Specialty Industrial Machinery",
+"eg": 0.009,
+"rg": 0.179,
+"roe": null,
+"de": 0.431,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -45699,6 +46908,10 @@
 ],
 "mcap_cr": 24897,
 "industry": "Building Materials",
+"eg": null,
+"rg": 0.043,
+"roe": 0.02836,
+"de": 57.098,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -45879,6 +47092,10 @@
 ],
 "mcap_cr": 208674,
 "industry": "Discount Stores",
+"eg": 0.087,
+"rg": 0.178,
+"roe": 0.12720999,
+"de": 16.338,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -46018,6 +47235,10 @@
 ],
 "mcap_cr": 16055,
 "industry": "Specialty Industrial Machinery",
+"eg": 0.211,
+"rg": 0.226,
+"roe": null,
+"de": 23.885,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -46174,6 +47395,10 @@
 ],
 "mcap_cr": 15440,
 "industry": "Household & Personal Products",
+"eg": -0.162,
+"rg": 0.149,
+"roe": null,
+"de": 5.541,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -46351,6 +47576,10 @@
 ],
 "mcap_cr": 31978,
 "industry": "Auto Parts",
+"eg": 0.08,
+"rg": 0.3,
+"roe": null,
+"de": 19.393,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -46438,7 +47667,7 @@
 "pb": 4.67,
 "why": [
 "PE 33.0 vs sector median 33.5",
-"EV/EBITDA 15.6 vs sector 21.6",
+"EV/EBITDA 15.6 vs sector 20.6",
 "PEG 4.12"
 ]
 }
@@ -46491,6 +47720,10 @@
 ],
 "mcap_cr": 47232,
 "industry": "Real Estate - Development",
+"eg": -0.619,
+"rg": 1.614,
+"roe": 0.06998,
+"de": 102.423,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -46610,7 +47843,7 @@
 "pb": 2.44,
 "why": [
 "PE 35.0 vs sector median 25.2",
-"EV/EBITDA -126.2 vs sector 19.9"
+"EV/EBITDA -126.2 vs sector 20.2"
 ]
 }
 },
@@ -46661,6 +47894,10 @@
 ],
 "mcap_cr": 12553,
 "industry": "Steel",
+"eg": -0.006,
+"rg": 0.323,
+"roe": null,
+"de": 7.582,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -46816,6 +48053,10 @@
 ],
 "mcap_cr": 7836,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.168,
+"rg": 0.104,
+"roe": null,
+"de": 16.73,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -46943,7 +48184,7 @@
 "pb": 0.96,
 "why": [
 "PE 13.0 vs sector median 37.1",
-"EV/EBITDA 8.2 vs sector 25.7",
+"EV/EBITDA 8.2 vs sector 26.9",
 "PEG 0.77"
 ]
 }
@@ -46997,6 +48238,10 @@
 ],
 "mcap_cr": 133791,
 "industry": "Asset Management",
+"eg": 0.061,
+"rg": 0.119,
+"roe": 0.76232004,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -47169,6 +48414,10 @@
 ],
 "mcap_cr": 59500,
 "industry": "Insurance - Life",
+"eg": 0.266,
+"rg": 0.008,
+"roe": 0.12922,
+"de": 17.734,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -47304,7 +48553,7 @@
 "pb": 4.06,
 "why": [
 "PE 33.9 vs sector median 55.4",
-"EV/EBITDA 31.3 vs sector 50.7",
+"EV/EBITDA 31.3 vs sector 47.0",
 "PEG 1.27"
 ]
 }
@@ -47357,6 +48606,10 @@
 ],
 "mcap_cr": 128170,
 "industry": "Telecom Services",
+"eg": null,
+"rg": 0.061,
+"roe": null,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -47497,6 +48750,10 @@
 ],
 "mcap_cr": 62089,
 "industry": "Banks - Regional",
+"eg": 2.457,
+"rg": 0.325,
+"roe": 0.06255,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -47676,6 +48933,10 @@
 ],
 "mcap_cr": 14508,
 "industry": "Building Materials",
+"eg": 3.464,
+"rg": 0.022,
+"roe": 0.01209,
+"de": 15.935,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -47831,6 +49092,10 @@
 ],
 "mcap_cr": 8944,
 "industry": "Internet Retail",
+"eg": 0.098,
+"rg": 0.096,
+"roe": 0.22517,
+"de": 0.868,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -47972,6 +49237,10 @@
 ],
 "mcap_cr": 341053,
 "industry": "Auto Manufacturers",
+"eg": 0.334,
+"rg": 0.275,
+"roe": null,
+"de": 125.278,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -48120,6 +49389,10 @@
 ],
 "mcap_cr": 83706,
 "industry": "Medical Care Facilities",
+"eg": -0.155,
+"rg": 0.203,
+"roe": 0.12791,
+"de": 32.905,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -48273,8 +49546,8 @@
 "up": 15,
 "down": 80,
 "up_reasons": [
-"Results filed. Latest earnings growth +37%",
-"Results filed. Latest earnings growth +37%",
+"Results filed. Latest earnings growth +1860%",
+"Results filed. Latest earnings growth +1860%",
 "Delivery buying rising, average 54% (NSE bhavcopy)"
 ],
 "down_reasons": [
@@ -48284,13 +49557,17 @@
 ],
 "mcap_cr": 41414,
 "industry": "Insurance - Life",
+"eg": 18.605,
+"rg": 0.185,
+"roe": 0.03413,
+"de": 35.951,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +37%",
+"text": "Results filed. Latest earnings growth +1860%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/Max_27102026190101_FINRESULTS30092026.pdf",
 "date": "27-Oct-202"
@@ -48298,7 +49575,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +37%",
+"text": "Results filed. Latest earnings growth +1860%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/Max_27102026185635_FINRESULTS30092026.pdf",
 "date": "27-Oct-202"
@@ -48405,14 +49682,14 @@
 }
 },
 "valuation": {
-"verdict": "HIGH",
+"verdict": "OK",
 "pe": 223.5,
-"ev": 109.9,
-"pb": 7.8,
+"ev": 84.1,
+"pb": 7.2,
 "why": [
 "PE 223.5 vs sector median 55.4",
-"EV/EBITDA 109.9 vs sector 50.7",
-"PEG 5.99"
+"EV/EBITDA 84.1 vs sector 47.0",
+"PEG 0.12"
 ]
 }
 },
@@ -48466,6 +49743,10 @@
 ],
 "mcap_cr": 225034,
 "industry": "Packaged Foods",
+"eg": 0.358,
+"rg": 0.203,
+"roe": 0.79863,
+"de": 8.035,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -48646,6 +49927,10 @@
 ],
 "mcap_cr": 59204,
 "industry": "Steel",
+"eg": 0.004,
+"rg": 0.008,
+"roe": null,
+"de": 18.802,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -48803,6 +50088,10 @@
 ],
 "mcap_cr": 103491,
 "industry": "Credit Services",
+"eg": 0.021,
+"rg": 0.008,
+"roe": null,
+"de": 536.837,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -48949,6 +50238,10 @@
 ],
 "mcap_cr": 31858,
 "industry": "Agricultural Inputs",
+"eg": -0.389,
+"rg": -0.104,
+"roe": null,
+"de": 3.048,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -49096,6 +50389,10 @@
 ],
 "mcap_cr": 42977,
 "industry": "Credit Services",
+"eg": 0.648,
+"rg": 0.159,
+"roe": 0.06513,
+"de": 275.204,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -49266,6 +50563,10 @@
 ],
 "mcap_cr": 14692,
 "industry": "Medical Instruments & Supplies",
+"eg": -0.075,
+"rg": 0.303,
+"roe": null,
+"de": 11.227,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -49413,6 +50714,10 @@
 ],
 "mcap_cr": null,
 "industry": "Credit Services",
+"eg": -0.212,
+"rg": -0.129,
+"roe": 0.16898,
+"de": 606.306,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -49568,6 +50873,10 @@
 ],
 "mcap_cr": 166425,
 "industry": "Insurance - Life",
+"eg": 0.11,
+"rg": 0.059,
+"roe": 0.13676,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -49671,7 +50980,7 @@
 "pb": 8.11,
 "why": [
 "PE 62.7 vs sector median 55.4",
-"EV/EBITDA 54.5 vs sector 50.7",
+"EV/EBITDA 54.5 vs sector 47.0",
 "PEG 5.70"
 ]
 }
@@ -49726,6 +51035,10 @@
 ],
 "mcap_cr": 193694,
 "industry": "Credit Services",
+"eg": 0.274,
+"rg": 0.379,
+"roe": 0.1475,
+"de": 146.073,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -49889,6 +51202,10 @@
 ],
 "mcap_cr": 69226,
 "industry": "Conglomerates",
+"eg": 0.311,
+"rg": 0.347,
+"roe": 0.15981,
+"de": 35.123,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -49942,7 +51259,7 @@
 {
 "cat": "Sector demand",
 "dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
+"text": "Conglomerates sector median 3M return is -10.9% vs Nifty (price data)",
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
@@ -49999,8 +51316,8 @@
 "ev": 17.1,
 "pb": 4.52,
 "why": [
-"PE 30.3 vs sector median 31.9",
-"EV/EBITDA 17.1 vs sector 21.1",
+"PE 30.3 vs sector median 30.3",
+"EV/EBITDA 17.1 vs sector 20.3",
 "PEG 0.98"
 ]
 }
@@ -50051,6 +51368,10 @@
 ],
 "mcap_cr": 43437,
 "industry": "Credit Services",
+"eg": 0.338,
+"rg": 0.268,
+"roe": null,
+"de": 409.161,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -50204,6 +51525,10 @@
 ],
 "mcap_cr": 9645,
 "industry": "Engineering & Construction",
+"eg": -0.315,
+"rg": 0.198,
+"roe": null,
+"de": 1.744,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -50365,6 +51690,10 @@
 ],
 "mcap_cr": 17424,
 "industry": "Auto Parts",
+"eg": -0.459,
+"rg": 0.201,
+"roe": null,
+"de": 4.289,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -50460,7 +51789,7 @@
 "pb": 14.54,
 "why": [
 "PE 29.0 vs sector median 33.5",
-"EV/EBITDA 33.5 vs sector 21.6"
+"EV/EBITDA 33.5 vs sector 20.6"
 ]
 }
 },
@@ -50510,6 +51839,10 @@
 ],
 "mcap_cr": 13847,
 "industry": "Luxury Goods",
+"eg": 0.861,
+"rg": 0.712,
+"roe": null,
+"de": 64.492,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -50648,6 +51981,10 @@
 ],
 "mcap_cr": 35059,
 "industry": "Conglomerates",
+"eg": -0.834,
+"rg": 0.071,
+"roe": null,
+"de": 42.166,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -50693,7 +52030,7 @@
 {
 "cat": "Sector demand",
 "dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
+"text": "Conglomerates sector median 3M return is -10.9% vs Nifty (price data)",
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
@@ -50701,7 +52038,7 @@
 {
 "cat": "Valuation",
 "dir": "DOWN",
-"text": "PE 59.1 vs sector median 31.9: high valuation",
+"text": "PE 59.1 vs sector median 30.3: high valuation",
 "src": "Yahoo Finance",
 "link": "",
 "date": ""
@@ -50758,8 +52095,8 @@
 "ev": 40.0,
 "pb": 6.32,
 "why": [
-"PE 59.1 vs sector median 31.9",
-"EV/EBITDA 40.0 vs sector 21.1"
+"PE 59.1 vs sector median 30.3",
+"EV/EBITDA 40.0 vs sector 20.3"
 ]
 }
 },
@@ -50806,10 +52143,14 @@
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Tube Investments of India Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
 "Trading Window: Tube Investments of India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"Conglomerates sector median 3M return is -8.0% vs Nifty (price data)"
+"Conglomerates sector median 3M return is -10.9% vs Nifty (price data)"
 ],
 "mcap_cr": 41037,
 "industry": "Conglomerates",
+"eg": -0.153,
+"rg": 0.168,
+"roe": null,
+"de": 5.363,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -50847,7 +52188,7 @@
 {
 "cat": "Sector demand",
 "dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
+"text": "Conglomerates sector median 3M return is -10.9% vs Nifty (price data)",
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
@@ -50855,7 +52196,7 @@
 {
 "cat": "Valuation",
 "dir": "DOWN",
-"text": "PE 67.8 vs sector median 31.9: high valuation",
+"text": "PE 67.8 vs sector median 30.3: high valuation",
 "src": "Yahoo Finance",
 "link": "",
 "date": ""
@@ -50912,8 +52253,8 @@
 "ev": 20.3,
 "pb": 5.29,
 "why": [
-"PE 67.8 vs sector median 31.9",
-"EV/EBITDA 20.3 vs sector 21.1"
+"PE 67.8 vs sector median 30.3",
+"EV/EBITDA 20.3 vs sector 20.3"
 ]
 }
 },
@@ -50965,6 +52306,10 @@
 ],
 "mcap_cr": 97747,
 "industry": "Auto Manufacturers",
+"eg": -0.803,
+"rg": -0.082,
+"roe": null,
+"de": 70.364,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -51097,6 +52442,10 @@
 ],
 "mcap_cr": 59103,
 "industry": "Utilities - Independent Power Producers",
+"eg": -0.127,
+"rg": 0.028,
+"roe": null,
+"de": 70.885,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -51252,6 +52601,10 @@
 ],
 "mcap_cr": 23916,
 "industry": "Auto Parts",
+"eg": -0.146,
+"rg": 0.093,
+"roe": null,
+"de": 1.485,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -51379,7 +52732,7 @@
 "pb": 6.48,
 "why": [
 "PE 2.2 vs sector median 33.5",
-"EV/EBITDA 33.1 vs sector 21.6"
+"EV/EBITDA 33.1 vs sector 20.6"
 ]
 }
 },
@@ -51428,6 +52781,10 @@
 ],
 "mcap_cr": 57616,
 "industry": "Biotechnology",
+"eg": 2.346,
+"rg": 0.1,
+"roe": null,
+"de": 42.145,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -51556,7 +52913,9 @@
 "up": 0,
 "down": 70,
 "up_reasons": [
-"PE 40.4 vs sector median 59.5: low valuation"
+"Results filed. Latest earnings growth +16%",
+"Results filed. Latest earnings growth +16%",
+"Results filed. Latest earnings growth +16%"
 ],
 "down_reasons": [
 "Agreements: Narayana Hrudayalaya Ltd. has informed the Exchange about Intimation about execution of Operation and Management Agreement - Regulation 30 read with Schedule III Part A Para B of the SEBI (Listing Obligations and Disclosure Requirements) Regulation",
@@ -51565,9 +52924,37 @@
 ],
 "mcap_cr": 34937,
 "industry": "Medical Care Facilities",
+"eg": 0.165,
+"rg": 0.762,
+"roe": 0.19069,
+"de": 121.375,
 "reasons": {
 "UPSIDE": {
 "items": [
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +16%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/Narayana_01112026213626_NHL_Newspaper_Publicat.pdf",
+"date": "01-Nov-202"
+},
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +16%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/Narayana_30102026185357_SEPressreleaseOct30NHL.pdf",
+"date": "30-Oct-202"
+},
+{
+"cat": "Results",
+"dir": "UP",
+"text": "Results filed. Latest earnings growth +16%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/Narayana_30102026184850_OutcomeofBMOctober302026NHL.pdf",
+"date": "30-Oct-202"
+},
 {
 "cat": "Valuation",
 "dir": "UP",
@@ -51577,8 +52964,8 @@
 "date": ""
 }
 ],
-"count": 1,
-"cats": 1,
+"count": 4,
+"cats": 2,
 "confidence": "LOW"
 },
 "DOWNSIDE": {
@@ -51656,12 +53043,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 40.4,
-"ev": 23.6,
+"ev": 20.6,
 "pb": 7.7,
 "why": [
 "PE 40.4 vs sector median 59.5",
-"EV/EBITDA 23.6 vs sector 35.1",
-"PEG 7.49"
+"EV/EBITDA 20.6 vs sector 35.1",
+"PEG 2.45"
 ]
 }
 },
@@ -51711,6 +53098,10 @@
 ],
 "mcap_cr": 148870,
 "industry": "Specialty Chemicals",
+"eg": 0.062,
+"rg": 0.209,
+"roe": 0.2566,
+"de": 3.069,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -51852,6 +53243,10 @@
 ],
 "mcap_cr": 134892,
 "industry": "Credit Services",
+"eg": 0.432,
+"rg": 0.344,
+"roe": 0.14064,
+"de": 518.106,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -52012,6 +53407,10 @@
 ],
 "mcap_cr": 34015,
 "industry": "Furnishings, Fixtures & Appliances",
+"eg": 0.52,
+"rg": 0.187,
+"roe": null,
+"de": 15.51,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -52139,6 +53538,10 @@
 ],
 "mcap_cr": 59306,
 "industry": "Medical Care Facilities",
+"eg": -0.814,
+"rg": 0.216,
+"roe": null,
+"de": 45.921,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -52289,6 +53692,10 @@
 ],
 "mcap_cr": null,
 "industry": "Coking Coal",
+"eg": null,
+"rg": 0.391,
+"roe": 0.0104600005,
+"de": 42.549,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -52418,6 +53825,10 @@
 ],
 "mcap_cr": 426530,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": -0.362,
+"rg": 0.119,
+"roe": 0.13104,
+"de": 3.619,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -52582,6 +53993,10 @@
 ],
 "mcap_cr": 94700,
 "industry": "Beverages - Wineries & Distilleries",
+"eg": -0.077,
+"rg": 0.029,
+"roe": 0.19247,
+"de": 4.743,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -52746,6 +54161,10 @@
 ],
 "mcap_cr": 42245,
 "industry": "Asset Management",
+"eg": -0.062,
+"rg": 0.139,
+"roe": 0.1265,
+"de": 167.375,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -52907,6 +54326,10 @@
 ],
 "mcap_cr": 18417,
 "industry": "Mortgage Finance",
+"eg": 0.184,
+"rg": 0.196,
+"roe": null,
+"de": 255.574,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -53056,10 +54479,14 @@
 "down_reasons": [
 "Resignation of Director/KMP/SMP: Aavas Financiers Limited has informed the Exchange about Resignation of Director/KMP/SMP",
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Aavas Financiers Limited has informed the Exchange about Submission of Certificate under Regulation 74(5) of SEBI (DP) Regulations, 2018 for the Quarter ended September 30, 2026.",
-"Change in Management: Aavas Financiers Limited has informed the Exchange w.r.t. Disclosure under Regulation 30 and 51 of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015, Re-appointment of Chief Compliance Officer (Senior Management Pers"
+"Mortgage Finance sector median 3M return is -6.6% vs Nifty (price data)"
 ],
 "mcap_cr": 8428,
 "industry": "Mortgage Finance",
+"eg": 0.109,
+"rg": 0.089,
+"roe": 0.13981,
+"de": 305.373,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -53093,14 +54520,6 @@
 "src": "NSE corporate filing",
 "link": "https://nsearchives.nseindia.com/corporate/AAVAS_07102026154036_intimation.pdf",
 "date": "07-Oct-202"
-},
-{
-"cat": "Governance/regulatory",
-"dir": "DOWN",
-"text": "Change in Management: Aavas Financiers Limited has informed the Exchange w.r.t. Disclosure under Regulation 30 and 51 of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015, Re-appointment of Chief Compliance Officer (Senior Management Pers",
-"src": "NSE corporate filing",
-"link": "https://nsearchives.nseindia.com/corporate/AAVAS_28092026185540_Exchange_Intimation.pdf",
-"date": "28-Sep-202"
 },
 {
 "cat": "Sector demand",
@@ -53151,7 +54570,7 @@
 "date": ""
 }
 ],
-"count": 9,
+"count": 8,
 "cats": 4,
 "confidence": "HIGH"
 }
@@ -53211,6 +54630,10 @@
 ],
 "mcap_cr": 11137,
 "industry": "Real Estate Services",
+"eg": null,
+"rg": 7.432,
+"roe": -0.033570003,
+"de": 78.8,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -53333,6 +54756,10 @@
 ],
 "mcap_cr": 24481,
 "industry": "Oil & Gas Equipment & Services",
+"eg": 0.592,
+"rg": 0.443,
+"roe": 0.07043,
+"de": 89.715,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -53455,8 +54882,8 @@
 "down": 80,
 "up_reasons": [
 "Updates: Affle 3i Limited has informed the Exchange regarding 'Stay Order granted by Hon ble Supreme Court of India on Corporate Insolvency Resolution Process (CIRP) proceedings of Bobble pending before the National Company Law Tribunal (NCLT)'.",
-"Results filed. Latest earnings growth +20%",
-"Results filed. Latest earnings growth +20%"
+"Results filed. Latest earnings growth +16%",
+"Results filed. Latest earnings growth +16%"
 ],
 "down_reasons": [
 "Trading Window: Affle 3i Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
@@ -53465,6 +54892,10 @@
 ],
 "mcap_cr": 19278,
 "industry": "Advertising Agencies",
+"eg": 0.155,
+"rg": 0.243,
+"roe": 0.13281,
+"de": 0.124,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -53479,7 +54910,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +20%",
+"text": "Results filed. Latest earnings growth +16%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/AFFLE_30102026181655_Outcome_BM_30102026.pdf",
 "date": "30-Oct-202"
@@ -53487,7 +54918,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +20%",
+"text": "Results filed. Latest earnings growth +16%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/AFFLE_22092026172637_Outcome_of_AGM22092026.pdf",
 "date": "22-Sep-202"
@@ -53556,12 +54987,12 @@
 "valuation": {
 "verdict": "OK",
 "pe": 38.3,
-"ev": 26.6,
-"pb": 5.17,
+"ev": 29.7,
+"pb": 4.46,
 "why": [
 "PE 38.3 vs sector median 38.3",
-"EV/EBITDA 26.6 vs sector 26.6",
-"PEG 1.89"
+"EV/EBITDA 29.7 vs sector 29.7",
+"PEG 2.47"
 ]
 }
 },
@@ -53613,6 +55044,10 @@
 ],
 "mcap_cr": 86484,
 "industry": "Building Materials",
+"eg": -0.891,
+"rg": 0.002,
+"roe": 0.04454,
+"de": 1.388,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -53772,6 +55207,10 @@
 ],
 "mcap_cr": 16097,
 "industry": "Real Estate - Development",
+"eg": 0.085,
+"rg": 0.049,
+"roe": 0.11428001,
+"de": 12.605,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -53854,11 +55293,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 26.6,
-"ev": 22.1,
+"ev": 22.7,
 "pb": 2.66,
 "why": [
 "PE 26.6 vs sector median 25.2",
-"EV/EBITDA 22.1 vs sector 19.9",
+"EV/EBITDA 22.7 vs sector 20.2",
 "PEG 3.12"
 ]
 }
@@ -53910,6 +55349,10 @@
 ],
 "mcap_cr": 24003,
 "industry": "Auto Parts",
+"eg": 26.6,
+"rg": 0.128,
+"roe": null,
+"de": 21.987,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -54021,7 +55464,7 @@
 "pb": 1.44,
 "why": [
 "PE 14.1 vs sector median 33.5",
-"EV/EBITDA 7.2 vs sector 21.6",
+"EV/EBITDA 7.2 vs sector 20.6",
 "PEG 0.01"
 ]
 }
@@ -54073,6 +55516,10 @@
 ],
 "mcap_cr": 12571,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.159,
+"rg": 0.239,
+"roe": null,
+"de": 5.015,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -54176,7 +55623,7 @@
 "pb": 1.55,
 "why": [
 "PE 13.6 vs sector median 37.1",
-"EV/EBITDA 8.5 vs sector 25.7",
+"EV/EBITDA 8.5 vs sector 26.9",
 "PEG 0.86"
 ]
 }
@@ -54231,6 +55678,10 @@
 ],
 "mcap_cr": 222364,
 "industry": "Specialty Chemicals",
+"eg": 0.075,
+"rg": 0.169,
+"roe": 0.23019,
+"de": 20.508,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -54393,6 +55844,10 @@
 ],
 "mcap_cr": 8974,
 "industry": "Packaged Foods",
+"eg": -0.421,
+"rg": 0.183,
+"roe": null,
+"de": 0.357,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -54538,6 +55993,10 @@
 ],
 "mcap_cr": 21208,
 "industry": "Packaged Foods",
+"eg": -0.021,
+"rg": 0.261,
+"roe": 0.11083999,
+"de": 26.515,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -54692,6 +56151,10 @@
 ],
 "mcap_cr": 84051,
 "industry": "Metal Fabrication",
+"eg": null,
+"rg": 0.187,
+"roe": null,
+"de": 76.475,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -54847,6 +56310,10 @@
 ],
 "mcap_cr": 8609,
 "industry": "Specialty Business Services",
+"eg": 0.108,
+"rg": 0.253,
+"roe": null,
+"de": 15.468,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -55007,6 +56474,10 @@
 ],
 "mcap_cr": 10646,
 "industry": "Auto & Truck Dealerships",
+"eg": -0.009,
+"rg": 0.102,
+"roe": 0.09747,
+"de": 4.615,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -55081,11 +56552,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 47.4,
-"ev": 38.6,
+"ev": 38.2,
 "pb": 4.02,
 "why": [
 "PE 47.4 vs sector median 47.4",
-"EV/EBITDA 38.6 vs sector 38.6"
+"EV/EBITDA 38.2 vs sector 38.2"
 ]
 }
 },
@@ -55133,6 +56604,10 @@
 ],
 "mcap_cr": 16521,
 "industry": "Utilities - Regulated Electric",
+"eg": 0.038,
+"rg": 0.054,
+"roe": null,
+"de": 164.311,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -55219,7 +56694,7 @@
 "pb": 1.32,
 "why": [
 "PE 10.7 vs sector median 10.8",
-"EV/EBITDA 9.0 vs sector 9.8",
+"EV/EBITDA 9.0 vs sector 9.4",
 "PEG 2.80"
 ]
 }
@@ -55273,6 +56748,10 @@
 ],
 "mcap_cr": 43423,
 "industry": "Household & Personal Products",
+"eg": 0.043,
+"rg": 0.123,
+"roe": 0.85115,
+"de": 3.012,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -55446,6 +56925,10 @@
 ],
 "mcap_cr": 31520,
 "industry": "Railroads",
+"eg": 0.006,
+"rg": 0.003,
+"roe": null,
+"de": 7.39,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -55618,6 +57101,10 @@
 ],
 "mcap_cr": 49959,
 "industry": "Agricultural Inputs",
+"eg": -0.245,
+"rg": 0.159,
+"roe": null,
+"de": 11.469,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -55781,6 +57268,10 @@
 ],
 "mcap_cr": 12334,
 "industry": "Furnishings, Fixtures & Appliances",
+"eg": 0.667,
+"rg": 0.182,
+"roe": -0.04422,
+"de": 5.783,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -55945,7 +57436,8 @@
 "down": 80,
 "up_reasons": [
 "Scheme of Arrangement: Dabur India Limited has informed the Exchange about Upload of order passed by the Hon'ble National Company Law Tribunal, New Delhi Bench (\"NCLT\"), approving the Scheme of Amalgamation between Sesa Care Private Limited and Dabur India Lim",
-"Scheme of Arrangement: Dabur India Limited has informed the Exchange about pronouncement of order by the Hon'ble National Company Law Tribunal, New Delhi Bench (\"NCLT\"), approving the Scheme of Amalgamation between Sesa Care Private Limited and Dabur India Lim"
+"Scheme of Arrangement: Dabur India Limited has informed the Exchange about pronouncement of order by the Hon'ble National Company Law Tribunal, New Delhi Bench (\"NCLT\"), approving the Scheme of Amalgamation between Sesa Care Private Limited and Dabur India Lim",
+"PE 32.9 vs sector median 41.4: low valuation"
 ],
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Dabur India Limited has informed the Exchange about Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations, 2018, for the quarter ended September 30, ",
@@ -55954,6 +57446,10 @@
 ],
 "mcap_cr": 64856,
 "industry": "Household & Personal Products",
+"eg": 0.153,
+"rg": 0.106,
+"roe": null,
+"de": 10.907,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -55972,10 +57468,18 @@
 "src": "NSE corporate filing",
 "link": "https://nsearchives.nseindia.com/corporate/DABURA_25092026113223_Letter.pdf",
 "date": "25-Sep-202"
+},
+{
+"cat": "Valuation",
+"dir": "UP",
+"text": "PE 32.9 vs sector median 41.4: low valuation",
+"src": "Yahoo Finance",
+"link": "",
+"date": ""
 }
 ],
-"count": 2,
-"cats": 1,
+"count": 3,
+"cats": 2,
 "confidence": "LOW"
 },
 "DOWNSIDE": {
@@ -56052,13 +57556,13 @@
 },
 "valuation": {
 "verdict": "OK",
-"pe": 33.9,
+"pe": 32.9,
 "ev": 24.6,
 "pb": 5.68,
 "why": [
-"PE 33.9 vs sector median 41.4",
+"PE 32.9 vs sector median 41.4",
 "EV/EBITDA 24.6 vs sector 25.9",
-"PEG 2.21"
+"PEG 2.15"
 ]
 }
 },
@@ -56109,6 +57613,10 @@
 ],
 "mcap_cr": 13903,
 "industry": "Chemicals",
+"eg": 1.016,
+"rg": 0.225,
+"roe": null,
+"de": 75.969,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -56212,7 +57720,7 @@
 "pb": 2.03,
 "why": [
 "PE 14.1 vs sector median 19.5",
-"EV/EBITDA 9.6 vs sector 13.9",
+"EV/EBITDA 9.6 vs sector 13.8",
 "PEG 0.14"
 ]
 }
@@ -56264,6 +57772,10 @@
 ],
 "mcap_cr": 67288,
 "industry": "Consumer Electronics",
+"eg": -0.451,
+"rg": 0.467,
+"roe": 0.30622,
+"de": 18.377,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -56371,11 +57883,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 38.4,
-"ev": 30.1,
+"ev": 31.7,
 "pb": 9.54,
 "why": [
 "PE 38.4 vs sector median 50.1",
-"EV/EBITDA 30.1 vs sector 35.7"
+"EV/EBITDA 31.7 vs sector 36.5"
 ]
 }
 },
@@ -56423,6 +57935,10 @@
 ],
 "mcap_cr": 11067,
 "industry": "Business Equipment & Supplies",
+"eg": -0.225,
+"rg": 0.192,
+"roe": null,
+"de": 10.849,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -56557,6 +58073,10 @@
 ],
 "mcap_cr": 10685,
 "industry": "Agricultural Inputs",
+"eg": -0.424,
+"rg": 0.034,
+"roe": null,
+"de": 23.647,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -56702,6 +58222,10 @@
 ],
 "mcap_cr": 17907,
 "industry": "Lodging",
+"eg": 2.463,
+"rg": 0.145,
+"roe": null,
+"de": 4.666,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -56850,6 +58374,10 @@
 ],
 "mcap_cr": 15855,
 "industry": "Solar",
+"eg": 0.377,
+"rg": 0.394,
+"roe": 0.53055,
+"de": 25.243,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -57020,6 +58548,10 @@
 ],
 "mcap_cr": 99831,
 "industry": "Utilities - Renewable",
+"eg": 0.678,
+"rg": 0.393,
+"roe": null,
+"de": 4.483,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -57156,6 +58688,10 @@
 ],
 "mcap_cr": 28517,
 "industry": "Auto Parts",
+"eg": 0.283,
+"rg": 0.177,
+"roe": null,
+"de": 11.308,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -57234,7 +58770,7 @@
 "pb": 2.05,
 "why": [
 "PE 30.6 vs sector median 33.5",
-"EV/EBITDA 15.0 vs sector 21.6",
+"EV/EBITDA 15.0 vs sector 20.6",
 "PEG 1.08"
 ]
 }
@@ -57285,6 +58821,10 @@
 ],
 "mcap_cr": 11715,
 "industry": "Credit Services",
+"eg": 0.045,
+"rg": 0.102,
+"roe": 0.15187,
+"de": 100.85,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -57439,6 +58979,10 @@
 ],
 "mcap_cr": 92665,
 "industry": "Airports & Air Services",
+"eg": null,
+"rg": 0.116,
+"roe": null,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -57583,6 +59127,10 @@
 ],
 "mcap_cr": 26363,
 "industry": "Tobacco",
+"eg": -0.443,
+"rg": -0.189,
+"roe": null,
+"de": 3.757,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -57715,6 +59263,10 @@
 ],
 "mcap_cr": 83719,
 "industry": "Household & Personal Products",
+"eg": 0.138,
+"rg": 0.154,
+"roe": 0.15956001,
+"de": 39.999,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -57886,6 +59438,10 @@
 ],
 "mcap_cr": 30482,
 "industry": "Conglomerates",
+"eg": -0.186,
+"rg": -0.047,
+"roe": null,
+"de": 222.411,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -57939,7 +59495,7 @@
 {
 "cat": "Sector demand",
 "dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
+"text": "Conglomerates sector median 3M return is -10.9% vs Nifty (price data)",
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
@@ -57996,8 +59552,8 @@
 "ev": 21.9,
 "pb": 2.73,
 "why": [
-"PE 25.9 vs sector median 31.9",
-"EV/EBITDA 21.9 vs sector 21.1"
+"PE 25.9 vs sector median 30.3",
+"EV/EBITDA 21.9 vs sector 20.3"
 ]
 }
 },
@@ -58049,6 +59605,10 @@
 ],
 "mcap_cr": 10111,
 "industry": "Metal Fabrication",
+"eg": 0.063,
+"rg": 0.378,
+"roe": 0.16174,
+"de": 32.913,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -58202,6 +59762,10 @@
 ],
 "mcap_cr": 63622,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.096,
+"rg": 0.346,
+"roe": 0.17998,
+"de": 2.44,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -58296,7 +59860,7 @@
 "pb": 6.51,
 "why": [
 "PE 38.3 vs sector median 37.1",
-"EV/EBITDA 28.4 vs sector 25.7",
+"EV/EBITDA 28.4 vs sector 26.9",
 "PEG 3.99"
 ]
 }
@@ -58348,6 +59912,10 @@
 ],
 "mcap_cr": 38763,
 "industry": "Copper",
+"eg": 1.619,
+"rg": 0.814,
+"roe": null,
+"de": 3.319,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -58486,6 +60054,10 @@
 ],
 "mcap_cr": 26091,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.119,
+"rg": 0.065,
+"roe": 0.12771,
+"de": 2.138,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -58581,7 +60153,7 @@
 "pb": 5.59,
 "why": [
 "PE 46.1 vs sector median 37.1",
-"EV/EBITDA 34.9 vs sector 25.7",
+"EV/EBITDA 34.9 vs sector 26.9",
 "PEG 3.88"
 ]
 }
@@ -58634,6 +60206,10 @@
 ],
 "mcap_cr": 25693,
 "industry": "Specialty Chemicals",
+"eg": 0.296,
+"rg": 0.579,
+"roe": 0.1851,
+"de": 22.36,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -58804,6 +60380,10 @@
 ],
 "mcap_cr": 28641,
 "industry": "Credit Services",
+"eg": 0.349,
+"rg": 0.098,
+"roe": null,
+"de": 645.775,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -58951,6 +60531,10 @@
 ],
 "mcap_cr": 8973,
 "industry": "Capital Markets",
+"eg": 0.122,
+"rg": 0.107,
+"roe": 0.38612998,
+"de": 0.599,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -59078,7 +60662,7 @@
 "pb": 6.17,
 "why": [
 "PE 17.2 vs sector median 22.1",
-"EV/EBITDA 10.6 vs sector 24.5",
+"EV/EBITDA 10.6 vs sector 23.1",
 "PEG 1.41"
 ]
 }
@@ -59129,6 +60713,10 @@
 ],
 "mcap_cr": 22521,
 "industry": "Credit Services",
+"eg": 1.034,
+"rg": 0.443,
+"roe": 0.16597,
+"de": 490.049,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -59281,6 +60869,10 @@
 ],
 "mcap_cr": 65292,
 "industry": "Banks - Regional",
+"eg": null,
+"rg": 0.631,
+"roe": 0.04513,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -59433,6 +61025,10 @@
 ],
 "mcap_cr": 55343,
 "industry": "Banks - Regional",
+"eg": 0.569,
+"rg": 0.104,
+"roe": 0.17863001,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -59602,6 +61198,10 @@
 ],
 "mcap_cr": 18999,
 "industry": "Infrastructure Operations",
+"eg": 0.471,
+"rg": -0.089,
+"roe": null,
+"de": 95.6,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -59741,6 +61341,10 @@
 ],
 "mcap_cr": 34896,
 "industry": "Travel Services",
+"eg": 0.0,
+"rg": 0.181,
+"roe": null,
+"de": 1.874,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -59888,6 +61492,10 @@
 ],
 "mcap_cr": 12905,
 "industry": "Banks - Regional",
+"eg": 0.118,
+"rg": 0.091,
+"roe": 0.14542,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -60071,6 +61679,10 @@
 ],
 "mcap_cr": 9317,
 "industry": "Other Industrial Metals & Mining",
+"eg": 0.141,
+"rg": 0.759,
+"roe": null,
+"de": 81.887,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -60206,6 +61818,10 @@
 ],
 "mcap_cr": 14547,
 "industry": "Steel",
+"eg": -0.689,
+"rg": 0.056,
+"roe": 0.04125,
+"de": 33.946,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -60350,6 +61966,10 @@
 ],
 "mcap_cr": 140147,
 "industry": "Asset Management",
+"eg": -0.536,
+"rg": 0.267,
+"roe": 0.012949999,
+"de": 31.949,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -60501,6 +62121,10 @@
 ],
 "mcap_cr": 8701,
 "industry": "Auto Parts",
+"eg": -0.717,
+"rg": 0.207,
+"roe": 0.086490005,
+"de": 100.967,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -60604,7 +62228,7 @@
 "pb": 1.41,
 "why": [
 "PE 17.4 vs sector median 33.5",
-"EV/EBITDA 8.7 vs sector 21.6"
+"EV/EBITDA 8.7 vs sector 20.6"
 ]
 }
 },
@@ -60654,6 +62278,10 @@
 ],
 "mcap_cr": 10315,
 "industry": "Capital Markets",
+"eg": -0.357,
+"rg": -0.103,
+"roe": null,
+"de": 102.435,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -60798,6 +62426,10 @@
 ],
 "mcap_cr": 8807,
 "industry": "Specialty Chemicals",
+"eg": 0.605,
+"rg": 0.244,
+"roe": 0.110290006,
+"de": 26.996,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -60946,6 +62578,10 @@
 ],
 "mcap_cr": 8775,
 "industry": "Engineering & Construction",
+"eg": -0.417,
+"rg": 0.0,
+"roe": null,
+"de": 87.306,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -61123,6 +62759,10 @@
 ],
 "mcap_cr": 26137,
 "industry": "Specialty Industrial Machinery",
+"eg": -0.199,
+"rg": 0.134,
+"roe": null,
+"de": 154.864,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -61285,6 +62925,10 @@
 ],
 "mcap_cr": 11332,
 "industry": "Specialty Industrial Machinery",
+"eg": -0.186,
+"rg": 0.036,
+"roe": 0.15192,
+"de": 0.371,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -61428,6 +63072,10 @@
 ],
 "mcap_cr": 48198,
 "industry": "Specialty Chemicals",
+"eg": -0.025,
+"rg": 0.216,
+"roe": null,
+"de": 1.85,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -61575,6 +63223,10 @@
 ],
 "mcap_cr": 61258,
 "industry": "Credit Services",
+"eg": 0.324,
+"rg": 0.314,
+"roe": 0.12331,
+"de": 422.732,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -61747,6 +63399,10 @@
 ],
 "mcap_cr": 36366,
 "industry": "Credit Services",
+"eg": 0.611,
+"rg": 0.349,
+"roe": 0.13774,
+"de": 490.012,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -61914,6 +63570,10 @@
 ],
 "mcap_cr": 27147,
 "industry": "Credit Services",
+"eg": 2.885,
+"rg": 0.801,
+"roe": null,
+"de": 360.191,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -62055,12 +63715,16 @@
 "Action(s) taken or orders passed: Maruti Suzuki India Limited has informed the Exchange about Action(s) taken or orders passed"
 ],
 "down_reasons": [
-"Trading Window: Maruti Suzuki India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
 "Results filed. Latest earnings growth -26%",
-"Results filed. Latest earnings growth -26%"
+"Results filed. Latest earnings growth -26%",
+"Lags Nifty by 13.7% over 3 months (price data)"
 ],
 "mcap_cr": 358325,
 "industry": "Auto Manufacturers",
+"eg": -0.264,
+"rg": 0.26,
+"roe": 0.12888,
+"de": 0.076,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -62087,14 +63751,6 @@
 },
 "DOWNSIDE": {
 "items": [
-{
-"cat": "Governance/regulatory",
-"dir": "DOWN",
-"text": "Trading Window: Maruti Suzuki India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"src": "NSE corporate filing",
-"link": "https://nsearchives.nseindia.com/corporate/MARUTI_25092026170347_STxIntimation_TWClosure_25Sep2026.pdf",
-"date": "25-Sep-202"
-},
 {
 "cat": "Results",
 "dir": "DOWN",
@@ -62152,9 +63808,9 @@
 "date": ""
 }
 ],
-"count": 8,
-"cats": 4,
-"confidence": "HIGH"
+"count": 7,
+"cats": 3,
+"confidence": "MEDIUM"
 }
 },
 "valuation": {
@@ -62215,6 +63871,10 @@
 ],
 "mcap_cr": 49526,
 "industry": "Auto Parts",
+"eg": -0.01,
+"rg": 0.096,
+"roe": null,
+"de": 15.288,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -62310,7 +63970,7 @@
 "pb": 2.36,
 "why": [
 "PE 20.5 vs sector median 33.5",
-"EV/EBITDA 10.0 vs sector 21.6"
+"EV/EBITDA 10.0 vs sector 20.6"
 ]
 }
 },
@@ -62364,6 +64024,10 @@
 ],
 "mcap_cr": 96698,
 "industry": "Credit Services",
+"eg": 0.388,
+"rg": 0.353,
+"roe": 0.31735,
+"de": 393.56,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -62526,6 +64190,10 @@
 ],
 "mcap_cr": 57924,
 "industry": "Asset Management",
+"eg": -0.064,
+"rg": 0.179,
+"roe": 0.35324,
+"de": 1.614,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -62681,6 +64349,10 @@
 ],
 "mcap_cr": 7189,
 "industry": "Engineering & Construction",
+"eg": 0.127,
+"rg": 0.122,
+"roe": null,
+"de": 57.389,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -62850,6 +64522,10 @@
 ],
 "mcap_cr": 31608,
 "industry": "Utilities - Regulated Electric",
+"eg": -0.423,
+"rg": 0.233,
+"roe": null,
+"de": 110.358,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -62936,7 +64612,7 @@
 "pb": 1.47,
 "why": [
 "PE 9.7 vs sector median 10.8",
-"EV/EBITDA 10.2 vs sector 9.8"
+"EV/EBITDA 10.2 vs sector 9.4"
 ]
 }
 },
@@ -62986,6 +64662,10 @@
 ],
 "mcap_cr": 11037,
 "industry": "Steel",
+"eg": 1.111,
+"rg": 0.088,
+"roe": null,
+"de": 35.019,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -63138,6 +64818,10 @@
 ],
 "mcap_cr": 7807,
 "industry": "Farm & Heavy Construction Machinery",
+"eg": -0.003,
+"rg": 0.657,
+"roe": null,
+"de": 30.841,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -63275,6 +64959,10 @@
 ],
 "mcap_cr": 38481,
 "industry": "Apparel Manufacturing",
+"eg": -0.04,
+"rg": 0.079,
+"roe": null,
+"de": 18.422,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -63420,6 +65108,10 @@
 ],
 "mcap_cr": 10897,
 "industry": "Specialty Chemicals",
+"eg": 0.589,
+"rg": 0.17,
+"roe": null,
+"de": 124.132,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -63577,6 +65269,10 @@
 ],
 "mcap_cr": 46216,
 "industry": "Insurance Brokers",
+"eg": 0.429,
+"rg": 0.35,
+"roe": 0.110740006,
+"de": 5.276,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -63700,11 +65396,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 57.7,
-"ev": 71.1,
+"ev": 71.2,
 "pb": 5.95,
 "why": [
 "PE 57.7 vs sector median 57.7",
-"EV/EBITDA 71.1 vs sector 71.1",
+"EV/EBITDA 71.2 vs sector 71.2",
 "PEG 1.35"
 ]
 }
@@ -63757,6 +65453,10 @@
 ],
 "mcap_cr": 121348,
 "industry": "Electrical Equipment & Parts",
+"eg": 1.235,
+"rg": 0.686,
+"roe": null,
+"de": 1.663,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -63860,7 +65560,7 @@
 "pb": 23.44,
 "why": [
 "PE 105.5 vs sector median 37.1",
-"EV/EBITDA 78.3 vs sector 25.7",
+"EV/EBITDA 78.3 vs sector 26.9",
 "PEG 0.85"
 ]
 }
@@ -63913,6 +65613,10 @@
 ],
 "mcap_cr": 12329,
 "industry": "Medical Care Facilities",
+"eg": 0.133,
+"rg": 0.332,
+"roe": null,
+"de": 53.558,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -64089,6 +65793,10 @@
 ],
 "mcap_cr": 14424,
 "industry": "Mortgage Finance",
+"eg": -0.5,
+"rg": -0.245,
+"roe": null,
+"de": 273.033,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -64211,6 +65919,10 @@
 ],
 "mcap_cr": 15535,
 "industry": "Steel",
+"eg": 0.054,
+"rg": -0.015,
+"roe": null,
+"de": 35.204,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -64367,6 +66079,10 @@
 ],
 "mcap_cr": 49962,
 "industry": "Credit Services",
+"eg": 0.749,
+"rg": 0.215,
+"roe": 0.16319999,
+"de": 278.65,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -64528,6 +66244,10 @@
 ],
 "mcap_cr": 26089,
 "industry": "Electrical Equipment & Parts",
+"eg": -0.698,
+"rg": 0.048,
+"roe": null,
+"de": 70.795,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -64631,7 +66351,7 @@
 "pb": 33.65,
 "why": [
 "PE 141.9 vs sector median 37.1",
-"EV/EBITDA 78.0 vs sector 25.7"
+"EV/EBITDA 78.0 vs sector 26.9"
 ]
 }
 },
@@ -64682,6 +66402,10 @@
 ],
 "mcap_cr": 11384,
 "industry": "Marine Shipping",
+"eg": 0.75,
+"rg": 0.403,
+"roe": null,
+"de": 29.454,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -64834,6 +66558,10 @@
 ],
 "mcap_cr": 12035,
 "industry": "Real Estate - Development",
+"eg": -0.546,
+"rg": -0.313,
+"roe": 0.04089,
+"de": 32.991,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -64936,7 +66664,7 @@
 "pb": 2.54,
 "why": [
 "PE 63.0 vs sector median 25.2",
-"EV/EBITDA 35.8 vs sector 19.9"
+"EV/EBITDA 35.8 vs sector 20.2"
 ]
 }
 },
@@ -64984,6 +66712,10 @@
 ],
 "mcap_cr": 15728,
 "industry": "Agricultural Inputs",
+"eg": -0.118,
+"rg": -0.024,
+"roe": 0.162,
+"de": 1.507,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -65121,6 +66853,10 @@
 ],
 "mcap_cr": 46600,
 "industry": "Specialty Industrial Machinery",
+"eg": -0.688,
+"rg": 0.26,
+"roe": 0.2491,
+"de": 6.548,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -65272,6 +67008,10 @@
 ],
 "mcap_cr": 7126,
 "industry": "Conglomerates",
+"eg": null,
+"rg": -0.164,
+"roe": null,
+"de": 24.561,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -65308,7 +67048,7 @@
 {
 "cat": "Sector demand",
 "dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
+"text": "Conglomerates sector median 3M return is -10.9% vs Nifty (price data)",
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
@@ -65365,8 +67105,8 @@
 "ev": -39.1,
 "pb": 0.95,
 "why": [
-"PE 33.5 vs sector median 31.9",
-"EV/EBITDA -39.1 vs sector 21.1"
+"PE 33.5 vs sector median 30.3",
+"EV/EBITDA -39.1 vs sector 20.3"
 ]
 }
 },
@@ -65415,6 +67155,10 @@
 ],
 "mcap_cr": 46320,
 "industry": "Internet Retail",
+"eg": null,
+"rg": 0.361,
+"roe": -0.26734,
+"de": 14.814,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -65535,6 +67279,10 @@
 ],
 "mcap_cr": 28475,
 "industry": "Asset Management",
+"eg": -0.018,
+"rg": 0.041,
+"roe": null,
+"de": 0.007,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -65675,6 +67423,10 @@
 ],
 "mcap_cr": 209070,
 "industry": "Steel",
+"eg": 0.114,
+"rg": 0.143,
+"roe": null,
+"de": 89.017,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -65837,6 +67589,10 @@
 ],
 "mcap_cr": 26276,
 "industry": "Information Technology Services",
+"eg": 0.034,
+"rg": 0.284,
+"roe": 0.15218,
+"de": 28.96,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -65976,11 +67732,15 @@
 "up_reasons": [],
 "down_reasons": [
 "General Updates: Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - ESG Ratings",
-"Certificate under SEBI (Depositories and Participants) Regulations, 2018: Trident Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
-"Resignation of Director/KMP/SMP: Trident Limited has informed the Exchange about Resignation of Director/KMP/SMP"
+"General Updates: Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - ESG Ratings",
+"Certificate under SEBI (Depositories and Participants) Regulations, 2018: Trident Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018"
 ],
 "mcap_cr": 10787,
 "industry": "Textile Manufacturing",
+"eg": 0.148,
+"rg": 0.047,
+"roe": null,
+"de": 38.323,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -65990,6 +67750,14 @@
 },
 "DOWNSIDE": {
 "items": [
+{
+"cat": "Governance/regulatory",
+"dir": "DOWN",
+"text": "General Updates: Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - ESG Ratings",
+"src": "NSE corporate filing",
+"link": "https://nsearchives.nseindia.com/corporate/TRIDENT_01112026171805_Intimation_STX.pdf",
+"date": "01-Nov-202"
+},
 {
 "cat": "Governance/regulatory",
 "dir": "DOWN",
@@ -66005,14 +67773,6 @@
 "src": "NSE corporate filing",
 "link": "https://nsearchives.nseindia.com/corporate/TRIDENT_05102026142720_Intimation_STX_Reg_74_5__Disclosure.pdf",
 "date": "05-Oct-202"
-},
-{
-"cat": "Governance/regulatory",
-"dir": "DOWN",
-"text": "Resignation of Director/KMP/SMP: Trident Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-"src": "NSE corporate filing",
-"link": "https://nsearchives.nseindia.com/corporate/TRIDENT_ROID_99216_KMP_Doc.zip",
-"date": "28-Sep-202"
 },
 {
 "cat": "Relative strength",
@@ -66067,7 +67827,7 @@
 "pb": 2.26,
 "why": [
 "PE 27.1 vs sector median 31.9",
-"EV/EBITDA 13.6 vs sector 18.5",
+"EV/EBITDA 13.6 vs sector 16.8",
 "PEG 1.83"
 ]
 }
@@ -66116,6 +67876,10 @@
 ],
 "mcap_cr": 14943,
 "industry": "Specialty Industrial Machinery",
+"eg": -0.212,
+"rg": 0.192,
+"roe": null,
+"de": 2.476,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -66262,6 +68026,10 @@
 ],
 "mcap_cr": 6709,
 "industry": "Telecom Services",
+"eg": null,
+"rg": 0.061,
+"roe": null,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -66423,6 +68191,10 @@
 ],
 "mcap_cr": 31208,
 "industry": "Beverages - Brewers",
+"eg": 1.909,
+"rg": 0.236,
+"roe": 0.108610004,
+"de": 24.508,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -66555,6 +68327,10 @@
 ],
 "mcap_cr": 27662,
 "industry": "Banks - Regional",
+"eg": 0.286,
+"rg": 0.049,
+"roe": 0.08898,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -66732,6 +68508,10 @@
 ],
 "mcap_cr": 10368,
 "industry": "Banks - Regional",
+"eg": 1.968,
+"rg": 0.528,
+"roe": 0.1659,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -66900,6 +68680,10 @@
 ],
 "mcap_cr": 43393,
 "industry": "Agricultural Inputs",
+"eg": null,
+"rg": 0.105,
+"roe": null,
+"de": 57.128,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -67035,6 +68819,10 @@
 ],
 "mcap_cr": 39540,
 "industry": "Department Stores",
+"eg": 0.063,
+"rg": 0.14,
+"roe": 0.12133,
+"de": 26.886,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -67165,6 +68953,10 @@
 ],
 "mcap_cr": 14073,
 "industry": "Textile Manufacturing",
+"eg": 0.492,
+"rg": 0.133,
+"roe": null,
+"de": 17.52,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -67260,7 +69052,7 @@
 "pb": 1.32,
 "why": [
 "PE 16.3 vs sector median 31.9",
-"EV/EBITDA 10.6 vs sector 18.5",
+"EV/EBITDA 10.6 vs sector 16.8",
 "PEG 0.33"
 ]
 }
@@ -67314,6 +69106,10 @@
 ],
 "mcap_cr": 47557,
 "industry": "Banks - Regional",
+"eg": 0.619,
+"rg": 0.237,
+"roe": 0.08173,
+"de": null,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -67489,6 +69285,10 @@
 ],
 "mcap_cr": 14723,
 "industry": "Packaged Foods",
+"eg": -0.07,
+"rg": 0.669,
+"roe": null,
+"de": 54.974,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -67643,6 +69443,10 @@
 ],
 "mcap_cr": 7578,
 "industry": "Engineering & Construction",
+"eg": -0.781,
+"rg": -0.208,
+"roe": null,
+"de": 66.542,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -67820,6 +69624,10 @@
 ],
 "mcap_cr": 19966,
 "industry": "Auto Parts",
+"eg": -0.087,
+"rg": 0.126,
+"roe": null,
+"de": 29.1,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -67923,7 +69731,7 @@
 "pb": 3.52,
 "why": [
 "PE 34.5 vs sector median 33.5",
-"EV/EBITDA 18.4 vs sector 21.6"
+"EV/EBITDA 18.4 vs sector 20.6"
 ]
 }
 },
@@ -67970,10 +69778,14 @@
 "down_reasons": [
 "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Delhivery Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018",
 "Trading Window: Delhivery Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-"Results filed. Latest earnings growth -65%"
+"Lags Nifty by 12.4% over 3 months (price data)"
 ],
 "mcap_cr": 28932,
 "industry": "Integrated Freight & Logistics",
+"eg": null,
+"rg": 0.198,
+"roe": 0.01908,
+"de": 14.921,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -68017,30 +69829,6 @@
 "date": "25-Sep-202"
 },
 {
-"cat": "Results",
-"dir": "DOWN",
-"text": "Results filed. Latest earnings growth -65%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_31102026152908_Final_Initmation_Newspaper_sd.pdf",
-"date": "31-Oct-202"
-},
-{
-"cat": "Results",
-"dir": "DOWN",
-"text": "Results filed. Latest earnings growth -65%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_30102026230906_EarningConferenceCall_Recording_sd.pdf",
-"date": "30-Oct-202"
-},
-{
-"cat": "Results",
-"dir": "DOWN",
-"text": "Results filed. Latest earnings growth -65%",
-"src": "NSE filing + Yahoo Finance",
-"link": "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_30102026164803_Shareholders_Letter_F_Sd.pdf",
-"date": "30-Oct-202"
-},
-{
 "cat": "Relative strength",
 "dir": "DOWN",
 "text": "Lags Nifty by 12.4% over 3 months (price data)",
@@ -68079,21 +69867,29 @@
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
+},
+{
+"cat": "Trend/technical",
+"dir": "DOWN",
+"text": "RSI 41 weak (price data)",
+"src": "Yahoo Finance prices",
+"link": "",
+"date": ""
 }
 ],
-"count": 10,
-"cats": 5,
+"count": 8,
+"cats": 4,
 "confidence": "HIGH"
 }
 },
 "valuation": {
 "verdict": "OK",
 "pe": 159.5,
-"ev": 100.5,
-"pb": 2.98,
+"ev": 67.2,
+"pb": 2.96,
 "why": [
 "PE 159.5 vs sector median 159.5",
-"EV/EBITDA 100.5 vs sector 100.5"
+"EV/EBITDA 67.2 vs sector 67.2"
 ]
 }
 },
@@ -68143,6 +69939,10 @@
 ],
 "mcap_cr": 14326,
 "industry": "Information Technology Services",
+"eg": 0.012,
+"rg": 0.183,
+"roe": 0.26197,
+"de": 17.502,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -68282,6 +70082,10 @@
 ],
 "mcap_cr": 28351,
 "industry": "Farm & Heavy Construction Machinery",
+"eg": -0.724,
+"rg": 0.283,
+"roe": null,
+"de": 1.309,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -68437,6 +70241,10 @@
 ],
 "mcap_cr": 41323,
 "industry": "Credit Services",
+"eg": 0.342,
+"rg": 0.169,
+"roe": 0.14267999,
+"de": 471.457,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -68608,6 +70416,10 @@
 ],
 "mcap_cr": 7096,
 "industry": "Software - Application",
+"eg": 0.02,
+"rg": 0.158,
+"roe": 0.111219995,
+"de": 2.733,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -68771,6 +70583,10 @@
 ],
 "mcap_cr": 36058,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.4,
+"rg": 0.23,
+"roe": null,
+"de": 3.796,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -68882,7 +70698,7 @@
 "pb": 5.41,
 "why": [
 "PE 34.2 vs sector median 37.1",
-"EV/EBITDA 28.7 vs sector 25.7",
+"EV/EBITDA 28.7 vs sector 26.9",
 "PEG 0.85"
 ]
 }
@@ -68935,6 +70751,10 @@
 ],
 "mcap_cr": 15348,
 "industry": "Drug Manufacturers - Specialty & Generic",
+"eg": -0.57,
+"rg": -0.447,
+"roe": null,
+"de": 7.742,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -69116,6 +70936,10 @@
 ],
 "mcap_cr": 117347,
 "industry": "Electrical Equipment & Parts",
+"eg": 0.425,
+"rg": 0.528,
+"roe": 0.26767,
+"de": 2.054,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -69267,7 +71091,7 @@
 "pb": 8.96,
 "why": [
 "PE 37.1 vs sector median 37.1",
-"EV/EBITDA 23.9 vs sector 25.7",
+"EV/EBITDA 23.9 vs sector 26.9",
 "PEG 0.87"
 ]
 }
@@ -69320,6 +71144,10 @@
 ],
 "mcap_cr": 17005,
 "industry": "Building Materials",
+"eg": -0.633,
+"rg": 0.096,
+"roe": null,
+"de": 47.897,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -69497,6 +71325,10 @@
 ],
 "mcap_cr": 7192,
 "industry": "Metal Fabrication",
+"eg": 1.216,
+"rg": 0.056,
+"roe": null,
+"de": 12.595,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -69636,8 +71468,8 @@
 "down": 85,
 "up_reasons": [
 "Action(s) initiated or orders passed: Schaeffler India Limited has informed the Exchange about Action(s) initiated or orders passed",
-"Results filed. Latest earnings growth +13%",
-"Results filed. Latest earnings growth +13%"
+"Results filed. Latest earnings growth +20%",
+"Results filed. Latest earnings growth +20%"
 ],
 "down_reasons": [
 "General Updates: Schaeffler India Limited has informed the Exchange about Intimation under Regulation 30 of SEBI LODR - Information from Promoter Group",
@@ -69646,6 +71478,10 @@
 ],
 "mcap_cr": 55863,
 "industry": "Auto Parts",
+"eg": 0.205,
+"rg": 0.269,
+"roe": null,
+"de": 0.783,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -69660,7 +71496,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +13%",
+"text": "Results filed. Latest earnings growth +20%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/SCHAEFFLERUSER1_27102026200434_Schaeffler_Reg30_PressRelease_Oct272026.pdf",
 "date": "27-Oct-202"
@@ -69668,7 +71504,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +13%",
+"text": "Results filed. Latest earnings growth +20%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/SCHAEFFLERUSER1_27102026195542_Schaeffler_Reg30_BMOutcome_Oct272026.pdf",
 "date": "27-Oct-202"
@@ -69676,7 +71512,7 @@
 {
 "cat": "Results",
 "dir": "UP",
-"text": "Results filed. Latest earnings growth +13%",
+"text": "Results filed. Latest earnings growth +20%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/SCHAEFFLERUSER1_25092026185210_Schaeffler_VotingResults_PostalBallot_Sep252026.pdf",
 "date": "25-Sep-202"
@@ -69777,12 +71613,12 @@
 "valuation": {
 "verdict": "HIGH",
 "pe": 42.5,
-"ev": 29.5,
-"pb": 9.24,
+"ev": 27.2,
+"pb": 9.11,
 "why": [
 "PE 42.5 vs sector median 33.5",
-"EV/EBITDA 29.5 vs sector 21.6",
-"PEG 3.27"
+"EV/EBITDA 27.2 vs sector 20.6",
+"PEG 2.08"
 ]
 }
 },
@@ -69830,6 +71666,10 @@
 ],
 "mcap_cr": 13573,
 "industry": "Steel",
+"eg": 0.408,
+"rg": 0.164,
+"roe": null,
+"de": 6.922,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -69977,6 +71817,10 @@
 ],
 "mcap_cr": 10417,
 "industry": "Asset Management",
+"eg": 0.173,
+"rg": -0.009,
+"roe": 0.10973,
+"de": 3.129,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -70159,6 +72003,10 @@
 ],
 "mcap_cr": 132594,
 "industry": "Beverages - Non-Alcoholic",
+"eg": 0.119,
+"rg": 0.349,
+"roe": null,
+"de": 15.869,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -70274,10 +72122,11 @@
 "valuation": {
 "verdict": "OK",
 "pe": 135.6,
-"ev": null,
-"pb": 6.77,
+"ev": 23.4,
+"pb": 6.09,
 "why": [
 "PE 135.6 vs sector median 135.6",
+"EV/EBITDA 23.4 vs sector 23.4",
 "PEG 11.40"
 ]
 }
@@ -70328,6 +72177,10 @@
 ],
 "mcap_cr": 135897,
 "industry": "Specialty Industrial Machinery",
+"eg": 0.03,
+"rg": 0.121,
+"roe": 0.19131,
+"de": 1.547,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -70465,6 +72318,10 @@
 ],
 "mcap_cr": 21220,
 "industry": "Building Materials",
+"eg": -0.917,
+"rg": -0.039,
+"roe": 0.04344,
+"de": 2.481,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -70572,11 +72429,167 @@
 "valuation": {
 "verdict": "LOW",
 "pe": 24.1,
-"ev": 11.7,
+"ev": 10.9,
 "pb": 1.03,
 "why": [
 "PE 24.1 vs sector median 35.6",
-"EV/EBITDA 11.7 vs sector 15.4"
+"EV/EBITDA 10.9 vs sector 15.4"
+]
+}
+},
+{
+"symbol": "ADANIENT",
+"name": "Adani Enterprises Ltd.",
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"fno": true,
+"price": 2579.4,
+"rsi": 41.4,
+"rs3": -10.2,
+"deliv": [
+{
+"date": "26 Oct",
+"pct": 32.5
+},
+{
+"date": "27 Oct",
+"pct": 43.4
+},
+{
+"date": "28 Oct",
+"pct": 23.0
+},
+{
+"date": "29 Oct",
+"pct": 21.6
+},
+{
+"date": "30 Oct",
+"pct": 30.3
+}
+],
+"momentum": 5.0,
+"bias": "DOWNSIDE",
+"up": 0,
+"down": 90,
+"up_reasons": [],
+"down_reasons": [
+"Certificate under SEBI (Depositories and Participants) Regulations, 2018: Adani Enterprises Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+"Results filed. Latest earnings growth -60%",
+"Results filed. Latest earnings growth -60%"
+],
+"mcap_cr": 349179,
+"industry": "Thermal Coal",
+"eg": -0.596,
+"rg": 0.751,
+"roe": 0.06436,
+"de": 113.711,
+"reasons": {
+"UPSIDE": {
+"items": [],
+"count": 0,
+"cats": 0,
+"confidence": "LOW"
+},
+"DOWNSIDE": {
+"items": [
+{
+"cat": "Governance/regulatory",
+"dir": "DOWN",
+"text": "Certificate under SEBI (Depositories and Participants) Regulations, 2018: Adani Enterprises Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+"src": "NSE corporate filing",
+"link": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_07102026181520_74_5_CoveringLetterseptember2026.pdf",
+"date": "07-Oct-202"
+},
+{
+"cat": "Results",
+"dir": "DOWN",
+"text": "Results filed. Latest earnings growth -60%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_28102026133333_AELBoardoutcome30092026.pdf",
+"date": "28-Oct-202"
+},
+{
+"cat": "Results",
+"dir": "DOWN",
+"text": "Results filed. Latest earnings growth -60%",
+"src": "NSE filing + Yahoo Finance",
+"link": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_24102026170931_AELREG_44VotingResults23102026pdf.pdf",
+"date": "24-Oct-202"
+},
+{
+"cat": "Valuation",
+"dir": "DOWN",
+"text": "PE 55.0 vs sector median 13.7: high valuation",
+"src": "Yahoo Finance",
+"link": "",
+"date": ""
+},
+{
+"cat": "Relative strength",
+"dir": "DOWN",
+"text": "Lags Nifty by 10.2% over 3 months (price data)",
+"src": "Yahoo Finance prices",
+"link": "",
+"date": ""
+},
+{
+"cat": "Relative strength",
+"dir": "DOWN",
+"text": "Underperforming Nifty last month, -14.7% (price data)",
+"src": "Yahoo Finance prices",
+"link": "",
+"date": ""
+},
+{
+"cat": "Delivery",
+"dir": "DOWN",
+"text": "Low delivery, average 30%, trading is speculative (NSE bhavcopy)",
+"src": "NSE bhavcopy",
+"link": "",
+"date": ""
+},
+{
+"cat": "Trend/technical",
+"dir": "DOWN",
+"text": "Price below 50-day average (price data)",
+"src": "Yahoo Finance prices",
+"link": "",
+"date": ""
+},
+{
+"cat": "Trend/technical",
+"dir": "DOWN",
+"text": "Price below 200-day average, long-term downtrend (price data)",
+"src": "Yahoo Finance prices",
+"link": "",
+"date": ""
+},
+{
+"cat": "Trend/technical",
+"dir": "DOWN",
+"text": "RSI 41 weak (price data)",
+"src": "Yahoo Finance prices",
+"link": "",
+"date": ""
+}
+],
+"count": 10,
+"cats": 6,
+"confidence": "HIGH"
+}
+},
+"valuation": {
+"verdict": "OK",
+"pe": 55.0,
+"ev": 26.0,
+"pb": 3.56,
+"why": [
+"PE 55.0 vs sector median 13.7",
+"EV/EBITDA 26.0 vs sector 21.2"
 ]
 }
 },
@@ -70626,6 +72639,10 @@
 ],
 "mcap_cr": 20685,
 "industry": "Furnishings, Fixtures & Appliances",
+"eg": -0.793,
+"rg": 0.127,
+"roe": null,
+"de": 46.566,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -70786,6 +72803,10 @@
 ],
 "mcap_cr": 58779,
 "industry": "Utilities - Regulated Gas",
+"eg": 0.06,
+"rg": 0.339,
+"roe": 0.13256,
+"de": 52.963,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -70880,7 +72901,7 @@
 "pb": 11.32,
 "why": [
 "PE 91.7 vs sector median 17.0",
-"EV/EBITDA 51.3 vs sector 8.3",
+"EV/EBITDA 51.3 vs sector 11.3",
 "PEG 15.28"
 ]
 }
@@ -70934,6 +72955,10 @@
 ],
 "mcap_cr": 35703,
 "industry": "Aerospace & Defense",
+"eg": 5.48,
+"rg": 1.308,
+"roe": null,
+"de": 0.007,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -71113,6 +73138,10 @@
 ],
 "mcap_cr": 29312,
 "industry": "Aerospace & Defense",
+"eg": -0.193,
+"rg": 0.024,
+"roe": null,
+"de": 28.466,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -71272,6 +73301,10 @@
 ],
 "mcap_cr": 21274,
 "industry": "Aerospace & Defense",
+"eg": -0.134,
+"rg": 0.168,
+"roe": null,
+"de": 0.304,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -71422,6 +73455,10 @@
 ],
 "mcap_cr": 43360,
 "industry": "Agricultural Inputs",
+"eg": null,
+"rg": 0.202,
+"roe": null,
+"de": 295.147,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -71558,6 +73595,10 @@
 ],
 "mcap_cr": 7664,
 "industry": "Internet Retail",
+"eg": null,
+"rg": 0.131,
+"roe": null,
+"de": 29.762,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -71686,6 +73727,10 @@
 ],
 "mcap_cr": 14730,
 "industry": "Credit Services",
+"eg": -0.2,
+"rg": -0.063,
+"roe": null,
+"de": 22.723,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -71837,6 +73882,10 @@
 ],
 "mcap_cr": 9540,
 "industry": "Specialty Industrial Machinery",
+"eg": -0.383,
+"rg": -0.015,
+"roe": null,
+"de": 20.631,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -72000,6 +74049,10 @@
 ],
 "mcap_cr": 9088,
 "industry": "Engineering & Construction",
+"eg": -0.434,
+"rg": 0.095,
+"roe": null,
+"de": 85.833,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -72184,6 +74237,10 @@
 ],
 "mcap_cr": 27952,
 "industry": "Credit Services",
+"eg": -0.007,
+"rg": -0.014,
+"roe": 0.14441,
+"de": 565.121,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -72339,6 +74396,10 @@
 ],
 "mcap_cr": 95884,
 "industry": "Credit Services",
+"eg": 0.103,
+"rg": 0.101,
+"roe": 0.12627,
+"de": 715.064,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -72522,6 +74583,10 @@
 ],
 "mcap_cr": 20793,
 "industry": "Communication Equipment",
+"eg": null,
+"rg": -0.147,
+"roe": null,
+"de": 40.144,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -72667,6 +74732,10 @@
 ],
 "mcap_cr": 11060,
 "industry": "Auto Parts",
+"eg": 0.117,
+"rg": 0.211,
+"roe": 0.1591,
+"de": 172.237,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -72780,13 +74849,13 @@
 }
 },
 "valuation": {
-"verdict": "OK",
+"verdict": "HIGH",
 "pe": 48.0,
 "ev": 17.1,
 "pb": 6.8,
 "why": [
 "PE 48.0 vs sector median 33.5",
-"EV/EBITDA 17.1 vs sector 21.6",
+"EV/EBITDA 17.1 vs sector 20.6",
 "PEG 4.10"
 ]
 }
@@ -72835,6 +74904,10 @@
 ],
 "mcap_cr": 8718,
 "industry": "Utilities - Independent Power Producers",
+"eg": -0.8,
+"rg": 0.051,
+"roe": 0.03793,
+"de": 23.023,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -72985,6 +75058,10 @@
 ],
 "mcap_cr": 21047,
 "industry": "Electronic Components",
+"eg": -0.004,
+"rg": 0.405,
+"roe": null,
+"de": 19.168,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -73125,6 +75202,10 @@
 ],
 "mcap_cr": 68788,
 "industry": "Aerospace & Defense",
+"eg": -0.541,
+"rg": -0.165,
+"roe": 0.23207001,
+"de": 7.589,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -73301,7 +75382,7 @@
 "up": 0,
 "down": 90,
 "up_reasons": [
-"PE 17.2 vs sector median 31.9: low valuation"
+"PE 17.2 vs sector median 30.3: low valuation"
 ],
 "down_reasons": [
 "Updates: MMTC Limited has informed the Exchange regarding the receipt of 458 requests for Re-Lodgment of Transfer requests of Physical Shares as per SEBI Circular No. HO/38/13/11 (2) 2026-MIRSD-POD/I/3750/2026 dated January 30, 2026' for September 2026.",
@@ -73310,13 +75391,17 @@
 ],
 "mcap_cr": 7566,
 "industry": "Conglomerates",
+"eg": 1.3,
+"rg": -0.5,
+"roe": null,
+"de": 0.114,
 "reasons": {
 "UPSIDE": {
 "items": [
 {
 "cat": "Valuation",
 "dir": "UP",
-"text": "PE 17.2 vs sector median 31.9: low valuation",
+"text": "PE 17.2 vs sector median 30.3: low valuation",
 "src": "Yahoo Finance",
 "link": "",
 "date": ""
@@ -73355,7 +75440,7 @@
 {
 "cat": "Sector demand",
 "dir": "DOWN",
-"text": "Conglomerates sector median 3M return is -8.0% vs Nifty (price data)",
+"text": "Conglomerates sector median 3M return is -10.9% vs Nifty (price data)",
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
@@ -73420,8 +75505,8 @@
 "ev": -32.7,
 "pb": 3.57,
 "why": [
-"PE 17.2 vs sector median 31.9",
-"EV/EBITDA -32.7 vs sector 21.1",
+"PE 17.2 vs sector median 30.3",
+"EV/EBITDA -32.7 vs sector 20.3",
 "PEG 0.13"
 ]
 }
@@ -73472,6 +75557,10 @@
 ],
 "mcap_cr": 18808,
 "industry": "Engineering & Construction",
+"eg": 0.163,
+"rg": -0.059,
+"roe": null,
+"de": 0.008,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -73626,6 +75715,10 @@
 ],
 "mcap_cr": 14661,
 "industry": "Auto Manufacturers",
+"eg": null,
+"rg": -0.45,
+"roe": null,
+"de": 82.453,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -73775,6 +75868,10 @@
 ],
 "mcap_cr": 7138,
 "industry": "Telecom Services",
+"eg": -0.097,
+"rg": 0.205,
+"roe": 0.15138,
+"de": 2.548,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -73946,6 +76043,10 @@
 ],
 "mcap_cr": 9049,
 "industry": "Engineering & Construction",
+"eg": 0.084,
+"rg": 0.087,
+"roe": null,
+"de": 0.236,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -74127,6 +76228,10 @@
 ],
 "mcap_cr": 37462,
 "industry": "Engineering & Construction",
+"eg": 0.169,
+"rg": 0.106,
+"roe": null,
+"de": 49.078,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -74305,6 +76410,10 @@
 ],
 "mcap_cr": 9883,
 "industry": "Real Estate - Development",
+"eg": null,
+"rg": -0.362,
+"roe": null,
+"de": 161.04,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -74416,7 +76525,7 @@
 "pb": 5.34,
 "why": [
 "PE 9.5 vs sector median 25.2",
-"EV/EBITDA -82.3 vs sector 19.9"
+"EV/EBITDA -82.3 vs sector 20.2"
 ]
 }
 },
@@ -74466,6 +76575,10 @@
 ],
 "mcap_cr": 20981,
 "industry": "Utilities - Renewable",
+"eg": null,
+"rg": 1.218,
+"roe": 0.06684,
+"de": 224.705,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -74557,11 +76670,11 @@
 "valuation": {
 "verdict": "LOW",
 "pe": 21.2,
-"ev": 14.4,
+"ev": 12.5,
 "pb": 1.47,
 "why": [
 "PE 21.2 vs sector median 67.1",
-"EV/EBITDA 14.4 vs sector 23.3"
+"EV/EBITDA 12.5 vs sector 23.3"
 ]
 }
 },
@@ -74609,6 +76722,10 @@
 ],
 "mcap_cr": 15173,
 "industry": "Chemicals",
+"eg": null,
+"rg": 0.144,
+"roe": null,
+"de": 36.081,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -74745,6 +76862,10 @@
 ],
 "mcap_cr": 7169,
 "industry": "Communication Equipment",
+"eg": null,
+"rg": 0.549,
+"roe": -0.2794,
+"de": 196.624,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -74868,6 +76989,10 @@
 ],
 "mcap_cr": 8810,
 "industry": "Railroads",
+"eg": 0.67,
+"rg": 0.126,
+"roe": null,
+"de": 25.363,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -75021,6 +77146,10 @@
 ],
 "mcap_cr": 66275,
 "industry": "Solar",
+"eg": -0.148,
+"rg": 0.239,
+"roe": 0.26746,
+"de": 30.592,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -75171,6 +77300,10 @@
 ],
 "mcap_cr": 6378,
 "industry": "Broadcasting",
+"eg": -0.367,
+"rg": 0.141,
+"roe": 0.01426,
+"de": 0.523,
 "reasons": {
 "UPSIDE": {
 "items": [],
@@ -75207,7 +77340,7 @@
 {
 "cat": "Results",
 "dir": "DOWN",
-"text": "Results filed. Latest earnings growth -47%",
+"text": "Results filed. Latest earnings growth -37%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/ZEEL_30102026153728_SEIntimationBMOutcome30JOct26Financialssigned.pdf",
 "date": "30-Oct-202"
@@ -75215,7 +77348,7 @@
 {
 "cat": "Results",
 "dir": "DOWN",
-"text": "Results filed. Latest earnings growth -47%",
+"text": "Results filed. Latest earnings growth -37%",
 "src": "NSE filing + Yahoo Finance",
 "link": "https://nsearchives.nseindia.com/corporate/ZEEL_17092026211312_SEintimationOutcomeofAGM26final.pdf",
 "date": "17-Sep-202"
@@ -75269,11 +77402,11 @@
 "valuation": {
 "verdict": "HIGH",
 "pe": 36.3,
-"ev": 16.3,
-"pb": 0.54,
+"ev": 231.2,
+"pb": 0.51,
 "why": [
 "PE 36.3 vs sector median 25.9",
-"EV/EBITDA 16.3 vs sector 11.6"
+"EV/EBITDA 231.2 vs sector 121.9"
 ]
 }
 },
@@ -75323,6 +77456,10 @@
 ],
 "mcap_cr": 13090,
 "industry": "Thermal Coal",
+"eg": -0.633,
+"rg": 0.87,
+"roe": 0.09573,
+"de": 4.829,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -75374,14 +77511,6 @@
 "date": "30-Sep-202"
 },
 {
-"cat": "Valuation",
-"dir": "DOWN",
-"text": "PE 13.7 vs sector median 10.4: high valuation",
-"src": "Yahoo Finance",
-"link": "",
-"date": ""
-},
-{
 "cat": "Relative strength",
 "dir": "DOWN",
 "text": "Lags Nifty by 20.0% over 3 months (price data)",
@@ -75420,21 +77549,29 @@
 "src": "Yahoo Finance prices",
 "link": "",
 "date": ""
+},
+{
+"cat": "Trend/technical",
+"dir": "DOWN",
+"text": "Price below 200-day average, long-term downtrend (price data)",
+"src": "Yahoo Finance prices",
+"link": "",
+"date": ""
 }
 ],
 "count": 10,
-"cats": 6,
+"cats": 5,
 "confidence": "HIGH"
 }
 },
 "valuation": {
-"verdict": "HIGH",
+"verdict": "OK",
 "pe": 13.7,
 "ev": 21.2,
 "pb": 1.85,
 "why": [
-"PE 13.7 vs sector median 10.4",
-"EV/EBITDA 21.2 vs sector 12.8"
+"PE 13.7 vs sector median 13.7",
+"EV/EBITDA 21.2 vs sector 21.2"
 ]
 }
 },
@@ -75485,6 +77622,10 @@
 ],
 "mcap_cr": 22265,
 "industry": "Aerospace & Defense",
+"eg": 0.439,
+"rg": 0.385,
+"roe": null,
+"de": 1.424,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -75657,6 +77798,10 @@
 ],
 "mcap_cr": 7769,
 "industry": "Railroads",
+"eg": -0.143,
+"rg": 0.46,
+"roe": null,
+"de": 33.365,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -75834,6 +77979,10 @@
 ],
 "mcap_cr": 12720,
 "industry": "Specialty Industrial Machinery",
+"eg": 0.038,
+"rg": 0.242,
+"roe": 0.15831,
+"de": 11.174,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -75998,6 +78147,10 @@
 ],
 "mcap_cr": 13407,
 "industry": "Agricultural Inputs",
+"eg": 0.208,
+"rg": 0.631,
+"roe": null,
+"de": 101.822,
 "reasons": {
 "UPSIDE": {
 "items": [
@@ -76176,6 +78329,10 @@
 ],
 "mcap_cr": null,
 "industry": "Utilities - Independent Power Producers",
+"eg": 0.472,
+"rg": 0.038,
+"roe": null,
+"de": 92.348,
 "reasons": {
 "UPSIDE": {
 "items": [
