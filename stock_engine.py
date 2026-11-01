@@ -240,3 +240,4 @@ out.sort(key=lambda r: -r["momentum"])
 json.dump({"updated": dt.datetime.utcnow().isoformat() + "Z", "nifty": {"r1": round(nr1, 1), "r3": round(nr3, 1)}, "stocks": out},
           open("stocks.json", "w"), indent=0, default=str)
 print("stocks:", len(out), "fno:", sum(r["fno"] for r in out), "headlines:", len(heads), "announcements:", sum(len(v) for v in ann.values()))
+       
