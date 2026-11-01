@@ -29,7 +29,7 @@ nav button:active{transform:scale(.95)}
 <button id="t0" onclick="go(0)">Sector</button><button id="t1" onclick="go(1)">Right valuation</button><button id="t2" onclick="go(2)">Order book</button><button id="t3" onclick="go(3)">Search</button><button id="t4" onclick="go(4)">F&amp;O Stocks</button>
 </nav>
 <script>
-let D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
+let RS=null,D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const n=v=>v==null?"–":Number(v).toLocaleString("en-IN",{maximumFractionDigits:2});
@@ -41,7 +41,7 @@ async function load(){
   $("upd").textContent=t?"Data updated: "+new Date(t).toLocaleString():"No data yet. Run the GitHub Actions once.";
   render();
 }
-function go(t){tab=t;sec=null;sel=null;ord=null;fsel=null;ssel=null;render()}
+function go(t){RS=null;tab=t;sec=null;sel=null;ord=null;fsel=null;ssel=null;render()}
 function render(){
   [0,1,2,3,4].forEach(i=>$("t"+i).className=i==tab?"on":"");
   if(tab<3&&(!D||!D.updated)){$("app").innerHTML="<p class='mu'>Sector data not available yet.</p>";return}
@@ -132,16 +132,31 @@ function searchTab(){
 }
 /* ---------- Tab 4: F&O Stocks ---------- */
 function foTab(){
+  if(RS){$("app").innerHTML=reasonPage();return}
   const list=SX&&SX.stocks?SX.stocks:[];
   if(!list.length){$("app").innerHTML="<p class='mu'>Stock data not built yet.</p>";return}
   if(fsel){$("app").innerHTML=`<button class="back" onclick="fsel=null;foTab()">← Back to F&amp;O list</button>`+stockCard(list.find(s=>s.symbol==fsel));return}
   const all=list.filter(s=>s.fno);
   const shown=all.filter(s=>fq=="all"||s.bias==fq);
-  $("app").innerHTML=`<div class="mu">${all.length} F&amp;O stocks, sorted by momentum score</div>
+  $("app").innerHTML=`<div class="mu">${all.length} F&amp;O stocks, sorted by momentum score. Tap the UPSIDE or DOWNSIDE button for its reasons.</div>
   <div class="row"><button class="btn ${fq=="all"?"on":""}" onclick="fq='all';foTab()">All</button><button class="btn g ${fq=="UPSIDE"?"on":""}" onclick="fq='UPSIDE';foTab()">Upside</button><button class="btn b ${fq=="DOWNSIDE"?"on":""}" onclick="fq='DOWNSIDE';foTab()">Downside</button></div>`+
-  shown.map(s=>`<div class="card" onclick="fsel='${s.symbol}';foTab()"><div class="top"><span><span class="sym">${esc(s.symbol)}</span><div class="mu">${esc(s.name)}</div></span>
-  <span><b>${n(s.momentum)}</b> <span class="badge ${s.bias=='UPSIDE'?'LOW':s.bias=='DOWNSIDE'?'HIGH':'NA'}">${s.bias}</span></span></div>
-  <div class="mu">₹${n(s.price)} · RSI ${n(s.rsi)} · ${s.mcap_cr!=null?"₹"+n(s.mcap_cr)+" cr":""}</div></div>`).join("")||"<p class='mu'>No stocks in this group.</p>";
+  shown.map(s=>{const dir=s.bias=="DOWNSIDE"||(s.bias=="NEUTRAL"&&s.down>s.up)?"DOWNSIDE":"UPSIDE";
+    return `<div class="card" onclick="fsel='${s.symbol}';foTab()"><div class="top"><span><span class="sym">${esc(s.symbol)}</span><div class="mu">${esc(s.name)}</div></span>
+    <span><b>${n(s.momentum)}</b> <button class="badge ${dir=='UPSIDE'?'LOW':'HIGH'}" style="border:0;cursor:pointer" onclick="event.stopPropagation();RS={sym:'${s.symbol}',dir:'${dir}'};foTab()">${dir}</button></span></div>
+    <div class="mu">₹${n(s.price)} · RSI ${n(s.rsi)} · ${s.mcap_cr!=null?"₹"+n(s.mcap_cr)+" cr":""} · ${s.bias}</div></div>`}).join("")||"<p class='mu'>No stocks in this group.</p>";
+}
+function reasonPage(){
+  const s=(SX&&SX.stocks||[]).find(x=>x.symbol==RS.sym); const R=s&&s.reasons&&s.reasons[RS.dir];
+  const back=`<button class="back" onclick="RS=null;foTab()">← Back to F&amp;O list</button>`;
+  if(!R)return back+"<p class='mu'>No reasons available for this stock.</p>";
+  const col=RS.dir=="UPSIDE"?"var(--gd)":"var(--bdc)";
+  const cb=R.confidence=="HIGH"?"LOW":R.confidence=="MEDIUM"?"OK":"NA";
+  return `${back}<div class="card"><div class="top"><span><span class="sym">${esc(s.symbol)}</span> <span class="mu">${esc(s.name)}</span></span><b style="color:${col}">${RS.dir}</b></div>
+  <h2>Confidence: <span class="badge ${cb}">${R.confidence}</span></h2>
+  <p class="mu">${R.count} genuine reasons found across ${R.cats} categories${R.count<10?" (fewer than 10 sourced reasons were available today)":""}</p></div>`+
+  (R.items.length?R.items.map((it,i)=>`<div class="card"><div class="top"><b>${i+1}. ${esc(it.cat)}</b><span class="mu">${esc(it.date||"")}</span></div>
+  <div style="margin-top:4px">${esc(it.text)}</div>${it.link?`<a href="${esc(it.link)}" target="_blank" rel="noopener">Source: ${esc(it.src)}</a>`:`<div class="mu">Source: ${esc(it.src)}</div>`}</div>`).join(""):"<p class='mu'>No sourced reasons in this direction.</p>")+
+  `<p class="mu">Reasons come only from NSE filings, RBI and PIB releases, and price and delivery data. Not advice.</p>`;
 }
 if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 load();
