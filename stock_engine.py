@@ -149,12 +149,12 @@ for r in out:
         r["mcap_cr"] = round(mc / 1e7) if mc else None
         pe = num(i.get("trailingPE")); ev = num(i.get("enterpriseToEbitda")); pb = num(i.get("priceToBook"))
         eg = num(i.get("earningsGrowth")); ind = i.get("industry") or "Unknown"
-        r["industry"] = ind; r["eg"] = eg
+        r["industry"] = ind; r["eg"] = eg; r["rg"] = num(i.get("revenueGrowth")); r["roe"] = num(i.get("returnOnEquity")); r["de"] = num(i.get("debtToEquity"))
         r["_v"] = (pe, ev, pb)
         if pe and pe > 0: med.setdefault(ind, {"pe": [], "ev": []})["pe"].append(pe)
         if ev and ev > 0: med.setdefault(ind, {"pe": [], "ev": []})["ev"].append(ev)
     except Exception:
-        r["mcap_cr"] = None; r["industry"] = "Unknown"; r["eg"] = None; r["_v"] = (None, None, None)
+        r["mcap_cr"] = None; r["industry"] = "Unknown"; r["eg"] = None; r["rg"] = None; r["roe"] = None; r["de"] = None; r["_v"] = (None, None, None)
 for ind in med: med[ind] = {k: float(np.median(v)) for k, v in med[ind].items() if v}
 
 # Sector demand proxy: median 3M relative strength per industry (from price data)
@@ -234,10 +234,10 @@ for r in out:
         if r["eg"] and r["eg"] > 0: peg = pe / (r["eg"] * 100); pts += 1 if peg < 1 else (-1 if peg > 2 else 0); why.append(f"PEG {peg:.2f}")
         r["valuation"] = {"verdict": "LOW" if pts >= 1.5 else "HIGH" if pts <= -1.5 else "OK", "pe": round(pe, 1),
                           "ev": round(ev, 1) if ev else None, "pb": round(pb, 2) if pb else None, "why": why}
-    r.pop("eg", None)
+    pass
 
 out.sort(key=lambda r: -r["momentum"])
 json.dump({"updated": dt.datetime.utcnow().isoformat() + "Z", "nifty": {"r1": round(nr1, 1), "r3": round(nr3, 1)}, "stocks": out},
           open("stocks.json", "w"), indent=0, default=str)
 print("stocks:", len(out), "fno:", sum(r["fno"] for r in out), "headlines:", len(heads), "announcements:", sum(len(v) for v in ann.values()))
-           
+                                             
