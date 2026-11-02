@@ -1,0 +1,400 @@
+[
+ {
+  "match": [
+   "agricultur",
+   "farm",
+   "fertiliz",
+   "fertilis",
+   "pesticide",
+   "seed"
+  ],
+  "title": "Monsoon and crop output",
+  "good_when": "Rainfall is normal, sowing is up and crop prices hold, so farm incomes and input sales grow.",
+  "bad_when": "Rainfall is deficient or uneven, sowing falls and low crop prices squeeze farmers' income.",
+  "current_view": "Negative: ICRA (1 Oct 2026) puts 2026 monsoon rainfall at 87% of the long-period average, the lowest since 2015, and cut FY2027 agriculture GVA growth to about 1%.",
+  "source": "ICRA report, 1 Oct 2026 (user-provided, verify the original)",
+  "url": "",
+  "date": "2026-10-01",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "agricultur",
+   "fertiliz",
+   "fertilis"
+  ],
+  "title": "Fertiliser subsidy and MSP policy",
+  "good_when": "Timely subsidy payments, steady MSP hikes and stable import prices protect fertiliser company margins.",
+  "bad_when": "Subsidy payments are delayed, import prices spike, or export and price controls cut margins.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "bank",
+   "credit services"
+  ],
+  "title": "Credit growth and asset quality",
+  "good_when": "Loan growth is strong, bad loans fall and provisions stay low, lifting profit growth.",
+  "bad_when": "Credit slows, bad loans rise, or stressed borrowers force higher provisions.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "bank",
+   "credit services"
+  ],
+  "title": "Interest rate cycle",
+  "good_when": "Rate cuts lift loan demand without squeezing lending margins; stable deposit costs help.",
+  "bad_when": "Rate hikes slow borrowing, or deposit costs rise faster than loan yields and squeeze margins.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "software",
+   "information technology",
+   "it services"
+  ],
+  "title": "Global tech spending and deal wins",
+  "good_when": "US and European clients raise IT budgets, and large deal wins lift revenue visibility.",
+  "bad_when": "Clients cut discretionary spending, deal sizes shrink, or automation reduces billable work.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "software",
+   "information technology",
+   "it services"
+  ],
+  "title": "Rupee and dollar earnings",
+  "good_when": "A weaker rupee raises rupee value of dollar revenue, which lifts margins.",
+  "bad_when": "A sharply stronger rupee cuts rupee revenue for exporters.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "drug",
+   "pharma",
+   "biotech"
+  ],
+  "title": "US generic pricing and regulatory approvals",
+  "good_when": "US price erosion is low, new product approvals come through and plants pass inspections.",
+  "bad_when": "US generic prices fall fast, or USFDA warning letters and plant shutdowns hit supply.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "drug",
+   "pharma",
+   "biotech",
+   "healthcare"
+  ],
+  "title": "Domestic chronic therapy demand",
+  "good_when": "Rising chronic disease and health spending grow domestic formulation sales.",
+  "bad_when": "Price controls on essential medicines or weak hospital spending cap growth.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "auto"
+  ],
+  "title": "Consumer demand and loan costs",
+  "good_when": "Rural and urban demand is strong, festive sales are good and car loans are cheap.",
+  "bad_when": "Loan rates are high, fuel prices spike or rural income is weak.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "auto"
+  ],
+  "title": "EV transition and input costs",
+  "good_when": "EV adoption and incentives grow, and battery and steel costs fall.",
+  "bad_when": "EV price wars, battery cost spikes or slow adoption strand investments.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "oil",
+   "gas",
+   "petroleum",
+   "refin"
+  ],
+  "title": "Crude price and refining margins",
+  "good_when": "Crude is stable or falling and refining margins (cracks) are high.",
+  "bad_when": "Crude spikes faster than fuel prices, or the government caps retail fuel prices.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "oil",
+   "gas",
+   "petroleum",
+   "coal",
+   "energy"
+  ],
+  "title": "Upstream energy prices",
+  "good_when": "Crude and gas prices rise, lifting production revenue for producers.",
+  "bad_when": "Crude and gas prices fall, or production is cut by policy.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "utilit",
+   "power",
+   "electric"
+  ],
+  "title": "Power demand and tariffs",
+  "good_when": "Power demand grows and tariffs are revised on time, so cash flows are predictable.",
+  "bad_when": "Distribution companies delay payments, or tariff revisions lag costs.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "utilit",
+   "power",
+   "renewable",
+   "electric"
+  ],
+  "title": "Renewable capacity and transmission",
+  "good_when": "Projects are commissioned on time and transmission lines connect them.",
+  "bad_when": "Transmission delays curtail output, or projects slip and cost more.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "steel",
+   "metal",
+   "mining",
+   "aluminium",
+   "aluminum",
+   "copper"
+  ],
+  "title": "Global commodity cycle and China demand",
+  "good_when": "China demand and global infrastructure spending rise, lifting metal prices.",
+  "bad_when": "Cheap imports or Chinese overcapacity push prices down, or import duty cuts open the market.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "building material",
+   "cement",
+   "construction material"
+  ],
+  "title": "Infra and housing demand",
+  "good_when": "Government capex and housing demand are strong, and coal or fuel costs are low.",
+  "bad_when": "Monsoon disrupts construction, or fuel and freight costs rise.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "engineering",
+   "construction",
+   "machinery",
+   "electrical equipment",
+   "industrial"
+  ],
+  "title": "Government capex and order books",
+  "good_when": "Infrastructure orders keep flowing and projects are paid on time.",
+  "bad_when": "Order inflows slow, project delays build up, or client payments stretch.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "aerospace",
+   "defence",
+   "defense"
+  ],
+  "title": "Defence budget and procurement",
+  "good_when": "Defence budgets rise and orders and exports come through on schedule.",
+  "bad_when": "Procurement is delayed, or contract payments and approvals are slow.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "real estate",
+   "realty"
+  ],
+  "title": "Interest rates and housing sales",
+  "good_when": "Rates fall, housing sales rise and unsold inventory falls.",
+  "bad_when": "Rates stay high, or unsold inventory and project delays build up.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "packaged",
+   "household",
+   "beverage",
+   "tobacco",
+   "food"
+  ],
+  "title": "Rural demand and input costs",
+  "good_when": "Rural demand recovers and input costs such as edible oil and packaging fall.",
+  "bad_when": "Monsoon is weak, or input cost inflation cuts volume and margins.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "chemical"
+  ],
+  "title": "China competition and input costs",
+  "good_when": "Chinese supply is cut or global demand rises, and raw-material costs stay low.",
+  "bad_when": "Cheap Chinese imports push prices down, or raw-material costs spike.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "telecom",
+   "communication"
+  ],
+  "title": "Tariff hikes and ARPU",
+  "good_when": "Tariff hikes and data growth lift revenue per user (ARPU).",
+  "bad_when": "Price wars, or heavy spectrum and network spending, cut returns.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "retail",
+   "apparel",
+   "textile",
+   "footwear",
+   "restaurant",
+   "consumer cyclical"
+  ],
+  "title": "Discretionary consumer spending",
+  "good_when": "Incomes grow and festive spending is strong.",
+  "bad_when": "Inflation squeezes discretionary spending or the festive season is weak.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "textile",
+   "apparel"
+  ],
+  "title": "Export tariffs and cotton prices",
+  "good_when": "Export tariffs ease and cotton prices are low, lifting margins.",
+  "bad_when": "Tariffs cut export orders, or competing exporters undercut prices.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "airline",
+   "travel",
+   "lodging",
+   "hotel"
+  ],
+  "title": "Air travel demand and fuel costs",
+  "good_when": "Passenger traffic grows and jet fuel prices fall.",
+  "bad_when": "Fuel prices spike or airfares cut demand.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ },
+ {
+  "match": [
+   "logistics",
+   "integrated freight",
+   "transport"
+  ],
+  "title": "Freight demand and diesel costs",
+  "good_when": "Freight volumes grow with infrastructure and trade, and diesel prices stay low.",
+  "bad_when": "Diesel prices spike or trade volumes fall.",
+  "current_view": "",
+  "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+  "url": "",
+  "date": "",
+  "added_by": "app"
+ }
+]
