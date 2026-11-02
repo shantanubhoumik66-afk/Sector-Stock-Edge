@@ -15,6 +15,12 @@ def med(xs):
 def write(obj):
     json.dump(obj, open("sectors.json", "w"), indent=1, default=str)
 
+try: DRV = json.load(open("sector_drivers.json"))
+except Exception: DRV = []
+def drivers_for(name):
+    l = name.lower()
+    return [d for d in DRV if any(k in l for k in d.get("match", []))]
+
 try:
     st = json.load(open("stocks.json"))
     stocks = [x for x in st.get("stocks", []) if x.get("industry") and x["industry"] != "Unknown"]
@@ -148,7 +154,7 @@ try:
         grp = "TOP" if i < 3 else "UNDER" if i >= len(out) - 3 else "MID"
         result.append({"name": g["name"], "n": g["n"], "score": g["score"], "group": grp,
                        "tech_rs3": round(g["rs3"], 1) if g["rs3"] is not None else None,
-                       "factors": g["factors"], "headlines": g["headlines"],
+                       "factors": g["factors"], "headlines": g["headlines"], "drivers": drivers_for(g["name"]),
                        "stocks": [{"symbol": x["symbol"], "name": x.get("name", ""), "price": x.get("price"), "rs3": x.get("rs3"),
                                    "momentum": x.get("momentum"), "bias": x.get("bias")} for x in g["stocks"]]})
     weights = {l: w for _, l, w in FACT}; weights["Flow context (not scored)"] = 0
