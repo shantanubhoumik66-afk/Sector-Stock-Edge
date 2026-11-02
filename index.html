@@ -77,11 +77,14 @@ function sectorReason(i){
   <div class="card"><div class="top"><span class="sym">${esc(x.name)}</span><span class="badge ${top?"LOW":x.group=="UNDER"?"HIGH":"NA"}">${top?"TOP PERFORMER":x.group=="UNDER"?"UNDERPERFORMER":"MIDDLE"}</span></div>
   <h2>Score ${n(x.score)}/100 · ${x.n} stocks</h2>
   <p class="mu">${top?"Why it is outperforming":"Why it is underperforming"}: the factors below that point ${top?"up":"down"}.</p></div>`+
-  (x.drivers&&x.drivers.length?`<h2>Real-world drivers for this sector</h2>`+x.drivers.map(d=>`<div class="card"><div class="top"><b>${esc(d.title)}</b><span class="badge ${/^Negative/i.test(d.current_view||"")?"HIGH":/^Positive/i.test(d.current_view||"")?"LOW":"NA"}">${esc((d.current_view||"Watch").split(":")[0])}</span></div>
+  (x.drivers&&x.drivers.length?`<h2>Real-world drivers for this sector</h2>`+x.drivers.map(d=>`<div class="card"><div class="top"><b>${esc(d.title)}</b><button class="badge ${/^Negative/i.test(d.current_view||"")?"HIGH":/^Positive/i.test(d.current_view||"")?"LOW":"NA"}" style="border:0;cursor:pointer" onclick="const b=this.closest('.card').querySelector('.srcbox');b.style.display=b.style.display=='block'?'none':'block'">${esc((d.current_view||"Watch").split(":")[0])}</button></div>
   <div style="font-size:13px;margin-top:4px"><b class="pos">Good when:</b> ${esc(d.good_when)}</div>
   <div style="font-size:13px"><b class="neg">Bad when:</b> ${esc(d.bad_when)}</div>
-  ${d.current_view?`<div class="mu" style="margin-top:4px">${esc(d.current_view)}</div>`:""}
-  <div class="mu">Source: ${esc(d.source)}${d.date?" · "+esc(d.date):""}</div>${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">Open source</a>`:""}</div>`).join(""):"")+
+  <div class="srcbox" style="display:none;margin-top:8px;padding:8px;border-radius:8px;background:var(--bd);font-size:12px">
+    ${d.current_view?`<div><b>Current view:</b> ${esc(d.current_view)}</div>`:`<div><b>Current view:</b> not set yet (shows "Watch")</div>`}
+    <div class="mu" style="margin-top:4px">Source: ${esc(d.source)}${d.date?" · "+esc(d.date):""}</div>
+    ${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">Open source</a>`:""}
+  </div></div>`).join(""):"")+
   (main.map(row).join("")||"<p class='mu'>No factor clearly points this way.</p>")+
   `<h2>Other factors</h2>`+other.map(row).join("")+
   `<h2>Official policy headlines</h2>`+hl+
