@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T05:05:02.865369Z",
+ "updated": "2026-11-02T05:13:27.533539Z",
  "flows": {
   "date": "30-Oct-2026",
   "fii_net": 3598.54,
@@ -64,7 +64,7 @@
      "weight": 15,
      "pct": 100,
      "dir": "UP",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is helped by rising crude",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is helped by rising crude",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -145,7 +145,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -180,7 +180,7 @@
   {
    "name": "Internet Retail",
    "n": 6,
-   "score": 59.4,
+   "score": 60.6,
    "group": "TOP",
    "tech_rs3": 0.2,
    "factors": [
@@ -188,7 +188,7 @@
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 83,
+     "pct": 87,
      "dir": "UP",
      "text": "Median 3M return +0.2% vs Nifty; 50% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
@@ -226,7 +226,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -255,87 +255,6 @@
      "rs3": 27.6,
      "momentum": 82.5,
      "bias": "UPSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Utilities - Renewable",
-   "n": 7,
-   "score": 59.3,
-   "group": "MID",
-   "tech_rs3": 0.1,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 87,
-     "dir": "UP",
-     "text": "Median 3M return +0.1% vs Nifty; 50% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 97,
-     "dir": "UP",
-     "text": "Median earnings growth +60% and revenue growth +63% across 7 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 8,
-     "dir": "DOWN",
-     "text": "Median ROE 7% and debt/equity 2.25",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "stocks": [
-    {
-     "symbol": "NHPC",
-     "name": "NHPC Ltd.",
-     "price": 77.74,
-     "rs3": 5.0,
-     "momentum": 90.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "ADANIGREEN",
-     "name": "Adani Green Energy Ltd.",
-     "price": 1298.7,
-     "rs3": 0.8,
-     "momentum": 70.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "ACMESOLAR",
-     "name": "ACME Solar Holdings Ltd.",
-     "price": 404.8,
-     "rs3": 17.4,
-     "momentum": 52.5,
-     "bias": "NEUTRAL"
     }
    ]
   },
@@ -388,7 +307,7 @@
      "weight": 15,
      "pct": 10,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -417,6 +336,87 @@
      "rs3": 8.2,
      "momentum": 82.5,
      "bias": "UPSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Utilities - Renewable",
+   "n": 7,
+   "score": 58.2,
+   "group": "MID",
+   "tech_rs3": 0.1,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 83,
+     "dir": "UP",
+     "text": "Median 3M return +0.1% vs Nifty; 50% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 97,
+     "dir": "UP",
+     "text": "Median earnings growth +60% and revenue growth +63% across 7 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 8,
+     "dir": "DOWN",
+     "text": "Median ROE 7% and debt/equity 2.25",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "stocks": [
+    {
+     "symbol": "NHPC",
+     "name": "NHPC Ltd.",
+     "price": 77.74,
+     "rs3": 5.0,
+     "momentum": 90.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "ADANIGREEN",
+     "name": "Adani Green Energy Ltd.",
+     "price": 1298.7,
+     "rs3": 0.8,
+     "momentum": 70.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "ACMESOLAR",
+     "name": "ACME Solar Holdings Ltd.",
+     "price": 404.8,
+     "rs3": 17.4,
+     "momentum": 52.5,
+     "bias": "NEUTRAL"
     }
    ]
   },
@@ -469,7 +469,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -550,7 +550,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -631,7 +631,7 @@
      "weight": 15,
      "pct": 10,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -666,7 +666,7 @@
   {
    "name": "Banks - Regional",
    "n": 27,
-   "score": 51.9,
+   "score": 50.6,
    "group": "MID",
    "tech_rs3": -0.2,
    "factors": [
@@ -674,9 +674,9 @@
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 73,
+     "pct": 70,
      "dir": "UP",
-     "text": "Median 3M return -0.2% vs Nifty; 37% of stocks above 200-day average",
+     "text": "Median 3M return -0.2% vs Nifty; 33% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -712,7 +712,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -812,7 +812,7 @@
      "weight": 15,
      "pct": 0,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is hurt by rising crude",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is hurt by rising crude",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -893,7 +893,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -928,7 +928,7 @@
   {
    "name": "Capital Markets",
    "n": 8,
-   "score": 47.2,
+   "score": 48.4,
    "group": "MID",
    "tech_rs3": -2.4,
    "factors": [
@@ -936,7 +936,7 @@
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 70,
+     "pct": 73,
      "dir": "UP",
      "text": "Median 3M return -2.4% vs Nifty; 38% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
@@ -974,7 +974,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1055,7 +1055,7 @@
      "weight": 15,
      "pct": 10,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1136,7 +1136,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1164,6 +1164,87 @@
      "price": 1825.3,
      "rs3": -4.2,
      "momentum": 62.5,
+     "bias": "UPSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Specialty Chemicals",
+   "n": 16,
+   "score": 40.2,
+   "group": "MID",
+   "tech_rs3": -4.7,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 43,
+     "dir": "NEUTRAL",
+     "text": "Median 3M return -4.7% vs Nifty; 25% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 73,
+     "dir": "UP",
+     "text": "Median earnings growth +27% and revenue growth +24% across 16 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 62,
+     "dir": "UP",
+     "text": "Median ROE 19% and debt/equity 0.21",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 0,
+     "dir": "DOWN",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is hurt by rising crude",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "stocks": [
+    {
+     "symbol": "ACUTAAS",
+     "name": "Acutaas Chemicals Ltd.",
+     "price": 4003.6,
+     "rs3": 29.1,
+     "momentum": 85.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "AETHER",
+     "name": "Aether Industries Ltd.",
+     "price": 1616.2,
+     "rs3": 13.6,
+     "momentum": 57.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "SOLARINDS",
+     "name": "Solar Industries India Ltd.",
+     "price": 18800.0,
+     "rs3": 9.3,
+     "momentum": 57.5,
      "bias": "UPSIDE"
     }
    ]
@@ -1217,7 +1298,7 @@
      "weight": 15,
      "pct": 0,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is hurt by rising crude",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is hurt by rising crude",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1298,7 +1379,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1327,87 +1408,6 @@
      "rs3": 5.0,
      "momentum": 45.0,
      "bias": "NEUTRAL"
-    }
-   ]
-  },
-  {
-   "name": "Specialty Chemicals",
-   "n": 16,
-   "score": 39.1,
-   "group": "MID",
-   "tech_rs3": -4.7,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 40,
-     "dir": "DOWN",
-     "text": "Median 3M return -4.7% vs Nifty; 25% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 73,
-     "dir": "UP",
-     "text": "Median earnings growth +27% and revenue growth +24% across 16 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 62,
-     "dir": "UP",
-     "text": "Median ROE 19% and debt/equity 0.21",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 0,
-     "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is hurt by rising crude",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "stocks": [
-    {
-     "symbol": "ACUTAAS",
-     "name": "Acutaas Chemicals Ltd.",
-     "price": 4003.6,
-     "rs3": 29.1,
-     "momentum": 85.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "AETHER",
-     "name": "Aether Industries Ltd.",
-     "price": 1616.2,
-     "rs3": 13.6,
-     "momentum": 57.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "SOLARINDS",
-     "name": "Solar Industries India Ltd.",
-     "price": 18800.0,
-     "rs3": 9.3,
-     "momentum": 57.5,
-     "bias": "UPSIDE"
     }
    ]
   },
@@ -1460,7 +1460,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1489,6 +1489,87 @@
      "rs3": 13.4,
      "momentum": 50.0,
      "bias": "NEUTRAL"
+    }
+   ]
+  },
+  {
+   "name": "Asset Management",
+   "n": 11,
+   "score": 30.5,
+   "group": "MID",
+   "tech_rs3": -5.7,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 40,
+     "dir": "DOWN",
+     "text": "Median 3M return -5.7% vs Nifty; 18% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 10,
+     "dir": "DOWN",
+     "text": "Median earnings growth -6% and revenue growth +14% across 11 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 100,
+     "dir": "UP",
+     "text": "Median ROE 27% and debt/equity 0.03",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "stocks": [
+    {
+     "symbol": "ANANDRATHI",
+     "name": "Anand Rathi Wealth Ltd.",
+     "price": 2252.0,
+     "rs3": 15.8,
+     "momentum": 97.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "NUVAMA",
+     "name": "Nuvama Wealth Management Ltd.",
+     "price": 1736.0,
+     "rs3": 2.0,
+     "momentum": 62.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "HDFCAMC",
+     "name": "HDFC Asset Management Company Ltd.",
+     "price": 2309.5,
+     "rs3": -4.1,
+     "momentum": 42.5,
+     "bias": "DOWNSIDE"
     }
    ]
   },
@@ -1541,7 +1622,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1622,7 +1703,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1650,168 +1731,6 @@
      "price": 189.0,
      "rs3": -4.4,
      "momentum": 27.5,
-     "bias": "DOWNSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Medical Care Facilities",
-   "n": 8,
-   "score": 29.6,
-   "group": "MID",
-   "tech_rs3": -11.6,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 43,
-     "dir": "NEUTRAL",
-     "text": "Median 3M return -11.6% vs Nifty; 38% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 30,
-     "dir": "DOWN",
-     "text": "Median earnings growth +1% and revenue growth +24% across 8 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": null,
-     "dir": null,
-     "text": "Median ROE \u2013% and debt/equity 0.50",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "stocks": [
-    {
-     "symbol": "APOLLOHOSP",
-     "name": "Apollo Hospitals Enterprise Ltd.",
-     "price": 8448.0,
-     "rs3": -0.7,
-     "momentum": 70.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "MEDANTA",
-     "name": "Global Health Ltd.",
-     "price": 1270.3,
-     "rs3": -5.1,
-     "momentum": 32.5,
-     "bias": "DOWNSIDE"
-    },
-    {
-     "symbol": "FORTIS",
-     "name": "Fortis Healthcare Ltd.",
-     "price": 768.15,
-     "rs3": -13.8,
-     "momentum": 22.5,
-     "bias": "DOWNSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Asset Management",
-   "n": 11,
-   "score": 28.2,
-   "group": "MID",
-   "tech_rs3": -5.7,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 33,
-     "dir": "DOWN",
-     "text": "Median 3M return -5.7% vs Nifty; 18% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 10,
-     "dir": "DOWN",
-     "text": "Median earnings growth -6% and revenue growth +14% across 11 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 100,
-     "dir": "UP",
-     "text": "Median ROE 27% and debt/equity 0.03",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "stocks": [
-    {
-     "symbol": "ANANDRATHI",
-     "name": "Anand Rathi Wealth Ltd.",
-     "price": 2252.0,
-     "rs3": 15.8,
-     "momentum": 97.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "NUVAMA",
-     "name": "Nuvama Wealth Management Ltd.",
-     "price": 1736.0,
-     "rs3": 2.0,
-     "momentum": 62.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "HDFCAMC",
-     "name": "HDFC Asset Management Company Ltd.",
-     "price": 2309.5,
-     "rs3": -4.1,
-     "momentum": 42.5,
      "bias": "DOWNSIDE"
     }
    ]
@@ -1865,7 +1784,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1946,7 +1865,7 @@
      "weight": 15,
      "pct": 10,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1974,6 +1893,87 @@
      "price": 1351.3,
      "rs3": -4.8,
      "momentum": 42.5,
+     "bias": "DOWNSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Medical Care Facilities",
+   "n": 8,
+   "score": 23.1,
+   "group": "MID",
+   "tech_rs3": -11.6,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 27,
+     "dir": "DOWN",
+     "text": "Median 3M return -11.6% vs Nifty; 25% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 30,
+     "dir": "DOWN",
+     "text": "Median earnings growth +1% and revenue growth +24% across 8 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": null,
+     "dir": null,
+     "text": "Median ROE \u2013% and debt/equity 0.50",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "stocks": [
+    {
+     "symbol": "APOLLOHOSP",
+     "name": "Apollo Hospitals Enterprise Ltd.",
+     "price": 8448.0,
+     "rs3": -0.7,
+     "momentum": 70.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "MEDANTA",
+     "name": "Global Health Ltd.",
+     "price": 1270.3,
+     "rs3": -5.1,
+     "momentum": 32.5,
+     "bias": "DOWNSIDE"
+    },
+    {
+     "symbol": "FORTIS",
+     "name": "Fortis Healthcare Ltd.",
+     "price": 768.15,
+     "rs3": -13.8,
+     "momentum": 22.5,
      "bias": "DOWNSIDE"
     }
    ]
@@ -2027,7 +2027,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2062,7 +2062,7 @@
   {
    "name": "Aerospace & Defense",
    "n": 8,
-   "score": 20.7,
+   "score": 22.0,
    "group": "MID",
    "tech_rs3": -12.4,
    "factors": [
@@ -2070,7 +2070,7 @@
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 30,
+     "pct": 33,
      "dir": "DOWN",
      "text": "Median 3M return -12.4% vs Nifty; 38% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
@@ -2108,7 +2108,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2143,7 +2143,7 @@
   {
    "name": "Building Materials",
    "n": 11,
-   "score": 18.8,
+   "score": 19.9,
    "group": "MID",
    "tech_rs3": -8.8,
    "factors": [
@@ -2151,7 +2151,7 @@
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 27,
+     "pct": 30,
      "dir": "DOWN",
      "text": "Median 3M return -8.8% vs Nifty; 18% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
@@ -2189,7 +2189,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2270,7 +2270,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2351,7 +2351,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2432,7 +2432,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2513,7 +2513,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +40.4% and USD-INR -0.3% over 3 months; sector is not sensitive to these",
+     "text": "Brent +38.4% and USD-INR -0.2% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
