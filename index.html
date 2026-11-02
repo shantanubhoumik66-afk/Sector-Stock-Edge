@@ -77,6 +77,11 @@ function sectorReason(i){
   <div class="card"><div class="top"><span class="sym">${esc(x.name)}</span><span class="badge ${top?"LOW":x.group=="UNDER"?"HIGH":"NA"}">${top?"TOP PERFORMER":x.group=="UNDER"?"UNDERPERFORMER":"MIDDLE"}</span></div>
   <h2>Score ${n(x.score)}/100 · ${x.n} stocks</h2>
   <p class="mu">${top?"Why it is outperforming":"Why it is underperforming"}: the factors below that point ${top?"up":"down"}.</p></div>`+
+  (x.drivers&&x.drivers.length?`<h2>Real-world drivers for this sector</h2>`+x.drivers.map(d=>`<div class="card"><div class="top"><b>${esc(d.title)}</b><span class="badge ${/^Negative/i.test(d.current_view||"")?"HIGH":/^Positive/i.test(d.current_view||"")?"LOW":"NA"}">${esc((d.current_view||"Watch").split(":")[0])}</span></div>
+  <div style="font-size:13px;margin-top:4px"><b class="pos">Good when:</b> ${esc(d.good_when)}</div>
+  <div style="font-size:13px"><b class="neg">Bad when:</b> ${esc(d.bad_when)}</div>
+  ${d.current_view?`<div class="mu" style="margin-top:4px">${esc(d.current_view)}</div>`:""}
+  <div class="mu">Source: ${esc(d.source)}${d.date?" · "+esc(d.date):""}</div>${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">Open source</a>`:""}</div>`).join(""):"")+
   (main.map(row).join("")||"<p class='mu'>No factor clearly points this way.</p>")+
   `<h2>Other factors</h2>`+other.map(row).join("")+
   `<h2>Official policy headlines</h2>`+hl+
