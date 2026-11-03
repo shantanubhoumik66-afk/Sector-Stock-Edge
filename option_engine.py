@@ -21,7 +21,14 @@ if not fo_stocks: print("Note: stocks.json has no F&O list yet; indices only.")
 def chain(sym, is_index):
     base = "option-chain-indices" if is_index else "option-chain-equities"
     r = s.get(f"https://www.nseindia.com/api/{base}?symbol={sym}", headers={"Referer": "https://www.nseindia.com/option-chain"}, timeout=30)
-    return r.json()
+    if r.status_code != 200:
+        raise RuntimeError(f"HTTP {r.status_code} from NSE")
+    if not r.text.strip().startswith("{"):
+        raise RuntimeError("NSE returned a web page, not data (likely blocked)")
+    js = r.json()
+    if "records" not in js or not js["records"].get("data"):
+        raise RuntimeError("NSE returned an empty chain (market closed or no data)")
+    return js
 
 def num(x):
     try: return float(x)
@@ -73,8 +80,11 @@ for sym in fo_stocks:
     except Exception as e: errors.append(f"{sym}: {e}")
     time.sleep(0.3)
 
+if errors:
+    print("First errors:")
+    for e in errors[:5]: print("  ", e)
 if not items:
-    fail("No option-chain data returned. NSE may be blocking the run. Try again during market hours.")
+    fail("No option-chain data returned. See 'First errors' above for the reason.")
 json.dump({"updated": dt.datetime.utcnow().isoformat() + "Z", "items": items, "errors": len(errors)},
           open("option.json", "w"), indent=1, default=str)
 print("option items:", len(items), "errors:", len(errors))
