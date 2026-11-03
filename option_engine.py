@@ -19,16 +19,26 @@ fo_stocks = sorted({x["symbol"] for x in stocks if x.get("fno")})
 if not fo_stocks: print("Note: stocks.json has no F&O list yet; indices only.")
 
 def chain(sym, is_index):
-    base = "option-chain-indices" if is_index else "option-chain-equities"
-    r = s.get(f"https://www.nseindia.com/api/{base}?symbol={sym}", headers={"Referer": "https://www.nseindia.com/option-chain"}, timeout=30)
-    if r.status_code != 200:
-        raise RuntimeError(f"HTTP {r.status_code} from NSE")
-    if not r.text.strip().startswith("{"):
-        raise RuntimeError("NSE returned a web page, not data (likely blocked)")
-    js = r.json()
-    if "records" not in js or not js["records"].get("data"):
-        raise RuntimeError("NSE returned an empty chain (market closed or no data)")
-    return js
+    kind = "Indices" if is_index else "Equity"
+    urls = [
+        f"https://www.nseindia.com/api/option-chain-indices?symbol={sym}" if is_index else f"https://www.nseindia.com/api/option-chain-equities?symbol={sym}",
+        f"https://www.nseindia.com/api/option-chain-v3?type={kind}&symbol={sym}",
+    ]
+    msgs = []
+    for u in urls:
+        try:
+            r = s.get(u, headers={"Referer": "https://www.nseindia.com/option-chain"}, timeout=30)
+        except Exception as e:
+            msgs.append(f"request error ({str(e)[:60]})"); continue
+        if r.status_code != 200:
+            msgs.append(f"HTTP {r.status_code}"); continue
+        if not r.text.strip().startswith("{"):
+            msgs.append("web page instead of data"); continue
+        js = r.json()
+        if "records" in js and js["records"].get("data"):
+            return js
+        msgs.append("empty chain")
+    raise RuntimeError(" / ".join(msgs))
 
 def num(x):
     try: return float(x)
