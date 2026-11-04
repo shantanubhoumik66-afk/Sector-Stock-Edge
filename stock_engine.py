@@ -191,7 +191,7 @@ for r in out:
         low = (a["desc"] + " " + a["text"]).lower(); body = a["text"] or a["desc"]
         if re.search(r"order|contract|award|letter of", low): add("Order book", "UP", f"{a['desc']}: {body}", "NSE corporate filing", a["link"], a["date"])
         elif re.search(r"buyback|bonus|dividend|split", low): add("Corporate action", "UP", f"{a['desc']}: {body}", "NSE corporate filing", a["link"], a["date"])
-        elif re.search(r"sebi|penalty|fraud|resign|default|downgrade|pledge|insolven", low): add("Governance/regulatory", "DOWN", f"{a['desc']}: {body}", "NSE corporate filing", a["link"], a["date"])
+        elif re.search(r"penalty|fraud|resign|default|downgrade|pledge|insolven|show cause|sebi order", low) and names.get(r["symbol"], r["symbol"]).split()[0].lower() in low: add("Governance/regulatory", "DOWN", f"{a['desc']}: {body}", "NSE corporate filing", a["link"], a["date"])
         elif re.search(r"financial result|quarterly result|results", low) and r["eg"] is not None and abs(r["eg"]) >= 0.1:
             add("Results", "UP" if r["eg"] > 0 else "DOWN", f"Results filed. Latest earnings growth {r['eg']*100:+.0f}%", "NSE filing + Yahoo Finance", a["link"], a["date"])
     # Policy headlines matched to industry
@@ -240,4 +240,3 @@ out.sort(key=lambda r: -r["momentum"])
 json.dump({"updated": dt.datetime.utcnow().isoformat() + "Z", "nifty": {"r1": round(nr1, 1), "r3": round(nr3, 1)}, "stocks": out},
           open("stocks.json", "w"), indent=0, default=str)
 print("stocks:", len(out), "fno:", sum(r["fno"] for r in out), "headlines:", len(heads), "announcements:", sum(len(v) for v in ann.values()))
-       
