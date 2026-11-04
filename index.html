@@ -192,24 +192,43 @@ const toMin=t=>{const [hh,mm]=String(t).split(":").map(Number);return hh*60+mm};
 function dayHtml(sym){
   const S=(OPTD&&OPTD.snapshots)||[];
   const pts=S.map(s=>({t:s.t,d:(s.items||{})[sym]})).filter(p=>p.d);
-  if(!pts.length)return "<p class='mu'>No intraday snapshots for this symbol today yet.</p>";
-  const L=pts[pts.length-1], last=L.t;
   const lab=m=>m>=60?(m/60)+" hour":m+" min";
-  const btn=m=>`<button class="btn ${OWIN==m?"on":""}" style="flex:none;padding:8px 10px;font-size:13px" onclick="OWIN=${m};optTab()">${lab(m)}</button>`;
-  const buttons=`<div class="row" style="margin:8px 0">${[5,10,15,30,60].map(btn).join("")}</div>`;
+  const btnRow=`<div class="row" style="margin:8px 0">${[5,10,15,30,60].map(m=>`<button class="btn ${OWIN==m?"on":""}" style="flex:none;padding:8px 10px;font-size:13px" onclick="OWIN=${m};optTab()">${lab(m)}</button>`).join("")}</div>`;
+  if(!pts.length)return btnRow+"<p class='mu'>No intraday snapshots for this symbol today yet.</p>";
+  const L=pts[pts.length-1], last=L.t;
   const target=toMin(last)-OWIN;
   let B=null; for(const p of pts){ if(toMin(p.t)<=target) B=p; }
-  const enough=!!B; const base=B||pts[0];
+  const enough=!!B, base=B||pts[0];
   const dce=L.d.ce-base.d.ce, dpe=L.d.pe-base.d.pe;
-  const summary=dce>1.2*Math.max(dpe,1)?"Call OI built up more than put OI (call writing)":dpe>1.2*Math.max(dce,1)?"Put OI built up more than call OI (put writing)":"Call and put OI built up about equally";
+  const mx=Math.max(Math.abs(dce),Math.abs(dpe),1);
+  let vt,vc,vd;
+  if(dce<=0&&dpe<=0){vt="UNWINDING · both sides reducing";vc="NA";vd="Call and put OI are both falling, so positions are being closed. Neutral signal.";}
+  else if(dce>1.2*Math.max(dpe,1)){vt="CALL WRITER DOMINANT · bearish pressure";vc="HIGH";vd="Call OI is rising much faster than put OI, so sellers are adding calls. Resistance is building.";}
+  else if(dpe>1.2*Math.max(dce,1)){vt="PUT WRITER DOMINANT · bullish support";vc="LOW";vd="Put OI is rising much faster than call OI, so sellers are adding puts. Support is building.";}
+  else {vt="BALANCED · no clear writer side";vc="NA";vd="Call and put OI are rising at a similar pace. No clear side yet.";}
   const mode=last>="15:25"?"After-market summary":"Live, last update "+last+" IST";
-  const note=enough?"":`<div class="mu">Not enough history for ${lab(OWIN)} yet. Comparing with the earliest snapshot (${esc(pts[0].t)}).</div>`;
+  const verdictBox=`<div class="card" style="border-width:2px;border-color:${vc=="HIGH"?"var(--bdc)":vc=="LOW"?"var(--gd)":"var(--bd)"}">
+    <div class="top"><b>${vt}</b><span class="badge ${vc}">${lab(OWIN)}</span></div>
+    <div style="font-size:13px;margin-top:6px">${vd}</div>
+    <div class="mu" style="margin-top:6px">${mode}. ${enough?"Compared with "+esc(base.t)+" snapshot.":"Not enough history for "+lab(OWIN)+" yet, so compared with "+esc(base.t)+"."}</div></div>`;
+  const bars=`<div class="card"><div class="mu">Change in OI over ${lab(OWIN)}</div>
+    <div class="brow"><span>Call OI</span><div class="bar"><i style="width:${Math.round(100*Math.abs(dce)/mx)}%;background:var(--bdc)"></i></div><span>${dce>=0?"+":""}${n(dce)}</span></div>
+    <div class="brow"><span>Put OI</span><div class="bar"><i style="width:${Math.round(100*Math.abs(dpe)/mx)}%;background:var(--gd)"></i></div><span>${dpe>=0?"+":""}${n(dpe)}</span></div></div>`;
+  const W=600,HH=120;
+  const ces=pts.map(p=>p.d.ce), pes=pts.map(p=>p.d.pe);
+  const mn=Math.min(...ces,...pes), mxv=Math.max(...ces,...pes,mn+1);
+  const X=i=>pts.length<2?W/2:20+i*(W-40)/(pts.length-1);
+  const Y=v=>HH-10-(v-mn)/(mxv-mn)*(HH-20);
+  const poly=arr=>arr.map((v,i)=>`${X(i)},${Y(v)}`).join(" ");
+  const bi=Math.max(0,pts.indexOf(base)), li=pts.length-1;
+  const shade=pts.length>1?`<rect x="${X(bi)}" y="0" width="${Math.max(1,X(li)-X(bi))}" height="${HH}" fill="#7aa2ff" opacity=".18"/>`:"";
+  const chart=`<div class="card"><div class="mu">OI through the day: calls red, puts green, shaded = selected window</div>
+    <svg viewBox="0 0 ${W} ${HH}" width="100%" style="margin-top:6px">${shade}
+    <polyline points="${poly(ces)}" fill="none" stroke="#ff6b60" stroke-width="2.5"/>
+    <polyline points="${poly(pes)}" fill="none" stroke="#3ccf85" stroke-width="2.5"/></svg>
+    <div class="mu" style="display:flex;justify-content:space-between"><span>${esc(pts[0].t)}</span><span>${esc(last)}</span></div></div>`;
   const rows=pts.slice(-40).map(p=>`<tr><td>${esc(p.t)}</td><td>${n(p.d.ce)}</td><td>${n(p.d.pe)}</td><td>${p.d.pcr==null?"–":n(p.d.pcr)}</td></tr>`).join("");
-  return `<h2>${mode}</h2>${buttons}
-  <div class="card"><div class="mu">Change in last ${lab(OWIN)} (vs ${esc(base.t)}): call OI ${dce>=0?"+":""}${n(dce)} · put OI ${dpe>=0?"+":""}${n(dpe)}</div>
-  <b>${summary}</b>${note}
-  <div class="mu" style="margin-top:6px">OI now: call ${n(L.d.ce)} · put ${n(L.d.pe)} · PCR ${L.d.pcr==null?"–":n(L.d.pcr)}</div></div>
-  <table><tr><td>Time</td><td>Call OI</td><td>Put OI</td><td>PCR</td></tr>${rows}</table>`;
+  return btnRow+verdictBox+bars+chart+`<table><tr><td>Time</td><td>Call OI</td><td>Put OI</td><td>PCR</td></tr>${rows}</table>`;
 }
 function optCard(x){
   const vc=x.verdict.startsWith("CALL")?"HIGH":x.verdict.startsWith("PUT")?"LOW":"NA";
@@ -220,7 +239,6 @@ function optCard(x){
   <div class="card"><div class="top"><span><span class="sym">${esc(x.symbol)}</span><div class="mu">${esc(x.type)} · expiry ${esc(x.expiry)}</div></span><span class="badge ${vc}">${esc(x.verdict)}</span></div>
   <h2>Underlying ${n(x.underlying)} · PCR ${n(x.pcr)} · Max pain ${n(x.max_pain)}</h2>
   <div class="mu">Total call OI ${n(x.ce_oi)} · put OI ${n(x.pe_oi)}</div>${bar(x.ce_oi,tot,"var(--bdc)")}${bar(x.pe_oi,tot,"var(--gd)")}
-  <div class="mu">Change in OI: calls ${n(x.ce_chg)} · puts ${n(x.pe_chg)}</div>${bar(Math.abs(x.ce_chg),cb,"var(--bdc)")}${bar(Math.abs(x.pe_chg),cb,"var(--gd)")}
   <p class="mu">Resistance (highest call OI): ${(x.resistance||[]).map(v=>n(v)).join(", ")} · Support (highest put OI): ${(x.support||[]).map(v=>n(v)).join(", ")}</p>
   <p class="mu">Snapshot taken ${esc(OPT.updated?new Date(OPT.updated).toLocaleString():"–")}. Updates about every 5 minutes in market hours, not per second.</p></div>
   ${dayHtml(x.symbol)}<h2>Strikes near the money</h2><table><tr><td>Strike</td><td>Call OI</td><td>Call Δ</td><td>Put OI</td><td>Put Δ</td></tr>${rows}</table>
