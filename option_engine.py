@@ -57,7 +57,7 @@ def num(x):
 
 def analyse(sym, js, is_index):
     rec = js["records"]; exp = rec["expiryDates"][0]; und = num(rec.get("underlyingValue"))
-    rows = [d for d in rec["data"] if d.get("expiryDate") == exp]
+    rows = [d for d in rec["data"] if d.get("expiryDate") == exp] or rec["data"]
     strikes = {}
     for d in rows:
         k = num(d["strikePrice"]); ce = d.get("CE") or {}; pe = d.get("PE") or {}
