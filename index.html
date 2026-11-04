@@ -4,8 +4,8 @@
 <title>Sector Stock Edge</title>
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#12306b"><link rel="icon" href="icon-192.png">
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--tx:#14171a;--mu:#6b7280;--bd:#e3e6ea;--gd:#0a8f4e;--bdc:#d93025;--ac:#2557d6}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1216;--card:#181c22;--tx:#e8eaed;--mu:#98a0ab;--bd:#2a2f37;--gd:#3ccf85;--bdc:#ff6b60;--ac:#7aa2ff}}
+:root{--bg:#f6f7f9;--card:#fff;--tx:#14171a;--mu:#5b6270;--bd:#dfe3e8;--gd:#0a8f4e;--bdc:#d93025;--ac:#2557d6;--navtx:#141828;--navfill:rgba(255,255,255,.15)}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1216;--card:#181c22;--tx:#e8eaed;--mu:#98a0ab;--bd:#2a2f37;--gd:#3ccf85;--bdc:#ff6b60;--ac:#7aa2ff;--navtx:#f2f5ff;--navfill:rgba(255,255,255,.10)}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px system-ui,sans-serif;padding:12px 12px 90px;max-width:640px;margin:auto}
 h1{font-size:20px;margin:4px 0}h2{font-size:15px;margin:12px 0 6px}.mu{color:var(--mu);font-size:12px}
 .row{display:flex;gap:8px;margin:10px 0;flex-wrap:wrap}.btn{flex:1;padding:11px;border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:12px;font-size:14px;font-weight:600}
@@ -19,7 +19,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 4px;bord
 .bar{height:10px;border-radius:6px;background:var(--bd);overflow:hidden;margin:4px 0}.bar i{display:block;height:100%;background:var(--ac)}
 .brow{display:flex;align-items:center;gap:8px;font-size:12px;margin:4px 0}.brow span:first-child{width:64px}.brow .bar{flex:1;margin:0}.brow span:last-child{width:52px;text-align:right}
 nav{position:fixed;bottom:10px;left:10px;right:10px;margin:auto;max-width:620px;display:flex;gap:8px;background:transparent;padding:6px;z-index:10;-webkit-font-smoothing:antialiased}
-nav button{flex:1;padding:12px 2px;border-radius:24px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);color:#141828;font-size:11px;font-weight:700;cursor:pointer;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 6px 14px rgba(0,0,0,.2);transition:all .25s ease;text-shadow:none}
+nav button{flex:1;padding:12px 2px;border-radius:24px;border:1px solid rgba(255,255,255,.4);background:var(--navfill);color:var(--navtx);font-size:11px;font-weight:700;cursor:pointer;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 6px 14px rgba(0,0,0,.2);transition:all .25s ease;text-shadow:none}
 nav button:hover,nav button:active,nav button.on{background:linear-gradient(180deg,#d4ffcb,#8af57e);color:#0a2e0c;border-color:rgba(200,255,190,.9);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 0 14px rgba(140,245,120,.6),0 6px 14px rgba(0,0,0,.25)}
 nav button:active{transform:scale(.95)}
 .back{background:none;border:0;color:var(--ac);font-size:15px;padding:6px 0}
@@ -29,14 +29,14 @@ nav button:active{transform:scale(.95)}
 <button id="t0" onclick="go(0)">Sector</button><button id="t1" onclick="go(1)">Right valuation</button><button id="t2" onclick="go(2)">Order book</button><button id="t3" onclick="go(3)">Search</button><button id="t4" onclick="go(4)">F&amp;O Stocks</button><button id="t5" onclick="go(5)">Options</button>
 </nav>
 <script>
-let oq="",osel=null,OPT=null,SR=null,SEC=null,TR=false,TRD=null,BT=null,RS=null,D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
+let oq="",osel=null,OPT=null,OPTD=null,OWIN=5,SR=null,SEC=null,TR=false,TRD=null,BT=null,RS=null,D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const n=v=>v==null?"–":Number(v).toLocaleString("en-IN",{maximumFractionDigits:2});
 const p=v=>v==null?"–":`<span class="${v>=0?"pos":"neg"}">${v>0?"+":""}${n(v)}%</span>`;
 async function j(f){try{return await (await fetch(f+"?t="+Date.now(),{cache:"no-store"})).json()}catch(e){return null}}
 async function load(){
-  D=await j("data.json"); SX=await j("stocks.json"); TRD=await j("track_record.json"); BT=await j("backtest.json"); SEC=await j("sectors.json"); OPT=await j("option.json");
+  D=await j("data.json"); SX=await j("stocks.json"); TRD=await j("track_record.json"); BT=await j("backtest.json"); SEC=await j("sectors.json"); OPT=await j("option.json"); OPTD=await j("option_day.json");
   const t=(D&&D.updated)||(SX&&SX.updated);
   $("upd").textContent=t?"Data updated: "+new Date(t).toLocaleString():"No data yet. Run the GitHub Actions once.";
   render();
@@ -188,6 +188,29 @@ function optTab(){
   $("ores").innerHTML=m.map(k=>`<div class="card" onclick="osel='${k}';optTab()"><span class="sym">${esc(k)}</span> <span class="mu">${esc(items[k].verdict)}</span></div>`).join("")||
     (q?"<p class='mu'>Not found in index or F&amp;O list.</p>":"<p class='mu'>Type an index (NIFTY, BANKNIFTY, FINNIFTY, MIDCPNIFTY) or an F&amp;O stock.</p>");
 }
+const toMin=t=>{const [hh,mm]=String(t).split(":").map(Number);return hh*60+mm};
+function dayHtml(sym){
+  const S=(OPTD&&OPTD.snapshots)||[];
+  const pts=S.map(s=>({t:s.t,d:(s.items||{})[sym]})).filter(p=>p.d);
+  if(!pts.length)return "<p class='mu'>No intraday snapshots for this symbol today yet.</p>";
+  const L=pts[pts.length-1], last=L.t;
+  const lab=m=>m>=60?(m/60)+" hour":m+" min";
+  const btn=m=>`<button class="btn ${OWIN==m?"on":""}" style="flex:none;padding:8px 10px;font-size:13px" onclick="OWIN=${m};optTab()">${lab(m)}</button>`;
+  const buttons=`<div class="row" style="margin:8px 0">${[5,10,15,30,60].map(btn).join("")}</div>`;
+  const target=toMin(last)-OWIN;
+  let B=null; for(const p of pts){ if(toMin(p.t)<=target) B=p; }
+  const enough=!!B; const base=B||pts[0];
+  const dce=L.d.ce-base.d.ce, dpe=L.d.pe-base.d.pe;
+  const summary=dce>1.2*Math.max(dpe,1)?"Call OI built up more than put OI (call writing)":dpe>1.2*Math.max(dce,1)?"Put OI built up more than call OI (put writing)":"Call and put OI built up about equally";
+  const mode=last>="15:25"?"After-market summary":"Live, last update "+last+" IST";
+  const note=enough?"":`<div class="mu">Not enough history for ${lab(OWIN)} yet. Comparing with the earliest snapshot (${esc(pts[0].t)}).</div>`;
+  const rows=pts.slice(-40).map(p=>`<tr><td>${esc(p.t)}</td><td>${n(p.d.ce)}</td><td>${n(p.d.pe)}</td><td>${p.d.pcr==null?"–":n(p.d.pcr)}</td></tr>`).join("");
+  return `<h2>${mode}</h2>${buttons}
+  <div class="card"><div class="mu">Change in last ${lab(OWIN)} (vs ${esc(base.t)}): call OI ${dce>=0?"+":""}${n(dce)} · put OI ${dpe>=0?"+":""}${n(dpe)}</div>
+  <b>${summary}</b>${note}
+  <div class="mu" style="margin-top:6px">OI now: call ${n(L.d.ce)} · put ${n(L.d.pe)} · PCR ${L.d.pcr==null?"–":n(L.d.pcr)}</div></div>
+  <table><tr><td>Time</td><td>Call OI</td><td>Put OI</td><td>PCR</td></tr>${rows}</table>`;
+}
 function optCard(x){
   const vc=x.verdict.startsWith("CALL")?"HIGH":x.verdict.startsWith("PUT")?"LOW":"NA";
   const tot=Math.max(1,x.ce_oi+x.pe_oi), cb=Math.max(1,Math.abs(x.ce_chg)+Math.abs(x.pe_chg));
@@ -200,7 +223,7 @@ function optCard(x){
   <div class="mu">Change in OI: calls ${n(x.ce_chg)} · puts ${n(x.pe_chg)}</div>${bar(Math.abs(x.ce_chg),cb,"var(--bdc)")}${bar(Math.abs(x.pe_chg),cb,"var(--gd)")}
   <p class="mu">Resistance (highest call OI): ${(x.resistance||[]).map(v=>n(v)).join(", ")} · Support (highest put OI): ${(x.support||[]).map(v=>n(v)).join(", ")}</p>
   <p class="mu">Snapshot taken ${esc(OPT.updated?new Date(OPT.updated).toLocaleString():"–")}. Updates about every 5 minutes in market hours, not per second.</p></div>
-  <h2>Strikes near the money</h2><table><tr><td>Strike</td><td>Call OI</td><td>Call Δ</td><td>Put OI</td><td>Put Δ</td></tr>${rows}</table>
+  ${dayHtml(x.symbol)}<h2>Strikes near the money</h2><table><tr><td>Strike</td><td>Call OI</td><td>Call Δ</td><td>Put OI</td><td>Put Δ</td></tr>${rows}</table>
   <p class="mu">Call writer = calls being sold, usually bearish. Put writer = puts being sold, usually bullish. Not advice.</p>`;
 }
 function trPage(){
