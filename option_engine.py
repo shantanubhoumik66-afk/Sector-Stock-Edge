@@ -1,9 +1,10 @@
-"""Option engine: NSE option-chain snapshots (indices + F&O stocks) -> option.json. Snapshot, not tick data."""
-import json, time, datetime as dt, traceback
+"""Option engine: NSE option-chain snapshots (indices + F&O stocks) -> option.json, option_day.json."""
+import os, json, time, datetime as dt
 import requests
 
 H = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en;q=0.9"}
 INDICES = ["NIFTY", "BANKNIFTY", "FINNIFTY", "MIDCPNIFTY"]
+IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 
 def fail(msg): print("STOPPED:", msg); raise SystemExit(msg)
 
@@ -18,12 +19,22 @@ except Exception: stocks = []
 fo_stocks = sorted({x["symbol"] for x in stocks if x.get("fno")})
 if not fo_stocks: print("Note: stocks.json has no F&O list yet; indices only.")
 
+def expiry_for(sym):
+    try:
+        js = s.get(f"https://www.nseindia.com/api/option-chain-contract-info?symbol={sym}",
+                   headers={"Referer": "https://www.nseindia.com/option-chain"}, timeout=30).json()
+        d = js.get("expiryDates") or []
+        return d[0] if d else None
+    except Exception:
+        return None
+
 def chain(sym, is_index):
     kind = "Indices" if is_index else "Equity"
-    urls = [
-        f"https://www.nseindia.com/api/option-chain-indices?symbol={sym}" if is_index else f"https://www.nseindia.com/api/option-chain-equities?symbol={sym}",
-        f"https://www.nseindia.com/api/option-chain-v3?type={kind}&symbol={sym}",
-    ]
+    exp = expiry_for(sym)
+    urls = []
+    if exp:
+        urls.append(f"https://www.nseindia.com/api/option-chain-v3?type={kind}&symbol={sym}&expiry={exp}")
+    urls.append(f"https://www.nseindia.com/api/option-chain-indices?symbol={sym}" if is_index else f"https://www.nseindia.com/api/option-chain-equities?symbol={sym}")
     msgs = []
     for u in urls:
         try:
@@ -55,11 +66,9 @@ def analyse(sym, js, is_index):
     S = sorted(strikes.values(), key=lambda x: x["strike"])
     ce_oi = sum(x["ce_oi"] for x in S); pe_oi = sum(x["pe_oi"] for x in S)
     ce_chg = sum(x["ce_chg"] for x in S); pe_chg = sum(x["pe_chg"] for x in S)
-    # Max pain: the expiry price where option writers pay the least
     def pain(K):
         return sum(max(0, K - x["strike"]) * x["ce_oi"] + max(0, x["strike"] - K) * x["pe_oi"] for x in S)
     max_pain = min((x["strike"] for x in S), key=pain) if S else None
-    # Call vs put writer verdict from the change in OI
     if ce_chg <= 0 and pe_chg <= 0:
         verdict = "UNWINDING (both sides reducing OI)"
     elif ce_chg > 1.2 * max(pe_chg, 1):
@@ -68,7 +77,6 @@ def analyse(sym, js, is_index):
         verdict = "PUT WRITER DOMINANT (bullish support)"
     else:
         verdict = "BALANCED"
-    # Strikes near the money
     atm = min(S, key=lambda x: abs(x["strike"] - und)) if S and und else None
     idx = S.index(atm) if atm else 0
     near = S[max(0, idx - 4): idx + 5]
@@ -95,6 +103,23 @@ if errors:
     for e in errors[:5]: print("  ", e)
 if not items:
     fail("No option-chain data returned. See 'First errors' above for the reason.")
+
 json.dump({"updated": dt.datetime.utcnow().isoformat() + "Z", "items": items, "errors": len(errors)},
           open("option.json", "w"), indent=1, default=str)
 print("option items:", len(items), "errors:", len(errors))
+
+# Intraday history (live during market, summary after market)
+now_ist = dt.datetime.now(IST)
+today = now_ist.strftime("%Y-%m-%d")
+os.makedirs("option_history", exist_ok=True)
+day = {"date": today, "snapshots": []}
+if os.path.exists("option_day.json"):
+    old = json.load(open("option_day.json"))
+    if old.get("date") == today:
+        day = old
+    elif old.get("snapshots"):
+        json.dump(old, open(f"option_history/{old['date']}.json", "w"))
+day["snapshots"].append({"t": now_ist.strftime("%H:%M"),
+                         "items": {k: {"ce": v["ce_oi"], "pe": v["pe_oi"], "pcr": v["pcr"]} for k, v in items.items()}})
+json.dump(day, open("option_day.json", "w"), default=str)
+print("intraday snapshots today:", len(day["snapshots"]))
