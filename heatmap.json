@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T17:05:33.427858Z",
+ "updated": "2026-11-07T17:25:23.134692Z",
  "note": "Sector median return minus Nifty return, in percentage points. Price data only.",
  "nifty": {
   "1D": 2.01,
@@ -9,10 +9,10 @@
  "sectors": [
   {
    "sector": "Information Technology Services",
-   "n": 18,
-   "1D": -1.76,
-   "1W": -7.4,
-   "1M": 2.87
+   "n": 17,
+   "1D": -1.9,
+   "1W": -7.06,
+   "1M": 2.55
   },
   {
    "sector": "Auto Manufacturers",
@@ -71,6 +71,13 @@
    "1M": -7.46
   },
   {
+   "sector": "Utilities - Independent Power Producers",
+   "n": 7,
+   "1D": -1.87,
+   "1W": -0.58,
+   "1M": -7.94
+  },
+  {
    "sector": "Asset Management",
    "n": 11,
    "1D": -1.95,
@@ -83,13 +90,6 @@
    "1D": -2.17,
    "1W": -1.81,
    "1M": -8.02
-  },
-  {
-   "sector": "Utilities - Independent Power Producers",
-   "n": 6,
-   "1D": -2.09,
-   "1W": -2.07,
-   "1M": -8.27
   },
   {
    "sector": "Auto Parts",
