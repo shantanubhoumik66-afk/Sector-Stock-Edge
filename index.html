@@ -26,7 +26,7 @@ nav button:active{transform:scale(.95)}
 </style></head><body>
 <h1>Sector Stock Edge</h1><div class="mu" id="upd">Loading…</div><div id="app"></div>
 <nav>
-<button id="t0" onclick="go(0)">Sector</button><button id="t1" onclick="go(1)">Right valuation</button><button id="t2" onclick="go(2)">Order book</button><button id="t3" onclick="go(3)">Search</button><button id="t4" onclick="go(4)">F&amp;O Stocks</button><button id="t5" onclick="go(5)">Options</button><button id="t6" onclick="go(6)">Results</button>
+<button id="t0" onclick="go(0)">Sector</button><button id="t3" onclick="go(3)">Search</button><button id="t4" onclick="go(4)">F&amp;O Stocks</button><button id="t5" onclick="go(5)">Options</button><button id="t6" onclick="go(6)">Results</button>
 </nav>
 <script>
 let PSEL=null,POW=null,HEALTH=null,RFIL="all",RSUB="present",RSEL=null,RES=null,oq="",osel=null,OPT=null,OPTD=null,OWIN=5,SR=null,SEC=null,TR=false,TRD=null,BT=null,RS=null,D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
@@ -44,11 +44,31 @@ async function load(){
 }
 function go(t){SR=null;RS=null;tab=t;sec=null;sel=null;ord=null;fsel=null;ssel=null;render()}
 function render(){
-  [0,1,2,3,4,5,6].forEach(i=>$("t"+i).className=i==tab?"on":"");
+  [0,3,4,5,6].forEach(i=>$("t"+i).className=i==tab?"on":"");
   if(tab<3&&(!D||!D.updated)){$("app").innerHTML="<p class='mu'>Sector data not available yet.</p>";return}
   [sectorTab,valTab,ordTab,searchTab,foTab,optTab,resTab][tab]();
 }
 /* ---------- Tab 0: Sector ---------- */
+function valBlock(sym){
+  const v=((D&&D.valuation)||[]).find(x=>x.symbol==sym);
+  if(!v)return "<h2>Detailed valuation</h2><p class='mu'>Detailed valuation is available for Nifty 500 stocks only.</p>";
+  const sm=v.sector_med||{};
+  const lab={LOW:"LOW valuation",OK:"RIGHT valuation (OK)",HIGH:"HIGH valuation",NA:"Not available"}[v.verdict]||"";
+  return `<h2>Detailed valuation: ${esc(lab)}</h2><table>
+  <tr><td>PE (sector median ${n(sm.pe)})</td><td>${n(v.pe)}</td></tr><tr><td>Forward PE</td><td>${n(v.fpe)}</td></tr>
+  <tr><td>EV/EBITDA (sector ${n(sm.ev)})</td><td>${n(v.ev)}</td></tr><tr><td>P/B (sector ${n(sm.pb)})</td><td>${n(v.pb)}</td></tr>
+  <tr><td>PEG</td><td>${n(v.peg)}</td></tr><tr><td>ROE</td><td>${v.roe==null?"–":n(v.roe*100)+"%"}</td></tr>
+  <tr><td>Earnings growth</td><td>${v.eg==null?"–":n(v.eg*100)+"%"}</td></tr><tr><td>Revenue growth</td><td>${v.rg==null?"–":n(v.rg*100)+"%"}</td></tr>
+  <tr><td>Debt / Equity</td><td>${n(v.de)}</td></tr></table>
+  <p class="mu">${(v.why||[]).map(esc).join(" · ")}</p>`;
+}
+function orderView(){
+  const head=`<div class="row"><button class="btn" onclick="RSUB='present';ord=null;resTab()">Present result</button><button class="btn" onclick="RSUB='upcoming';ord=null;resTab()">Upcoming results</button><button class="btn on">Order book</button></div>`;
+  const O=(D&&D.orders)||[];
+  if(ord!==null&&O[ord]){const o=O[ord];return head+`<button class="back" onclick="ord=null;render()">← Back</button><div class="card"><h2>${esc(o.symbol)} <span class="mu">${esc(o.date)}</span></h2><div class="mu">${esc(o.title)}</div><p>${esc(o.text)}</p>${o.link?`<a href="${esc(o.link)}" target="_blank" rel="noopener">Open filing (PDF)</a>`:""}</div>`}
+  return head+`<div class="mu">Biggest order wins announced in the last 90 days (value shown only when the filing states it)</div>`+
+    (O.map((o,i)=>`<div class="card" onclick="ord=${i};render()"><div class="top"><span><span class="sym">${esc(o.symbol)}</span> <span class="mu">${esc(o.date)}</span></span><b>${o.value_cr?"₹"+n(o.value_cr)+" cr":"Value n/a"}</b></div><div class="mu">${esc(o.name)}</div><div style="font-size:13px">${esc((o.text||o.title).slice(0,140))}…</div></div>`).join("")||"<p class='mu'>No orders found.</p>");
+}
 function wl(){try{return JSON.parse(localStorage.getItem("sse_watch")||"[]")}catch(e){return []}}
 function wlToggle(sym){let a=wl();a=a.includes(sym)?a.filter(x=>x!=sym):a.concat([sym]);localStorage.setItem("sse_watch",JSON.stringify(a));sectorTab()}
 function powerView(){
@@ -175,7 +195,7 @@ function stockCard(s){
 function searchTab(){
   const list=SX&&SX.stocks?SX.stocks:[];
   if(!list.length){$("app").innerHTML="<p class='mu'>Stock data not built yet. Run the 'Update stock search' workflow once.</p>";return}
-  if(ssel){$("app").innerHTML=`<button class="back" onclick="ssel=null;searchTab()">← Back to search</button>`+stockCard(list.find(s=>s.symbol==ssel));return}
+  if(ssel){$("app").innerHTML=`<button class="back" onclick="ssel=null;searchTab()">← Back to search</button>`+stockCard(list.find(s=>s.symbol==ssel))+valBlock(ssel);return}
   if(!$("sq")){$("app").innerHTML=`<input id="sq" placeholder="Type stock name or symbol"><div id="sres"></div>`;
     $("sq").addEventListener("input",e=>{sq=e.target.value;searchTab()});}
   if($("sq").value!==sq)$("sq").value=sq;
@@ -187,10 +207,11 @@ function searchTab(){
 /* ---------- Tab 6: Companies results ---------- */
 function resTab(){
   if(RSEL!==null){$("app").innerHTML=resDetail(RSEL);return}
+  if(RSUB=="orders"){$("app").innerHTML=orderView();return}
   if(!RES||!RES.updated){$("app").innerHTML="<p class='mu'>Results not built yet. Run the 'Update company results' workflow once.</p>";return}
   const vc=v=>v=="GOOD"?"LOW":v=="VERY BAD"?"HIGH":"NA";
   const fb=(lab,val)=>`<button class="btn ${RFIL==val?"on":""}" style="flex:none;padding:8px 10px;font-size:13px" onclick="RFIL='${val}';resTab()">${lab}</button>`;
-  const head=`<div class="row"><button class="btn ${RSUB=="present"?"on":""}" onclick="RSUB='present';resTab()">Present result</button><button class="btn ${RSUB=="upcoming"?"on":""}" onclick="RSUB='upcoming';resTab()">Upcoming results</button></div>`;
+  const head=`<div class="row"><button class="btn ${RSUB=="present"?"on":""}" onclick="RSUB='present';resTab()">Present result</button><button class="btn ${RSUB=="upcoming"?"on":""}" onclick="RSUB='upcoming';resTab()">Upcoming results</button><button class="btn ${RSUB=="orders"?"on":""}" onclick="RSUB='orders';resTab()">Order book</button></div>`;
   if(RSUB=="upcoming"){
     $("app").innerHTML=head+`<div class="mu">Expected result dates from Yahoo Finance. Dates can move, so check the company's board-meeting notice.</div>`+
       (RES.upcoming||[]).map(x=>`<div class="card"><div class="top"><span><span class="badge ${x.fno?"LOW":"NA"}">${x.fno?"F&O":"Non F&O"}</span> <span class="sym">${esc(x.symbol)}</span><div class="mu">${esc(x.name)}</div></span><b>${esc(x.next_date)}</b></div></div>`).join("")||"<p class='mu'>No upcoming dates found.</p>";
