@@ -1,1 +1,44 @@
-{"updated":null,"summary":"","files":{}}
+{
+ "updated": "2026-11-07T16:11:05.753144Z",
+ "summary": "4/7 data files OK",
+ "files": {
+  "stocks.json": {
+   "status": "OK",
+   "updated": "2026-11-07T13:49:46.311004Z",
+   "age_hours": 2.4,
+   "records": 496,
+   "bad_records": 0
+  },
+  "sectors.json": {
+   "status": "OK",
+   "updated": "2026-11-06T19:56:16.332275Z",
+   "age_hours": 20.2
+  },
+  "results.json": {
+   "status": "OK",
+   "updated": "2026-11-07T14:24:09.664289Z",
+   "age_hours": 1.8,
+   "records": 371
+  },
+  "data.json": {
+   "status": "OK",
+   "updated": "2026-11-07T13:43:00.718684Z",
+   "age_hours": 2.5
+  },
+  "option.json": {
+   "status": "STALE",
+   "updated": "2026-11-06T17:44:21.530434Z",
+   "age_hours": 22.4
+  },
+  "track_record.json": {
+   "status": "MISSING",
+   "updated": null,
+   "age_hours": null
+  },
+  "backtest.json": {
+   "status": "MISSING",
+   "updated": null,
+   "age_hours": null
+  }
+ }
+}
