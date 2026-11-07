@@ -1,0 +1,22 @@
+name: Update company results
+on:
+  schedule:
+    - cron: "20 13 * * 1-5"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install yfinance pandas numpy
+      - run: python results_engine.py
+      - run: |
+          git config user.name "results-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add results.json
+          git diff --cached --quiet || (git commit -m "Update results" && git push)
