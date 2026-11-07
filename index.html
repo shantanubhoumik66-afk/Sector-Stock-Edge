@@ -26,17 +26,17 @@ nav button:active{transform:scale(.95)}
 </style></head><body>
 <h1>Sector Stock Edge</h1><div class="mu" id="upd">Loading…</div><div id="app"></div>
 <nav>
-<button id="t0" onclick="go(0)">Sector</button><button id="t3" onclick="go(3)">Search</button><button id="t4" onclick="go(4)">F&amp;O Stocks</button><button id="t5" onclick="go(5)">Options</button><button id="t6" onclick="go(6)">Results</button>
+<button id="t7" onclick="go(7)">Home</button><button id="t0" onclick="go(0)">Sector</button><button id="t3" onclick="go(3)">Search</button><button id="t4" onclick="go(4)">F&amp;O Stocks</button><button id="t5" onclick="go(5)">Options</button><button id="t6" onclick="go(6)">Results</button>
 </nav>
 <script>
-let PSEL=null,POW=null,HEALTH=null,RFIL="all",RSUB="present",RSEL=null,RES=null,oq="",osel=null,OPT=null,OPTD=null,OWIN=5,SR=null,SEC=null,TR=false,TRD=null,BT=null,RS=null,D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
+let HM=null,homeW="1M",HSEC=null,PSEL=null,POW=null,HEALTH=null,RFIL="all",RSUB="present",RSEL=null,RES=null,oq="",osel=null,OPT=null,OPTD=null,OWIN=5,SR=null,SEC=null,TR=false,TRD=null,BT=null,RS=null,D=null,SX=null,tab=7,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const n=v=>v==null?"–":Number(v).toLocaleString("en-IN",{maximumFractionDigits:2});
 const p=v=>v==null?"–":`<span class="${v>=0?"pos":"neg"}">${v>0?"+":""}${n(v)}%</span>`;
 async function j(f){try{return await (await fetch(f+"?t="+Date.now(),{cache:"no-store"})).json()}catch(e){return null}}
 async function load(){
-  D=await j("data.json"); SX=await j("stocks.json"); TRD=await j("track_record.json"); BT=await j("backtest.json"); SEC=await j("sectors.json"); OPT=await j("option.json"); OPTD=await j("option_day.json"); RES=await j("results.json"); POW=await j("power.json"); HEALTH=await j("health.json");
+  D=await j("data.json"); SX=await j("stocks.json"); TRD=await j("track_record.json"); BT=await j("backtest.json"); SEC=await j("sectors.json"); OPT=await j("option.json"); OPTD=await j("option_day.json"); RES=await j("results.json"); POW=await j("power.json"); HM=await j("heatmap.json"); HEALTH=await j("health.json");
   const t=(D&&D.updated)||(SX&&SX.updated);
   $("upd").textContent=t?"Data updated: "+new Date(t).toLocaleString():"No data yet. Run the GitHub Actions once.";
   if(HEALTH&&HEALTH.summary)$("upd").textContent+=" · Data health: "+HEALTH.summary;
@@ -44,9 +44,9 @@ async function load(){
 }
 function go(t){SR=null;RS=null;tab=t;sec=null;sel=null;ord=null;fsel=null;ssel=null;render()}
 function render(){
-  [0,3,4,5,6].forEach(i=>$("t"+i).className=i==tab?"on":"");
+  [0,3,4,5,6,7].forEach(i=>$("t"+i).className=i==tab?"on":"");
   if(tab<3&&(!D||!D.updated)){$("app").innerHTML="<p class='mu'>Sector data not available yet.</p>";return}
-  [sectorTab,valTab,ordTab,searchTab,foTab,optTab,resTab][tab]();
+  [sectorTab,valTab,ordTab,searchTab,foTab,optTab,resTab,homeTab][tab]();
 }
 /* ---------- Tab 0: Sector ---------- */
 function valBlock(sym){
@@ -68,6 +68,68 @@ function orderView(){
   if(ord!==null&&O[ord]){const o=O[ord];return head+`<button class="back" onclick="ord=null;render()">← Back</button><div class="card"><h2>${esc(o.symbol)} <span class="mu">${esc(o.date)}</span></h2><div class="mu">${esc(o.title)}</div><p>${esc(o.text)}</p>${o.link?`<a href="${esc(o.link)}" target="_blank" rel="noopener">Open filing (PDF)</a>`:""}</div>`}
   return head+`<div class="mu">Biggest order wins announced in the last 90 days (value shown only when the filing states it)</div>`+
     (O.map((o,i)=>`<div class="card" onclick="ord=${i};render()"><div class="top"><span><span class="sym">${esc(o.symbol)}</span> <span class="mu">${esc(o.date)}</span></span><b>${o.value_cr?"₹"+n(o.value_cr)+" cr":"Value n/a"}</b></div><div class="mu">${esc(o.name)}</div><div style="font-size:13px">${esc((o.text||o.title).slice(0,140))}…</div></div>`).join("")||"<p class='mu'>No orders found.</p>");
+}
+function homeTab(){
+  const nf=(HM&&HM.nifty)||{}, secs=(HM&&HM.sectors)||[];
+  if(HSEC!==null){
+    const i=(SEC&&SEC.sectors||[]).findIndex(x=>x.name==HSEC);
+    return `<button class="back" onclick="HSEC=null;render()">← Back to Home</button>`+(i>=0?sectorStocks(i):`<p class='mu'>Stock detail for ${esc(HSEC)} is not in today's sector ranking.</p>`);
+  }
+  const colour=v=>v==null?"var(--bd)":`rgba(${v>=0?"10,143,78":"217,48,37"},${(0.22+0.55*Math.min(1,Math.abs(v)/5)).toFixed(2)})`;
+  const btn=(lab,val)=>`<button class="btn ${homeW==val?"on":""}" style="flex:none;padding:8px 12px" onclick="homeW='${val}';render()">${lab}</button>`;
+  const grid=[...secs].sort((a,b)=>b[homeW]-a[homeW]).map(s=>`<div onclick="HSEC='${esc(s.sector)}';render()" style="background:${colour(s[homeW])};color:var(--tx);border-radius:12px;padding:10px;cursor:pointer"><div style="font-size:12px;font-weight:700">${esc(s.sector)}</div><div style="font-size:15px;margin-top:4px">${s[homeW]>=0?"+":""}${n(s[homeW])}%</div><div class="mu" style="color:var(--tx);opacity:.7">${s.n} stocks</div></div>`).join("");
+  const top=((POW&&POW.top)||[]).slice(0,3).map(x=>`<div class="card" onclick="PSEL='${x.symbol}';sub='power';go(0)"><div class="top"><span><span class="sym">${esc(x.symbol)}</span><div class="mu">${esc(x.name||"")}</div></span><b>${n(x.score)}</b></div></div>`).join("")||"<p class='mu'>Power picks appear after the power engine runs.</p>";
+  const W=wl();
+  return `<div class="mu">${esc(HEALTH&&HEALTH.summary?"Data health: "+HEALTH.summary:"")}</div>
+  <div class="card"><div class="top"><b>Nifty</b><span class="mu">vs same window</span></div>
+  <div style="margin-top:6px">1 day ${p(nf["1D"])} · 1 week ${p(nf["1W"])} · 1 month ${p(nf["1M"])}</div></div>
+  <h2>Sector heatmap (vs Nifty)</h2>
+  <div class="row">${btn("1 day","1D")}${btn("1 week","1W")}${btn("1 month","1M")}</div>
+  ${secs.length?`<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">${grid}</div><div class="mu" style="margin-top:6px">Green = sector beat Nifty in this window, red = lagged. Tap a sector for its top stocks.</div>`:"<p class='mu'>Heatmap not built yet. Run the Update heatmap workflow.</p>"}
+  ${portfolioCard()}
+  <h2>Top power picks</h2>${top}
+  <div class="card" onclick="sub='watch';go(0)"><div class="top"><b>Watchlist</b><span class="mu">${W.length} starred</span></div><div class="mu">Tap to open your starred stocks.</div></div>`;
+}
+function pf(){try{return JSON.parse(localStorage.getItem("sse_portfolio")||"[]")}catch(e){return []}}
+function pfSave(a){localStorage.setItem("sse_portfolio",JSON.stringify(a))}
+function pfAdd(){
+  const sym=(document.getElementById("pfs").value||"").trim().toUpperCase();
+  const qty=parseFloat(document.getElementById("pfq").value);
+  const avg=parseFloat(document.getElementById("pfa").value);
+  const list=(SX&&SX.stocks)||[];
+  if(!sym||!list.some(x=>x.symbol==sym)){alert("Stock not found in the Nifty 500 or F&O list. Check the symbol.");return}
+  if(!(qty>0)){alert("Enter a quantity above 0.");return}
+  const a=pf().filter(x=>x.symbol!=sym);
+  a.push({symbol:sym,qty:qty,avg:avg>0?avg:null});
+  pfSave(a); render();
+}
+function pfRemove(sym){pfSave(pf().filter(x=>x.symbol!=sym));render()}
+function portfolioCard(){
+  const H=pf(), list=(SX&&SX.stocks)||[], RP=(RES&&RES.present)||[], PT=(POW&&POW.top)||[];
+  let total=0, cost=0, havecost=H.length>0;
+  const rows=H.map(h=>{
+    const s=list.find(x=>x.symbol==h.symbol)||{};
+    const pw=PT.find(x=>x.symbol==h.symbol)||{};
+    const rv=(RP.find(x=>x.symbol==h.symbol)||{}).verdict;
+    const price=s.price!=null?s.price:null;
+    const value=price!=null?price*h.qty:null;
+    if(value!=null) total+=value;
+    if(h.avg) cost+=h.avg*h.qty; else havecost=false;
+    const pl=(value!=null&&h.avg)?value-h.avg*h.qty:null;
+    return `<div class="card"><div class="top"><span><span class="sym">${esc(h.symbol)}</span><div class="mu">${h.qty} shares${h.avg?" · avg ₹"+n(h.avg):""}</div></span>
+      <span><b>${value!=null?"₹"+n(value):"–"}</b>${pl!=null?` <span class="${pl>=0?"pos":"neg"}">${pl>=0?"+":""}${n(pl)}</span>`:""}</span></div>
+      <div class="mu">Price ₹${n(price)} · bias ${esc(s.bias||"–")} · results ${esc(rv||"–")} · power ${pw.score!=null?n(pw.score):"–"}</div>
+      <button class="back" style="color:var(--bdc);padding:4px 0" onclick="pfRemove('${h.symbol}')">Remove</button></div>`;
+  }).join("");
+  const pl=havecost?total-cost:null;
+  const summary=H.length?`<div class="card"><div class="top"><b>Total value</b><b>₹${n(total)}</b></div>
+    ${pl!=null?`<div class="mu">Profit or loss vs your average price: <span class="${pl>=0?"pos":"neg"}">${pl>=0?"+":""}${n(pl)}</span></div>`:"<div class='mu'>Add average buy prices to see profit or loss.</div>"}
+    <div class="mu">Prices come from the last data update, not live.</div></div>`:"";
+  return `<h2>My portfolio</h2>${summary}${rows||"<p class='mu'>No holdings yet. Add a stock below.</p>"}
+  <div class="card"><div class="mu">Add a holding (saved on this device only)</div>
+  <input id="pfs" placeholder="Symbol, e.g. LT" style="margin-top:6px">
+  <div class="row"><input id="pfq" type="number" placeholder="Quantity" style="flex:1"><input id="pfa" type="number" placeholder="Avg price (optional)" style="flex:1"></div>
+  <button class="btn" onclick="pfAdd()">Add to portfolio</button></div>`;
 }
 function wl(){try{return JSON.parse(localStorage.getItem("sse_watch")||"[]")}catch(e){return []}}
 function wlToggle(sym){let a=wl();a=a.includes(sym)?a.filter(x=>x!=sym):a.concat([sym]);localStorage.setItem("sse_watch",JSON.stringify(a));sectorTab()}
