@@ -29,16 +29,17 @@ nav button:active{transform:scale(.95)}
 <button id="t0" onclick="go(0)">Sector</button><button id="t1" onclick="go(1)">Right valuation</button><button id="t2" onclick="go(2)">Order book</button><button id="t3" onclick="go(3)">Search</button><button id="t4" onclick="go(4)">F&amp;O Stocks</button><button id="t5" onclick="go(5)">Options</button><button id="t6" onclick="go(6)">Results</button>
 </nav>
 <script>
-let RFIL="all",RSUB="present",RSEL=null,RES=null,oq="",osel=null,OPT=null,OPTD=null,OWIN=5,SR=null,SEC=null,TR=false,TRD=null,BT=null,RS=null,D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
+let PSEL=null,POW=null,HEALTH=null,RFIL="all",RSUB="present",RSEL=null,RES=null,oq="",osel=null,OPT=null,OPTD=null,OWIN=5,SR=null,SEC=null,TR=false,TRD=null,BT=null,RS=null,D=null,SX=null,tab=0,sub="top",sec=null,sel=null,qy="",sq="",ord=null,fq="all",fsel=null,ssel=null;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const n=v=>v==null?"–":Number(v).toLocaleString("en-IN",{maximumFractionDigits:2});
 const p=v=>v==null?"–":`<span class="${v>=0?"pos":"neg"}">${v>0?"+":""}${n(v)}%</span>`;
 async function j(f){try{return await (await fetch(f+"?t="+Date.now(),{cache:"no-store"})).json()}catch(e){return null}}
 async function load(){
-  D=await j("data.json"); SX=await j("stocks.json"); TRD=await j("track_record.json"); BT=await j("backtest.json"); SEC=await j("sectors.json"); OPT=await j("option.json"); OPTD=await j("option_day.json"); RES=await j("results.json");
+  D=await j("data.json"); SX=await j("stocks.json"); TRD=await j("track_record.json"); BT=await j("backtest.json"); SEC=await j("sectors.json"); OPT=await j("option.json"); OPTD=await j("option_day.json"); RES=await j("results.json"); POW=await j("power.json"); HEALTH=await j("health.json");
   const t=(D&&D.updated)||(SX&&SX.updated);
   $("upd").textContent=t?"Data updated: "+new Date(t).toLocaleString():"No data yet. Run the GitHub Actions once.";
+  if(HEALTH&&HEALTH.summary)$("upd").textContent+=" · Data health: "+HEALTH.summary;
   render();
 }
 function go(t){SR=null;RS=null;tab=t;sec=null;sel=null;ord=null;fsel=null;ssel=null;render()}
@@ -48,7 +49,22 @@ function render(){
   [sectorTab,valTab,ordTab,searchTab,foTab,optTab,resTab][tab]();
 }
 /* ---------- Tab 0: Sector ---------- */
+function wl(){try{return JSON.parse(localStorage.getItem("sse_watch")||"[]")}catch(e){return []}}
+function wlToggle(sym){let a=wl();a=a.includes(sym)?a.filter(x=>x!=sym):a.concat([sym]);localStorage.setItem("sse_watch",JSON.stringify(a));sectorTab()}
+function powerView(){
+  if(PSEL!==null){const s=(SX&&SX.stocks||[]).find(x=>x.symbol==PSEL);return `<button class="back" onclick="PSEL=null;sectorTab()">← Back</button>`+stockCard(s)}
+  const W=wl(); const rows=(POW&&POW.top)||[];
+  const pool=sub=="watch"?W.map(sym=>rows.find(x=>x.symbol==sym)||{symbol:sym,name:sym,score:null,why:["Not in today's power list"],fno:null}):rows;
+  const note=sub=="power"
+    ?`<div class="mu">${esc((POW&&POW.note)||"Power picks appear after the power engine runs.")}</div>`
+    :`<div class="mu">Your starred stocks. Tap ☆ or ★ to add or remove.</div>`;
+  const head=`<div class="row"><button class="btn ${sub=="power"?"on":""}" onclick="sub='power';sectorTab()">Power picks</button><button class="btn ${sub=="watch"?"on":""}" onclick="sub='watch';sectorTab()">Watchlist (${W.length})</button></div>`;
+  return head+note+pool.map((x,i)=>`<div class="card" onclick="PSEL='${x.symbol}';sectorTab()"><div class="top"><span><span class="badge ${x.fno?"LOW":"NA"}">${x.fno==null?"–":x.fno?"F&O":"Non F&O"}</span> ${sub=="power"?`<span class="mu">#${i+1}</span> `:""}<span class="sym">${esc(x.symbol)}</span><div class="mu">${esc(x.name||"")}${x.sector?" · "+esc(x.sector):""}</div></span>
+    <span><b>${x.score==null?"–":n(x.score)}</b> <button class="badge NA" style="border:0;cursor:pointer" onclick="event.stopPropagation();wlToggle('${x.symbol}')">${W.includes(x.symbol)?"★":"☆"}</button></span></div>
+    <div style="font-size:13px;margin-top:4px">${(x.why||[]).map(esc).join(" · ")}</div></div>`).join("")||"<p class='mu'>Nothing here yet. Run the Update power engine workflow after the data updates.</p>";
+}
 function sectorTab(){
+  if(sub=="power"||sub=="watch"){$("app").innerHTML=powerView();return}
   if(!SEC||!SEC.sectors||!SEC.sectors.length){$("app").innerHTML="<p class='mu'>Sector ranking not built yet. Run the 'Update sector ranking' workflow once.</p>";return}
   if(SR!==null){$("app").innerHTML=sectorReason(SR);return}
   if(sec!==null){$("app").innerHTML=`<button class="back" onclick="sec=null;render()">← Back</button>`+sectorStocks(sec);return}
@@ -56,7 +72,7 @@ function sectorTab(){
   const L=sub=="top"?all.slice(0,3):all.slice(-3).reverse();
   const f=SEC.flows||{};
   $("app").innerHTML=`<div class="card"><div class="mu">${esc(f.text||"")}</div></div>
-  <div class="row"><button class="btn g ${sub=="top"?"on":""}" onclick="sub='top';render()">Top performer</button><button class="btn b ${sub=="under"?"on":""}" onclick="sub='under';render()">Underperformer</button></div>`+
+  <div class="row"><button class="btn g ${sub=="top"?"on":""}" onclick="sub='top';render()">Top performer</button><button class="btn b ${sub=="under"?"on":""}" onclick="sub='under';render()">Underperformer</button></div><div class="row"><button class="btn ${sub=="power"?"on":""}" onclick="sub='power';render()">Power picks</button><button class="btn ${sub=="watch"?"on":""}" onclick="sub='watch';render()">Watchlist</button></div>`+
   L.map(i=>{const x=SEC.sectors[i];return `<div class="card" onclick="sec=${i};render()"><div class="top"><span class="sym">${esc(x.name)}</span><span class="${x.score>=50?"pos":"neg"}">${n(x.score)}/100</span></div>
   <div class="mu">${x.n} stocks · median 3M ${p(x.tech_rs3)} vs Nifty</div>
   <div class="row" style="margin:8px 0 0"><button class="btn" style="flex:none;padding:8px 12px" onclick="event.stopPropagation();SR=${i};render()">Reason for performance</button></div></div>`}).join("");
