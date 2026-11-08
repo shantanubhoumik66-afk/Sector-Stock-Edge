@@ -69,7 +69,8 @@ function orderView(){
   return head+`<div class="mu">Biggest order wins announced in the last 90 days (value shown only when the filing states it)</div>`+
     (O.map((o,i)=>`<div class="card" onclick="ord=${i};render()"><div class="top"><span><span class="sym">${esc(o.symbol)}</span> <span class="mu">${esc(o.date)}</span></span><b>${o.value_cr?"₹"+n(o.value_cr)+" cr":"Value n/a"}</b></div><div class="mu">${esc(o.name)}</div><div style="font-size:13px">${esc((o.text||o.title).slice(0,140))}…</div></div>`).join("")||"<p class='mu'>No orders found.</p>");
 }
-function homeTab(){
+function homeTab(){ $("app").innerHTML=homeView(); }
+function homeView(){
   const nf=(HM&&HM.nifty)||{}, secs=(HM&&HM.sectors)||[];
   if(HSEC!==null){
     const i=(SEC&&SEC.sectors||[]).findIndex(x=>x.name==HSEC);
