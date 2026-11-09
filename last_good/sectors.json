@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T19:56:16.332275Z",
+ "updated": "2026-11-09T22:57:56.701841Z",
  "flows": {
-  "date": "06-Nov-2026",
-  "fii_net": 13749.82,
-  "dii_net": -5968.7,
-  "text": "Latest market-wide cash flow (06-Nov-2026): FII net \u20b913,750 cr, DII net \u20b9-5,969 cr (NSE). Sector-level flows are not published free, so this is shown as market context, not scored."
+  "date": "09-Nov-2026",
+  "fii_net": 7212.22,
+  "dii_net": -7172.53,
+  "text": "Latest market-wide cash flow (09-Nov-2026): FII net \u20b97,212 cr, DII net \u20b9-7,173 cr (NSE). Sector-level flows are not published free, so this is shown as market context, not scored."
  },
  "weights": {
   "Technical setup": 35,
@@ -20,7 +20,7 @@
    "n": 9,
    "score": 75.4,
    "group": "TOP",
-   "tech_rs3": 3.0,
+   "tech_rs3": 1.6,
    "factors": [
     {
      "key": "tech",
@@ -28,7 +28,7 @@
      "weight": 35,
      "pct": 100,
      "dir": "UP",
-     "text": "Median 3M return +3.0% vs Nifty; 89% of stocks above 200-day average",
+     "text": "Median 3M return +1.6% vs Nifty; 100% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -64,7 +64,7 @@
      "weight": 15,
      "pct": 100,
      "dir": "UP",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is helped by rising crude",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is helped by rising crude",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -108,61 +108,61 @@
     {
      "symbol": "PETRONET",
      "name": "Petronet LNG Ltd.",
-     "price": 310.0,
-     "rs3": 13.2,
-     "momentum": 90.0,
+     "price": 320.45,
+     "rs3": 15.2,
+     "momentum": 85.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "CASTROLIND",
-     "name": "Castrol India Ltd.",
-     "price": 194.21,
-     "rs3": 5.1,
-     "momentum": 82.5,
+     "symbol": "BPCL",
+     "name": "Bharat Petroleum Corporation Ltd.",
+     "price": 316.0,
+     "rs3": -3.2,
+     "momentum": 77.5,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "IOC",
-     "name": "Indian Oil Corporation Ltd.",
-     "price": 144.5,
+     "symbol": "HINDPETRO",
+     "name": "Hindustan Petroleum Corporation Ltd.",
+     "price": 385.75,
      "rs3": 1.6,
-     "momentum": 72.5,
+     "momentum": 77.5,
      "bias": "UPSIDE"
     }
    ]
   },
   {
-   "name": "Capital Markets",
-   "n": 7,
-   "score": 57.1,
+   "name": "Building Products & Equipment",
+   "n": 5,
+   "score": 55.8,
    "group": "TOP",
-   "tech_rs3": 0.2,
+   "tech_rs3": 2.6,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 90,
+     "pct": 67,
      "dir": "UP",
-     "text": "Median 3M return +0.2% vs Nifty; 71% of stocks above 200-day average",
+     "text": "Median 3M return +2.6% vs Nifty; 40% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
      "key": "earn",
      "label": "Earnings growth",
      "weight": 25,
-     "pct": 60,
+     "pct": 83,
      "dir": "UP",
-     "text": "Median earnings growth +18% and revenue growth +22% across 7 stocks",
+     "text": "Median earnings growth +44% and revenue growth +27% across 5 stocks",
      "src": "Yahoo Finance fundamentals"
     },
     {
      "key": "qual",
      "label": "Business quality",
      "weight": 10,
-     "pct": 66,
+     "pct": 76,
      "dir": "UP",
-     "text": "Median ROE 23% and debt/equity 0.25",
+     "text": "Median ROE 19% and debt/equity 0.11",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -180,7 +180,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -188,153 +188,52 @@
    "drivers": [],
    "stocks": [
     {
-     "symbol": "GROWW",
-     "name": "Billionbrains Garage Ventures Ltd.",
-     "price": 223.89,
-     "rs3": 17.1,
-     "momentum": 77.5,
+     "symbol": "CPPLUS",
+     "name": "Aditya Infotech Ltd.",
+     "price": 4224.9,
+     "rs3": 12.3,
+     "momentum": 72.5,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "MOTILALOFS",
-     "name": "Motilal Oswal Financial Services Ltd.",
-     "price": 1095.0,
-     "rs3": 24.8,
+     "symbol": "KAJARIACER",
+     "name": "Kajaria Ceramics Ltd.",
+     "price": 1199.5,
+     "rs3": 2.8,
      "momentum": 70.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "CDSL",
-     "name": "Central Depository Services (India) Ltd.",
-     "price": 1334.0,
-     "rs3": 0.9,
-     "momentum": 65.0,
-     "bias": "UPSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Internet Retail",
-   "n": 6,
-   "score": 54.8,
-   "group": "TOP",
-   "tech_rs3": -3.1,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 63,
-     "dir": "UP",
-     "text": "Median 3M return -3.1% vs Nifty; 50% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 97,
-     "dir": "UP",
-     "text": "Median earnings growth +86% and revenue growth +31% across 6 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 45,
-     "dir": "NEUTRAL",
-     "text": "Median ROE 2% and debt/equity 0.17",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [
-    {
-     "match": [
-      "retail",
-      "apparel",
-      "textile",
-      "footwear",
-      "restaurant",
-      "consumer cyclical"
-     ],
-     "title": "Discretionary consumer spending",
-     "good_when": "Incomes grow and festive spending is strong.",
-     "bad_when": "Inflation squeezes discretionary spending or the festive season is weak.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    }
-   ],
-   "stocks": [
-    {
-     "symbol": "ETERNAL",
-     "name": "Eternal Ltd.",
-     "price": 358.3,
-     "rs3": 15.8,
-     "momentum": 80.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "MEESHO",
-     "name": "Meesho Ltd.",
-     "price": 233.53,
-     "rs3": 23.4,
-     "momentum": 75.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "NYKAA",
-     "name": "FSN E-Commerce Ventures Ltd.",
-     "price": 350.3,
-     "rs3": 4.8,
-     "momentum": 60.0,
-     "bias": "UPSIDE"
+     "symbol": "BLUESTARCO",
+     "name": "Blue Star Ltd.",
+     "price": 1577.5,
+     "rs3": 2.6,
+     "momentum": 47.5,
+     "bias": "NEUTRAL"
     }
    ]
   },
   {
    "name": "Auto Manufacturers",
    "n": 12,
-   "score": 54.1,
-   "group": "MID",
-   "tech_rs3": -4.2,
+   "score": 55.6,
+   "group": "TOP",
+   "tech_rs3": -6.8,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 80,
+     "pct": 87,
      "dir": "UP",
-     "text": "Median 3M return -4.2% vs Nifty; 58% of stocks above 200-day average",
+     "text": "Median 3M return -6.8% vs Nifty; 67% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
      "key": "earn",
      "label": "Earnings growth",
      "weight": 25,
-     "pct": 73,
+     "pct": 70,
      "dir": "UP",
      "text": "Median earnings growth +21% and revenue growth +29% across 12 stocks",
      "src": "Yahoo Finance fundamentals"
@@ -363,7 +262,7 @@
      "weight": 15,
      "pct": 0,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is hurt by rising crude",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is hurt by rising crude",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -398,27 +297,252 @@
    ],
    "stocks": [
     {
-     "symbol": "ATHERENERG",
-     "name": "Ather Energy Ltd.",
-     "price": 1778.6,
-     "rs3": 21.3,
-     "momentum": 85.0,
-     "bias": "UPSIDE"
-    },
-    {
      "symbol": "TVSMOTOR",
      "name": "TVS Motor Company Ltd.",
-     "price": 4450.0,
-     "rs3": 0.2,
+     "price": 4505.9,
+     "rs3": -0.1,
      "momentum": 80.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "HEROMOTOCO",
-     "name": "Hero MotoCorp Ltd.",
-     "price": 5514.0,
-     "rs3": -2.7,
+     "symbol": "ATHERENERG",
+     "name": "Ather Energy Ltd.",
+     "price": 1859.8,
+     "rs3": 23.9,
      "momentum": 77.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "BAJAJ-AUTO",
+     "name": "Bajaj Auto Ltd.",
+     "price": 10979.0,
+     "rs3": -7.5,
+     "momentum": 72.5,
+     "bias": "UPSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Banks - Regional",
+   "n": 27,
+   "score": 54.8,
+   "group": "MID",
+   "tech_rs3": -4.1,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 83,
+     "dir": "UP",
+     "text": "Median 3M return -4.1% vs Nifty; 59% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 67,
+     "dir": "UP",
+     "text": "Median earnings growth +28% and revenue growth +21% across 27 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": null,
+     "dir": null,
+     "text": "Median ROE 14% and debt/equity \u2013",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 0,
+     "dir": "DOWN",
+     "text": "0 positive and 2 negative official headlines matched to this sector",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [
+    {
+     "title": "Supersession of Board of Directors of Abhyudaya Co-operative Bank Ltd., Mumbai - Extension of period",
+     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63951",
+     "src": "RBI press release",
+     "dir": "DOWN"
+    },
+    {
+     "title": "Reserve Bank cancels Certificate of Registration of Gandhinagar Leasing and Finance Ltd.",
+     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63949",
+     "src": "RBI press release",
+     "dir": "DOWN"
+    }
+   ],
+   "drivers": [
+    {
+     "match": [
+      "bank",
+      "credit services"
+     ],
+     "title": "Credit growth and asset quality",
+     "good_when": "Loan growth is strong, bad loans fall and provisions stay low, lifting profit growth.",
+     "bad_when": "Credit slows, bad loans rise, or stressed borrowers force higher provisions.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    },
+    {
+     "match": [
+      "bank",
+      "credit services"
+     ],
+     "title": "Interest rate cycle",
+     "good_when": "Rate cuts lift loan demand without squeezing lending margins; stable deposit costs help.",
+     "bad_when": "Rate hikes slow borrowing, or deposit costs rise faster than loan yields and squeeze margins.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    }
+   ],
+   "stocks": [
+    {
+     "symbol": "ICICIBANK",
+     "name": "ICICI Bank Ltd.",
+     "price": 1589.0,
+     "rs3": 10.2,
+     "momentum": 87.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "PNB",
+     "name": "Punjab National Bank",
+     "price": 132.17,
+     "rs3": 13.5,
+     "momentum": 85.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "UNIONBANK",
+     "name": "Union Bank of India",
+     "price": 197.0,
+     "rs3": 5.7,
+     "momentum": 85.0,
+     "bias": "UPSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Internet Retail",
+   "n": 6,
+   "score": 54.0,
+   "group": "MID",
+   "tech_rs3": -3.5,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 60,
+     "dir": "UP",
+     "text": "Median 3M return -3.5% vs Nifty; 50% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 97,
+     "dir": "UP",
+     "text": "Median earnings growth +86% and revenue growth +31% across 6 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 48,
+     "dir": "NEUTRAL",
+     "text": "Median ROE 2% and debt/equity 0.17",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [
+    {
+     "match": [
+      "retail",
+      "apparel",
+      "textile",
+      "footwear",
+      "restaurant",
+      "consumer cyclical"
+     ],
+     "title": "Discretionary consumer spending",
+     "good_when": "Incomes grow and festive spending is strong.",
+     "bad_when": "Inflation squeezes discretionary spending or the festive season is weak.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    }
+   ],
+   "stocks": [
+    {
+     "symbol": "ETERNAL",
+     "name": "Eternal Ltd.",
+     "price": 363.45,
+     "rs3": 13.8,
+     "momentum": 87.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "NYKAA",
+     "name": "FSN E-Commerce Ventures Ltd.",
+     "price": 359.7,
+     "rs3": 6.7,
+     "momentum": 82.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "MEESHO",
+     "name": "Meesho Ltd.",
+     "price": 238.48,
+     "rs3": 23.0,
+     "momentum": 72.5,
      "bias": "UPSIDE"
     }
    ]
@@ -426,17 +550,17 @@
   {
    "name": "Information Technology Services",
    "n": 18,
-   "score": 53.3,
+   "score": 52.5,
    "group": "MID",
-   "tech_rs3": 3.1,
+   "tech_rs3": 1.4,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 97,
+     "pct": 93,
      "dir": "UP",
-     "text": "Median 3M return +3.1% vs Nifty; 78% of stocks above 200-day average",
+     "text": "Median 3M return +1.4% vs Nifty; 67% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -445,14 +569,14 @@
      "weight": 25,
      "pct": 37,
      "dir": "DOWN",
-     "text": "Median earnings growth +12% and revenue growth +13% across 18 stocks",
+     "text": "Median earnings growth +15% and revenue growth +13% across 18 stocks",
      "src": "Yahoo Finance fundamentals"
     },
     {
      "key": "qual",
      "label": "Business quality",
      "weight": 10,
-     "pct": 83,
+     "pct": 86,
      "dir": "UP",
      "text": "Median ROE 20% and debt/equity 0.09",
      "src": "Yahoo Finance fundamentals"
@@ -472,7 +596,7 @@
      "weight": 15,
      "pct": 10,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -511,346 +635,54 @@
    ],
    "stocks": [
     {
-     "symbol": "HCLTECH",
-     "name": "HCL Technologies Ltd.",
-     "price": 1430.5,
-     "rs3": 7.3,
+     "symbol": "TECHM",
+     "name": "Tech Mahindra Ltd.",
+     "price": 1805.0,
+     "rs3": 9.7,
      "momentum": 97.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "COFORGE",
-     "name": "Coforge Ltd.",
-     "price": 2079.0,
-     "rs3": 17.4,
-     "momentum": 90.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "LTTS",
      "name": "L&T Technology Services Ltd.",
-     "price": 4225.6,
-     "rs3": 19.1,
+     "price": 4202.2,
+     "rs3": 15.8,
      "momentum": 90.0,
      "bias": "UPSIDE"
+    },
+    {
+     "symbol": "COFORGE",
+     "name": "Coforge Ltd.",
+     "price": 2047.0,
+     "rs3": 13.7,
+     "momentum": 82.5,
+     "bias": "UPSIDE"
     }
    ]
   },
   {
-   "name": "Building Products & Equipment",
-   "n": 5,
-   "score": 51.9,
+   "name": "Capital Markets",
+   "n": 8,
+   "score": 51.8,
    "group": "MID",
-   "tech_rs3": -2.7,
+   "tech_rs3": -0.9,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 53,
+     "pct": 90,
+     "dir": "UP",
+     "text": "Median 3M return -0.9% vs Nifty; 75% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 50,
      "dir": "NEUTRAL",
-     "text": "Median 3M return -2.7% vs Nifty; 40% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 87,
-     "dir": "UP",
-     "text": "Median earnings growth +44% and revenue growth +27% across 5 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 76,
-     "dir": "UP",
-     "text": "Median ROE 17% and debt/equity 0.10",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [],
-   "stocks": [
-    {
-     "symbol": "CPPLUS",
-     "name": "Aditya Infotech Ltd.",
-     "price": 4170.5,
-     "rs3": 17.7,
-     "momentum": 80.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "KAJARIACER",
-     "name": "Kajaria Ceramics Ltd.",
-     "price": 1205.8,
-     "rs3": 3.7,
-     "momentum": 62.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "BLUESTARCO",
-     "name": "Blue Star Ltd.",
-     "price": 1572.0,
-     "rs3": -5.2,
-     "momentum": 35.0,
-     "bias": "DOWNSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Software - Application",
-   "n": 6,
-   "score": 49.1,
-   "group": "MID",
-   "tech_rs3": 1.5,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 83,
-     "dir": "UP",
-     "text": "Median 3M return +1.5% vs Nifty; 50% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 40,
-     "dir": "DOWN",
-     "text": "Median earnings growth +7% and revenue growth +19% across 6 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 79,
-     "dir": "UP",
-     "text": "Median ROE 15% and debt/equity 0.06",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 10,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is helped by a weaker rupee (exporter)",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [
-    {
-     "match": [
-      "software",
-      "information technology",
-      "it services"
-     ],
-     "title": "Global tech spending and deal wins",
-     "good_when": "US and European clients raise IT budgets, and large deal wins lift revenue visibility.",
-     "bad_when": "Clients cut discretionary spending, deal sizes shrink, or automation reduces billable work.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    },
-    {
-     "match": [
-      "software",
-      "information technology",
-      "it services"
-     ],
-     "title": "Rupee and dollar earnings",
-     "good_when": "A weaker rupee raises rupee value of dollar revenue, which lifts margins.",
-     "bad_when": "A sharply stronger rupee cuts rupee revenue for exporters.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    }
-   ],
-   "stocks": [
-    {
-     "symbol": "BBOX",
-     "name": "Black Box Ltd.",
-     "price": 856.85,
-     "rs3": 15.0,
-     "momentum": 70.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "KFINTECH",
-     "name": "Kfin Technologies Ltd.",
-     "price": 926.4,
-     "rs3": -2.0,
-     "momentum": 70.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "URBANCO",
-     "name": "Urban Company Ltd.",
-     "price": 158.52,
-     "rs3": 11.6,
-     "momentum": 60.0,
-     "bias": "UPSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Telecom Services",
-   "n": 7,
-   "score": 47.4,
-   "group": "MID",
-   "tech_rs3": 1.1,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 87,
-     "dir": "UP",
-     "text": "Median 3M return +1.1% vs Nifty; 57% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 47,
-     "dir": "NEUTRAL",
-     "text": "Median earnings growth +23% and revenue growth +10% across 7 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 14,
-     "dir": "DOWN",
-     "text": "Median ROE 20% and debt/equity 0.86",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [
-    {
-     "match": [
-      "telecom",
-      "communication"
-     ],
-     "title": "Tariff hikes and ARPU",
-     "good_when": "Tariff hikes and data growth lift revenue per user (ARPU).",
-     "bad_when": "Price wars, or heavy spectrum and network spending, cut returns.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    }
-   ],
-   "stocks": [
-    {
-     "symbol": "BHARTIHEXA",
-     "name": "Bharti Hexacom Ltd.",
-     "price": 1698.6,
-     "rs3": 9.8,
-     "momentum": 87.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "name": "Bharti Airtel Ltd.",
-     "price": 2056.9,
-     "rs3": 4.3,
-     "momentum": 72.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "TATACOMM",
-     "name": "Tata Communications Ltd.",
-     "price": 1713.7,
-     "rs3": -1.6,
-     "momentum": 70.0,
-     "bias": "UPSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Auto Parts",
-   "n": 24,
-   "score": 45.8,
-   "group": "MID",
-   "tech_rs3": -5.7,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 73,
-     "dir": "UP",
-     "text": "Median 3M return -5.7% vs Nifty; 58% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 63,
-     "dir": "UP",
-     "text": "Median earnings growth +17% and revenue growth +26% across 24 stocks",
+     "text": "Median earnings growth +20% and revenue growth +19% across 8 stocks",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -859,7 +691,7 @@
      "weight": 10,
      "pct": 38,
      "dir": "DOWN",
-     "text": "Median ROE 13% and debt/equity 0.30",
+     "text": "Median ROE 19% and debt/equity 0.40",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -875,64 +707,37 @@
      "key": "macro",
      "label": "Cyclical macro (crude, INR)",
      "weight": 15,
-     "pct": 0,
+     "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is hurt by rising crude",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
    "headlines": [],
-   "drivers": [
-    {
-     "match": [
-      "auto"
-     ],
-     "title": "Consumer demand and loan costs",
-     "good_when": "Rural and urban demand is strong, festive sales are good and car loans are cheap.",
-     "bad_when": "Loan rates are high, fuel prices spike or rural income is weak.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    },
-    {
-     "match": [
-      "auto"
-     ],
-     "title": "EV transition and input costs",
-     "good_when": "EV adoption and incentives grow, and battery and steel costs fall.",
-     "bad_when": "EV price wars, battery cost spikes or slow adoption strand investments.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    }
-   ],
+   "drivers": [],
    "stocks": [
     {
-     "symbol": "SONACOMS",
-     "name": "Sona BLW Precision Forgings Ltd.",
-     "price": 915.25,
-     "rs3": 12.7,
-     "momentum": 97.5,
+     "symbol": "GROWW",
+     "name": "Billionbrains Garage Ventures Ltd.",
+     "price": 222.02,
+     "rs3": 14.9,
+     "momentum": 87.5,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "ASAHIINDIA",
-     "name": "Asahi India Glass Ltd.",
-     "price": 1020.8,
-     "rs3": 10.7,
-     "momentum": 82.5,
+     "symbol": "ANGELONE",
+     "name": "Angel One Ltd.",
+     "price": 338.0,
+     "rs3": 14.7,
+     "momentum": 85.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "MOTHERSON",
-     "name": "Samvardhana Motherson International Ltd.",
-     "price": 168.0,
-     "rs3": 9.2,
-     "momentum": 82.5,
+     "symbol": "MOTILALOFS",
+     "name": "Motilal Oswal Financial Services Ltd.",
+     "price": 1147.3,
+     "rs3": 30.3,
+     "momentum": 77.5,
      "bias": "UPSIDE"
     }
    ]
@@ -940,17 +745,17 @@
   {
    "name": "Drug Manufacturers - Specialty & Generic",
    "n": 24,
-   "score": 45.7,
+   "score": 46.9,
    "group": "MID",
-   "tech_rs3": 1.6,
+   "tech_rs3": -1.6,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 93,
+     "pct": 97,
      "dir": "UP",
-     "text": "Median 3M return +1.6% vs Nifty; 88% of stocks above 200-day average",
+     "text": "Median 3M return -1.6% vs Nifty; 88% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -986,7 +791,7 @@
      "weight": 15,
      "pct": 10,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1026,151 +831,27 @@
    ],
    "stocks": [
     {
-     "symbol": "LAURUSLABS",
-     "name": "Laurus Labs Ltd.",
-     "price": 2345.0,
-     "rs3": 28.2,
-     "momentum": 92.5,
+     "symbol": "GLENMARK",
+     "name": "Glenmark Pharmaceuticals Ltd.",
+     "price": 2671.1,
+     "rs3": 15.7,
+     "momentum": 85.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "PPLPHARMA",
      "name": "Piramal Pharma Ltd.",
-     "price": 238.63,
-     "rs3": 15.8,
-     "momentum": 90.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "AUROPHARMA",
-     "name": "Aurobindo Pharma Ltd.",
-     "price": 1785.0,
-     "rs3": 11.0,
+     "price": 246.37,
+     "rs3": 16.0,
      "momentum": 82.5,
      "bias": "UPSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Banks - Regional",
-   "n": 27,
-   "score": 45.4,
-   "group": "MID",
-   "tech_rs3": -3.9,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 57,
-     "dir": "NEUTRAL",
-     "text": "Median 3M return -3.9% vs Nifty; 41% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
     },
     {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 70,
-     "dir": "UP",
-     "text": "Median earnings growth +28% and revenue growth +21% across 27 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": null,
-     "dir": null,
-     "text": "Median ROE 14% and debt/equity \u2013",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 0,
-     "dir": "DOWN",
-     "text": "0 positive and 2 negative official headlines matched to this sector",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [
-    {
-     "title": "Reserve Bank of India \u2013 Bulletin Weekly Statistical Supplement \u2013 Extract",
-     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63939",
-     "src": "RBI press release",
-     "dir": "DOWN"
-    },
-    {
-     "title": "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 \u2013 Sri Guru Raghavendra Sahakara Bank Niyamitha, Bengaluru - Extension of Period",
-     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63938",
-     "src": "RBI press release",
-     "dir": "DOWN"
-    }
-   ],
-   "drivers": [
-    {
-     "match": [
-      "bank",
-      "credit services"
-     ],
-     "title": "Credit growth and asset quality",
-     "good_when": "Loan growth is strong, bad loans fall and provisions stay low, lifting profit growth.",
-     "bad_when": "Credit slows, bad loans rise, or stressed borrowers force higher provisions.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    },
-    {
-     "match": [
-      "bank",
-      "credit services"
-     ],
-     "title": "Interest rate cycle",
-     "good_when": "Rate cuts lift loan demand without squeezing lending margins; stable deposit costs help.",
-     "bad_when": "Rate hikes slow borrowing, or deposit costs rise faster than loan yields and squeeze margins.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    }
-   ],
-   "stocks": [
-    {
-     "symbol": "KARURVYSYA",
-     "name": "Karur Vysya Bank Ltd.",
-     "price": 360.5,
-     "rs3": 7.1,
-     "momentum": 90.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "PNB",
-     "name": "Punjab National Bank",
-     "price": 126.1,
-     "rs3": 11.4,
-     "momentum": 90.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "UNIONBANK",
-     "name": "Union Bank of India",
-     "price": 188.0,
-     "rs3": 7.3,
-     "momentum": 90.0,
+     "symbol": "EMCURE",
+     "name": "Emcure Pharmaceuticals Ltd.",
+     "price": 2216.2,
+     "rs3": 10.6,
+     "momentum": 80.0,
      "bias": "UPSIDE"
     }
    ]
@@ -1178,17 +859,17 @@
   {
    "name": "Utilities - Renewable",
    "n": 7,
-   "score": 43.7,
+   "score": 46.0,
    "group": "MID",
-   "tech_rs3": -7.2,
+   "tech_rs3": -7.0,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 40,
-     "dir": "DOWN",
-     "text": "Median 3M return -7.2% vs Nifty; 50% of stocks above 200-day average",
+     "pct": 47,
+     "dir": "NEUTRAL",
+     "text": "Median 3M return -7.0% vs Nifty; 50% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -1224,7 +905,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1266,15 +947,15 @@
     {
      "symbol": "ADANIGREEN",
      "name": "Adani Green Energy Ltd.",
-     "price": 1414.9,
-     "rs3": 2.9,
-     "momentum": 70.0,
+     "price": 1448.9,
+     "rs3": 4.0,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "NHPC",
      "name": "NHPC Ltd.",
-     "price": 80.6,
+     "price": 80.39,
      "rs3": 3.2,
      "momentum": 70.0,
      "bias": "UPSIDE"
@@ -1282,45 +963,45 @@
     {
      "symbol": "ACMESOLAR",
      "name": "ACME Solar Holdings Ltd.",
-     "price": 407.9,
-     "rs3": 7.1,
+     "price": 407.25,
+     "rs3": 8.9,
      "momentum": 55.0,
      "bias": "NEUTRAL"
     }
    ]
   },
   {
-   "name": "Metal Fabrication",
-   "n": 5,
-   "score": 42.4,
+   "name": "Software - Application",
+   "n": 6,
+   "score": 45.4,
    "group": "MID",
-   "tech_rs3": -10.6,
+   "tech_rs3": -1.3,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 33,
-     "dir": "DOWN",
-     "text": "Median 3M return -10.6% vs Nifty; 40% of stocks above 200-day average",
+     "pct": 77,
+     "dir": "UP",
+     "text": "Median 3M return -1.3% vs Nifty; 50% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
      "key": "earn",
      "label": "Earnings growth",
      "weight": 25,
-     "pct": 93,
-     "dir": "UP",
-     "text": "Median earnings growth +64% and revenue growth +38% across 5 stocks",
+     "pct": 33,
+     "dir": "DOWN",
+     "text": "Median earnings growth +7% and revenue growth +19% across 6 stocks",
      "src": "Yahoo Finance fundamentals"
     },
     {
      "key": "qual",
      "label": "Business quality",
      "weight": 10,
-     "pct": 34,
-     "dir": "DOWN",
-     "text": "Median ROE 8% and debt/equity 0.33",
+     "pct": 83,
+     "dir": "UP",
+     "text": "Median ROE 15% and debt/equity 0.06",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -1336,9 +1017,9 @@
      "key": "macro",
      "label": "Cyclical macro (crude, INR)",
      "weight": 15,
-     "pct": 23,
+     "pct": 10,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1346,16 +1027,28 @@
    "drivers": [
     {
      "match": [
-      "steel",
-      "metal",
-      "mining",
-      "aluminium",
-      "aluminum",
-      "copper"
+      "software",
+      "information technology",
+      "it services"
      ],
-     "title": "Global commodity cycle and China demand",
-     "good_when": "China demand and global infrastructure spending rise, lifting metal prices.",
-     "bad_when": "Cheap imports or Chinese overcapacity push prices down, or import duty cuts open the market.",
+     "title": "Global tech spending and deal wins",
+     "good_when": "US and European clients raise IT budgets, and large deal wins lift revenue visibility.",
+     "bad_when": "Clients cut discretionary spending, deal sizes shrink, or automation reduces billable work.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    },
+    {
+     "match": [
+      "software",
+      "information technology",
+      "it services"
+     ],
+     "title": "Rupee and dollar earnings",
+     "good_when": "A weaker rupee raises rupee value of dollar revenue, which lifts margins.",
+     "bad_when": "A sharply stronger rupee cuts rupee revenue for exporters.",
      "current_view": "",
      "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
      "url": "",
@@ -1365,63 +1058,172 @@
    ],
    "stocks": [
     {
-     "symbol": "PTCIL",
-     "name": "PTC Industries Ltd.",
-     "price": 24325.0,
-     "rs3": 34.8,
-     "momentum": 82.5,
+     "symbol": "KFINTECH",
+     "name": "Kfin Technologies Ltd.",
+     "price": 914.5,
+     "rs3": -3.9,
+     "momentum": 67.5,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "RKFORGE",
-     "name": "Ramkrishna Forgings Ltd.",
-     "price": 722.65,
-     "rs3": 2.9,
-     "momentum": 62.5,
+     "symbol": "BBOX",
+     "name": "Black Box Ltd.",
+     "price": 814.75,
+     "rs3": 8.0,
+     "momentum": 65.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "RHIM",
-     "name": "RHI MAGNESITA INDIA LTD.",
-     "price": 360.55,
-     "rs3": -10.9,
-     "momentum": 22.5,
-     "bias": "DOWNSIDE"
+     "symbol": "URBANCO",
+     "name": "Urban Company Ltd.",
+     "price": 159.11,
+     "rs3": 9.1,
+     "momentum": 60.0,
+     "bias": "UPSIDE"
     }
    ]
   },
   {
-   "name": "Steel",
-   "n": 16,
-   "score": 41.6,
+   "name": "Auto Parts",
+   "n": 24,
+   "score": 45.3,
    "group": "MID",
-   "tech_rs3": -5.2,
+   "tech_rs3": -7.6,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 60,
+     "pct": 70,
      "dir": "UP",
-     "text": "Median 3M return -5.2% vs Nifty; 56% of stocks above 200-day average",
+     "text": "Median 3M return -7.6% vs Nifty; 58% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
      "key": "earn",
      "label": "Earnings growth",
      "weight": 25,
-     "pct": 50,
-     "dir": "NEUTRAL",
-     "text": "Median earnings growth +17% and revenue growth +17% across 16 stocks",
+     "pct": 63,
+     "dir": "UP",
+     "text": "Median earnings growth +18% and revenue growth +30% across 24 stocks",
      "src": "Yahoo Finance fundamentals"
     },
     {
      "key": "qual",
      "label": "Business quality",
      "weight": 10,
-     "pct": 41,
+     "pct": 45,
      "dir": "NEUTRAL",
-     "text": "Median ROE 15% and debt/equity 0.32",
+     "text": "Median ROE 14% and debt/equity 0.30",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 0,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is hurt by rising crude",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [
+    {
+     "match": [
+      "auto"
+     ],
+     "title": "Consumer demand and loan costs",
+     "good_when": "Rural and urban demand is strong, festive sales are good and car loans are cheap.",
+     "bad_when": "Loan rates are high, fuel prices spike or rural income is weak.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    },
+    {
+     "match": [
+      "auto"
+     ],
+     "title": "EV transition and input costs",
+     "good_when": "EV adoption and incentives grow, and battery and steel costs fall.",
+     "bad_when": "EV price wars, battery cost spikes or slow adoption strand investments.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    }
+   ],
+   "stocks": [
+    {
+     "symbol": "SONACOMS",
+     "name": "Sona BLW Precision Forgings Ltd.",
+     "price": 924.0,
+     "rs3": 11.4,
+     "momentum": 90.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "BOSCHLTD",
+     "name": "Bosch Ltd.",
+     "price": 49550.0,
+     "rs3": 13.8,
+     "momentum": 85.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "SANSERA",
+     "name": "Sansera Engineering Ltd.",
+     "price": 4653.4,
+     "rs3": 19.0,
+     "momentum": 80.0,
+     "bias": "UPSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Telecom Services",
+   "n": 7,
+   "score": 44.2,
+   "group": "MID",
+   "tech_rs3": -1.7,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 80,
+     "dir": "UP",
+     "text": "Median 3M return -1.7% vs Nifty; 57% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 43,
+     "dir": "NEUTRAL",
+     "text": "Median earnings growth +23% and revenue growth +10% across 7 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 14,
+     "dir": "DOWN",
+     "text": "Median ROE 19% and debt/equity 0.86",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -1439,7 +1241,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1447,16 +1249,12 @@
    "drivers": [
     {
      "match": [
-      "steel",
-      "metal",
-      "mining",
-      "aluminium",
-      "aluminum",
-      "copper"
+      "telecom",
+      "communication"
      ],
-     "title": "Global commodity cycle and China demand",
-     "good_when": "China demand and global infrastructure spending rise, lifting metal prices.",
-     "bad_when": "Cheap imports or Chinese overcapacity push prices down, or import duty cuts open the market.",
+     "title": "Tariff hikes and ARPU",
+     "good_when": "Tariff hikes and data growth lift revenue per user (ARPU).",
+     "bad_when": "Price wars, or heavy spectrum and network spending, cut returns.",
      "current_view": "",
      "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
      "url": "",
@@ -1466,52 +1264,52 @@
    ],
    "stocks": [
     {
-     "symbol": "SHYAMMETL",
-     "name": "Shyam Metalics and Energy Ltd.",
-     "price": 1270.0,
-     "rs3": 24.0,
-     "momentum": 85.0,
+     "symbol": "BHARTIHEXA",
+     "name": "Bharti Hexacom Ltd.",
+     "price": 1655.4,
+     "rs3": 6.0,
+     "momentum": 80.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "JSWSTEEL",
-     "name": "JSW Steel Ltd.",
-     "price": 1355.6,
-     "rs3": 2.3,
-     "momentum": 77.5,
+     "symbol": "BHARTIARTL",
+     "name": "Bharti Airtel Ltd.",
+     "price": 2072.1,
+     "rs3": 4.1,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "APLAPOLLO",
-     "name": "APL Apollo Tubes Ltd.",
-     "price": 2194.2,
-     "rs3": 13.4,
-     "momentum": 72.5,
-     "bias": "UPSIDE"
+     "symbol": "INDUSTOWER",
+     "name": "Indus Towers Ltd.",
+     "price": 383.55,
+     "rs3": 1.5,
+     "momentum": 55.0,
+     "bias": "NEUTRAL"
     }
    ]
   },
   {
    "name": "Utilities - Independent Power Producers",
    "n": 7,
-   "score": 41.4,
+   "score": 42.9,
    "group": "MID",
-   "tech_rs3": -7.2,
+   "tech_rs3": -10.1,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 47,
+     "pct": 53,
      "dir": "NEUTRAL",
-     "text": "Median 3M return -7.2% vs Nifty; 43% of stocks above 200-day average",
+     "text": "Median 3M return -10.1% vs Nifty; 43% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
      "key": "earn",
      "label": "Earnings growth",
      "weight": 25,
-     "pct": 80,
+     "pct": 77,
      "dir": "UP",
      "text": "Median earnings growth +39% and revenue growth +23% across 7 stocks",
      "src": "Yahoo Finance fundamentals"
@@ -1540,7 +1338,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1582,125 +1380,43 @@
     {
      "symbol": "ADANIPOWER",
      "name": "Adani Power Ltd.",
-     "price": 204.0,
-     "rs3": -2.0,
-     "momentum": 62.5,
+     "price": 206.0,
+     "rs3": -3.0,
+     "momentum": 70.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "ADANIENSOL",
      "name": "Adani Energy Solutions Ltd.",
-     "price": 1446.7,
-     "rs3": -11.5,
-     "momentum": 57.5,
+     "price": 1439.1,
+     "rs3": -13.3,
+     "momentum": 62.5,
      "bias": "UPSIDE"
     },
     {
      "symbol": "JSWENERGY",
      "name": "JSW Energy Ltd.",
-     "price": 523.35,
-     "rs3": -7.2,
+     "price": 523.15,
+     "rs3": -8.9,
      "momentum": 57.5,
      "bias": "UPSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Medical Care Facilities",
-   "n": 8,
-   "score": 38.9,
-   "group": "MID",
-   "tech_rs3": -9.8,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 70,
-     "dir": "UP",
-     "text": "Median 3M return -9.8% vs Nifty; 62% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 33,
-     "dir": "DOWN",
-     "text": "Median earnings growth +3% and revenue growth +22% across 8 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 21,
-     "dir": "DOWN",
-     "text": "Median ROE 17% and debt/equity 0.51",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [],
-   "stocks": [
-    {
-     "symbol": "NH",
-     "name": "Narayana Hrudayalaya Ltd.",
-     "price": 1915.5,
-     "rs3": 1.0,
-     "momentum": 77.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "MEDANTA",
-     "name": "Global Health Ltd.",
-     "price": 1389.7,
-     "rs3": -1.1,
-     "momentum": 70.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "ASTERDM",
-     "name": "Aster DM Quality Care Ltd.",
-     "price": 719.55,
-     "rs3": -14.2,
-     "momentum": 50.0,
-     "bias": "NEUTRAL"
     }
    ]
   },
   {
    "name": "Asset Management",
    "n": 11,
-   "score": 38.3,
+   "score": 41.0,
    "group": "MID",
-   "tech_rs3": -4.7,
+   "tech_rs3": -3.9,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 67,
+     "pct": 73,
      "dir": "UP",
-     "text": "Median 3M return -4.7% vs Nifty; 55% of stocks above 200-day average",
+     "text": "Median 3M return -3.9% vs Nifty; 55% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -1716,9 +1432,9 @@
      "key": "qual",
      "label": "Business quality",
      "weight": 10,
-     "pct": 93,
+     "pct": 97,
      "dir": "UP",
-     "text": "Median ROE 20% and debt/equity 0.05",
+     "text": "Median ROE 27% and debt/equity 0.04",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -1736,7 +1452,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1744,63 +1460,63 @@
    "drivers": [],
    "stocks": [
     {
-     "symbol": "ANANDRATHI",
-     "name": "Anand Rathi Wealth Ltd.",
-     "price": 2370.0,
-     "rs3": 16.9,
-     "momentum": 87.5,
+     "symbol": "360ONE",
+     "name": "360 ONE WAM Ltd.",
+     "price": 1138.0,
+     "rs3": -3.5,
+     "momentum": 77.5,
      "bias": "UPSIDE"
     },
     {
      "symbol": "HDFCAMC",
      "name": "HDFC Asset Management Company Ltd.",
-     "price": 2640.0,
-     "rs3": 3.4,
-     "momentum": 80.0,
+     "price": 2619.6,
+     "rs3": 1.3,
+     "momentum": 77.5,
      "bias": "UPSIDE"
     },
     {
      "symbol": "NUVAMA",
      "name": "Nuvama Wealth Management Ltd.",
-     "price": 1873.4,
-     "rs3": 12.1,
-     "momentum": 72.5,
+     "price": 1871.0,
+     "rs3": 12.3,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     }
    ]
   },
   {
-   "name": "Electrical Equipment & Parts",
-   "n": 15,
-   "score": 38.0,
+   "name": "Steel",
+   "n": 16,
+   "score": 39.6,
    "group": "MID",
-   "tech_rs3": -14.3,
+   "tech_rs3": -6.4,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 10,
-     "dir": "DOWN",
-     "text": "Median 3M return -14.3% vs Nifty; 40% of stocks above 200-day average",
+     "pct": 57,
+     "dir": "NEUTRAL",
+     "text": "Median 3M return -6.4% vs Nifty; 50% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
      "key": "earn",
      "label": "Earnings growth",
      "weight": 25,
-     "pct": 83,
-     "dir": "UP",
-     "text": "Median earnings growth +40% and revenue growth +27% across 15 stocks",
+     "pct": 47,
+     "dir": "NEUTRAL",
+     "text": "Median earnings growth +20% and revenue growth +17% across 16 stocks",
      "src": "Yahoo Finance fundamentals"
     },
     {
      "key": "qual",
      "label": "Business quality",
      "weight": 10,
-     "pct": 97,
-     "dir": "UP",
-     "text": "Median ROE 19% and debt/equity 0.04",
+     "pct": 41,
+     "dir": "NEUTRAL",
+     "text": "Median ROE 14% and debt/equity 0.32",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -1818,7 +1534,485 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [
+    {
+     "match": [
+      "steel",
+      "metal",
+      "mining",
+      "aluminium",
+      "aluminum",
+      "copper"
+     ],
+     "title": "Global commodity cycle and China demand",
+     "good_when": "China demand and global infrastructure spending rise, lifting metal prices.",
+     "bad_when": "Cheap imports or Chinese overcapacity push prices down, or import duty cuts open the market.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    }
+   ],
+   "stocks": [
+    {
+     "symbol": "SHYAMMETL",
+     "name": "Shyam Metalics and Energy Ltd.",
+     "price": 1320.5,
+     "rs3": 29.5,
+     "momentum": 80.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "JSWSTEEL",
+     "name": "JSW Steel Ltd.",
+     "price": 1347.0,
+     "rs3": 2.1,
+     "momentum": 77.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "APLAPOLLO",
+     "name": "APL Apollo Tubes Ltd.",
+     "price": 2181.3,
+     "rs3": 9.6,
+     "momentum": 75.0,
+     "bias": "UPSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Aerospace & Defense",
+   "n": 8,
+   "score": 39.0,
+   "group": "MID",
+   "tech_rs3": -12.8,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 33,
+     "dir": "DOWN",
+     "text": "Median 3M return -12.8% vs Nifty; 38% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 53,
+     "dir": "NEUTRAL",
+     "text": "Median earnings growth +17% and revenue growth +22% across 8 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 100,
+     "dir": "UP",
+     "text": "Median ROE 23% and debt/equity 0.01",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [
+    {
+     "match": [
+      "aerospace",
+      "defence",
+      "defense"
+     ],
+     "title": "Defence budget and procurement",
+     "good_when": "Defence budgets rise and orders and exports come through on schedule.",
+     "bad_when": "Procurement is delayed, or contract payments and approvals are slow.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    }
+   ],
+   "stocks": [
+    {
+     "symbol": "ZENTEC",
+     "name": "Zen Technologies Ltd.",
+     "price": 1712.6,
+     "rs3": -2.0,
+     "momentum": 65.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "HAL",
+     "name": "Hindustan Aeronautics Ltd.",
+     "price": 4999.0,
+     "rs3": 0.4,
+     "momentum": 60.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "BEL",
+     "name": "Bharat Electronics Ltd.",
+     "price": 394.55,
+     "rs3": -3.1,
+     "momentum": 47.5,
+     "bias": "NEUTRAL"
+    }
+   ]
+  },
+  {
+   "name": "Specialty Chemicals",
+   "n": 16,
+   "score": 38.9,
+   "group": "MID",
+   "tech_rs3": -7.8,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 50,
+     "dir": "NEUTRAL",
+     "text": "Median 3M return -7.8% vs Nifty; 50% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 60,
+     "dir": "UP",
+     "text": "Median earnings growth +20% and revenue growth +23% across 16 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 59,
+     "dir": "NEUTRAL",
+     "text": "Median ROE 15% and debt/equity 0.23",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 0,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is hurt by rising crude",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [
+    {
+     "match": [
+      "chemical"
+     ],
+     "title": "China competition and input costs",
+     "good_when": "Chinese supply is cut or global demand rises, and raw-material costs stay low.",
+     "bad_when": "Cheap Chinese imports push prices down, or raw-material costs spike.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    }
+   ],
+   "stocks": [
+    {
+     "symbol": "ACUTAAS",
+     "name": "Acutaas Chemicals Ltd.",
+     "price": 3882.6,
+     "rs3": 16.2,
+     "momentum": 90.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "ASIANPAINT",
+     "name": "Asian Paints Ltd.",
+     "price": 2509.3,
+     "rs3": -9.6,
+     "momentum": 65.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "PIDILITIND",
+     "name": "Pidilite Industries Ltd.",
+     "price": 1587.5,
+     "rs3": -6.0,
+     "momentum": 65.0,
+     "bias": "UPSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Metal Fabrication",
+   "n": 5,
+   "score": 38.9,
+   "group": "MID",
+   "tech_rs3": -14.0,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Median 3M return -14.0% vs Nifty; 40% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 93,
+     "dir": "UP",
+     "text": "Median earnings growth +64% and revenue growth +38% across 5 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 34,
+     "dir": "DOWN",
+     "text": "Median ROE 8% and debt/equity 0.33",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [
+    {
+     "match": [
+      "steel",
+      "metal",
+      "mining",
+      "aluminium",
+      "aluminum",
+      "copper"
+     ],
+     "title": "Global commodity cycle and China demand",
+     "good_when": "China demand and global infrastructure spending rise, lifting metal prices.",
+     "bad_when": "Cheap imports or Chinese overcapacity push prices down, or import duty cuts open the market.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    }
+   ],
+   "stocks": [
+    {
+     "symbol": "PTCIL",
+     "name": "PTC Industries Ltd.",
+     "price": 24745.0,
+     "rs3": 28.1,
+     "momentum": 75.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "RKFORGE",
+     "name": "Ramkrishna Forgings Ltd.",
+     "price": 713.4,
+     "rs3": -3.1,
+     "momentum": 70.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "RHIM",
+     "name": "RHI MAGNESITA INDIA LTD.",
+     "price": 359.25,
+     "rs3": -14.0,
+     "momentum": 22.5,
+     "bias": "DOWNSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Insurance - Life",
+   "n": 7,
+   "score": 38.1,
+   "group": "MID",
+   "tech_rs3": -7.4,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 17,
+     "dir": "DOWN",
+     "text": "Median 3M return -7.4% vs Nifty; 14% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 87,
+     "dir": "UP",
+     "text": "Median earnings growth +61% and revenue growth +11% across 7 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 66,
+     "dir": "UP",
+     "text": "Median ROE 11% and debt/equity 0.16",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [],
+   "stocks": [
+    {
+     "symbol": "HDFCLIFE",
+     "name": "HDFC Life Insurance Company Ltd.",
+     "price": 565.4,
+     "rs3": 3.1,
+     "momentum": 47.5,
+     "bias": "NEUTRAL"
+    },
+    {
+     "symbol": "LICI",
+     "name": "Life Insurance Corporation of India",
+     "price": 399.0,
+     "rs3": -0.3,
+     "momentum": 45.0,
+     "bias": "NEUTRAL"
+    },
+    {
+     "symbol": "STARHEALTH",
+     "name": "Star Health and Allied Insurance Company Ltd.",
+     "price": 548.25,
+     "rs3": -5.4,
+     "momentum": 42.5,
+     "bias": "DOWNSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Electrical Equipment & Parts",
+   "n": 15,
+   "score": 35.6,
+   "group": "MID",
+   "tech_rs3": -15.9,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 7,
+     "dir": "DOWN",
+     "text": "Median 3M return -15.9% vs Nifty; 33% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 80,
+     "dir": "UP",
+     "text": "Median earnings growth +40% and revenue growth +23% across 15 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 93,
+     "dir": "UP",
+     "text": "Median ROE 18% and debt/equity 0.04",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1877,43 +2071,43 @@
     {
      "symbol": "HBLENGINE",
      "name": "HBL Engineering Ltd.",
-     "price": 855.2,
-     "rs3": 16.6,
-     "momentum": 90.0,
+     "price": 797.45,
+     "rs3": 8.2,
+     "momentum": 80.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "TARIL",
      "name": "Transformers And Rectifiers (India) Ltd.",
-     "price": 315.6,
-     "rs3": 7.5,
-     "momentum": 90.0,
+     "price": 310.1,
+     "rs3": 2.6,
+     "momentum": 70.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "FINCABLES",
-     "name": "Finolex Cables Ltd.",
-     "price": 1174.3,
-     "rs3": 18.2,
-     "momentum": 50.0,
-     "bias": "NEUTRAL"
+     "symbol": "GRAPHITE",
+     "name": "Graphite India Ltd.",
+     "price": 763.1,
+     "rs3": 5.9,
+     "momentum": 60.0,
+     "bias": "UPSIDE"
     }
    ]
   },
   {
-   "name": "Aerospace & Defense",
+   "name": "Medical Care Facilities",
    "n": 8,
-   "score": 36.3,
+   "score": 35.1,
    "group": "MID",
-   "tech_rs3": -11.8,
+   "tech_rs3": -14.4,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Median 3M return -11.8% vs Nifty; 38% of stocks above 200-day average",
+     "pct": 43,
+     "dir": "NEUTRAL",
+     "text": "Median 3M return -14.4% vs Nifty; 50% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -1922,16 +2116,16 @@
      "weight": 25,
      "pct": 57,
      "dir": "NEUTRAL",
-     "text": "Median earnings growth +17% and revenue growth +22% across 8 stocks",
+     "text": "Median earnings growth +13% and revenue growth +28% across 8 stocks",
      "src": "Yahoo Finance fundamentals"
     },
     {
      "key": "qual",
      "label": "Business quality",
      "weight": 10,
-     "pct": 100,
-     "dir": "UP",
-     "text": "Median ROE 23% and debt/equity 0.01",
+     "pct": 17,
+     "dir": "DOWN",
+     "text": "Median ROE 14% and debt/equity 0.60",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -1949,51 +2143,35 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
    "headlines": [],
-   "drivers": [
-    {
-     "match": [
-      "aerospace",
-      "defence",
-      "defense"
-     ],
-     "title": "Defence budget and procurement",
-     "good_when": "Defence budgets rise and orders and exports come through on schedule.",
-     "bad_when": "Procurement is delayed, or contract payments and approvals are slow.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    }
-   ],
+   "drivers": [],
    "stocks": [
     {
-     "symbol": "HAL",
-     "name": "Hindustan Aeronautics Ltd.",
-     "price": 5043.0,
-     "rs3": 9.1,
-     "momentum": 72.5,
+     "symbol": "NH",
+     "name": "Narayana Hrudayalaya Ltd.",
+     "price": 1891.7,
+     "rs3": -1.3,
+     "momentum": 77.5,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "ZENTEC",
-     "name": "Zen Technologies Ltd.",
-     "price": 1724.5,
-     "rs3": 3.4,
-     "momentum": 65.0,
+     "symbol": "MEDANTA",
+     "name": "Global Health Ltd.",
+     "price": 1427.1,
+     "rs3": -3.5,
+     "momentum": 70.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "BEL",
-     "name": "Bharat Electronics Ltd.",
-     "price": 395.1,
-     "rs3": 1.8,
-     "momentum": 47.5,
+     "symbol": "APOLLOHOSP",
+     "name": "Apollo Hospitals Enterprise Ltd.",
+     "price": 8549.5,
+     "rs3": -5.9,
+     "momentum": 55.0,
      "bias": "NEUTRAL"
     }
    ]
@@ -2001,17 +2179,17 @@
   {
    "name": "Real Estate - Development",
    "n": 8,
-   "score": 36.1,
+   "score": 31.4,
    "group": "MID",
-   "tech_rs3": -5.0,
+   "tech_rs3": -7.7,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 77,
+     "pct": 63,
      "dir": "UP",
-     "text": "Median 3M return -5.0% vs Nifty; 62% of stocks above 200-day average",
+     "text": "Median 3M return -7.7% vs Nifty; 50% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -2047,7 +2225,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2072,35 +2250,35 @@
     {
      "symbol": "DLF",
      "name": "DLF Ltd.",
-     "price": 745.2,
-     "rs3": 15.2,
-     "momentum": 85.0,
+     "price": 755.0,
+     "rs3": 16.0,
+     "momentum": 80.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "GODREJPROP",
-     "name": "Godrej Properties Ltd.",
-     "price": 1815.0,
-     "rs3": -13.2,
-     "momentum": 62.5,
+     "symbol": "LODHA",
+     "name": "Lodha Developers Ltd.",
+     "price": 1195.0,
+     "rs3": -3.5,
+     "momentum": 70.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "BRIGADE",
-     "name": "Brigade Enterprises Ltd.",
-     "price": 563.15,
-     "rs3": -0.9,
-     "momentum": 55.0,
-     "bias": "NEUTRAL"
+     "symbol": "OBEROIRLTY",
+     "name": "Oberoi Realty Ltd.",
+     "price": 1775.0,
+     "rs3": -1.5,
+     "momentum": 70.0,
+     "bias": "UPSIDE"
     }
    ]
   },
   {
-   "name": "Specialty Chemicals",
-   "n": 16,
-   "score": 35.5,
+   "name": "Household & Personal Products",
+   "n": 9,
+   "score": 30.8,
    "group": "MID",
-   "tech_rs3": -8.1,
+   "tech_rs3": -5.1,
    "factors": [
     {
      "key": "tech",
@@ -2108,185 +2286,7 @@
      "weight": 35,
      "pct": 37,
      "dir": "DOWN",
-     "text": "Median 3M return -8.1% vs Nifty; 50% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 67,
-     "dir": "UP",
-     "text": "Median earnings growth +20% and revenue growth +23% across 16 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 55,
-     "dir": "NEUTRAL",
-     "text": "Median ROE 15% and debt/equity 0.23",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 0,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is hurt by rising crude",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [
-    {
-     "match": [
-      "chemical"
-     ],
-     "title": "China competition and input costs",
-     "good_when": "Chinese supply is cut or global demand rises, and raw-material costs stay low.",
-     "bad_when": "Cheap Chinese imports push prices down, or raw-material costs spike.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    }
-   ],
-   "stocks": [
-    {
-     "symbol": "ACUTAAS",
-     "name": "Acutaas Chemicals Ltd.",
-     "price": 3770.8,
-     "rs3": 15.3,
-     "momentum": 90.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "FLUOROCHEM",
-     "name": "Gujarat Fluorochemicals Ltd.",
-     "price": 4709.6,
-     "rs3": 5.1,
-     "momentum": 75.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "ASIANPAINT",
-     "name": "Asian Paints Ltd.",
-     "price": 2523.8,
-     "rs3": -8.0,
-     "momentum": 57.5,
-     "bias": "UPSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Insurance - Life",
-   "n": 7,
-   "score": 34.0,
-   "group": "MID",
-   "tech_rs3": -7.4,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 30,
-     "dir": "DOWN",
-     "text": "Median 3M return -7.4% vs Nifty; 29% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 53,
-     "dir": "NEUTRAL",
-     "text": "Median earnings growth +27% and revenue growth +11% across 7 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 62,
-     "dir": "UP",
-     "text": "Median ROE 10% and debt/equity 0.16",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [],
-   "stocks": [
-    {
-     "symbol": "LICI",
-     "name": "Life Insurance Corporation of India",
-     "price": 408.0,
-     "rs3": 4.2,
-     "momentum": 60.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "HDFCLIFE",
-     "name": "HDFC Life Insurance Company Ltd.",
-     "price": 543.8,
-     "rs3": 0.1,
-     "momentum": 47.5,
-     "bias": "NEUTRAL"
-    },
-    {
-     "symbol": "SBILIFE",
-     "name": "SBI Life Insurance Company Ltd.",
-     "price": 1735.0,
-     "rs3": -7.4,
-     "momentum": 35.0,
-     "bias": "DOWNSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Household & Personal Products",
-   "n": 9,
-   "score": 33.1,
-   "group": "MID",
-   "tech_rs3": -3.2,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 43,
-     "dir": "NEUTRAL",
-     "text": "Median 3M return -3.2% vs Nifty; 33% of stocks above 200-day average",
+     "text": "Median 3M return -5.1% vs Nifty; 33% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -2304,7 +2304,7 @@
      "weight": 10,
      "pct": 90,
      "dir": "UP",
-     "text": "Median ROE 24% and debt/equity 0.10",
+     "text": "Median ROE 22% and debt/equity 0.09",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -2322,7 +2322,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2350,25 +2350,25 @@
     {
      "symbol": "CUPID",
      "name": "Cupid Ltd.",
-     "price": 341.25,
-     "rs3": 35.7,
-     "momentum": 82.5,
+     "price": 342.85,
+     "rs3": 29.2,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "MARICO",
      "name": "Marico Ltd.",
-     "price": 887.75,
-     "rs3": 4.6,
+     "price": 902.0,
+     "rs3": 3.0,
      "momentum": 75.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "HONASA",
      "name": "Honasa Consumer Ltd.",
-     "price": 481.75,
-     "rs3": 5.8,
-     "momentum": 72.5,
+     "price": 484.05,
+     "rs3": 0.4,
+     "momentum": 60.0,
      "bias": "UPSIDE"
     }
    ]
@@ -2376,24 +2376,24 @@
   {
    "name": "Credit Services",
    "n": 24,
-   "score": 30.5,
+   "score": 30.8,
    "group": "MID",
-   "tech_rs3": -11.0,
+   "tech_rs3": -12.3,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 27,
+     "pct": 30,
      "dir": "DOWN",
-     "text": "Median 3M return -11.0% vs Nifty; 33% of stocks above 200-day average",
+     "text": "Median 3M return -12.3% vs Nifty; 33% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
      "key": "earn",
      "label": "Earnings growth",
      "weight": 25,
-     "pct": 77,
+     "pct": 73,
      "dir": "UP",
      "text": "Median earnings growth +34% and revenue growth +24% across 24 stocks",
      "src": "Yahoo Finance fundamentals"
@@ -2422,7 +2422,7 @@
      "weight": 15,
      "pct": 10,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2489,261 +2489,63 @@
    ],
    "stocks": [
     {
-     "symbol": "PIRAMALFIN",
-     "name": "Piramal Finance Ltd.",
-     "price": 2119.6,
-     "rs3": -0.4,
-     "momentum": 67.5,
+     "symbol": "POONAWALLA",
+     "name": "Poonawalla Fincorp Ltd.",
+     "price": 474.35,
+     "rs3": -2.8,
+     "momentum": 70.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "BAJFINANCE",
      "name": "Bajaj Finance Ltd.",
-     "price": 1070.0,
-     "rs3": -7.3,
-     "momentum": 62.5,
+     "price": 1064.85,
+     "rs3": -2.8,
+     "momentum": 67.5,
      "bias": "UPSIDE"
     },
     {
      "symbol": "IIFL",
      "name": "IIFL Finance Ltd.",
-     "price": 604.5,
-     "rs3": -0.6,
-     "momentum": 62.5,
+     "price": 627.0,
+     "rs3": 0.9,
+     "momentum": 67.5,
      "bias": "UPSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Building Materials",
-   "n": 11,
-   "score": 26.6,
-   "group": "MID",
-   "tech_rs3": -7.1,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 50,
-     "dir": "NEUTRAL",
-     "text": "Median 3M return -7.1% vs Nifty; 36% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 13,
-     "dir": "DOWN",
-     "text": "Median earnings growth -1% and revenue growth +14% across 11 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 17,
-     "dir": "DOWN",
-     "text": "Median ROE 4% and debt/equity 0.48",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [
-    {
-     "match": [
-      "building material",
-      "cement",
-      "construction material"
-     ],
-     "title": "Infra and housing demand",
-     "good_when": "Government capex and housing demand are strong, and coal or fuel costs are low.",
-     "bad_when": "Monsoon disrupts construction, or fuel and freight costs rise.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    }
-   ],
-   "stocks": [
-    {
-     "symbol": "GRASIM",
-     "name": "Grasim Industries Ltd.",
-     "price": 3227.6,
-     "rs3": 0.8,
-     "momentum": 72.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "ULTRACEMCO",
-     "name": "UltraTech Cement Ltd.",
-     "price": 12250.0,
-     "rs3": 0.8,
-     "momentum": 72.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "NUVOCO",
-     "name": "Nuvoco Vistas Corporation Ltd.",
-     "price": 345.85,
-     "rs3": 0.3,
-     "momentum": 70.0,
-     "bias": "UPSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Packaged Foods",
-   "n": 9,
-   "score": 24.7,
-   "group": "MID",
-   "tech_rs3": -10.1,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 13,
-     "dir": "DOWN",
-     "text": "Median 3M return -10.1% vs Nifty; 11% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 43,
-     "dir": "NEUTRAL",
-     "text": "Median earnings growth +13% and revenue growth +18% across 9 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 52,
-     "dir": "NEUTRAL",
-     "text": "Median ROE 14% and debt/equity 0.27",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [
-    {
-     "match": [
-      "packaged",
-      "household",
-      "beverage",
-      "tobacco",
-      "food"
-     ],
-     "title": "Rural demand and input costs",
-     "good_when": "Rural demand recovers and input costs such as edible oil and packaging fall.",
-     "bad_when": "Monsoon is weak, or input cost inflation cuts volume and margins.",
-     "current_view": "",
-     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
-     "url": "",
-     "date": "",
-     "added_by": "app"
-    }
-   ],
-   "stocks": [
-    {
-     "symbol": "PATANJALI",
-     "name": "Patanjali Foods Ltd.",
-     "price": 410.7,
-     "rs3": 16.2,
-     "momentum": 62.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "TATACONSUM",
-     "name": "Tata Consumer Products Ltd.",
-     "price": 1077.7,
-     "rs3": -1.3,
-     "momentum": 62.5,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "LTFOODS",
-     "name": "LT Foods Ltd.",
-     "price": 415.65,
-     "rs3": 0.2,
-     "momentum": 47.5,
-     "bias": "NEUTRAL"
     }
    ]
   },
   {
    "name": "Specialty Industrial Machinery",
    "n": 20,
-   "score": 22.5,
+   "score": 25.6,
    "group": "MID",
-   "tech_rs3": -12.8,
+   "tech_rs3": -10.8,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 7,
+     "pct": 20,
      "dir": "DOWN",
-     "text": "Median 3M return -12.8% vs Nifty; 30% of stocks above 200-day average",
+     "text": "Median 3M return -10.8% vs Nifty; 35% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
      "key": "earn",
      "label": "Earnings growth",
      "weight": 25,
-     "pct": 30,
+     "pct": 27,
      "dir": "DOWN",
-     "text": "Median earnings growth +4% and revenue growth +22% across 20 stocks",
+     "text": "Median earnings growth +4% and revenue growth +21% across 20 stocks",
      "src": "Yahoo Finance fundamentals"
     },
     {
      "key": "qual",
      "label": "Business quality",
      "weight": 10,
-     "pct": 86,
+     "pct": 79,
      "dir": "UP",
-     "text": "Median ROE 21% and debt/equity 0.09",
+     "text": "Median ROE 17% and debt/equity 0.09",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -2761,7 +2563,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2789,50 +2591,50 @@
     {
      "symbol": "JYOTICNC",
      "name": "Jyoti CNC Automation Ltd.",
-     "price": 1022.2,
-     "rs3": 19.3,
-     "momentum": 70.0,
+     "price": 1036.4,
+     "rs3": 30.5,
+     "momentum": 75.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "BHEL",
+     "name": "Bharat Heavy Electricals Ltd.",
+     "price": 422.95,
+     "rs3": 2.8,
+     "momentum": 62.5,
      "bias": "UPSIDE"
     },
     {
      "symbol": "AZAD",
      "name": "Azad Engineering Ltd.",
-     "price": 2582.9,
-     "rs3": 5.9,
-     "momentum": 50.0,
-     "bias": "NEUTRAL"
-    },
-    {
-     "symbol": "TDPOWERSYS",
-     "name": "TD Power Systems Ltd.",
-     "price": 669.2,
-     "rs3": 11.7,
-     "momentum": 50.0,
-     "bias": "NEUTRAL"
+     "price": 2434.2,
+     "rs3": -3.8,
+     "momentum": 37.5,
+     "bias": "DOWNSIDE"
     }
    ]
   },
   {
    "name": "Engineering & Construction",
    "n": 12,
-   "score": 19.6,
+   "score": 23.9,
    "group": "MID",
-   "tech_rs3": -12.2,
+   "tech_rs3": -13.6,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 17,
+     "pct": 27,
      "dir": "DOWN",
-     "text": "Median 3M return -12.2% vs Nifty; 33% of stocks above 200-day average",
+     "text": "Median 3M return -13.6% vs Nifty; 33% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
      "key": "earn",
      "label": "Earnings growth",
      "weight": 25,
-     "pct": 27,
+     "pct": 30,
      "dir": "DOWN",
      "text": "Median earnings growth +15% and revenue growth +10% across 12 stocks",
      "src": "Yahoo Finance fundamentals"
@@ -2861,7 +2663,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2889,25 +2691,223 @@
     {
      "symbol": "CEMPRO",
      "name": "Cemindia Projects Ltd.",
-     "price": 1287.4,
-     "rs3": -0.5,
-     "momentum": 75.0,
+     "price": 1307.5,
+     "rs3": 6.6,
+     "momentum": 90.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "LT",
      "name": "Larsen & Toubro Ltd.",
-     "price": 4050.0,
-     "rs3": 0.2,
-     "momentum": 72.5,
+     "price": 4185.0,
+     "rs3": 1.6,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     },
     {
      "symbol": "ENGINERSIN",
      "name": "Engineers India Ltd.",
-     "price": 298.5,
-     "rs3": 26.2,
+     "price": 299.35,
+     "rs3": 24.5,
      "momentum": 70.0,
+     "bias": "UPSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Building Materials",
+   "n": 11,
+   "score": 23.4,
+   "group": "MID",
+   "tech_rs3": -11.0,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 40,
+     "dir": "DOWN",
+     "text": "Median 3M return -11.0% vs Nifty; 36% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 13,
+     "dir": "DOWN",
+     "text": "Median earnings growth -1% and revenue growth +14% across 11 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 21,
+     "dir": "DOWN",
+     "text": "Median ROE 6% and debt/equity 0.49",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [
+    {
+     "match": [
+      "building material",
+      "cement",
+      "construction material"
+     ],
+     "title": "Infra and housing demand",
+     "good_when": "Government capex and housing demand are strong, and coal or fuel costs are low.",
+     "bad_when": "Monsoon disrupts construction, or fuel and freight costs rise.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    }
+   ],
+   "stocks": [
+    {
+     "symbol": "ULTRACEMCO",
+     "name": "UltraTech Cement Ltd.",
+     "price": 12275.0,
+     "rs3": -0.2,
+     "momentum": 70.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "GRASIM",
+     "name": "Grasim Industries Ltd.",
+     "price": 3169.7,
+     "rs3": -6.2,
+     "momentum": 65.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "NUVOCO",
+     "name": "Nuvoco Vistas Corporation Ltd.",
+     "price": 341.6,
+     "rs3": -2.8,
+     "momentum": 62.5,
+     "bias": "UPSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Packaged Foods",
+   "n": 9,
+   "score": 23.0,
+   "group": "MID",
+   "tech_rs3": -14.6,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 10,
+     "dir": "DOWN",
+     "text": "Median 3M return -14.6% vs Nifty; 22% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 40,
+     "dir": "DOWN",
+     "text": "Median earnings growth +13% and revenue growth +18% across 9 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 55,
+     "dir": "NEUTRAL",
+     "text": "Median ROE 14% and debt/equity 0.27",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [
+    {
+     "match": [
+      "packaged",
+      "household",
+      "beverage",
+      "tobacco",
+      "food"
+     ],
+     "title": "Rural demand and input costs",
+     "good_when": "Rural demand recovers and input costs such as edible oil and packaging fall.",
+     "bad_when": "Monsoon is weak, or input cost inflation cuts volume and margins.",
+     "current_view": "",
+     "source": "Analyst framework: structural driver. Add an official source (RBI, NSE, company filing, government release) before relying on it.",
+     "url": "",
+     "date": "",
+     "added_by": "app"
+    }
+   ],
+   "stocks": [
+    {
+     "symbol": "PATANJALI",
+     "name": "Patanjali Foods Ltd.",
+     "price": 429.45,
+     "rs3": 19.3,
+     "momentum": 80.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "LTFOODS",
+     "name": "LT Foods Ltd.",
+     "price": 419.55,
+     "rs3": -3.2,
+     "momentum": 62.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "TATACONSUM",
+     "name": "Tata Consumer Products Ltd.",
+     "price": 1083.9,
+     "rs3": -1.5,
+     "momentum": 57.5,
      "bias": "UPSIDE"
     }
    ]
@@ -2915,17 +2915,17 @@
   {
    "name": "Mortgage Finance",
    "n": 9,
-   "score": 17.2,
+   "score": 14.8,
    "group": "UNDER",
-   "tech_rs3": -8.0,
+   "tech_rs3": -11.2,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 20,
+     "pct": 13,
      "dir": "DOWN",
-     "text": "Median 3M return -8.0% vs Nifty; 22% of stocks above 200-day average",
+     "text": "Median 3M return -11.2% vs Nifty; 22% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -2961,7 +2961,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2971,107 +2971,25 @@
     {
      "symbol": "LICHSGFIN",
      "name": "LIC Housing Finance Ltd.",
-     "price": 529.0,
-     "rs3": 5.7,
-     "momentum": 67.5,
+     "price": 551.9,
+     "rs3": 10.0,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "BAJAJHFL",
-     "name": "Bajaj Housing Finance Ltd.",
-     "price": 83.16,
-     "rs3": -4.0,
-     "momentum": 55.0,
-     "bias": "NEUTRAL"
+     "symbol": "CANFINHOME",
+     "name": "Can Fin Homes Ltd.",
+     "price": 757.35,
+     "rs3": -8.3,
+     "momentum": 42.5,
+     "bias": "DOWNSIDE"
     },
     {
      "symbol": "PNBHOUSING",
      "name": "PNB Housing Finance Ltd.",
-     "price": 1100.0,
-     "rs3": -1.6,
+     "price": 1111.4,
+     "rs3": -4.4,
      "momentum": 40.0,
-     "bias": "DOWNSIDE"
-    }
-   ]
-  },
-  {
-   "name": "Conglomerates",
-   "n": 9,
-   "score": 10.8,
-   "group": "UNDER",
-   "tech_rs3": -14.8,
-   "factors": [
-    {
-     "key": "tech",
-     "label": "Technical setup",
-     "weight": 35,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "Median 3M return -14.8% vs Nifty; 22% of stocks above 200-day average",
-     "src": "Yahoo Finance prices"
-    },
-    {
-     "key": "earn",
-     "label": "Earnings growth",
-     "weight": 25,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "Median earnings growth -10% and revenue growth +7% across 9 stocks",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "qual",
-     "label": "Business quality",
-     "weight": 10,
-     "pct": 48,
-     "dir": "NEUTRAL",
-     "text": "Median ROE 9% and debt/equity 0.21",
-     "src": "Yahoo Finance fundamentals"
-    },
-    {
-     "key": "policy",
-     "label": "Government / RBI policy",
-     "weight": 15,
-     "pct": 3,
-     "dir": "DOWN",
-     "text": "No matching official policy headlines this period",
-     "src": "RBI and PIB releases"
-    },
-    {
-     "key": "macro",
-     "label": "Cyclical macro (crude, INR)",
-     "weight": 15,
-     "pct": 23,
-     "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
-     "src": "Yahoo Finance (Brent, USD-INR)"
-    }
-   ],
-   "headlines": [],
-   "drivers": [],
-   "stocks": [
-    {
-     "symbol": "BEML",
-     "name": "BEML Ltd.",
-     "price": 1990.9,
-     "rs3": 20.2,
-     "momentum": 70.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "CYIENT",
-     "name": "Cyient Ltd.",
-     "price": 1128.9,
-     "rs3": 32.3,
-     "momentum": 70.0,
-     "bias": "UPSIDE"
-    },
-    {
-     "symbol": "SRF",
-     "name": "SRF Ltd.",
-     "price": 2485.0,
-     "rs3": -5.5,
-     "momentum": 42.5,
      "bias": "DOWNSIDE"
     }
    ]
@@ -3079,17 +2997,17 @@
   {
    "name": "Agricultural Inputs",
    "n": 8,
-   "score": 9.9,
+   "score": 11.4,
    "group": "UNDER",
-   "tech_rs3": -11.6,
+   "tech_rs3": -13.2,
    "factors": [
     {
      "key": "tech",
      "label": "Technical setup",
      "weight": 35,
-     "pct": 0,
+     "pct": 3,
      "dir": "DOWN",
-     "text": "Median 3M return -11.6% vs Nifty; 12% of stocks above 200-day average",
+     "text": "Median 3M return -13.2% vs Nifty; 12% of stocks above 200-day average",
      "src": "Yahoo Finance prices"
     },
     {
@@ -3098,16 +3016,16 @@
      "weight": 25,
      "pct": 0,
      "dir": "DOWN",
-     "text": "Median earnings growth -26% and revenue growth +5% across 8 stocks",
+     "text": "Median earnings growth -34% and revenue growth +5% across 8 stocks",
      "src": "Yahoo Finance fundamentals"
     },
     {
      "key": "qual",
      "label": "Business quality",
      "weight": 10,
-     "pct": 59,
-     "dir": "NEUTRAL",
-     "text": "Median ROE 13% and debt/equity 0.20",
+     "pct": 62,
+     "dir": "UP",
+     "text": "Median ROE 12% and debt/equity 0.20",
      "src": "Yahoo Finance fundamentals"
     },
     {
@@ -3125,7 +3043,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +12.2% and USD-INR -1.6% over 3 months; sector is not sensitive to these",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -3167,27 +3085,109 @@
    ],
    "stocks": [
     {
-     "symbol": "PARADEEP",
-     "name": "Paradeep Phosphates Ltd.",
-     "price": 138.83,
-     "rs3": -4.1,
+     "symbol": "COROMANDEL",
+     "name": "Coromandel International Ltd.",
+     "price": 1879.2,
+     "rs3": -10.8,
      "momentum": 42.5,
      "bias": "DOWNSIDE"
     },
     {
-     "symbol": "COROMANDEL",
-     "name": "Coromandel International Ltd.",
-     "price": 1900.0,
-     "rs3": -8.6,
-     "momentum": 40.0,
+     "symbol": "UPL",
+     "name": "UPL Ltd.",
+     "price": 541.5,
+     "rs3": -7.1,
+     "momentum": 42.5,
      "bias": "DOWNSIDE"
     },
     {
-     "symbol": "FACT",
-     "name": "Fertilisers and Chemicals Travancore Ltd.",
-     "price": 759.65,
-     "rs3": -9.3,
+     "symbol": "PARADEEP",
+     "name": "Paradeep Phosphates Ltd.",
+     "price": 139.92,
+     "rs3": -7.1,
      "momentum": 30.0,
+     "bias": "DOWNSIDE"
+    }
+   ]
+  },
+  {
+   "name": "Conglomerates",
+   "n": 9,
+   "score": 10.0,
+   "group": "UNDER",
+   "tech_rs3": -17.2,
+   "factors": [
+    {
+     "key": "tech",
+     "label": "Technical setup",
+     "weight": 35,
+     "pct": 0,
+     "dir": "DOWN",
+     "text": "Median 3M return -17.2% vs Nifty; 22% of stocks above 200-day average",
+     "src": "Yahoo Finance prices"
+    },
+    {
+     "key": "earn",
+     "label": "Earnings growth",
+     "weight": 25,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "Median earnings growth -5% and revenue growth +7% across 9 stocks",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "qual",
+     "label": "Business quality",
+     "weight": 10,
+     "pct": 52,
+     "dir": "NEUTRAL",
+     "text": "Median ROE 9% and debt/equity 0.22",
+     "src": "Yahoo Finance fundamentals"
+    },
+    {
+     "key": "policy",
+     "label": "Government / RBI policy",
+     "weight": 15,
+     "pct": 3,
+     "dir": "DOWN",
+     "text": "No matching official policy headlines this period",
+     "src": "RBI and PIB releases"
+    },
+    {
+     "key": "macro",
+     "label": "Cyclical macro (crude, INR)",
+     "weight": 15,
+     "pct": 23,
+     "dir": "DOWN",
+     "text": "Brent +3.7% and USD-INR -1.5% over 3 months; sector is not sensitive to these",
+     "src": "Yahoo Finance (Brent, USD-INR)"
+    }
+   ],
+   "headlines": [],
+   "drivers": [],
+   "stocks": [
+    {
+     "symbol": "BEML",
+     "name": "BEML Ltd.",
+     "price": 1991.6,
+     "rs3": 10.5,
+     "momentum": 55.0,
+     "bias": "NEUTRAL"
+    },
+    {
+     "symbol": "CYIENT",
+     "name": "Cyient Ltd.",
+     "price": 1092.6,
+     "rs3": 27.1,
+     "momentum": 50.0,
+     "bias": "NEUTRAL"
+    },
+    {
+     "symbol": "NAVA",
+     "name": "Nava Ltd.",
+     "price": 534.1,
+     "rs3": -9.8,
+     "momentum": 27.5,
      "bias": "DOWNSIDE"
     }
    ]
