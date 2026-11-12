@@ -1,6 +1,458 @@
 {
- "updated": "2026-11-10T20:40:34.741529Z",
+ "updated": "2026-11-12T21:08:12.431916Z",
  "present": [
+  {
+   "symbol": "AVANTIFEED",
+   "name": "Avanti Feeds Ltd.",
+   "fno": false,
+   "quarter_end": "2026-09-30",
+   "reported_on": "2026-11-10",
+   "verdict": "NEUTRAL",
+   "score": -2.5,
+   "summary": "Mixed quarter. Positives: +8.9% vs a year ago. Negatives: -7.8% vs last quarter; -33.3% vs last quarter.",
+   "next_step": "Score -2.5. It needs about 6.5 more points to become GOOD, from faster profit growth, a rising margin or stronger cash flow.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "+8.9% vs a year ago",
+     "points": 1.5
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "-7.8% vs last quarter",
+     "points": -1
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "No year-ago data",
+     "points": 0
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "-33.3% vs last quarter",
+     "points": -2
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "6.4% now vs 15.1% a year ago (-8.7 points)",
+     "points": -1
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Not available",
+     "points": 0
+    },
+    {
+     "factor": "Debt",
+     "seen": "Change -6% in the quarter",
+     "points": 0
+    }
+   ],
+   "strengths": [
+    "+8.9% vs a year ago"
+   ],
+   "weaknesses": [
+    "-7.8% vs last quarter",
+    "-33.3% vs last quarter",
+    "6.4% now vs 15.1% a year ago (-8.7 points)"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 1752.5,
+     "pat": 69.0,
+     "opm": 6.4,
+     "debt": 12.4,
+     "ocf": null
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 1899.9,
+     "pat": 103.3,
+     "opm": 9.0,
+     "debt": 13.2,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 1467.7,
+     "pat": 125.1,
+     "opm": 13.6,
+     "debt": 15.1,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 1383.5,
+     "pat": 149.4,
+     "opm": 17.3,
+     "debt": null,
+     "ocf": null
+    }
+   ],
+   "sales": 1752.5,
+   "sales_qoq": -7.8,
+   "sales_yoy": 8.9,
+   "pat": 69.0,
+   "pat_qoq": -33.3,
+   "pat_yoy": null,
+   "ebitda": 111.3,
+   "ebitda_yoy": -54.1,
+   "opm": 6.4,
+   "eps": 5.06,
+   "debt": 12.4,
+   "debt_chg": -6.3,
+   "ocf": null,
+   "fcf": null,
+   "reasons": [
+    "Sales growth YoY: +8.9% vs a year ago",
+    "Sales growth QoQ: -7.8% vs last quarter",
+    "Profit growth QoQ: -33.3% vs last quarter",
+    "Operating margin (OPM): 6.4% now vs 15.1% a year ago (-8.7 points)"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=AVANTIFEED"
+  },
+  {
+   "symbol": "COCHINSHIP",
+   "name": "Cochin Shipyard Ltd.",
+   "fno": true,
+   "quarter_end": "2026-09-30",
+   "reported_on": "2026-11-10",
+   "verdict": "NEUTRAL",
+   "score": -2.0,
+   "summary": "Mixed quarter. Positives: +11.7% vs a year ago; +14.2% vs last quarter. Negatives: -50.0% vs a year ago; -64.5% vs last quarter.",
+   "next_step": "Score -2.0. It needs about 6.0 more points to become GOOD, from faster profit growth, a rising margin or stronger cash flow.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "+11.7% vs a year ago",
+     "points": 3.0
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "+14.2% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "-50.0% vs a year ago",
+     "points": -3.0
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "-64.5% vs last quarter",
+     "points": -2
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "8.1% now vs 15.2% a year ago (-7.1 points)",
+     "points": -1
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Not available",
+     "points": 0
+    },
+    {
+     "factor": "Debt",
+     "seen": "Up +41% in the quarter",
+     "points": -1
+    }
+   ],
+   "strengths": [
+    "+11.7% vs a year ago",
+    "+14.2% vs last quarter"
+   ],
+   "weaknesses": [
+    "-50.0% vs a year ago",
+    "-64.5% vs last quarter",
+    "8.1% now vs 15.2% a year ago (-7.1 points)",
+    "Up +41% in the quarter"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 1249.2,
+     "pat": 53.8,
+     "opm": 8.1,
+     "debt": 2357.7,
+     "ocf": null
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 1094.2,
+     "pat": 151.5,
+     "opm": 20.8,
+     "debt": 1671.8,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 1484.3,
+     "pat": 276.5,
+     "opm": 29.3,
+     "debt": 1156.0,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 1350.4,
+     "pat": 144.7,
+     "opm": 16.6,
+     "debt": 560.4,
+     "ocf": null
+    }
+   ],
+   "sales": 1249.2,
+   "sales_qoq": 14.2,
+   "sales_yoy": 11.7,
+   "pat": 53.8,
+   "pat_qoq": -64.5,
+   "pat_yoy": -50.0,
+   "ebitda": 101.6,
+   "ebitda_yoy": -40.3,
+   "opm": 8.1,
+   "eps": 2.04,
+   "debt": 2357.7,
+   "debt_chg": 41.0,
+   "ocf": null,
+   "fcf": null,
+   "reasons": [
+    "Sales growth YoY: +11.7% vs a year ago",
+    "Sales growth QoQ: +14.2% vs last quarter",
+    "Profit growth YoY: -50.0% vs a year ago",
+    "Profit growth QoQ: -64.5% vs last quarter",
+    "Operating margin (OPM): 8.1% now vs 15.2% a year ago (-7.1 points)",
+    "Debt: Up +41% in the quarter"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=COCHINSHIP"
+  },
+  {
+   "symbol": "KALYANKJIL",
+   "name": "Kalyan Jewellers India Ltd.",
+   "fno": true,
+   "quarter_end": "2026-09-30",
+   "reported_on": "2026-11-10",
+   "verdict": "GOOD",
+   "score": 7.0,
+   "summary": "Good quarter: +31.4% vs a year ago; +63.9% vs a year ago; +22.5% vs last quarter.",
+   "next_step": "To stay GOOD, watch for falling margins or negative operating cash flow next quarter.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "+31.4% vs a year ago",
+     "points": 3.0
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "-2.5% vs last quarter",
+     "points": -1
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "+63.9% vs a year ago",
+     "points": 3.0
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "+22.5% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "7.7% now vs 7.0% a year ago (+0.7 points)",
+     "points": 0
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Not available",
+     "points": 0
+    },
+    {
+     "factor": "Debt",
+     "seen": "Change +0% in the quarter",
+     "points": 0
+    }
+   ],
+   "strengths": [
+    "+31.4% vs a year ago",
+    "+63.9% vs a year ago",
+    "+22.5% vs last quarter"
+   ],
+   "weaknesses": [
+    "-2.5% vs last quarter"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 10322.6,
+     "pat": 427.1,
+     "opm": 7.7,
+     "debt": 6127.3,
+     "ocf": null
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 10588.9,
+     "pat": 348.7,
+     "opm": 6.5,
+     "debt": 6117.3,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 10274.9,
+     "pat": 409.5,
+     "opm": 7.6,
+     "debt": 5335.0,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 10343.4,
+     "pat": 416.3,
+     "opm": 7.5,
+     "debt": 4959.4,
+     "ocf": null
+    }
+   ],
+   "sales": 10322.6,
+   "sales_qoq": -2.5,
+   "sales_yoy": 31.4,
+   "pat": 427.1,
+   "pat_qoq": 22.5,
+   "pat_yoy": 63.9,
+   "ebitda": 796.0,
+   "ebitda_yoy": 45.1,
+   "opm": 7.7,
+   "eps": 4.13,
+   "debt": 6127.3,
+   "debt_chg": 0.2,
+   "ocf": null,
+   "fcf": null,
+   "reasons": [
+    "Sales growth YoY: +31.4% vs a year ago",
+    "Sales growth QoQ: -2.5% vs last quarter",
+    "Profit growth YoY: +63.9% vs a year ago",
+    "Profit growth QoQ: +22.5% vs last quarter"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=KALYANKJIL"
+  },
+  {
+   "symbol": "MRF",
+   "name": "MRF Ltd.",
+   "fno": false,
+   "quarter_end": "2026-09-30",
+   "reported_on": "2026-11-10",
+   "verdict": "VERY BAD",
+   "score": -3.0,
+   "summary": "Very weak quarter: -26.6% vs a year ago; -21.9% vs last quarter; 12.6% now vs 16.7% a year ago (-4.1 points).",
+   "next_step": "A recovery needs profit back in growth and operating cash flow turning positive.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "+17.4% vs a year ago",
+     "points": 3.0
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "+2.9% vs last quarter",
+     "points": 1
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "-26.6% vs a year ago",
+     "points": -3.0
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "-21.9% vs last quarter",
+     "points": -2
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "12.6% now vs 16.7% a year ago (-4.1 points)",
+     "points": -1
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Not available",
+     "points": 0
+    },
+    {
+     "factor": "Debt",
+     "seen": "Up +32% in the quarter",
+     "points": -1
+    }
+   ],
+   "strengths": [
+    "+17.4% vs a year ago",
+    "+2.9% vs last quarter"
+   ],
+   "weaknesses": [
+    "-26.6% vs a year ago",
+    "-21.9% vs last quarter",
+    "12.6% now vs 16.7% a year ago (-4.1 points)",
+    "Up +32% in the quarter"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 8660.2,
+     "pat": 387.0,
+     "opm": 12.6,
+     "debt": 4218.5,
+     "ocf": null
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 8415.5,
+     "pat": 495.4,
+     "opm": 14.1,
+     "debt": 3206.7,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 8044.2,
+     "pat": 702.2,
+     "opm": 18.1,
+     "debt": 3631.2,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 8050.4,
+     "pat": 691.8,
+     "opm": 18.0,
+     "debt": 3771.2,
+     "ocf": null
+    }
+   ],
+   "sales": 8660.2,
+   "sales_qoq": 2.9,
+   "sales_yoy": 17.4,
+   "pat": 387.0,
+   "pat_qoq": -21.9,
+   "pat_yoy": -26.6,
+   "ebitda": 1088.9,
+   "ebitda_yoy": -11.9,
+   "opm": 12.6,
+   "eps": 912.46,
+   "debt": 4218.5,
+   "debt_chg": 31.6,
+   "ocf": null,
+   "fcf": null,
+   "reasons": [
+    "Sales growth YoY: +17.4% vs a year ago",
+    "Sales growth QoQ: +2.9% vs last quarter",
+    "Profit growth YoY: -26.6% vs a year ago",
+    "Profit growth QoQ: -21.9% vs last quarter",
+    "Operating margin (OPM): 12.6% now vs 16.7% a year ago (-4.1 points)",
+    "Debt: Up +32% in the quarter"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=MRF"
+  },
   {
    "symbol": "WHIRLPOOL",
    "name": "Whirlpool of India Ltd.",
@@ -909,6 +1361,121 @@
     "Debt: Up +46% in the quarter"
    ],
    "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=COROMANDEL"
+  },
+  {
+   "symbol": "DATAPATTNS",
+   "name": "Data Patterns (India) Ltd.",
+   "fno": true,
+   "quarter_end": "2026-09-30",
+   "reported_on": "2026-11-06",
+   "verdict": "VERY BAD",
+   "score": -5.0,
+   "summary": "Very weak quarter: -56.7% vs a year ago; -55.6% vs a year ago; -1.1% vs last quarter.",
+   "next_step": "A recovery needs profit back in growth and operating cash flow turning positive.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "-56.7% vs a year ago",
+     "points": -3.0
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "+14.8% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "-55.6% vs a year ago",
+     "points": -3.0
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "-1.1% vs last quarter",
+     "points": -1
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "29.7% now vs 24.2% a year ago (+5.5 points)",
+     "points": 1
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Not available",
+     "points": 0
+    },
+    {
+     "factor": "Debt",
+     "seen": "Up +42% in the quarter",
+     "points": -1
+    }
+   ],
+   "strengths": [
+    "+14.8% vs last quarter",
+    "29.7% now vs 24.2% a year ago (+5.5 points)"
+   ],
+   "weaknesses": [
+    "-56.7% vs a year ago",
+    "-55.6% vs a year ago",
+    "-1.1% vs last quarter",
+    "Up +42% in the quarter"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 133.2,
+     "pat": 21.8,
+     "opm": 29.7,
+     "debt": 7.5,
+     "ocf": null
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 116.0,
+     "pat": 22.1,
+     "opm": 33.3,
+     "debt": 5.3,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 344.9,
+     "pat": 138.4,
+     "opm": 57.6,
+     "debt": 5.8,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 173.1,
+     "pat": 58.3,
+     "opm": 48.2,
+     "debt": 6.2,
+     "ocf": null
+    }
+   ],
+   "sales": 133.2,
+   "sales_qoq": 14.8,
+   "sales_yoy": -56.7,
+   "pat": 21.8,
+   "pat_qoq": -1.1,
+   "pat_yoy": -55.6,
+   "ebitda": 39.5,
+   "ebitda_yoy": -46.9,
+   "opm": 29.7,
+   "eps": 3.86,
+   "debt": 7.5,
+   "debt_chg": 42.3,
+   "ocf": null,
+   "fcf": null,
+   "reasons": [
+    "Sales growth YoY: -56.7% vs a year ago",
+    "Sales growth QoQ: +14.8% vs last quarter",
+    "Profit growth YoY: -55.6% vs a year ago",
+    "Profit growth QoQ: -1.1% vs last quarter",
+    "Operating margin (OPM): 29.7% now vs 24.2% a year ago (+5.5 points)",
+    "Debt: Up +42% in the quarter"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=DATAPATTNS"
   },
   {
    "symbol": "ELGIEQUIP",
@@ -4959,6 +5526,119 @@
     "Debt: Up +62% in the quarter"
    ],
    "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=SCHNEIDER"
+  },
+  {
+   "symbol": "SIEMENS",
+   "name": "Siemens Ltd.",
+   "fno": true,
+   "quarter_end": "2026-09-30",
+   "reported_on": "2026-11-05",
+   "verdict": "NEUTRAL",
+   "score": 3.5,
+   "summary": "Mixed quarter. Positives: +10.9% vs a year ago; +21.6% vs last quarter. Negatives: -76.5% vs last quarter; Up +165% in the quarter.",
+   "next_step": "Score 3.5. It needs about 0.5 more points to become GOOD, from faster profit growth, a rising margin or stronger cash flow.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "+10.9% vs a year ago",
+     "points": 3.0
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "+21.6% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "+3.9% vs a year ago",
+     "points": 1.5
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "-76.5% vs last quarter",
+     "points": -2
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "13.6% now vs 14.3% a year ago (-0.7 points)",
+     "points": 0
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Not available",
+     "points": 0
+    },
+    {
+     "factor": "Debt",
+     "seen": "Up +165% in the quarter",
+     "points": -1
+    }
+   ],
+   "strengths": [
+    "+10.9% vs a year ago",
+    "+21.6% vs last quarter",
+    "+3.9% vs a year ago"
+   ],
+   "weaknesses": [
+    "-76.5% vs last quarter",
+    "Up +165% in the quarter"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 5734.0,
+     "pat": 503.6,
+     "opm": 13.6,
+     "debt": 384.9,
+     "ocf": null
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 4713.7,
+     "pat": 2143.0,
+     "opm": 11.6,
+     "debt": 145.3,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 4617.5,
+     "pat": 370.1,
+     "opm": 11.8,
+     "debt": 135.0,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 3830.7,
+     "pat": 277.3,
+     "opm": 11.3,
+     "debt": null,
+     "ocf": null
+    }
+   ],
+   "sales": 5734.0,
+   "sales_qoq": 21.6,
+   "sales_yoy": 10.9,
+   "pat": 503.6,
+   "pat_qoq": -76.5,
+   "pat_yoy": 3.9,
+   "ebitda": 777.6,
+   "ebitda_yoy": 5.1,
+   "opm": 13.6,
+   "eps": 14.16,
+   "debt": 384.9,
+   "debt_chg": 164.9,
+   "ocf": null,
+   "fcf": null,
+   "reasons": [
+    "Sales growth YoY: +10.9% vs a year ago",
+    "Sales growth QoQ: +21.6% vs last quarter",
+    "Profit growth YoY: +3.9% vs a year ago",
+    "Profit growth QoQ: -76.5% vs last quarter",
+    "Debt: Up +165% in the quarter"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=SIEMENS"
   },
   {
    "symbol": "SIGNATURE",
@@ -37772,6 +38452,121 @@
    "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=CMPDI"
   },
   {
+   "symbol": "EMBASSY",
+   "name": "EMBASSY OFFICE PARKS REIT",
+   "fno": false,
+   "quarter_end": "2026-09-30",
+   "reported_on": null,
+   "verdict": "GOOD",
+   "score": 9.0,
+   "summary": "Good quarter: +15.9% vs a year ago; +5.0% vs last quarter; +257.9% vs a year ago.",
+   "next_step": "To stay GOOD, watch for falling margins or negative operating cash flow next quarter.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "+15.9% vs a year ago",
+     "points": 3.0
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "+5.0% vs last quarter",
+     "points": 1
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "+257.9% vs a year ago",
+     "points": 3.0
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "+325.7% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "80.5% now vs 82.9% a year ago (-2.4 points)",
+     "points": -1
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Covers most of the profit",
+     "points": 1
+    },
+    {
+     "factor": "Debt",
+     "seen": "Change +5% in the quarter",
+     "points": 0
+    }
+   ],
+   "strengths": [
+    "+15.9% vs a year ago",
+    "+5.0% vs last quarter",
+    "+257.9% vs a year ago",
+    "+325.7% vs last quarter",
+    "Covers most of the profit"
+   ],
+   "weaknesses": [
+    "80.5% now vs 82.9% a year ago (-2.4 points)"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 1302.6,
+     "pat": 831.0,
+     "opm": 80.5,
+     "debt": 24499.9,
+     "ocf": 809.7
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 1240.8,
+     "pat": 195.2,
+     "opm": 81.4,
+     "debt": 23335.4,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 1153.6,
+     "pat": -430.0,
+     "opm": 82.2,
+     "debt": 21072.2,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 1193.5,
+     "pat": 381.2,
+     "opm": 95.9,
+     "debt": 20594.8,
+     "ocf": null
+    }
+   ],
+   "sales": 1302.6,
+   "sales_qoq": 5.0,
+   "sales_yoy": 15.9,
+   "pat": 831.0,
+   "pat_qoq": 325.7,
+   "pat_yoy": 257.9,
+   "ebitda": 1048.1,
+   "ebitda_yoy": 12.4,
+   "opm": 80.5,
+   "eps": 8.77,
+   "debt": 24499.9,
+   "debt_chg": 5.0,
+   "ocf": 809.7,
+   "fcf": 809.7,
+   "reasons": [
+    "Sales growth YoY: +15.9% vs a year ago",
+    "Sales growth QoQ: +5.0% vs last quarter",
+    "Profit growth YoY: +257.9% vs a year ago",
+    "Profit growth QoQ: +325.7% vs last quarter",
+    "Operating margin (OPM): 80.5% now vs 82.9% a year ago (-2.4 points)",
+    "Operating cash flow: Covers most of the profit"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=EMBASSY"
+  },
+  {
    "symbol": "FORCEMOT",
    "name": "Force Motors Ltd.",
    "fno": true,
@@ -39431,119 +40226,6 @@
    "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=TEGA"
   },
   {
-   "symbol": "SIEMENS",
-   "name": "Siemens Ltd.",
-   "fno": true,
-   "quarter_end": "2026-09-30",
-   "reported_on": "2026-08-11",
-   "verdict": "NEUTRAL",
-   "score": 3.5,
-   "summary": "Mixed quarter. Positives: +10.9% vs a year ago; +21.6% vs last quarter. Negatives: -76.5% vs last quarter; Up +165% in the quarter.",
-   "next_step": "Score 3.5. It needs about 0.5 more points to become GOOD, from faster profit growth, a rising margin or stronger cash flow.",
-   "breakdown": [
-    {
-     "factor": "Sales growth YoY",
-     "seen": "+10.9% vs a year ago",
-     "points": 3.0
-    },
-    {
-     "factor": "Sales growth QoQ",
-     "seen": "+21.6% vs last quarter",
-     "points": 2
-    },
-    {
-     "factor": "Profit growth YoY",
-     "seen": "+3.9% vs a year ago",
-     "points": 1.5
-    },
-    {
-     "factor": "Profit growth QoQ",
-     "seen": "-76.5% vs last quarter",
-     "points": -2
-    },
-    {
-     "factor": "Operating margin (OPM)",
-     "seen": "13.6% now vs 14.3% a year ago (-0.7 points)",
-     "points": 0
-    },
-    {
-     "factor": "Operating cash flow",
-     "seen": "Not available",
-     "points": 0
-    },
-    {
-     "factor": "Debt",
-     "seen": "Up +165% in the quarter",
-     "points": -1
-    }
-   ],
-   "strengths": [
-    "+10.9% vs a year ago",
-    "+21.6% vs last quarter",
-    "+3.9% vs a year ago"
-   ],
-   "weaknesses": [
-    "-76.5% vs last quarter",
-    "Up +165% in the quarter"
-   ],
-   "history": [
-    {
-     "q": "Sep 2026",
-     "sales": 5734.0,
-     "pat": 503.6,
-     "opm": 13.6,
-     "debt": 384.9,
-     "ocf": null
-    },
-    {
-     "q": "Jun 2026",
-     "sales": 4713.7,
-     "pat": 2143.0,
-     "opm": 11.6,
-     "debt": 145.3,
-     "ocf": null
-    },
-    {
-     "q": "Mar 2026",
-     "sales": 4617.5,
-     "pat": 370.1,
-     "opm": 11.8,
-     "debt": 135.0,
-     "ocf": null
-    },
-    {
-     "q": "Dec 2025",
-     "sales": 3830.7,
-     "pat": 277.3,
-     "opm": 11.3,
-     "debt": null,
-     "ocf": null
-    }
-   ],
-   "sales": 5734.0,
-   "sales_qoq": 21.6,
-   "sales_yoy": 10.9,
-   "pat": 503.6,
-   "pat_qoq": -76.5,
-   "pat_yoy": 3.9,
-   "ebitda": 777.6,
-   "ebitda_yoy": 5.1,
-   "opm": 13.6,
-   "eps": 14.16,
-   "debt": 384.9,
-   "debt_chg": 164.9,
-   "ocf": null,
-   "fcf": null,
-   "reasons": [
-    "Sales growth YoY: +10.9% vs a year ago",
-    "Sales growth QoQ: +21.6% vs last quarter",
-    "Profit growth YoY: +3.9% vs a year ago",
-    "Profit growth QoQ: -76.5% vs last quarter",
-    "Debt: Up +165% in the quarter"
-   ],
-   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=SIEMENS"
-  },
-  {
    "symbol": "JKTYRE",
    "name": "JK Tyre & Industries Ltd.",
    "fno": false,
@@ -39877,121 +40559,6 @@
     "Operating margin (OPM): 21.8% now vs 26.1% a year ago (-4.3 points)"
    ],
    "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=INOXINDIA"
-  },
-  {
-   "symbol": "DATAPATTNS",
-   "name": "Data Patterns (India) Ltd.",
-   "fno": true,
-   "quarter_end": "2026-09-30",
-   "reported_on": "2026-07-30",
-   "verdict": "VERY BAD",
-   "score": -5.0,
-   "summary": "Very weak quarter: -56.7% vs a year ago; -55.6% vs a year ago; -1.1% vs last quarter.",
-   "next_step": "A recovery needs profit back in growth and operating cash flow turning positive.",
-   "breakdown": [
-    {
-     "factor": "Sales growth YoY",
-     "seen": "-56.7% vs a year ago",
-     "points": -3.0
-    },
-    {
-     "factor": "Sales growth QoQ",
-     "seen": "+14.8% vs last quarter",
-     "points": 2
-    },
-    {
-     "factor": "Profit growth YoY",
-     "seen": "-55.6% vs a year ago",
-     "points": -3.0
-    },
-    {
-     "factor": "Profit growth QoQ",
-     "seen": "-1.1% vs last quarter",
-     "points": -1
-    },
-    {
-     "factor": "Operating margin (OPM)",
-     "seen": "29.7% now vs 24.2% a year ago (+5.5 points)",
-     "points": 1
-    },
-    {
-     "factor": "Operating cash flow",
-     "seen": "Not available",
-     "points": 0
-    },
-    {
-     "factor": "Debt",
-     "seen": "Up +42% in the quarter",
-     "points": -1
-    }
-   ],
-   "strengths": [
-    "+14.8% vs last quarter",
-    "29.7% now vs 24.2% a year ago (+5.5 points)"
-   ],
-   "weaknesses": [
-    "-56.7% vs a year ago",
-    "-55.6% vs a year ago",
-    "-1.1% vs last quarter",
-    "Up +42% in the quarter"
-   ],
-   "history": [
-    {
-     "q": "Sep 2026",
-     "sales": 133.2,
-     "pat": 21.8,
-     "opm": 29.7,
-     "debt": 7.5,
-     "ocf": null
-    },
-    {
-     "q": "Jun 2026",
-     "sales": 116.0,
-     "pat": 22.1,
-     "opm": 33.3,
-     "debt": 5.3,
-     "ocf": null
-    },
-    {
-     "q": "Mar 2026",
-     "sales": 344.9,
-     "pat": 138.4,
-     "opm": 57.6,
-     "debt": 5.8,
-     "ocf": null
-    },
-    {
-     "q": "Dec 2025",
-     "sales": 173.1,
-     "pat": 58.3,
-     "opm": 48.2,
-     "debt": 6.2,
-     "ocf": null
-    }
-   ],
-   "sales": 133.2,
-   "sales_qoq": 14.8,
-   "sales_yoy": -56.7,
-   "pat": 21.8,
-   "pat_qoq": -1.1,
-   "pat_yoy": -55.6,
-   "ebitda": 39.5,
-   "ebitda_yoy": -46.9,
-   "opm": 29.7,
-   "eps": 3.86,
-   "debt": 7.5,
-   "debt_chg": 42.3,
-   "ocf": null,
-   "fcf": null,
-   "reasons": [
-    "Sales growth YoY: -56.7% vs a year ago",
-    "Sales growth QoQ: +14.8% vs last quarter",
-    "Profit growth YoY: -55.6% vs a year ago",
-    "Profit growth QoQ: -1.1% vs last quarter",
-    "Operating margin (OPM): 29.7% now vs 24.2% a year ago (+5.5 points)",
-    "Debt: Up +42% in the quarter"
-   ],
-   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=DATAPATTNS"
   },
   {
    "symbol": "VBL",
@@ -42456,6 +43023,121 @@
     "Operating margin (OPM): 15.2% now vs 20.2% a year ago (-5.0 points)"
    ],
    "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=KIRLOSENG"
+  },
+  {
+   "symbol": "ELECON",
+   "name": "Elecon Engineering Co. Ltd.",
+   "fno": false,
+   "quarter_end": "2026-09-30",
+   "reported_on": "2024-01-25",
+   "verdict": "NEUTRAL",
+   "score": 2.0,
+   "summary": "Mixed quarter. Positives: +30.2% vs a year ago; +22.7% vs last quarter. Negatives: -45.1% vs a year ago; 26.2% now vs 48.5% a year ago (-22.3 points).",
+   "next_step": "Score 2.0. It needs about 2.0 more points to become GOOD, from faster profit growth, a rising margin or stronger cash flow.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "+30.2% vs a year ago",
+     "points": 3.0
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "+22.7% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "-45.1% vs a year ago",
+     "points": -3.0
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "+37.0% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "26.2% now vs 48.5% a year ago (-22.3 points)",
+     "points": -1
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Not available",
+     "points": 0
+    },
+    {
+     "factor": "Debt",
+     "seen": "Up +32% in the quarter",
+     "points": -1
+    }
+   ],
+   "strengths": [
+    "+30.2% vs a year ago",
+    "+22.7% vs last quarter",
+    "+37.0% vs last quarter"
+   ],
+   "weaknesses": [
+    "-45.1% vs a year ago",
+    "26.2% now vs 48.5% a year ago (-22.3 points)",
+    "Up +32% in the quarter"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 638.9,
+     "pat": 96.3,
+     "opm": 26.2,
+     "debt": 361.4,
+     "ocf": null
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 520.6,
+     "pat": 70.3,
+     "opm": 25.2,
+     "debt": 272.6,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 745.6,
+     "pat": 6.0,
+     "opm": 9.9,
+     "debt": 181.2,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 551.7,
+     "pat": 72.0,
+     "opm": 23.2,
+     "debt": null,
+     "ocf": null
+    }
+   ],
+   "sales": 638.9,
+   "sales_qoq": 22.7,
+   "sales_yoy": 30.2,
+   "pat": 96.3,
+   "pat_qoq": 37.0,
+   "pat_yoy": -45.1,
+   "ebitda": 167.7,
+   "ebitda_yoy": -29.5,
+   "opm": 26.2,
+   "eps": 4.29,
+   "debt": 361.4,
+   "debt_chg": 32.5,
+   "ocf": null,
+   "fcf": null,
+   "reasons": [
+    "Sales growth YoY: +30.2% vs a year ago",
+    "Sales growth QoQ: +22.7% vs last quarter",
+    "Profit growth YoY: -45.1% vs a year ago",
+    "Profit growth QoQ: +37.0% vs last quarter",
+    "Operating margin (OPM): 26.2% now vs 48.5% a year ago (-22.3 points)",
+    "Debt: Up +32% in the quarter"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=ELECON"
   },
   {
    "symbol": "KIRLOSBROS",
@@ -45807,56 +46489,6 @@
  ],
  "upcoming": [
   {
-   "symbol": "TATAPOWER",
-   "name": "Tata Power Co. Ltd.",
-   "next_date": "2026-11-11"
-  },
-  {
-   "symbol": "ALKEM",
-   "name": "Alkem Laboratories Ltd.",
-   "next_date": "2026-11-12"
-  },
-  {
-   "symbol": "BDL",
-   "name": "Bharat Dynamics Ltd.",
-   "next_date": "2026-11-12"
-  },
-  {
-   "symbol": "HAL",
-   "name": "Hindustan Aeronautics Ltd.",
-   "next_date": "2026-11-12"
-  },
-  {
-   "symbol": "IDEA",
-   "name": "Vodafone Idea Ltd.",
-   "next_date": "2026-11-12"
-  },
-  {
-   "symbol": "IRCTC",
-   "name": "Indian Railway Catering And Tourism Corporation Ltd.",
-   "next_date": "2026-11-12"
-  },
-  {
-   "symbol": "MANAPPURAM",
-   "name": "Manappuram Finance Ltd.",
-   "next_date": "2026-11-12"
-  },
-  {
-   "symbol": "NMDC",
-   "name": "NMDC Ltd.",
-   "next_date": "2026-11-12"
-  },
-  {
-   "symbol": "OIL",
-   "name": "Oil India Ltd.",
-   "next_date": "2026-11-12"
-  },
-  {
-   "symbol": "PAGEIND",
-   "name": "Page Industries Ltd.",
-   "next_date": "2026-11-12"
-  },
-  {
    "symbol": "ABB",
    "name": "ABB India Ltd.",
    "next_date": "2026-11-13"
@@ -45882,11 +46514,6 @@
    "next_date": "2026-11-13"
   },
   {
-   "symbol": "PATANJALI",
-   "name": "Patanjali Foods Ltd.",
-   "next_date": "2026-11-13"
-  },
-  {
    "symbol": "TMPV",
    "name": "Tata Motors Passenger Vehicles Ltd.",
    "next_date": "2026-11-13"
@@ -45894,6 +46521,11 @@
   {
    "symbol": "ASHOKLEY",
    "name": "Ashok Leyland Ltd.",
+   "next_date": "2026-11-14"
+  },
+  {
+   "symbol": "PATANJALI",
+   "name": "Patanjali Foods Ltd.",
    "next_date": "2026-11-14"
   },
   {
@@ -46812,6 +47444,11 @@
    "next_date": "2027-02-04"
   },
   {
+   "symbol": "MRF",
+   "name": "MRF Ltd.",
+   "next_date": "2027-02-04"
+  },
+  {
    "symbol": "NHPC",
    "name": "NHPC Ltd.",
    "next_date": "2027-02-04"
@@ -46844,6 +47481,11 @@
   {
    "symbol": "SUZLON",
    "name": "Suzlon Energy Ltd.",
+   "next_date": "2027-02-04"
+  },
+  {
+   "symbol": "TATAPOWER",
+   "name": "Tata Power Co. Ltd.",
    "next_date": "2027-02-04"
   },
   {

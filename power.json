@@ -1,18 +1,66 @@
 {
- "updated": "2026-11-11T21:30:06.847582Z",
+ "updated": "2026-11-12T21:33:03.370793Z",
  "note": "Power score = momentum ranked within sector (up to 50) + latest results (up to 20) + valuation (up to 15) + bias (up to 15), minus 5 if overbought. Rule-based, not advice.",
  "top": [
+  {
+   "symbol": "GAIL",
+   "name": "GAIL (India) Ltd.",
+   "sector": "Utilities - Regulated Gas",
+   "fno": true,
+   "score": 97.9,
+   "bias": "UPSIDE",
+   "val": "LOW",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 4% of Utilities - Regulated Gas",
+    "Latest results: GOOD",
+    "Valuation: LOW",
+    "Bias: UPSIDE"
+   ]
+  },
   {
    "symbol": "PVRINOX",
    "name": "PVR INOX Ltd.",
    "sector": "Entertainment",
    "fno": false,
-   "score": 99.8,
+   "score": 97.9,
    "bias": "UPSIDE",
    "val": "LOW",
    "results": "GOOD",
    "why": [
-    "Momentum in top 1% of Entertainment",
+    "Momentum in top 4% of Entertainment",
+    "Latest results: GOOD",
+    "Valuation: LOW",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "IIFL",
+   "name": "IIFL Finance Ltd.",
+   "sector": "Credit Services",
+   "fno": false,
+   "score": 97.9,
+   "bias": "UPSIDE",
+   "val": "LOW",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 4% of Credit Services",
+    "Latest results: GOOD",
+    "Valuation: LOW",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "JSWSTEEL",
+   "name": "JSW Steel Ltd.",
+   "sector": "Steel",
+   "fno": true,
+   "score": 96.9,
+   "bias": "UPSIDE",
+   "val": "LOW",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 6% of Steel",
     "Latest results: GOOD",
     "Valuation: LOW",
     "Bias: UPSIDE"
@@ -35,22 +83,6 @@
    ]
   },
   {
-   "symbol": "GAIL",
-   "name": "GAIL (India) Ltd.",
-   "sector": "Utilities - Regulated Gas",
-   "fno": true,
-   "score": 94.3,
-   "bias": "UPSIDE",
-   "val": "LOW",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 11% of Utilities - Regulated Gas",
-    "Latest results: GOOD",
-    "Valuation: LOW",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
    "symbol": "TECHM",
    "name": "Tech Mahindra Ltd.",
    "sector": "Information Technology Services",
@@ -67,48 +99,16 @@
    ]
   },
   {
-   "symbol": "KOTAKBANK",
-   "name": "Kotak Mahindra Bank Ltd.",
-   "sector": "Banks - Regional",
+   "symbol": "BHARTIARTL",
+   "name": "Bharti Airtel Ltd.",
+   "sector": "Telecom Services",
    "fno": true,
    "score": 93.0,
    "bias": "UPSIDE",
    "val": "OK",
    "results": "GOOD",
    "why": [
-    "Momentum in top 1% of Banks - Regional",
-    "Latest results: GOOD",
-    "Valuation: OK",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "BHARTIHEXA",
-   "name": "Bharti Hexacom Ltd.",
-   "sector": "Telecom Services",
-   "fno": false,
-   "score": 93.0,
-   "bias": "UPSIDE",
-   "val": "OK",
-   "results": "GOOD",
-   "why": [
     "Momentum in top 1% of Telecom Services",
-    "Latest results: GOOD",
-    "Valuation: OK",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "MEDANTA",
-   "name": "Global Health Ltd.",
-   "sector": "Medical Care Facilities",
-   "fno": false,
-   "score": 93.0,
-   "bias": "UPSIDE",
-   "val": "OK",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 1% of Medical Care Facilities",
     "Latest results: GOOD",
     "Valuation: OK",
     "Bias: UPSIDE"
@@ -131,22 +131,6 @@
    ]
   },
   {
-   "symbol": "CHOLAFIN",
-   "name": "Cholamandalam Investment and Finance Company Ltd.",
-   "sector": "Credit Services",
-   "fno": true,
-   "score": 93.0,
-   "bias": "UPSIDE",
-   "val": "OK",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 1% of Credit Services",
-    "Latest results: GOOD",
-    "Valuation: OK",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
    "symbol": "ADANIPOWER",
    "name": "Adani Power Ltd.",
    "sector": "Utilities - Independent Power Producers",
@@ -163,80 +147,32 @@
    ]
   },
   {
-   "symbol": "SYNGENE",
-   "name": "Syngene International Ltd.",
-   "sector": "Diagnostics & Research",
+   "symbol": "NH",
+   "name": "Narayana Hrudayalaya Ltd.",
+   "sector": "Medical Care Facilities",
    "fno": false,
-   "score": 92.9,
+   "score": 93.0,
    "bias": "UPSIDE",
    "val": "OK",
    "results": "GOOD",
    "why": [
-    "Momentum in top 1% of Diagnostics & Research",
+    "Momentum in top 1% of Medical Care Facilities",
     "Latest results: GOOD",
     "Valuation: OK",
     "Bias: UPSIDE"
    ]
   },
   {
-   "symbol": "NHPC",
-   "name": "NHPC Ltd.",
-   "sector": "Utilities - Renewable",
-   "fno": true,
-   "score": 92.9,
-   "bias": "UPSIDE",
-   "val": "LOW",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 14% of Utilities - Renewable",
-    "Latest results: GOOD",
-    "Valuation: LOW",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "JSWSTEEL",
-   "name": "JSW Steel Ltd.",
-   "sector": "Steel",
-   "fno": true,
-   "score": 92.2,
-   "bias": "UPSIDE",
-   "val": "LOW",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 16% of Steel",
-    "Latest results: GOOD",
-    "Valuation: LOW",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "IIFL",
-   "name": "IIFL Finance Ltd.",
-   "sector": "Credit Services",
+   "symbol": "SYNGENE",
+   "name": "Syngene International Ltd.",
+   "sector": "Diagnostics & Research",
    "fno": false,
-   "score": 91.7,
-   "bias": "UPSIDE",
-   "val": "LOW",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 17% of Credit Services",
-    "Latest results: GOOD",
-    "Valuation: LOW",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "PHOENIXLTD",
-   "name": "Phoenix Mills Ltd.",
-   "sector": "Real Estate - Diversified",
-   "fno": true,
-   "score": 91.2,
+   "score": 91.8,
    "bias": "UPSIDE",
    "val": "OK",
    "results": "GOOD",
    "why": [
-    "Momentum in top 4% of Real Estate - Diversified",
+    "Momentum in top 2% of Diagnostics & Research",
     "Latest results: GOOD",
     "Valuation: OK",
     "Bias: UPSIDE"
@@ -259,16 +195,80 @@
    ]
   },
   {
-   "symbol": "ATHERENERG",
-   "name": "Ather Energy Ltd.",
-   "sector": "Auto Manufacturers",
+   "symbol": "BSE",
+   "name": "BSE Ltd.",
+   "sector": "Financial Data & Stock Exchanges",
    "fno": true,
+   "score": 90.9,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 4% of Financial Data & Stock Exchanges",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "LAURUSLABS",
+   "name": "Laurus Labs Ltd.",
+   "sector": "Drug Manufacturers - Specialty & Generic",
+   "fno": true,
+   "score": 90.9,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 4% of Drug Manufacturers - Specialty & Generic",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "NAVINFLUOR",
+   "name": "Navin Fluorine International Ltd.",
+   "sector": "Chemicals",
+   "fno": true,
+   "score": 90.9,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 4% of Chemicals",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "PHOENIXLTD",
+   "name": "Phoenix Mills Ltd.",
+   "sector": "Real Estate - Diversified",
+   "fno": true,
+   "score": 90.9,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 4% of Real Estate - Diversified",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "PPLPHARMA",
+   "name": "Piramal Pharma Ltd.",
+   "sector": "Drug Manufacturers - Specialty & Generic",
+   "fno": false,
    "score": 90.9,
    "bias": "UPSIDE",
    "val": "NA",
    "results": "GOOD",
    "why": [
-    "Momentum in top 4% of Auto Manufacturers",
+    "Momentum in top 4% of Drug Manufacturers - Specialty & Generic",
     "Latest results: GOOD",
     "Valuation: NA",
     "Bias: UPSIDE"
@@ -291,39 +291,146 @@
    ]
   },
   {
-   "symbol": "BHEL",
-   "name": "Bharat Heavy Electricals Ltd.",
-   "sector": "Specialty Industrial Machinery",
-   "fno": true,
-   "score": 90.5,
+   "symbol": "PIRAMALFIN",
+   "name": "Piramal Finance Ltd.",
+   "sector": "Credit Services",
+   "fno": false,
+   "score": 90.9,
    "bias": "UPSIDE",
    "val": "OK",
    "results": "GOOD",
    "why": [
-    "Momentum in top 5% of Specialty Industrial Machinery",
+    "Momentum in top 4% of Credit Services",
     "Latest results: GOOD",
     "Valuation: OK",
     "Bias: UPSIDE"
    ]
   },
   {
-   "symbol": "PETRONET",
-   "name": "Petronet LNG Ltd.",
-   "sector": "Oil & Gas Refining & Marketing",
+   "symbol": "UNIONBANK",
+   "name": "Union Bank of India",
+   "sector": "Banks - Regional",
    "fno": true,
-   "score": 90.2,
+   "score": 90.0,
    "bias": "UPSIDE",
-   "val": "OK",
-   "results": "GOOD",
+   "val": "LOW",
+   "results": "NEUTRAL",
    "why": [
-    "Momentum in top 6% of Oil & Gas Refining & Marketing",
-    "Latest results: GOOD",
-    "Valuation: OK",
+    "Momentum in top 1% of Banks - Regional",
+    "Latest results: NEUTRAL",
+    "Valuation: LOW",
     "Bias: UPSIDE"
    ]
   }
  ],
  "by_sector": [
+  {
+   "sector": "Credit Services",
+   "top": [
+    {
+     "symbol": "IIFL",
+     "name": "IIFL Finance Ltd.",
+     "sector": "Credit Services",
+     "fno": false,
+     "score": 97.9,
+     "bias": "UPSIDE",
+     "val": "LOW",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 4% of Credit Services",
+      "Latest results: GOOD",
+      "Valuation: LOW",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "BAJFINANCE",
+     "name": "Bajaj Finance Ltd.",
+     "sector": "Credit Services",
+     "fno": true,
+     "score": 90.9,
+     "bias": "UPSIDE",
+     "val": "OK",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 4% of Credit Services",
+      "Latest results: GOOD",
+      "Valuation: OK",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "PIRAMALFIN",
+     "name": "Piramal Finance Ltd.",
+     "sector": "Credit Services",
+     "fno": false,
+     "score": 90.9,
+     "bias": "UPSIDE",
+     "val": "OK",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 4% of Credit Services",
+      "Latest results: GOOD",
+      "Valuation: OK",
+      "Bias: UPSIDE"
+     ]
+    }
+   ]
+  },
+  {
+   "sector": "Steel",
+   "top": [
+    {
+     "symbol": "JSWSTEEL",
+     "name": "JSW Steel Ltd.",
+     "sector": "Steel",
+     "fno": true,
+     "score": 96.9,
+     "bias": "UPSIDE",
+     "val": "LOW",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 6% of Steel",
+      "Latest results: GOOD",
+      "Valuation: LOW",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "SHYAMMETL",
+     "name": "Shyam Metalics and Energy Ltd.",
+     "sector": "Steel",
+     "fno": false,
+     "score": 88.0,
+     "bias": "UPSIDE",
+     "val": "OK",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 1% of Steel",
+      "Latest results: GOOD",
+      "Valuation: OK",
+      "Bias: UPSIDE",
+      "RSI above 75: overbought, pullback risk"
+     ]
+    },
+    {
+     "symbol": "APLAPOLLO",
+     "name": "APL Apollo Tubes Ltd.",
+     "sector": "Steel",
+     "fno": true,
+     "score": 78.8,
+     "bias": "UPSIDE",
+     "val": "HIGH",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 12% of Steel",
+      "Latest results: GOOD",
+      "Valuation: HIGH",
+      "Bias: UPSIDE"
+     ]
+    }
+   ]
+  },
   {
    "sector": "Engineering & Construction",
    "top": [
@@ -378,60 +485,6 @@
    ]
   },
   {
-   "sector": "Banks - Regional",
-   "top": [
-    {
-     "symbol": "KOTAKBANK",
-     "name": "Kotak Mahindra Bank Ltd.",
-     "sector": "Banks - Regional",
-     "fno": true,
-     "score": 93.0,
-     "bias": "UPSIDE",
-     "val": "OK",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 1% of Banks - Regional",
-      "Latest results: GOOD",
-      "Valuation: OK",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "KARURVYSYA",
-     "name": "Karur Vysya Bank Ltd.",
-     "sector": "Banks - Regional",
-     "fno": true,
-     "score": 91.1,
-     "bias": "UPSIDE",
-     "val": "OK",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 4% of Banks - Regional",
-      "Latest results: GOOD",
-      "Valuation: OK",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "ICICIBANK",
-     "name": "ICICI Bank Ltd.",
-     "sector": "Banks - Regional",
-     "fno": true,
-     "score": 83.4,
-     "bias": "UPSIDE",
-     "val": "OK",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 9% of Banks - Regional",
-      "Latest results: GOOD",
-      "Valuation: OK",
-      "Bias: UPSIDE",
-      "RSI above 75: overbought, pullback risk"
-     ]
-    }
-   ]
-  },
-  {
    "sector": "Building Products & Equipment",
    "top": [
     {
@@ -455,84 +508,31 @@
      "name": "Kajaria Ceramics Ltd.",
      "sector": "Building Products & Equipment",
      "fno": false,
-     "score": 80.0,
-     "bias": "UPSIDE",
+     "score": 73.0,
+     "bias": "NEUTRAL",
      "val": "LOW",
      "results": "NEUTRAL",
      "why": [
       "Momentum in top 20% of Building Products & Equipment",
       "Latest results: NEUTRAL",
       "Valuation: LOW",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "BLUESTARCO",
-     "name": "Blue Star Ltd.",
-     "sector": "Building Products & Equipment",
-     "fno": true,
-     "score": 56.0,
-     "bias": "NEUTRAL",
-     "val": "OK",
-     "results": "NEUTRAL",
-     "why": [
-      "Momentum in top 40% of Building Products & Equipment",
-      "Latest results: NEUTRAL",
-      "Valuation: OK",
       "Bias: NEUTRAL"
      ]
-    }
-   ]
-  },
-  {
-   "sector": "Credit Services",
-   "top": [
-    {
-     "symbol": "CHOLAFIN",
-     "name": "Cholamandalam Investment and Finance Company Ltd.",
-     "sector": "Credit Services",
-     "fno": true,
-     "score": 93.0,
-     "bias": "UPSIDE",
-     "val": "OK",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 1% of Credit Services",
-      "Latest results: GOOD",
-      "Valuation: OK",
-      "Bias: UPSIDE"
-     ]
     },
     {
-     "symbol": "IIFL",
-     "name": "IIFL Finance Ltd.",
-     "sector": "Credit Services",
-     "fno": false,
-     "score": 91.7,
-     "bias": "UPSIDE",
+     "symbol": "SUPREMEIND",
+     "name": "Supreme Industries Ltd.",
+     "sector": "Building Products & Equipment",
+     "fno": true,
+     "score": 55.0,
+     "bias": "DOWNSIDE",
      "val": "LOW",
      "results": "GOOD",
      "why": [
-      "Momentum in top 17% of Credit Services",
+      "Momentum in top 60% of Building Products & Equipment",
       "Latest results: GOOD",
       "Valuation: LOW",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "BAJFINANCE",
-     "name": "Bajaj Finance Ltd.",
-     "sector": "Credit Services",
-     "fno": true,
-     "score": 90.9,
-     "bias": "UPSIDE",
-     "val": "OK",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 4% of Credit Services",
-      "Latest results: GOOD",
-      "Valuation: OK",
-      "Bias: UPSIDE"
+      "Bias: DOWNSIDE"
      ]
     }
    ]
@@ -561,12 +561,12 @@
      "name": "L&T Technology Services Ltd.",
      "sector": "Information Technology Services",
      "fno": false,
-     "score": 87.4,
+     "score": 88.8,
      "bias": "UPSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 11% of Information Technology Services",
+      "Momentum in top 8% of Information Technology Services",
       "Latest results: GOOD",
       "Valuation: OK",
       "Bias: UPSIDE"
@@ -594,8 +594,8 @@
    "sector": "Medical Care Facilities",
    "top": [
     {
-     "symbol": "MEDANTA",
-     "name": "Global Health Ltd.",
+     "symbol": "NH",
+     "name": "Narayana Hrudayalaya Ltd.",
      "sector": "Medical Care Facilities",
      "fno": false,
      "score": 93.0,
@@ -610,32 +610,32 @@
      ]
     },
     {
-     "symbol": "NH",
-     "name": "Narayana Hrudayalaya Ltd.",
+     "symbol": "APOLLOHOSP",
+     "name": "Apollo Hospitals Enterprise Ltd.",
      "sector": "Medical Care Facilities",
-     "fno": false,
-     "score": 86.8,
+     "fno": true,
+     "score": 83.6,
      "bias": "UPSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 12% of Medical Care Facilities",
+      "Momentum in top 19% of Medical Care Facilities",
       "Latest results: GOOD",
       "Valuation: OK",
       "Bias: UPSIDE"
      ]
     },
     {
-     "symbol": "APOLLOHOSP",
-     "name": "Apollo Hospitals Enterprise Ltd.",
+     "symbol": "MEDANTA",
+     "name": "Global Health Ltd.",
      "sector": "Medical Care Facilities",
-     "fno": true,
-     "score": 80.5,
+     "fno": false,
+     "score": 83.6,
      "bias": "UPSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 25% of Medical Care Facilities",
+      "Momentum in top 19% of Medical Care Facilities",
       "Latest results: GOOD",
       "Valuation: OK",
       "Bias: UPSIDE"
@@ -647,10 +647,10 @@
    "sector": "Telecom Services",
    "top": [
     {
-     "symbol": "BHARTIHEXA",
-     "name": "Bharti Hexacom Ltd.",
+     "symbol": "BHARTIARTL",
+     "name": "Bharti Airtel Ltd.",
      "sector": "Telecom Services",
-     "fno": false,
+     "fno": true,
      "score": 93.0,
      "bias": "UPSIDE",
      "val": "OK",
@@ -663,10 +663,10 @@
      ]
     },
     {
-     "symbol": "BHARTIARTL",
-     "name": "Bharti Airtel Ltd.",
+     "symbol": "BHARTIHEXA",
+     "name": "Bharti Hexacom Ltd.",
      "sector": "Telecom Services",
-     "fno": true,
+     "fno": false,
      "score": 85.9,
      "bias": "UPSIDE",
      "val": "OK",
@@ -683,15 +683,15 @@
      "name": "Indus Towers Ltd.",
      "sector": "Telecom Services",
      "fno": true,
-     "score": 71.6,
-     "bias": "NEUTRAL",
+     "score": 85.7,
+     "bias": "UPSIDE",
      "val": "LOW",
      "results": "GOOD",
      "why": [
-      "Momentum in top 43% of Telecom Services",
+      "Momentum in top 29% of Telecom Services",
       "Latest results: GOOD",
       "Valuation: LOW",
-      "Bias: NEUTRAL"
+      "Bias: UPSIDE"
      ]
     }
    ]
@@ -720,12 +720,12 @@
      "name": "Adani Energy Solutions Ltd.",
      "sector": "Utilities - Independent Power Producers",
      "fno": true,
-     "score": 82.3,
+     "score": 85.9,
      "bias": "UPSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 21% of Utilities - Independent Power Producers",
+      "Momentum in top 14% of Utilities - Independent Power Producers",
       "Latest results: GOOD",
       "Valuation: OK",
       "Bias: UPSIDE"
@@ -736,122 +736,122 @@
      "name": "JSW Energy Ltd.",
      "sector": "Utilities - Independent Power Producers",
      "fno": true,
-     "score": 82.3,
-     "bias": "UPSIDE",
+     "score": 60.1,
+     "bias": "DOWNSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 21% of Utilities - Independent Power Producers",
+      "Momentum in top 36% of Utilities - Independent Power Producers",
       "Latest results: GOOD",
       "Valuation: OK",
-      "Bias: UPSIDE"
+      "Bias: DOWNSIDE"
      ]
     }
    ]
   },
   {
-   "sector": "Utilities - Renewable",
+   "sector": "Banks - Regional",
    "top": [
     {
-     "symbol": "NHPC",
-     "name": "NHPC Ltd.",
-     "sector": "Utilities - Renewable",
+     "symbol": "KARURVYSYA",
+     "name": "Karur Vysya Bank Ltd.",
+     "sector": "Banks - Regional",
      "fno": true,
-     "score": 92.9,
-     "bias": "UPSIDE",
-     "val": "LOW",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 14% of Utilities - Renewable",
-      "Latest results: GOOD",
-      "Valuation: LOW",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "ADANIGREEN",
-     "name": "Adani Green Energy Ltd.",
-     "sector": "Utilities - Renewable",
-     "fno": true,
-     "score": 75.0,
-     "bias": "UPSIDE",
-     "val": "HIGH",
-     "results": "NEUTRAL",
-     "why": [
-      "Momentum in top 1% of Utilities - Renewable",
-      "Latest results: NEUTRAL",
-      "Valuation: HIGH",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "ACMESOLAR",
-     "name": "ACME Solar Holdings Ltd.",
-     "sector": "Utilities - Renewable",
-     "fno": false,
-     "score": 68.7,
-     "bias": "NEUTRAL",
-     "val": "LOW",
-     "results": "NEUTRAL",
-     "why": [
-      "Momentum in top 29% of Utilities - Renewable",
-      "Latest results: NEUTRAL",
-      "Valuation: LOW",
-      "Bias: NEUTRAL"
-     ]
-    }
-   ]
-  },
-  {
-   "sector": "Steel",
-   "top": [
-    {
-     "symbol": "JSWSTEEL",
-     "name": "JSW Steel Ltd.",
-     "sector": "Steel",
-     "fno": true,
-     "score": 92.2,
-     "bias": "UPSIDE",
-     "val": "LOW",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 16% of Steel",
-      "Latest results: GOOD",
-      "Valuation: LOW",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "APLAPOLLO",
-     "name": "APL Apollo Tubes Ltd.",
-     "sector": "Steel",
-     "fno": true,
-     "score": 85.0,
-     "bias": "UPSIDE",
-     "val": "HIGH",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 1% of Steel",
-      "Latest results: GOOD",
-      "Valuation: HIGH",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "SHYAMMETL",
-     "name": "Shyam Metalics and Energy Ltd.",
-     "sector": "Steel",
-     "fno": false,
-     "score": 84.9,
+     "score": 91.1,
      "bias": "UPSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 6% of Steel",
+      "Momentum in top 4% of Banks - Regional",
       "Latest results: GOOD",
       "Valuation: OK",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "UNIONBANK",
+     "name": "Union Bank of India",
+     "sector": "Banks - Regional",
+     "fno": true,
+     "score": 90.0,
+     "bias": "UPSIDE",
+     "val": "LOW",
+     "results": "NEUTRAL",
+     "why": [
+      "Momentum in top 1% of Banks - Regional",
+      "Latest results: NEUTRAL",
+      "Valuation: LOW",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "BANKBARODA",
+     "name": "Bank of Baroda",
+     "sector": "Banks - Regional",
+     "fno": true,
+     "score": 87.6,
+     "bias": "UPSIDE",
+     "val": "LOW",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 15% of Banks - Regional",
+      "Latest results: GOOD",
+      "Valuation: LOW",
       "Bias: UPSIDE",
       "RSI above 75: overbought, pullback risk"
+     ]
+    }
+   ]
+  },
+  {
+   "sector": "Drug Manufacturers - Specialty & Generic",
+   "top": [
+    {
+     "symbol": "LAURUSLABS",
+     "name": "Laurus Labs Ltd.",
+     "sector": "Drug Manufacturers - Specialty & Generic",
+     "fno": true,
+     "score": 90.9,
+     "bias": "UPSIDE",
+     "val": "OK",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 4% of Drug Manufacturers - Specialty & Generic",
+      "Latest results: GOOD",
+      "Valuation: OK",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "PPLPHARMA",
+     "name": "Piramal Pharma Ltd.",
+     "sector": "Drug Manufacturers - Specialty & Generic",
+     "fno": false,
+     "score": 90.9,
+     "bias": "UPSIDE",
+     "val": "NA",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 4% of Drug Manufacturers - Specialty & Generic",
+      "Latest results: GOOD",
+      "Valuation: NA",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "AUROPHARMA",
+     "name": "Aurobindo Pharma Ltd.",
+     "sector": "Drug Manufacturers - Specialty & Generic",
+     "fno": true,
+     "score": 82.7,
+     "bias": "UPSIDE",
+     "val": "LOW",
+     "results": "NEUTRAL",
+     "why": [
+      "Momentum in top 15% of Drug Manufacturers - Specialty & Generic",
+      "Latest results: NEUTRAL",
+      "Valuation: LOW",
+      "Bias: UPSIDE"
      ]
     }
    ]
