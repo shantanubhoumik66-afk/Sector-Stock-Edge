@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-13T20:57:38.947728Z",
-"count": 495,
+"updated": "2026-11-16T23:28:28.594511Z",
+"count": 496,
 "stocks": [
 {
 "symbol": "BHARTIARTL",
@@ -12,7 +12,7 @@
 "Nifty 500"
 ],
 "sector": "Telecom Services",
-"mcap_cr": 1314028
+"mcap_cr": 1343665
 },
 {
 "symbol": "DLF",
@@ -24,19 +24,58 @@
 "Nifty 500"
 ],
 "sector": "Real Estate - Development",
-"mcap_cr": 187814
+"mcap_cr": 186824
 },
 {
-"symbol": "HDFCAMC",
-"name": "HDFC Asset Management Company Ltd.",
+"symbol": "PETRONET",
+"name": "Petronet LNG Ltd.",
 "fno": true,
 "indices": [
-"Nifty Next 50",
+"Nifty 500"
+],
+"sector": "Oil & Gas Refining & Marketing",
+"mcap_cr": 48900
+},
+{
+"symbol": "SONACOMS",
+"name": "Sona BLW Precision Forgings Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 56203
+},
+{
+"symbol": "SYNGENE",
+"name": "Syngene International Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Diagnostics & Research",
+"mcap_cr": 17732
+},
+{
+"symbol": "PHOENIXLTD",
+"name": "Phoenix Mills Ltd.",
+"fno": true,
+"indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Asset Management",
-"mcap_cr": 114267
+"sector": "Real Estate - Diversified",
+"mcap_cr": 78764
+},
+{
+"symbol": "SHYAMMETL",
+"name": "Shyam Metalics and Energy Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 36635
 },
 {
 "symbol": "ACUTAAS",
@@ -46,7 +85,7 @@
 "Nifty 500"
 ],
 "sector": "Specialty Chemicals",
-"mcap_cr": 33069
+"mcap_cr": 32317
 },
 {
 "symbol": "ETERNAL",
@@ -58,7 +97,40 @@
 "Nifty 500"
 ],
 "sector": "Internet Retail",
-"mcap_cr": 335023
+"mcap_cr": 341886
+},
+{
+"symbol": "GLENMARK",
+"name": "Glenmark Pharmaceuticals Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 74307
+},
+{
+"symbol": "LAURUSLABS",
+"name": "Laurus Labs Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 119949
+},
+{
+"symbol": "LENSKART",
+"name": "Lenskart Solutions Ltd.",
+"fno": false,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Medical Instruments & Supplies",
+"mcap_cr": 127286
 },
 {
 "symbol": "LTTS",
@@ -68,7 +140,7 @@
 "Nifty 500"
 ],
 "sector": "Information Technology Services",
-"mcap_cr": 45061
+"mcap_cr": 44836
 },
 {
 "symbol": "SANSERA",
@@ -78,27 +150,7 @@
 "Nifty 500"
 ],
 "sector": "Auto Parts",
-"mcap_cr": 29389
-},
-{
-"symbol": "SONACOMS",
-"name": "Sona BLW Precision Forgings Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 57454
-},
-{
-"symbol": "SYNGENE",
-"name": "Syngene International Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Diagnostics & Research",
-"mcap_cr": 17857
+"mcap_cr": 29733
 },
 {
 "symbol": "TECHM",
@@ -110,7 +162,7 @@
 "Nifty 500"
 ],
 "sector": "Information Technology Services",
-"mcap_cr": 172908
+"mcap_cr": 174124
 },
 {
 "symbol": "ZENSARTECH",
@@ -120,236 +172,7 @@
 "Nifty 500"
 ],
 "sector": "Information Technology Services",
-"mcap_cr": 12482
-},
-{
-"symbol": "ICICIBANK",
-"name": "ICICI Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 1137160
-},
-{
-"symbol": "PETRONET",
-"name": "Petronet LNG Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Oil & Gas Refining & Marketing",
-"mcap_cr": 48608
-},
-{
-"symbol": "BSE",
-"name": "BSE Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Financial Data & Stock Exchanges",
-"mcap_cr": 159921
-},
-{
-"symbol": "GLENMARK",
-"name": "Glenmark Pharmaceuticals Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 74507
-},
-{
-"symbol": "INDHOTEL",
-"name": "Indian Hotels Co. Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Lodging",
-"mcap_cr": 126728
-},
-{
-"symbol": "NAVINFLUOR",
-"name": "Navin Fluorine International Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Chemicals",
-"mcap_cr": 51342
-},
-{
-"symbol": "PPLPHARMA",
-"name": "Piramal Pharma Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 32428
-},
-{
-"symbol": "SHYAMMETL",
-"name": "Shyam Metalics and Energy Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 36632
-},
-{
-"symbol": "ABDL",
-"name": "Allied Blenders and Distillers Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Beverages - Wineries & Distilleries",
-"mcap_cr": 21194
-},
-{
-"symbol": "ADANIPORTS",
-"name": "Adani Ports and Special Economic Zone Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Marine Shipping",
-"mcap_cr": 438513
-},
-{
-"symbol": "AXISBANK",
-"name": "Axis Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 414537
-},
-{
-"symbol": "BOSCHLTD",
-"name": "Bosch Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": null
-},
-{
-"symbol": "COFORGE",
-"name": "Coforge Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 89853
-},
-{
-"symbol": "GROWW",
-"name": "Billionbrains Garage Ventures Ltd.",
-"fno": false,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Capital Markets",
-"mcap_cr": 139716
-},
-{
-"symbol": "KARURVYSYA",
-"name": "Karur Vysya Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 36883
-},
-{
-"symbol": "LAURUSLABS",
-"name": "Laurus Labs Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 130972
-},
-{
-"symbol": "LENSKART",
-"name": "Lenskart Solutions Ltd.",
-"fno": false,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Medical Instruments & Supplies",
-"mcap_cr": 125952
-},
-{
-"symbol": "NYKAA",
-"name": "FSN E-Commerce Ventures Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Internet Retail",
-"mcap_cr": 104643
-},
-{
-"symbol": "ANANDRATHI",
-"name": "Anand Rathi Wealth Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Asset Management",
-"mcap_cr": 39538
-},
-{
-"symbol": "ATHERENERG",
-"name": "Ather Energy Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Manufacturers",
-"mcap_cr": 77194
-},
-{
-"symbol": "BAJFINANCE",
-"name": "Bajaj Finance Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 695210
+"mcap_cr": 12245
 },
 {
 "symbol": "BANKBARODA",
@@ -361,19 +184,7 @@
 "Nifty 500"
 ],
 "sector": "Banks - Regional",
-"mcap_cr": 141613
-},
-{
-"symbol": "DIVISLAB",
-"name": "Divi's Laboratories Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 303749
+"mcap_cr": 139730
 },
 {
 "symbol": "EMCURE",
@@ -383,86 +194,29 @@
 "Nifty 500"
 ],
 "sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 44804
+"mcap_cr": 44370
 },
 {
-"symbol": "FORCEMOT",
-"name": "Force Motors Ltd.",
+"symbol": "ICICIBANK",
+"name": "ICICI Bank Ltd.",
 "fno": true,
 "indices": [
+"Nifty 50",
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Auto Manufacturers",
-"mcap_cr": 25825
+"sector": "Banks - Regional",
+"mcap_cr": 1138165
 },
 {
-"symbol": "IGIL",
-"name": "International Gemological Institute Ltd.",
+"symbol": "PVRINOX",
+"name": "PVR INOX Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Other Precious Metals & Mining",
-"mcap_cr": 18967
-},
-{
-"symbol": "KOTAKBANK",
-"name": "Kotak Mahindra Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 486027
-},
-{
-"symbol": "PHOENIXLTD",
-"name": "Phoenix Mills Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Real Estate - Diversified",
-"mcap_cr": 80660
-},
-{
-"symbol": "PNB",
-"name": "Punjab National Bank",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 164131
-},
-{
-"symbol": "ULTRACEMCO",
-"name": "UltraTech Cement Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Building Materials",
-"mcap_cr": 355818
-},
-{
-"symbol": "UNIONBANK",
-"name": "Union Bank of India",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 154962
+"sector": "Entertainment",
+"mcap_cr": 15760
 },
 {
 "symbol": "UNOMINDA",
@@ -472,37 +226,29 @@
 "Nifty 500"
 ],
 "sector": "Auto Parts",
-"mcap_cr": 80152
+"mcap_cr": 77843
 },
 {
-"symbol": "ANGELONE",
-"name": "Angel One Ltd.",
+"symbol": "BSE",
+"name": "BSE Ltd.",
 "fno": true,
 "indices": [
+"Nifty 50",
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Capital Markets",
-"mcap_cr": 31938
+"sector": "Financial Data & Stock Exchanges",
+"mcap_cr": 157879
 },
 {
-"symbol": "ASAHIINDIA",
-"name": "Asahi India Glass Ltd.",
+"symbol": "CEMPRO",
+"name": "Cemindia Projects Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Auto Parts",
-"mcap_cr": 28303
-},
-{
-"symbol": "BSOFT",
-"name": "Birlasoft Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 9079
+"sector": "Engineering & Construction",
+"mcap_cr": 23949
 },
 {
 "symbol": "DRREDDY",
@@ -514,401 +260,30 @@
 "Nifty 500"
 ],
 "sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 115046
+"mcap_cr": 114871
 },
 {
-"symbol": "FEDERALBNK",
-"name": "Federal Bank Ltd.",
-"fno": true,
+"symbol": "GROWW",
+"name": "Billionbrains Garage Ventures Ltd.",
+"fno": false,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Banks - Regional",
-"mcap_cr": 89181
+"sector": "Capital Markets",
+"mcap_cr": 139697
 },
 {
-"symbol": "GABRIEL",
-"name": "Gabriel India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 29755
-},
-{
-"symbol": "GAIL",
-"name": "GAIL (India) Ltd.",
+"symbol": "HDFCAMC",
+"name": "HDFC Asset Management Company Ltd.",
 "fno": true,
 "indices": [
 "Nifty Next 50",
 "Nifty 200",
-"Nifty 500"
-],
-"sector": "Utilities - Regulated Gas",
-"mcap_cr": 123611
-},
-{
-"symbol": "HBLENGINE",
-"name": "HBL Engineering Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Electrical Equipment & Parts",
-"mcap_cr": 22163
-},
-{
-"symbol": "HINDPETRO",
-"name": "Hindustan Petroleum Corporation Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Oil & Gas Refining & Marketing",
-"mcap_cr": 81176
-},
-{
-"symbol": "ITCHOTELS",
-"name": "ITC Hotels Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Resorts & Casinos",
-"mcap_cr": 36164
-},
-{
-"symbol": "JSWSTEEL",
-"name": "JSW Steel Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 329166
-},
-{
-"symbol": "MAHABANK",
-"name": "Bank of Maharashtra",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 70532
-},
-{
-"symbol": "PVRINOX",
-"name": "PVR INOX Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Entertainment",
-"mcap_cr": 15777
-},
-{
-"symbol": "TCS",
-"name": "Tata Consultancy Services Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": null
-},
-{
-"symbol": "ACMESOLAR",
-"name": "ACME Solar Holdings Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Utilities - Renewable",
-"mcap_cr": 29252
-},
-{
-"symbol": "APLAPOLLO",
-"name": "APL Apollo Tubes Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 62518
-},
-{
-"symbol": "CPPLUS",
-"name": "Aditya Infotech Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Building Products & Equipment",
-"mcap_cr": 50886
-},
-{
-"symbol": "CUB",
-"name": "City Union Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 23026
-},
-{
-"symbol": "ENGINERSIN",
-"name": "Engineers India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Engineering & Construction",
-"mcap_cr": 17561
-},
-{
-"symbol": "FLUOROCHEM",
-"name": "Gujarat Fluorochemicals Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 51762
-},
-{
-"symbol": "GLAND",
-"name": "Gland Pharma Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 55016
-},
-{
-"symbol": "GRAPHITE",
-"name": "Graphite India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Electrical Equipment & Parts",
-"mcap_cr": 15629
-},
-{
-"symbol": "INDIGO",
-"name": "InterGlobe Aviation Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Airlines",
-"mcap_cr": 216043
-},
-{
-"symbol": "JYOTICNC",
-"name": "Jyoti CNC Automation Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 24405
-},
-{
-"symbol": "LEMONTREE",
-"name": "Lemon Tree Hotels Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Lodging",
-"mcap_cr": 9657
-},
-{
-"symbol": "LGEINDIA",
-"name": "LG Electronics India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Consumer Electronics",
-"mcap_cr": 118473
-},
-{
-"symbol": "LICHSGFIN",
-"name": "LIC Housing Finance Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Mortgage Finance",
-"mcap_cr": 32184
-},
-{
-"symbol": "MANKIND",
-"name": "Mankind Pharma Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 109044
-},
-{
-"symbol": "NUVAMA",
-"name": "Nuvama Wealth Management Ltd.",
-"fno": false,
-"indices": [
 "Nifty 500"
 ],
 "sector": "Asset Management",
-"mcap_cr": 34101
-},
-{
-"symbol": "PATANJALI",
-"name": "Patanjali Foods Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Packaged Foods",
-"mcap_cr": 45809
-},
-{
-"symbol": "PAYTM",
-"name": "One 97 Communications Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Software - Infrastructure",
-"mcap_cr": 124188
-},
-{
-"symbol": "PERSISTENT",
-"name": "Persistent Systems Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 98805
-},
-{
-"symbol": "PTCIL",
-"name": "PTC Industries Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Metal Fabrication",
-"mcap_cr": 38612
-},
-{
-"symbol": "SAILIFE",
-"name": "Sai Life Sciences Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Diagnostics & Research",
-"mcap_cr": 40982
-},
-{
-"symbol": "URBANCO",
-"name": "Urban Company Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Software - Application",
-"mcap_cr": 25032
-},
-{
-"symbol": "WELSPUNLIV",
-"name": "Welspun Living Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Textile Manufacturing",
-"mcap_cr": 23549
-},
-{
-"symbol": "WIPRO",
-"name": "Wipro Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 192534
-},
-{
-"symbol": "ACE",
-"name": "Action Construction Equipment Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Farm & Heavy Construction Machinery",
-"mcap_cr": 14040
-},
-{
-"symbol": "AUROPHARMA",
-"name": "Aurobindo Pharma Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 104903
-},
-{
-"symbol": "HDFCBANK",
-"name": "HDFC Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 1240756
-},
-{
-"symbol": "INDIANB",
-"name": "Indian Bank",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 125652
+"mcap_cr": 113709
 },
 {
 "symbol": "IOC",
@@ -923,27 +298,189 @@
 "mcap_cr": null
 },
 {
-"symbol": "KALYANKJIL",
-"name": "Kalyan Jewellers India Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Luxury Goods",
-"mcap_cr": 71983
-},
-{
-"symbol": "LT",
-"name": "Larsen & Toubro Ltd.",
+"symbol": "JSWSTEEL",
+"name": "JSW Steel Ltd.",
 "fno": true,
 "indices": [
 "Nifty 50",
 "Nifty 200",
 "Nifty 500"
 ],
+"sector": "Steel",
+"mcap_cr": 325893
+},
+{
+"symbol": "M&M",
+"name": "Mahindra & Mahindra Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Auto Manufacturers",
+"mcap_cr": 400935
+},
+{
+"symbol": "PATANJALI",
+"name": "Patanjali Foods Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Packaged Foods",
+"mcap_cr": 43601
+},
+{
+"symbol": "PPLPHARMA",
+"name": "Piramal Pharma Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 32480
+},
+{
+"symbol": "UNIONBANK",
+"name": "Union Bank of India",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 156947
+},
+{
+"symbol": "ABDL",
+"name": "Allied Blenders and Distillers Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Beverages - Wineries & Distilleries",
+"mcap_cr": 21936
+},
+{
+"symbol": "ADANIPORTS",
+"name": "Adani Ports and Special Economic Zone Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Marine Shipping",
+"mcap_cr": 436139
+},
+{
+"symbol": "AUROPHARMA",
+"name": "Aurobindo Pharma Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 103223
+},
+{
+"symbol": "AXISBANK",
+"name": "Axis Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 418087
+},
+{
+"symbol": "ENGINERSIN",
+"name": "Engineers India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
 "sector": "Engineering & Construction",
-"mcap_cr": 570140
+"mcap_cr": 17539
+},
+{
+"symbol": "GLAND",
+"name": "Gland Pharma Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 55871
+},
+{
+"symbol": "HBLENGINE",
+"name": "HBL Engineering Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Electrical Equipment & Parts",
+"mcap_cr": 21634
+},
+{
+"symbol": "KARURVYSYA",
+"name": "Karur Vysya Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 37724
+},
+{
+"symbol": "LEMONTREE",
+"name": "Lemon Tree Hotels Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Lodging",
+"mcap_cr": 9833
+},
+{
+"symbol": "LGEINDIA",
+"name": "LG Electronics India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Consumer Electronics",
+"mcap_cr": 116946
+},
+{
+"symbol": "MAHABANK",
+"name": "Bank of Maharashtra",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 70762
+},
+{
+"symbol": "MANKIND",
+"name": "Mankind Pharma Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 108490
 },
 {
 "symbol": "MCX",
@@ -957,6 +494,71 @@
 "mcap_cr": null
 },
 {
+"symbol": "WELSPUNLIV",
+"name": "Welspun Living Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Textile Manufacturing",
+"mcap_cr": 23172
+},
+{
+"symbol": "ANANDRATHI",
+"name": "Anand Rathi Wealth Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Asset Management",
+"mcap_cr": 39639
+},
+{
+"symbol": "DIVISLAB",
+"name": "Divi's Laboratories Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 294139
+},
+{
+"symbol": "IGIL",
+"name": "International Gemological Institute Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Other Precious Metals & Mining",
+"mcap_cr": 18743
+},
+{
+"symbol": "INDHOTEL",
+"name": "Indian Hotels Co. Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Lodging",
+"mcap_cr": 126116
+},
+{
+"symbol": "INDIGO",
+"name": "InterGlobe Aviation Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Airlines",
+"mcap_cr": 214369
+},
+{
 "symbol": "MOTILALOFS",
 "name": "Motilal Oswal Financial Services Ltd.",
 "fno": true,
@@ -965,428 +567,82 @@
 "Nifty 500"
 ],
 "sector": "Capital Markets",
-"mcap_cr": 73563
+"mcap_cr": 73382
 },
 {
-"symbol": "MSUMI",
-"name": "Motherson Sumi Wiring India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 25877
-},
-{
-"symbol": "SBIN",
-"name": "State Bank of India",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 996907
-},
-{
-"symbol": "SHREECEM",
-"name": "Shree Cement Ltd.",
+"symbol": "NAVINFLUOR",
+"name": "Navin Fluorine International Ltd.",
 "fno": true,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Building Materials",
-"mcap_cr": 88957
+"sector": "Chemicals",
+"mcap_cr": 50767
 },
 {
-"symbol": "ADANIGREEN",
-"name": "Adani Green Energy Ltd.",
+"symbol": "NYKAA",
+"name": "FSN E-Commerce Ventures Ltd.",
 "fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Utilities - Renewable",
-"mcap_cr": 231099
-},
-{
-"symbol": "ADANIPOWER",
-"name": "Adani Power Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Utilities - Independent Power Producers",
-"mcap_cr": 396628
-},
-{
-"symbol": "AIIL",
-"name": "Authum Investment & Infrastructure Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Capital Markets",
-"mcap_cr": 48979
-},
-{
-"symbol": "BEML",
-"name": "BEML Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Conglomerates",
-"mcap_cr": 17476
-},
-{
-"symbol": "CANBK",
-"name": "Canara Bank",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 118744
-},
-{
-"symbol": "CEMPRO",
-"name": "Cemindia Projects Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Engineering & Construction",
-"mcap_cr": 24248
-},
-{
-"symbol": "ELECON",
-"name": "Elecon Engineering Co. Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 9963
-},
-{
-"symbol": "FRACTAL",
-"name": "Fractal Analytics Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Software - Infrastructure",
-"mcap_cr": 14424
-},
-{
-"symbol": "HCLTECH",
-"name": "HCL Technologies Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 372973
-},
-{
-"symbol": "HDFCLIFE",
-"name": "HDFC Life Insurance Company Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Insurance - Life",
-"mcap_cr": 128632
-},
-{
-"symbol": "JSWINFRA",
-"name": "JSW Infrastructure Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Marine Shipping",
-"mcap_cr": 78972
-},
-{
-"symbol": "KAJARIACER",
-"name": "Kajaria Ceramics Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Building Products & Equipment",
-"mcap_cr": 18887
-},
-{
-"symbol": "KFINTECH",
-"name": "Kfin Technologies Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Software - Application",
-"mcap_cr": 16442
-},
-{
-"symbol": "LALPATHLAB",
-"name": "Dr. Lal Path Labs Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Diagnostics & Research",
-"mcap_cr": 33325
-},
-{
-"symbol": "LODHA",
-"name": "Lodha Developers Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Real Estate - Development",
-"mcap_cr": 121909
-},
-{
-"symbol": "MEDANTA",
-"name": "Global Health Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Medical Care Facilities",
-"mcap_cr": 39095
-},
-{
-"symbol": "MEESHO",
-"name": "Meesho Ltd.",
-"fno": false,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
 "sector": "Internet Retail",
-"mcap_cr": 119049
+"mcap_cr": 103396
 },
 {
-"symbol": "MINDACORP",
-"name": "Minda Corporation Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 17326
-},
-{
-"symbol": "ONESOURCE",
-"name": "Onesource Specialty Pharma Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Biotechnology",
-"mcap_cr": 18464
-},
-{
-"symbol": "PIRAMALFIN",
-"name": "Piramal Finance Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 50252
-},
-{
-"symbol": "PRESTIGE",
-"name": "Prestige Estates Projects Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Real Estate - Diversified",
-"mcap_cr": 71070
-},
-{
-"symbol": "RKFORGE",
-"name": "Ramkrishna Forgings Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Metal Fabrication",
-"mcap_cr": 14562
-},
-{
-"symbol": "RUBICON",
-"name": "Rubicon Research Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - General",
-"mcap_cr": 27764
-},
-{
-"symbol": "SUNTV",
-"name": "Sun TV Network Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Broadcasting",
-"mcap_cr": 25485
-},
-{
-"symbol": "TMCV",
-"name": "Tata Motors Ltd.",
-"fno": false,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Auto Manufacturers",
-"mcap_cr": 159669
-},
-{
-"symbol": "TVSMOTOR",
-"name": "TVS Motor Company Ltd.",
+"symbol": "PNB",
+"name": "Punjab National Bank",
 "fno": true,
 "indices": [
 "Nifty Next 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Auto Manufacturers",
-"mcap_cr": null
+"sector": "Banks - Regional",
+"mcap_cr": 166176
 },
 {
-"symbol": "ZYDUSLIFE",
-"name": "Zydus Lifesciences Ltd.",
+"symbol": "ANGELONE",
+"name": "Angel One Ltd.",
 "fno": true,
 "indices": [
-"Nifty Next 50",
-"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 118693
+"sector": "Capital Markets",
+"mcap_cr": 31860
 },
 {
-"symbol": "ASHOKLEY",
-"name": "Ashok Leyland Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Farm & Heavy Construction Machinery",
-"mcap_cr": null
-},
-{
-"symbol": "BBOX",
-"name": "Black Box Ltd.",
+"symbol": "ANURAS",
+"name": "Anupam Rasayan India Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Software - Application",
-"mcap_cr": 15996
+"sector": "Specialty Chemicals",
+"mcap_cr": 14992
 },
 {
-"symbol": "CHOLAFIN",
-"name": "Cholamandalam Investment and Finance Company Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 158679
-},
-{
-"symbol": "CUPID",
-"name": "Cupid Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Household & Personal Products",
-"mcap_cr": 50801
-},
-{
-"symbol": "GODREJPROP",
-"name": "Godrej Properties Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Real Estate - Development",
-"mcap_cr": 55875
-},
-{
-"symbol": "JINDALSTEL",
-"name": "Jindal Steel Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 117861
-},
-{
-"symbol": "M&M",
-"name": "Mahindra & Mahindra Ltd.",
+"symbol": "APOLLOHOSP",
+"name": "Apollo Hospitals Enterprise Ltd.",
 "fno": true,
 "indices": [
 "Nifty 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Auto Manufacturers",
-"mcap_cr": 400214
+"sector": "Medical Care Facilities",
+"mcap_cr": 126114
 },
 {
-"symbol": "ABCAPITAL",
-"name": "Aditya Birla Capital Ltd.",
-"fno": true,
+"symbol": "ASAHIINDIA",
+"name": "Asahi India Glass Ltd.",
+"fno": false,
 "indices": [
-"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Financial Conglomerates",
-"mcap_cr": 111717
-},
-{
-"symbol": "BANKINDIA",
-"name": "Bank of India",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 70157
+"sector": "Auto Parts",
+"mcap_cr": 29700
 },
 {
 "symbol": "CDSL",
@@ -1396,18 +652,52 @@
 "Nifty 500"
 ],
 "sector": "Capital Markets",
-"mcap_cr": 30242
+"mcap_cr": 29969
 },
 {
-"symbol": "GMRAIRPORT",
-"name": "GMR Airports Ltd.",
+"symbol": "HDFCBANK",
+"name": "HDFC Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 1260047
+},
+{
+"symbol": "HINDPETRO",
+"name": "Hindustan Petroleum Corporation Ltd.",
 "fno": true,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Airports & Air Services",
-"mcap_cr": 105544
+"sector": "Oil & Gas Refining & Marketing",
+"mcap_cr": 82336
+},
+{
+"symbol": "ITCHOTELS",
+"name": "ITC Hotels Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Resorts & Casinos",
+"mcap_cr": 36281
+},
+{
+"symbol": "KOTAKBANK",
+"name": "Kotak Mahindra Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 491647
 },
 {
 "symbol": "MARICO",
@@ -1418,17 +708,280 @@
 "Nifty 500"
 ],
 "sector": "Household & Personal Products",
-"mcap_cr": 116819
+"mcap_cr": 118591
 },
 {
-"symbol": "MGL",
-"name": "Mahanagar Gas Ltd.",
+"symbol": "MEDANTA",
+"name": "Global Health Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Utilities - Regulated Gas",
-"mcap_cr": 11444
+"sector": "Medical Care Facilities",
+"mcap_cr": 38546
+},
+{
+"symbol": "NH",
+"name": "Narayana Hrudayalaya Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Medical Care Facilities",
+"mcap_cr": 38494
+},
+{
+"symbol": "PAYTM",
+"name": "One 97 Communications Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Software - Infrastructure",
+"mcap_cr": 121045
+},
+{
+"symbol": "RKFORGE",
+"name": "Ramkrishna Forgings Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Metal Fabrication",
+"mcap_cr": 14694
+},
+{
+"symbol": "ATHERENERG",
+"name": "Ather Energy Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Manufacturers",
+"mcap_cr": 76980
+},
+{
+"symbol": "BHARTIHEXA",
+"name": "Bharti Hexacom Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Telecom Services",
+"mcap_cr": 85495
+},
+{
+"symbol": "COFORGE",
+"name": "Coforge Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 89056
+},
+{
+"symbol": "CUPID",
+"name": "Cupid Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Household & Personal Products",
+"mcap_cr": 48663
+},
+{
+"symbol": "GESHIP",
+"name": "Great Eastern Shipping Co. Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Marine Shipping",
+"mcap_cr": 20561
+},
+{
+"symbol": "GRAPHITE",
+"name": "Graphite India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Electrical Equipment & Parts",
+"mcap_cr": 15590
+},
+{
+"symbol": "HONASA",
+"name": "Honasa Consumer Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Household & Personal Products",
+"mcap_cr": 16355
+},
+{
+"symbol": "JYOTICNC",
+"name": "Jyoti CNC Automation Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 24389
+},
+{
+"symbol": "LICHSGFIN",
+"name": "LIC Housing Finance Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Mortgage Finance",
+"mcap_cr": 33306
+},
+{
+"symbol": "NUVAMA",
+"name": "Nuvama Wealth Management Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Asset Management",
+"mcap_cr": 34334
+},
+{
+"symbol": "PERSISTENT",
+"name": "Persistent Systems Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 98402
+},
+{
+"symbol": "PTCIL",
+"name": "PTC Industries Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Metal Fabrication",
+"mcap_cr": 37796
+},
+{
+"symbol": "SAILIFE",
+"name": "Sai Life Sciences Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Diagnostics & Research",
+"mcap_cr": 38249
+},
+{
+"symbol": "URBANCO",
+"name": "Urban Company Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Software - Application",
+"mcap_cr": 25460
+},
+{
+"symbol": "WIPRO",
+"name": "Wipro Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 191486
+},
+{
+"symbol": "APLAPOLLO",
+"name": "APL Apollo Tubes Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 62479
+},
+{
+"symbol": "BAJFINANCE",
+"name": "Bajaj Finance Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 690853
+},
+{
+"symbol": "BANKINDIA",
+"name": "Bank of India",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 69642
+},
+{
+"symbol": "FORCEMOT",
+"name": "Force Motors Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Manufacturers",
+"mcap_cr": 25547
+},
+{
+"symbol": "KALYANKJIL",
+"name": "Kalyan Jewellers India Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Luxury Goods",
+"mcap_cr": 73134
+},
+{
+"symbol": "LINDEINDIA",
+"name": "Linde India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 58944
+},
+{
+"symbol": "LT",
+"name": "Larsen & Toubro Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Engineering & Construction",
+"mcap_cr": 569617
 },
 {
 "symbol": "RELIANCE",
@@ -1443,16 +996,16 @@
 "mcap_cr": null
 },
 {
-"symbol": "TITAN",
-"name": "Titan Company Ltd.",
+"symbol": "SBIN",
+"name": "State Bank of India",
 "fno": true,
 "indices": [
 "Nifty 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Luxury Goods",
-"mcap_cr": 429894
+"sector": "Banks - Regional",
+"mcap_cr": 1006599
 },
 {
 "symbol": "360ONE",
@@ -1463,17 +1016,31 @@
 "Nifty 500"
 ],
 "sector": "Asset Management",
-"mcap_cr": 50470
+"mcap_cr": 50565
 },
 {
-"symbol": "AETHER",
-"name": "Aether Industries Ltd.",
-"fno": false,
+"symbol": "ADANIGREEN",
+"name": "Adani Green Energy Ltd.",
+"fno": true,
 "indices": [
+"Nifty Next 50",
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Specialty Chemicals",
-"mcap_cr": 22262
+"sector": "Utilities - Renewable",
+"mcap_cr": 231692
+},
+{
+"symbol": "ADANIPOWER",
+"name": "Adani Power Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Utilities - Independent Power Producers",
+"mcap_cr": 395895
 },
 {
 "symbol": "ANTHEM",
@@ -1483,90 +1050,126 @@
 "Nifty 500"
 ],
 "sector": "Biotechnology",
-"mcap_cr": 52800
+"mcap_cr": 52490
 },
 {
-"symbol": "BHEL",
-"name": "Bharat Heavy Electricals Ltd.",
+"symbol": "BEML",
+"name": "BEML Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Conglomerates",
+"mcap_cr": 17173
+},
+{
+"symbol": "BOSCHLTD",
+"name": "Bosch Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": null
+},
+{
+"symbol": "CANBK",
+"name": "Canara Bank",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 120095
+},
+{
+"symbol": "EIHOTEL",
+"name": "EIH Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Lodging",
+"mcap_cr": 19464
+},
+{
+"symbol": "FEDERALBNK",
+"name": "Federal Bank Ltd.",
 "fno": true,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 151922
+"sector": "Banks - Regional",
+"mcap_cr": 89441
 },
 {
-"symbol": "COROMANDEL",
-"name": "Coromandel International Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Agricultural Inputs",
-"mcap_cr": 57583
-},
-{
-"symbol": "CRAFTSMAN",
-"name": "Craftsman Automation Ltd.",
+"symbol": "FRACTAL",
+"name": "Fractal Analytics Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Auto Parts",
-"mcap_cr": 28971
+"sector": "Software - Infrastructure",
+"mcap_cr": 13943
 },
 {
-"symbol": "EMAMILTD",
-"name": "Emami Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Household & Personal Products",
-"mcap_cr": 17516
-},
-{
-"symbol": "FSL",
-"name": "Firstsource Solutions Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 20151
-},
-{
-"symbol": "HONASA",
-"name": "Honasa Consumer Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Household & Personal Products",
-"mcap_cr": 16378
-},
-{
-"symbol": "IIFL",
-"name": "IIFL Finance Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 27376
-},
-{
-"symbol": "INFY",
-"name": "Infosys Ltd.",
+"symbol": "HDFCLIFE",
+"name": "HDFC Life Insurance Company Ltd.",
 "fno": true,
 "indices": [
 "Nifty 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Information Technology Services",
-"mcap_cr": 462350
+"sector": "Insurance - Life",
+"mcap_cr": 131293
+},
+{
+"symbol": "INDIANB",
+"name": "Indian Bank",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 125665
+},
+{
+"symbol": "JSWINFRA",
+"name": "JSW Infrastructure Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Marine Shipping",
+"mcap_cr": 78088
+},
+{
+"symbol": "LALPATHLAB",
+"name": "Dr. Lal Path Labs Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Diagnostics & Research",
+"mcap_cr": 33454
+},
+{
+"symbol": "LODHA",
+"name": "Lodha Developers Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Real Estate - Development",
+"mcap_cr": 119191
 },
 {
 "symbol": "LTFOODS",
@@ -1576,58 +1179,48 @@
 "Nifty 500"
 ],
 "sector": "Packaged Foods",
-"mcap_cr": 14748
+"mcap_cr": 14739
 },
 {
-"symbol": "NH",
-"name": "Narayana Hrudayalaya Ltd.",
+"symbol": "MEESHO",
+"name": "Meesho Ltd.",
 "fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Medical Care Facilities",
-"mcap_cr": 37785
-},
-{
-"symbol": "NUVOCO",
-"name": "Nuvoco Vistas Corporation Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Building Materials",
-"mcap_cr": 12193
-},
-{
-"symbol": "OBEROIRLTY",
-"name": "Oberoi Realty Ltd.",
-"fno": true,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Real Estate - Development",
-"mcap_cr": 65361
+"sector": "Internet Retail",
+"mcap_cr": 116326
 },
 {
-"symbol": "PINELABS",
-"name": "Pine Labs Ltd.",
+"symbol": "MINDACORP",
+"name": "Minda Corporation Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Software - Infrastructure",
-"mcap_cr": 20374
+"sector": "Auto Parts",
+"mcap_cr": 16632
 },
 {
-"symbol": "PNBHOUSING",
-"name": "PNB Housing Finance Ltd.",
-"fno": true,
+"symbol": "ONESOURCE",
+"name": "Onesource Specialty Pharma Ltd.",
+"fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Mortgage Finance",
-"mcap_cr": 29140
+"sector": "Biotechnology",
+"mcap_cr": 18494
+},
+{
+"symbol": "PIRAMALFIN",
+"name": "Piramal Finance Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 49908
 },
 {
 "symbol": "POONAWALLA",
@@ -1637,51 +1230,27 @@
 "Nifty 500"
 ],
 "sector": "Credit Services",
-"mcap_cr": 42693
+"mcap_cr": 43195
 },
 {
-"symbol": "RADICO",
-"name": "Radico Khaitan Ltd",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Beverages - Wineries & Distilleries",
-"mcap_cr": 61702
-},
-{
-"symbol": "SAIL",
-"name": "Steel Authority of India Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 72780
-},
-{
-"symbol": "TARIL",
-"name": "Transformers And Rectifiers (India) Ltd.",
+"symbol": "RUBICON",
+"name": "Rubicon Research Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Electrical Equipment & Parts",
-"mcap_cr": 9449
+"sector": "Drug Manufacturers - General",
+"mcap_cr": 27688
 },
 {
-"symbol": "TATACONSUM",
-"name": "Tata Consumer Products Ltd.",
-"fno": true,
+"symbol": "SUNTV",
+"name": "Sun TV Network Ltd.",
+"fno": false,
 "indices": [
-"Nifty 50",
-"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Packaged Foods",
-"mcap_cr": 106788
+"sector": "Broadcasting",
+"mcap_cr": 25939
 },
 {
 "symbol": "TRENT",
@@ -1693,164 +1262,131 @@
 "Nifty 500"
 ],
 "sector": "Apparel Retail",
-"mcap_cr": 168779
+"mcap_cr": 170832
 },
 {
-"symbol": "EIHOTEL",
-"name": "EIH Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Lodging",
-"mcap_cr": 19796
-},
-{
-"symbol": "ICICIAMC",
-"name": "ICICI Prudential Asset Management Company Ltd.",
-"fno": false,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Asset Management",
-"mcap_cr": 150274
-},
-{
-"symbol": "IREDA",
-"name": "Indian Renewable Energy Development Agency Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 33233
-},
-{
-"symbol": "KPRMILL",
-"name": "K.P.R. Mill Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Textile Manufacturing",
-"mcap_cr": 39678
-},
-{
-"symbol": "TATACOMM",
-"name": "Tata Communications Ltd.",
-"fno": false,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Telecom Services",
-"mcap_cr": 50553
-},
-{
-"symbol": "ABBOTINDIA",
-"name": "Abbott India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 56183
-},
-{
-"symbol": "ADANIENSOL",
-"name": "Adani Energy Solutions Ltd.",
+"symbol": "TVSMOTOR",
+"name": "TVS Motor Company Ltd.",
 "fno": true,
 "indices": [
 "Nifty Next 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Utilities - Independent Power Producers",
-"mcap_cr": 175922
+"sector": "Auto Manufacturers",
+"mcap_cr": null
 },
 {
-"symbol": "AFFLE",
-"name": "Affle 3i Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Advertising Agencies",
-"mcap_cr": 23105
-},
-{
-"symbol": "APOLLOHOSP",
-"name": "Apollo Hospitals Enterprise Ltd.",
+"symbol": "ULTRACEMCO",
+"name": "UltraTech Cement Ltd.",
 "fno": true,
 "indices": [
 "Nifty 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Medical Care Facilities",
-"mcap_cr": 122591
+"sector": "Building Materials",
+"mcap_cr": 360817
 },
 {
-"symbol": "ASTERDM",
-"name": "Aster DM Quality Care Ltd.",
+"symbol": "ZYDUSLIFE",
+"name": "Zydus Lifesciences Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 118902
+},
+{
+"symbol": "ACMESOLAR",
+"name": "ACME Solar Holdings Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Medical Care Facilities",
-"mcap_cr": 62906
+"sector": "Utilities - Renewable",
+"mcap_cr": 28409
 },
 {
-"symbol": "BALKRISIND",
-"name": "Balkrishna Industries Ltd.",
+"symbol": "BBOX",
+"name": "Black Box Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Software - Application",
+"mcap_cr": 16002
+},
+{
+"symbol": "CHOLAFIN",
+"name": "Cholamandalam Investment and Finance Company Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 158661
+},
+{
+"symbol": "JINDALSTEL",
+"name": "Jindal Steel Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 115947
+},
+{
+"symbol": "PRESTIGE",
+"name": "Prestige Estates Projects Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Real Estate - Diversified",
+"mcap_cr": 70588
+},
+{
+"symbol": "GABRIEL",
+"name": "Gabriel India Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
 "sector": "Auto Parts",
-"mcap_cr": 43910
+"mcap_cr": 28596
 },
 {
-"symbol": "BHARTIHEXA",
-"name": "Bharti Hexacom Ltd.",
-"fno": false,
+"symbol": "GAIL",
+"name": "GAIL (India) Ltd.",
+"fno": true,
 "indices": [
+"Nifty Next 50",
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Telecom Services",
-"mcap_cr": 83275
+"sector": "Utilities - Regulated Gas",
+"mcap_cr": 122954
 },
 {
-"symbol": "COHANCE",
-"name": "Cohance Lifesciences Ltd.",
-"fno": false,
+"symbol": "GODREJPROP",
+"name": "Godrej Properties Ltd.",
+"fno": true,
 "indices": [
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 17547
-},
-{
-"symbol": "CYIENT",
-"name": "Cyient Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Conglomerates",
-"mcap_cr": 11519
-},
-{
-"symbol": "DEEPAKNTR",
-"name": "Deepak Nitrite Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Chemicals",
-"mcap_cr": 21747
+"sector": "Real Estate - Development",
+"mcap_cr": 55477
 },
 {
 "symbol": "HEROMOTOCO",
@@ -1861,7 +1397,7 @@
 "Nifty 500"
 ],
 "sector": "Auto Manufacturers",
-"mcap_cr": 107787
+"mcap_cr": 107277
 },
 {
 "symbol": "JSWCEMENT",
@@ -1871,47 +1407,27 @@
 "Nifty 500"
 ],
 "sector": "Building Materials",
-"mcap_cr": 16918
+"mcap_cr": 16957
 },
 {
-"symbol": "LINDEINDIA",
-"name": "Linde India Ltd.",
+"symbol": "MGL",
+"name": "Mahanagar Gas Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Specialty Chemicals",
-"mcap_cr": 58424
+"sector": "Utilities - Regulated Gas",
+"mcap_cr": 11094
 },
 {
-"symbol": "MRPL",
-"name": "Mangalore Refinery & Petrochemicals Ltd.",
+"symbol": "MSUMI",
+"name": "Motherson Sumi Wiring India Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Oil & Gas Refining & Marketing",
-"mcap_cr": 31315
-},
-{
-"symbol": "NAM-INDIA",
-"name": "Nippon Life India Asset Management Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Asset Management",
-"mcap_cr": 70038
-},
-{
-"symbol": "PRIVISCL",
-"name": "Privi Speciality Chemicals Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 13198
+"sector": "Auto Parts",
+"mcap_cr": 25936
 },
 {
 "symbol": "TATACAP",
@@ -1923,37 +1439,321 @@
 "Nifty 500"
 ],
 "sector": "Credit Services",
-"mcap_cr": 149798
+"mcap_cr": 148196
 },
 {
-"symbol": "TATAELXSI",
-"name": "Tata Elxsi Ltd.",
+"symbol": "TITAN",
+"name": "Titan Company Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Luxury Goods",
+"mcap_cr": 435670
+},
+{
+"symbol": "ABCAPITAL",
+"name": "Aditya Birla Capital Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Financial Conglomerates",
+"mcap_cr": 111854
+},
+{
+"symbol": "ACE",
+"name": "Action Construction Equipment Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Farm & Heavy Construction Machinery",
+"mcap_cr": 13996
+},
+{
+"symbol": "AEGISVOPAK",
+"name": "Aegis Vopak Terminals Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Oil & Gas Equipment & Services",
+"mcap_cr": 30998
+},
+{
+"symbol": "AETHER",
+"name": "Aether Industries Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 21665
+},
+{
+"symbol": "AIIL",
+"name": "Authum Investment & Infrastructure Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Capital Markets",
+"mcap_cr": 48015
+},
+{
+"symbol": "ASHOKLEY",
+"name": "Ashok Leyland Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Farm & Heavy Construction Machinery",
+"mcap_cr": null
+},
+{
+"symbol": "BHEL",
+"name": "Bharat Heavy Electricals Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 149764
+},
+{
+"symbol": "CPPLUS",
+"name": "Aditya Infotech Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Building Products & Equipment",
+"mcap_cr": 48621
+},
+{
+"symbol": "CRAFTSMAN",
+"name": "Craftsman Automation Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 29120
+},
+{
+"symbol": "CUB",
+"name": "City Union Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 23105
+},
+{
+"symbol": "ELGIEQUIP",
+"name": "Elgi Equipments Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 18732
+},
+{
+"symbol": "EMAMILTD",
+"name": "Emami Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Household & Personal Products",
+"mcap_cr": 17752
+},
+{
+"symbol": "FLUOROCHEM",
+"name": "Gujarat Fluorochemicals Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 52993
+},
+{
+"symbol": "FSL",
+"name": "Firstsource Solutions Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 19881
+},
+{
+"symbol": "GVT&D",
+"name": "GE Vernova T&D India Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 111047
+},
+{
+"symbol": "HCLTECH",
+"name": "HCL Technologies Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 374759
+},
+{
+"symbol": "IIFL",
+"name": "IIFL Finance Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 27856
+},
+{
+"symbol": "KFINTECH",
+"name": "Kfin Technologies Ltd.",
 "fno": true,
 "indices": [
 "Nifty 500"
 ],
 "sector": "Software - Application",
-"mcap_cr": 23895
+"mcap_cr": 16224
 },
 {
-"symbol": "TTML",
-"name": "Tata Teleservices (Maharashtra) Ltd.",
+"symbol": "MRPL",
+"name": "Mangalore Refinery & Petrochemicals Ltd.",
 "fno": false,
 "indices": [
+"Nifty 500"
+],
+"sector": "Oil & Gas Refining & Marketing",
+"mcap_cr": 30658
+},
+{
+"symbol": "NUVOCO",
+"name": "Nuvoco Vistas Corporation Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Building Materials",
+"mcap_cr": 12338
+},
+{
+"symbol": "PINELABS",
+"name": "Pine Labs Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Software - Infrastructure",
+"mcap_cr": 19595
+},
+{
+"symbol": "RADICO",
+"name": "Radico Khaitan Ltd",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Beverages - Wineries & Distilleries",
+"mcap_cr": 62506
+},
+{
+"symbol": "SAIL",
+"name": "Steel Authority of India Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 69703
+},
+{
+"symbol": "TARIL",
+"name": "Transformers And Rectifiers (India) Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Electrical Equipment & Parts",
+"mcap_cr": 9268
+},
+{
+"symbol": "KPRMILL",
+"name": "K.P.R. Mill Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Textile Manufacturing",
+"mcap_cr": 41479
+},
+{
+"symbol": "OBEROIRLTY",
+"name": "Oberoi Realty Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Real Estate - Development",
+"mcap_cr": 64488
+},
+{
+"symbol": "STARHEALTH",
+"name": "Star Health and Allied Insurance Company Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Insurance - Life",
+"mcap_cr": 33424
+},
+{
+"symbol": "TATACOMM",
+"name": "Tata Communications Ltd.",
+"fno": false,
+"indices": [
+"Nifty 200",
 "Nifty 500"
 ],
 "sector": "Telecom Services",
-"mcap_cr": 7409
+"mcap_cr": 52765
 },
 {
-"symbol": "WHIRLPOOL",
-"name": "Whirlpool of India Ltd.",
-"fno": false,
+"symbol": "TCS",
+"name": "Tata Consultancy Services Ltd.",
+"fno": true,
 "indices": [
+"Nifty 50",
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Furnishings, Fixtures & Appliances",
-"mcap_cr": 10522
+"sector": "Information Technology Services",
+"mcap_cr": null
 },
 {
 "symbol": "WOCKPHARMA",
@@ -1963,179 +1763,49 @@
 "Nifty 500"
 ],
 "sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 32944
+"mcap_cr": 32576
 },
 {
-"symbol": "BANDHANBNK",
-"name": "Bandhan Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 27854
-},
-{
-"symbol": "BEL",
-"name": "Bharat Electronics Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Aerospace & Defense",
-"mcap_cr": 293013
-},
-{
-"symbol": "CLEANMAX",
-"name": "Clean Max Enviro Energy Solutions Ltd.",
+"symbol": "ABBOTINDIA",
+"name": "Abbott India Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Utilities - Renewable",
-"mcap_cr": 15496
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 55206
 },
 {
-"symbol": "COALINDIA",
-"name": "Coal India Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Thermal Coal",
-"mcap_cr": 248666
-},
-{
-"symbol": "ITC",
-"name": "ITC Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Tobacco",
-"mcap_cr": 357160
-},
-{
-"symbol": "LICI",
-"name": "Life Insurance Corporation of India",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Insurance - Life",
-"mcap_cr": 505114
-},
-{
-"symbol": "MUTHOOTFIN",
-"name": "Muthoot Finance Ltd.",
+"symbol": "ADANIENSOL",
+"name": "Adani Energy Solutions Ltd.",
 "fno": true,
 "indices": [
 "Nifty Next 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Credit Services",
-"mcap_cr": 114017
+"sector": "Utilities - Independent Power Producers",
+"mcap_cr": 177646
 },
 {
-"symbol": "POWERGRID",
-"name": "Power Grid Corporation of India Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Utilities - Regulated Electric",
-"mcap_cr": 239444
-},
-{
-"symbol": "SBILIFE",
-"name": "SBI Life Insurance Company Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Insurance - Life",
-"mcap_cr": 179600
-},
-{
-"symbol": "HAL",
-"name": "Hindustan Aeronautics Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Aerospace & Defense",
-"mcap_cr": 321667
-},
-{
-"symbol": "MPHASIS",
-"name": "MphasiS Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 46896
-},
-{
-"symbol": "BAJAJ-AUTO",
-"name": "Bajaj Auto Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Auto Manufacturers",
-"mcap_cr": 298162
-},
-{
-"symbol": "BAJAJFINSV",
-"name": "Bajaj Finserv Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Financial Conglomerates",
-"mcap_cr": 298446
-},
-{
-"symbol": "BAJAJHLDNG",
-"name": "Bajaj Holdings & Investment Ltd.",
+"symbol": "AFFLE",
+"name": "Affle 3i Ltd.",
 "fno": false,
 "indices": [
-"Nifty Next 50",
-"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Asset Management",
-"mcap_cr": 123491
+"sector": "Advertising Agencies",
+"mcap_cr": 22651
 },
 {
-"symbol": "CAMS",
-"name": "Computer Age Management Services Ltd.",
-"fno": true,
+"symbol": "ASTERDM",
+"name": "Aster DM Quality Care Ltd.",
+"fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Information Technology Services",
-"mcap_cr": 18043
+"sector": "Medical Care Facilities",
+"mcap_cr": 65301
 },
 {
 "symbol": "CIPLA",
@@ -2147,857 +1817,28 @@
 "Nifty 500"
 ],
 "sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 112442
+"mcap_cr": 112660
 },
 {
-"symbol": "DEVYANI",
-"name": "Devyani International Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Restaurants",
-"mcap_cr": 16012
-},
-{
-"symbol": "DIXON",
-"name": "Dixon Technologies (India) Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Consumer Electronics",
-"mcap_cr": 78286
-},
-{
-"symbol": "EICHERMOT",
-"name": "Eicher Motors Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Auto Manufacturers",
-"mcap_cr": 210009
-},
-{
-"symbol": "GESHIP",
-"name": "Great Eastern Shipping Co. Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Marine Shipping",
-"mcap_cr": 20400
-},
-{
-"symbol": "GRANULES",
-"name": "Granules India Ltd.",
+"symbol": "COHANCE",
+"name": "Cohance Lifesciences Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
 "sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 22182
+"mcap_cr": 17509
 },
 {
-"symbol": "HYUNDAI",
-"name": "Hyundai Motor India Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Auto Manufacturers",
-"mcap_cr": 168684
-},
-{
-"symbol": "IDFCFIRSTB",
-"name": "IDFC First Bank Ltd.",
+"symbol": "GMRAIRPORT",
+"name": "GMR Airports Ltd.",
 "fno": true,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Banks - Regional",
-"mcap_cr": 68630
-},
-{
-"symbol": "INDUSINDBK",
-"name": "IndusInd Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 71245
-},
-{
-"symbol": "IPCALAB",
-"name": "Ipca Laboratories Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 47798
-},
-{
-"symbol": "IRFC",
-"name": "Indian Railway Finance Corporation Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 108861
-},
-{
-"symbol": "J&KBANK",
-"name": "Jammu & Kashmir Bank Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 15116
-},
-{
-"symbol": "KPIL",
-"name": "Kalpataru Projects International Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Engineering & Construction",
-"mcap_cr": 23046
-},
-{
-"symbol": "MOTHERSON",
-"name": "Samvardhana Motherson International Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 175193
-},
-{
-"symbol": "PIDILITIND",
-"name": "Pidilite Industries Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 155399
-},
-{
-"symbol": "POLYMED",
-"name": "Poly Medicure Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Medical Instruments & Supplies",
-"mcap_cr": 17041
-},
-{
-"symbol": "SAGILITY",
-"name": "Sagility Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Health Information Services",
-"mcap_cr": 20537
-},
-{
-"symbol": "SHRIRAMFIN",
-"name": "Shriram Finance Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 228249
-},
-{
-"symbol": "STARHEALTH",
-"name": "Star Health and Allied Insurance Company Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Insurance - Life",
-"mcap_cr": 33710
-},
-{
-"symbol": "STLTECH",
-"name": "Sterlite Technologies Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Communication Equipment",
-"mcap_cr": 36548
-},
-{
-"symbol": "SUNPHARMA",
-"name": "Sun Pharmaceutical Industries Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 451075
-},
-{
-"symbol": "UNITDSPR",
-"name": "United Spirits Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Beverages - Wineries & Distilleries",
-"mcap_cr": 100601
-},
-{
-"symbol": "WELCORP",
-"name": "Welspun Corp Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 58817
-},
-{
-"symbol": "ZENTEC",
-"name": "Zen Technologies Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Aerospace & Defense",
-"mcap_cr": 15684
-},
-{
-"symbol": "AARTIIND",
-"name": "Aarti Industries Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 17482
-},
-{
-"symbol": "ABREL",
-"name": "Aditya Birla Real Estate Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Real Estate Services",
-"mcap_cr": 13346
-},
-{
-"symbol": "ANURAS",
-"name": "Anupam Rasayan India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 14807
-},
-{
-"symbol": "ASIANPAINT",
-"name": "Asian Paints Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 244408
-},
-{
-"symbol": "CENTRALBK",
-"name": "Central Bank of India",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 29164
-},
-{
-"symbol": "ELGIEQUIP",
-"name": "Elgi Equipments Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 18445
-},
-{
-"symbol": "GICRE",
-"name": "General Insurance Corporation of India",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Insurance - Reinsurance",
-"mcap_cr": 59343
-},
-{
-"symbol": "GLAXO",
-"name": "Glaxosmithkline Pharmaceuticals Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - General",
-"mcap_cr": 45275
-},
-{
-"symbol": "GRASIM",
-"name": "Grasim Industries Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Building Materials",
-"mcap_cr": 205793
-},
-{
-"symbol": "ICICIGI",
-"name": "ICICI Lombard General Insurance Company Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Insurance - Diversified",
-"mcap_cr": 84506
-},
-{
-"symbol": "RBLBANK",
-"name": "RBL Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 59907
-},
-{
-"symbol": "TATASTEEL",
-"name": "Tata Steel Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 232824
-},
-{
-"symbol": "TBOTEK",
-"name": "TBO Tek Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Travel Services",
-"mcap_cr": 17277
-},
-{
-"symbol": "VBL",
-"name": "Varun Beverages Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Beverages - Non-Alcoholic",
-"mcap_cr": 146394
-},
-{
-"symbol": "BLUESTARCO",
-"name": "Blue Star Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Building Products & Equipment",
-"mcap_cr": 32632
-},
-{
-"symbol": "GILLETTE",
-"name": "Gillette India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Household & Personal Products",
-"mcap_cr": 23615
-},
-{
-"symbol": "INDIACEM",
-"name": "India Cements Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Building Materials",
-"mcap_cr": 16214
-},
-{
-"symbol": "INDUSTOWER",
-"name": "Indus Towers Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Telecom Services",
-"mcap_cr": 104464
-},
-{
-"symbol": "INOXINDIA",
-"name": "INOX India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 17847
-},
-{
-"symbol": "MANAPPURAM",
-"name": "Manappuram Finance Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 28932
-},
-{
-"symbol": "NAVA",
-"name": "Nava Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Conglomerates",
-"mcap_cr": 16285
-},
-{
-"symbol": "NHPC",
-"name": "NHPC Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Utilities - Renewable",
-"mcap_cr": 76171
-},
-{
-"symbol": "PGEL",
-"name": "PG Electroplast Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Electronic Components",
-"mcap_cr": 16253
-},
-{
-"symbol": "SUNDARMFIN",
-"name": "Sundaram Finance Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 47825
-},
-{
-"symbol": "ACC",
-"name": "ACC Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Building Materials",
-"mcap_cr": 22912
-},
-{
-"symbol": "AMBUJACEM",
-"name": "Ambuja Cements Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Building Materials",
-"mcap_cr": 94783
-},
-{
-"symbol": "BAJAJHFL",
-"name": "Bajaj Housing Finance Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Mortgage Finance",
-"mcap_cr": 67848
-},
-{
-"symbol": "CASTROLIND",
-"name": "Castrol India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Oil & Gas Refining & Marketing",
-"mcap_cr": 18806
-},
-{
-"symbol": "CGCL",
-"name": "Capri Global Capital Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 23695
-},
-{
-"symbol": "DABUR",
-"name": "Dabur India Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Household & Personal Products",
-"mcap_cr": 67503
-},
-{
-"symbol": "FINCABLES",
-"name": "Finolex Cables Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Electrical Equipment & Parts",
-"mcap_cr": 19423
-},
-{
-"symbol": "GODREJIND",
-"name": "Godrej Industries Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Conglomerates",
-"mcap_cr": 37631
-},
-{
-"symbol": "HAVELLS",
-"name": "Havells India Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Electrical Equipment & Parts",
-"mcap_cr": 72860
-},
-{
-"symbol": "HINDALCO",
-"name": "Hindalco Industries Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Aluminum",
-"mcap_cr": 209464
-},
-{
-"symbol": "HINDUNILVR",
-"name": "Hindustan Unilever Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Household & Personal Products",
-"mcap_cr": 468250
-},
-{
-"symbol": "ICICILIFE",
-"name": "ICICI Life Insurance Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Insurance - Life",
-"mcap_cr": 66111
-},
-{
-"symbol": "IDEA",
-"name": "Vodafone Idea Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Telecom Services",
-"mcap_cr": 136187
-},
-{
-"symbol": "IEX",
-"name": "Indian Energy Exchange Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Capital Markets",
-"mcap_cr": 10350
-},
-{
-"symbol": "JSWENERGY",
-"name": "JSW Energy Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Utilities - Independent Power Producers",
-"mcap_cr": 94318
-},
-{
-"symbol": "LLOYDSME",
-"name": "Lloyds Metals And Energy Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 100499
-},
-{
-"symbol": "MFSL",
-"name": "Max Financial Services Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Insurance - Life",
-"mcap_cr": 48354
-},
-{
-"symbol": "NCC",
-"name": "NCC Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Engineering & Construction",
-"mcap_cr": 8450
-},
-{
-"symbol": "NTPC",
-"name": "NTPC Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Utilities - Regulated Electric",
-"mcap_cr": 309421
-},
-{
-"symbol": "PFC",
-"name": "Power Finance Corporation Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 110306
-},
-{
-"symbol": "RAMCOCEM",
-"name": "The Ramco Cements Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Building Materials",
-"mcap_cr": 19369
-},
-{
-"symbol": "REDINGTON",
-"name": "Redington Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 27339
-},
-{
-"symbol": "SAMMAANCAP",
-"name": "Sammaan Capital Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Mortgage Finance",
-"mcap_cr": 16992
-},
-{
-"symbol": "SOBHA",
-"name": "Sobha Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Real Estate - Development",
-"mcap_cr": 13598
-},
-{
-"symbol": "SYRMA",
-"name": "Syrma SGS Technology Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Electronic Components",
-"mcap_cr": 28973
-},
-{
-"symbol": "TEGA",
-"name": "Tega Industries Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 12588
-},
-{
-"symbol": "TORNTPHARM",
-"name": "Torrent Pharmaceuticals Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 177632
-},
-{
-"symbol": "VIJAYA",
-"name": "Vijaya Diagnostic Centre Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Diagnostics & Research",
-"mcap_cr": 14524
-},
-{
-"symbol": "BALRAMCHIN",
-"name": "Balrampur Chini Mills Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Confectioners",
-"mcap_cr": 13858
-},
-{
-"symbol": "SOLARINDS",
-"name": "Solar Industries India Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 174990
-},
-{
-"symbol": "AZAD",
-"name": "Azad Engineering Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 15861
-},
-{
-"symbol": "CHENNPETRO",
-"name": "Chennai Petroleum Corporation Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Oil & Gas Refining & Marketing",
-"mcap_cr": 21268
-},
-{
-"symbol": "KPITTECH",
-"name": "KPIT Technologies Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Software - Application",
-"mcap_cr": 15027
+"sector": "Airports & Air Services",
+"mcap_cr": 108529
 },
 {
 "symbol": "MARUTI",
@@ -3009,28 +1850,683 @@
 "Nifty 500"
 ],
 "sector": "Auto Manufacturers",
-"mcap_cr": 404133
+"mcap_cr": 395235
 },
 {
-"symbol": "NAUKRI",
-"name": "Info Edge (India) Ltd.",
+"symbol": "MOTHERSON",
+"name": "Samvardhana Motherson International Ltd.",
 "fno": true,
 "indices": [
+"Nifty Next 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Internet Content & Information",
-"mcap_cr": 76957
+"sector": "Auto Parts",
+"mcap_cr": 173258
 },
 {
-"symbol": "SHRIPISTON",
-"name": "SPR Auto Technologies Ltd.",
+"symbol": "PWL",
+"name": "Physicswallah Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Education & Training Services",
+"mcap_cr": 37672
+},
+{
+"symbol": "WHIRLPOOL",
+"name": "Whirlpool of India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Furnishings, Fixtures & Appliances",
+"mcap_cr": 10604
+},
+{
+"symbol": "BALKRISIND",
+"name": "Balkrishna Industries Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
 "sector": "Auto Parts",
-"mcap_cr": 19906
+"mcap_cr": 44235
+},
+{
+"symbol": "BALRAMCHIN",
+"name": "Balrampur Chini Mills Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Confectioners",
+"mcap_cr": 13755
+},
+{
+"symbol": "BEL",
+"name": "Bharat Electronics Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Aerospace & Defense",
+"mcap_cr": 293415
+},
+{
+"symbol": "BSOFT",
+"name": "Birlasoft Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 8798
+},
+{
+"symbol": "CLEANMAX",
+"name": "Clean Max Enviro Energy Solutions Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Utilities - Renewable",
+"mcap_cr": 15142
+},
+{
+"symbol": "COALINDIA",
+"name": "Coal India Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Thermal Coal",
+"mcap_cr": 244968
+},
+{
+"symbol": "CYIENT",
+"name": "Cyient Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Conglomerates",
+"mcap_cr": 11501
+},
+{
+"symbol": "INFY",
+"name": "Infosys Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 463809
+},
+{
+"symbol": "ITC",
+"name": "ITC Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Tobacco",
+"mcap_cr": 369840
+},
+{
+"symbol": "MUTHOOTFIN",
+"name": "Muthoot Finance Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 111488
+},
+{
+"symbol": "TBOTEK",
+"name": "TBO Tek Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Travel Services",
+"mcap_cr": 16897
+},
+{
+"symbol": "MPHASIS",
+"name": "MphasiS Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 46474
+},
+{
+"symbol": "PGEL",
+"name": "PG Electroplast Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Electronic Components",
+"mcap_cr": 15267
+},
+{
+"symbol": "TATACONSUM",
+"name": "Tata Consumer Products Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Packaged Foods",
+"mcap_cr": 110599
+},
+{
+"symbol": "BAJAJFINSV",
+"name": "Bajaj Finserv Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Financial Conglomerates",
+"mcap_cr": 295757
+},
+{
+"symbol": "BAJAJHLDNG",
+"name": "Bajaj Holdings & Investment Ltd.",
+"fno": false,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Asset Management",
+"mcap_cr": 125973
+},
+{
+"symbol": "CEATLTD",
+"name": "Ceat Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 14143
+},
+{
+"symbol": "DEVYANI",
+"name": "Devyani International Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Restaurants",
+"mcap_cr": 15598
+},
+{
+"symbol": "FACT",
+"name": "Fertilisers and Chemicals Travancore Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Agricultural Inputs",
+"mcap_cr": 51374
+},
+{
+"symbol": "GODREJIND",
+"name": "Godrej Industries Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Conglomerates",
+"mcap_cr": 36750
+},
+{
+"symbol": "IREDA",
+"name": "Indian Renewable Energy Development Agency Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 32573
+},
+{
+"symbol": "KAJARIACER",
+"name": "Kajaria Ceramics Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Building Products & Equipment",
+"mcap_cr": 18504
+},
+{
+"symbol": "NAM-INDIA",
+"name": "Nippon Life India Asset Management Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Asset Management",
+"mcap_cr": 68998
+},
+{
+"symbol": "POLYMED",
+"name": "Poly Medicure Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Medical Instruments & Supplies",
+"mcap_cr": 17072
+},
+{
+"symbol": "SAGILITY",
+"name": "Sagility Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Health Information Services",
+"mcap_cr": 20317
+},
+{
+"symbol": "STLTECH",
+"name": "Sterlite Technologies Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Communication Equipment",
+"mcap_cr": 34722
+},
+{
+"symbol": "SUNPHARMA",
+"name": "Sun Pharmaceutical Industries Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 448076
+},
+{
+"symbol": "TATAELXSI",
+"name": "Tata Elxsi Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Software - Application",
+"mcap_cr": 23365
+},
+{
+"symbol": "TTML",
+"name": "Tata Teleservices (Maharashtra) Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Telecom Services",
+"mcap_cr": 7308
+},
+{
+"symbol": "UNITDSPR",
+"name": "United Spirits Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Beverages - Wineries & Distilleries",
+"mcap_cr": 102674
+},
+{
+"symbol": "WELCORP",
+"name": "Welspun Corp Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 58297
+},
+{
+"symbol": "ZENTEC",
+"name": "Zen Technologies Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Aerospace & Defense",
+"mcap_cr": 15581
+},
+{
+"symbol": "AARTIIND",
+"name": "Aarti Industries Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 17212
+},
+{
+"symbol": "ASIANPAINT",
+"name": "Asian Paints Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 246603
+},
+{
+"symbol": "BANDHANBNK",
+"name": "Bandhan Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 27857
+},
+{
+"symbol": "CAMS",
+"name": "Computer Age Management Services Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 17975
+},
+{
+"symbol": "CENTRALBK",
+"name": "Central Bank of India",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 29064
+},
+{
+"symbol": "EICHERMOT",
+"name": "Eicher Motors Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Auto Manufacturers",
+"mcap_cr": 208629
+},
+{
+"symbol": "ELECON",
+"name": "Elecon Engineering Co. Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 9973
+},
+{
+"symbol": "EMBASSY",
+"name": "EMBASSY OFFICE PARKS REIT",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Unknown",
+"mcap_cr": 35064
+},
+{
+"symbol": "GLAXO",
+"name": "Glaxosmithkline Pharmaceuticals Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - General",
+"mcap_cr": 44921
+},
+{
+"symbol": "HYUNDAI",
+"name": "Hyundai Motor India Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Auto Manufacturers",
+"mcap_cr": 169334
+},
+{
+"symbol": "PIDILITIND",
+"name": "Pidilite Industries Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 157446
+},
+{
+"symbol": "RBLBANK",
+"name": "RBL Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 59309
+},
+{
+"symbol": "SOLARINDS",
+"name": "Solar Industries India Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 170302
+},
+{
+"symbol": "TATASTEEL",
+"name": "Tata Steel Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 227312
+},
+{
+"symbol": "TECHNOE",
+"name": "Techno Electric & Engineering Company Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Engineering & Construction",
+"mcap_cr": 11108
+},
+{
+"symbol": "TMCV",
+"name": "Tata Motors Ltd.",
+"fno": false,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Auto Manufacturers",
+"mcap_cr": 157717
+},
+{
+"symbol": "UPL",
+"name": "UPL Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Agricultural Inputs",
+"mcap_cr": 47628
+},
+{
+"symbol": "VBL",
+"name": "Varun Beverages Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Beverages - Non-Alcoholic",
+"mcap_cr": 147815
+},
+{
+"symbol": "BLUESTARCO",
+"name": "Blue Star Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Building Products & Equipment",
+"mcap_cr": 33388
+},
+{
+"symbol": "CASTROLIND",
+"name": "Castrol India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Oil & Gas Refining & Marketing",
+"mcap_cr": 18807
+},
+{
+"symbol": "DATAPATTNS",
+"name": "Data Patterns (India) Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Aerospace & Defense",
+"mcap_cr": 23457
+},
+{
+"symbol": "GICRE",
+"name": "General Insurance Corporation of India",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Insurance - Reinsurance",
+"mcap_cr": 60439
+},
+{
+"symbol": "ICICIAMC",
+"name": "ICICI Prudential Asset Management Company Ltd.",
+"fno": false,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Asset Management",
+"mcap_cr": 149513
+},
+{
+"symbol": "ICICIGI",
+"name": "ICICI Lombard General Insurance Company Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Insurance - Diversified",
+"mcap_cr": 85415
+},
+{
+"symbol": "INDIACEM",
+"name": "India Cements Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Building Materials",
+"mcap_cr": 15658
+},
+{
+"symbol": "INDUSTOWER",
+"name": "Indus Towers Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Telecom Services",
+"mcap_cr": 104517
+},
+{
+"symbol": "INOXINDIA",
+"name": "INOX India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 17284
+},
+{
+"symbol": "POWERINDIA",
+"name": "Hitachi Energy India Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Electrical Equipment & Parts",
+"mcap_cr": 137662
 },
 {
 "symbol": "ABB",
@@ -3042,27 +2538,29 @@
 "Nifty 500"
 ],
 "sector": "Specialty Industrial Machinery",
-"mcap_cr": 149491
+"mcap_cr": 146111
 },
 {
-"symbol": "APOLLOTYRE",
-"name": "Apollo Tyres Ltd.",
+"symbol": "ABREL",
+"name": "Aditya Birla Real Estate Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Auto Parts",
-"mcap_cr": 26619
+"sector": "Real Estate Services",
+"mcap_cr": 13491
 },
 {
-"symbol": "BATAINDIA",
-"name": "Bata India Ltd.",
-"fno": false,
+"symbol": "AMBUJACEM",
+"name": "Ambuja Cements Ltd.",
+"fno": true,
 "indices": [
+"Nifty Next 50",
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Footwear & Accessories",
-"mcap_cr": 8253
+"sector": "Building Materials",
+"mcap_cr": 94920
 },
 {
 "symbol": "BERGEPAINT",
@@ -3072,207 +2570,59 @@
 "Nifty 500"
 ],
 "sector": "Specialty Chemicals",
-"mcap_cr": 55443
+"mcap_cr": 54837
 },
 {
-"symbol": "BIOCON",
-"name": "Biocon Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Biotechnology",
-"mcap_cr": 59622
-},
-{
-"symbol": "BLS",
-"name": "BLS International Services Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Business Services",
-"mcap_cr": 9445
-},
-{
-"symbol": "BPCL",
-"name": "Bharat Petroleum Corporation Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Oil & Gas Refining & Marketing",
-"mcap_cr": 131023
-},
-{
-"symbol": "BRIGADE",
-"name": "Brigade Enterprises Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Real Estate - Development",
-"mcap_cr": 17911
-},
-{
-"symbol": "CHOLAHLDNG",
-"name": "Cholamandalam Financial Holdings Ltd.",
+"symbol": "CGCL",
+"name": "Capri Global Capital Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
 "sector": "Credit Services",
-"mcap_cr": 27416
+"mcap_cr": 23213
 },
 {
-"symbol": "CIEINDIA",
-"name": "CIE Automotive India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 13976
-},
-{
-"symbol": "CROMPTON",
-"name": "Crompton Greaves Consumer Electricals Ltd.",
+"symbol": "COROMANDEL",
+"name": "Coromandel International Ltd.",
 "fno": true,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Furnishings, Fixtures & Appliances",
-"mcap_cr": 13611
+"sector": "Agricultural Inputs",
+"mcap_cr": 57980
 },
 {
-"symbol": "DELHIVERY",
-"name": "Delhivery Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Integrated Freight & Logistics",
-"mcap_cr": 32702
-},
-{
-"symbol": "EXIDEIND",
-"name": "Exide Industries Ltd.",
-"fno": false,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 31705
-},
-{
-"symbol": "GODREJCP",
-"name": "Godrej Consumer Products Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Household & Personal Products",
-"mcap_cr": 89118
-},
-{
-"symbol": "GPIL",
-"name": "Godawari Power & Ispat Ltd.",
+"symbol": "FINCABLES",
+"name": "Finolex Cables Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Steel",
-"mcap_cr": 14331
+"sector": "Electrical Equipment & Parts",
+"mcap_cr": 19192
 },
 {
-"symbol": "GRAVITA",
-"name": "Gravita India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Metal Fabrication",
-"mcap_cr": 10912
-},
-{
-"symbol": "HINDZINC",
-"name": "Hindustan Zinc Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Other Industrial Metals & Mining",
-"mcap_cr": 234442
-},
-{
-"symbol": "HUDCO",
-"name": "Housing & Urban Development Corporation Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 33552
-},
-{
-"symbol": "INDIAMART",
-"name": "Indiamart Intermesh Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Internet Retail",
-"mcap_cr": 9673
-},
-{
-"symbol": "IOB",
-"name": "Indian Overseas Bank",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 60909
-},
-{
-"symbol": "JAINREC",
-"name": "Jain Resource Recycling Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Other Industrial Metals & Mining",
-"mcap_cr": 9745
-},
-{
-"symbol": "JIOFIN",
-"name": "Jio Financial Services Ltd.",
+"symbol": "HINDUNILVR",
+"name": "Hindustan Unilever Ltd.",
 "fno": true,
 "indices": [
 "Nifty 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Asset Management",
-"mcap_cr": 155909
+"sector": "Household & Personal Products",
+"mcap_cr": 469989
 },
 {
-"symbol": "JKCEMENT",
-"name": "J.K. Cement Ltd.",
-"fno": false,
+"symbol": "IEX",
+"name": "Indian Energy Exchange Ltd.",
+"fno": true,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Building Materials",
-"mcap_cr": 39833
+"sector": "Capital Markets",
+"mcap_cr": 10275
 },
 {
 "symbol": "JKTYRE",
@@ -3282,62 +2632,50 @@
 "Nifty 500"
 ],
 "sector": "Auto Parts",
-"mcap_cr": 10479
+"mcap_cr": 10315
 },
 {
-"symbol": "LTF",
-"name": "L&T Finance Ltd.",
+"symbol": "JSWENERGY",
+"name": "JSW Energy Ltd.",
 "fno": true,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Credit Services",
-"mcap_cr": 69542
+"sector": "Utilities - Independent Power Producers",
+"mcap_cr": 94079
 },
 {
-"symbol": "LTM",
-"name": "LTM Ltd.",
+"symbol": "LICI",
+"name": "Life Insurance Corporation of India",
 "fno": true,
 "indices": [
-"Nifty Next 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Information Technology Services",
-"mcap_cr": 126201
+"sector": "Insurance - Life",
+"mcap_cr": 506000
 },
 {
-"symbol": "MAXHEALTH",
-"name": "Max Healthcare Institute Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Medical Care Facilities",
-"mcap_cr": 92184
-},
-{
-"symbol": "NBCC",
-"name": "NBCC (India) Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Engineering & Construction",
-"mcap_cr": 21330
-},
-{
-"symbol": "NEULANDLAB",
-"name": "Neuland Laboratories Ltd.",
+"symbol": "NCC",
+"name": "NCC Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 27043
+"sector": "Engineering & Construction",
+"mcap_cr": 8334
+},
+{
+"symbol": "NHPC",
+"name": "NHPC Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Utilities - Renewable",
+"mcap_cr": 75388
 },
 {
 "symbol": "ONGC",
@@ -3349,27 +2687,7 @@
 "Nifty 500"
 ],
 "sector": "Oil & Gas Integrated",
-"mcap_cr": 283056
-},
-{
-"symbol": "PARADEEP",
-"name": "Paradeep Phosphates Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Agricultural Inputs",
-"mcap_cr": 14582
-},
-{
-"symbol": "PWL",
-"name": "Physicswallah Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Education & Training Services",
-"mcap_cr": 38272
+"mcap_cr": 285560
 },
 {
 "symbol": "RECLTD",
@@ -3383,26 +2701,48 @@
 "mcap_cr": null
 },
 {
-"symbol": "TATAPOWER",
-"name": "Tata Power Co. Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Utilities - Independent Power Producers",
-"mcap_cr": 111198
-},
-{
-"symbol": "TECHNOE",
-"name": "Techno Electric & Engineering Company Ltd.",
+"symbol": "REDINGTON",
+"name": "Redington Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Engineering & Construction",
-"mcap_cr": 11150
+"sector": "Information Technology Services",
+"mcap_cr": 26623
+},
+{
+"symbol": "SBILIFE",
+"name": "SBI Life Insurance Company Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Insurance - Life",
+"mcap_cr": 183393
+},
+{
+"symbol": "SHRIRAMFIN",
+"name": "Shriram Finance Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 230231
+},
+{
+"symbol": "SYRMA",
+"name": "Syrma SGS Technology Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Electronic Components",
+"mcap_cr": 28027
 },
 {
 "symbol": "TIMKEN",
@@ -3412,29 +2752,7 @@
 "Nifty 500"
 ],
 "sector": "Tools & Accessories",
-"mcap_cr": 23471
-},
-{
-"symbol": "TMPV",
-"name": "Tata Motors Passenger Vehicles Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Auto Manufacturers",
-"mcap_cr": 105851
-},
-{
-"symbol": "TRIDENT",
-"name": "Trident Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Textile Manufacturing",
-"mcap_cr": 11995
+"mcap_cr": 23456
 },
 {
 "symbol": "UBL",
@@ -3444,7 +2762,510 @@
 "Nifty 500"
 ],
 "sector": "Beverages - Brewers",
-"mcap_cr": 32152
+"mcap_cr": 31628
+},
+{
+"symbol": "ZFCVINDIA",
+"name": "ZF Commercial Vehicle Control Systems India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 25123
+},
+{
+"symbol": "MAXHEALTH",
+"name": "Max Healthcare Institute Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Medical Care Facilities",
+"mcap_cr": 98296
+},
+{
+"symbol": "SHREECEM",
+"name": "Shree Cement Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Building Materials",
+"mcap_cr": 89733
+},
+{
+"symbol": "AZAD",
+"name": "Azad Engineering Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 15489
+},
+{
+"symbol": "CARTRADE",
+"name": "Cartrade Tech Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto & Truck Dealerships",
+"mcap_cr": 12854
+},
+{
+"symbol": "CHENNPETRO",
+"name": "Chennai Petroleum Corporation Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Oil & Gas Refining & Marketing",
+"mcap_cr": 21205
+},
+{
+"symbol": "GILLETTE",
+"name": "Gillette India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Household & Personal Products",
+"mcap_cr": 23095
+},
+{
+"symbol": "IPCALAB",
+"name": "Ipca Laboratories Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 47329
+},
+{
+"symbol": "KPIL",
+"name": "Kalpataru Projects International Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Engineering & Construction",
+"mcap_cr": 22983
+},
+{
+"symbol": "LLOYDSME",
+"name": "Lloyds Metals And Energy Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 98389
+},
+{
+"symbol": "PRIVISCL",
+"name": "Privi Speciality Chemicals Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 13140
+},
+{
+"symbol": "SHRIPISTON",
+"name": "SPR Auto Technologies Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 19918
+},
+{
+"symbol": "TORNTPHARM",
+"name": "Torrent Pharmaceuticals Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 178438
+},
+{
+"symbol": "VOLTAS",
+"name": "Voltas Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Furnishings, Fixtures & Appliances",
+"mcap_cr": 38138
+},
+{
+"symbol": "APOLLOTYRE",
+"name": "Apollo Tyres Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 26897
+},
+{
+"symbol": "BATAINDIA",
+"name": "Bata India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Footwear & Accessories",
+"mcap_cr": 8126
+},
+{
+"symbol": "BLS",
+"name": "BLS International Services Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Business Services",
+"mcap_cr": 9263
+},
+{
+"symbol": "BPCL",
+"name": "Bharat Petroleum Corporation Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Oil & Gas Refining & Marketing",
+"mcap_cr": 132455
+},
+{
+"symbol": "CHOLAHLDNG",
+"name": "Cholamandalam Financial Holdings Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 26785
+},
+{
+"symbol": "DABUR",
+"name": "Dabur India Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Household & Personal Products",
+"mcap_cr": 67752
+},
+{
+"symbol": "DEEPAKNTR",
+"name": "Deepak Nitrite Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Chemicals",
+"mcap_cr": 21753
+},
+{
+"symbol": "DELHIVERY",
+"name": "Delhivery Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Integrated Freight & Logistics",
+"mcap_cr": 33013
+},
+{
+"symbol": "DIXON",
+"name": "Dixon Technologies (India) Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Consumer Electronics",
+"mcap_cr": 78849
+},
+{
+"symbol": "ENRIN",
+"name": "Siemens Energy India Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Utilities - Renewable",
+"mcap_cr": 110291
+},
+{
+"symbol": "GPIL",
+"name": "Godawari Power & Ispat Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 14547
+},
+{
+"symbol": "HAVELLS",
+"name": "Havells India Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Electrical Equipment & Parts",
+"mcap_cr": 73550
+},
+{
+"symbol": "HUDCO",
+"name": "Housing & Urban Development Corporation Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 32607
+},
+{
+"symbol": "ICICILIFE",
+"name": "ICICI Life Insurance Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Insurance - Life",
+"mcap_cr": 66916
+},
+{
+"symbol": "IDFCFIRSTB",
+"name": "IDFC First Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 70149
+},
+{
+"symbol": "INDUSINDBK",
+"name": "IndusInd Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 71257
+},
+{
+"symbol": "IOB",
+"name": "Indian Overseas Bank",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 60042
+},
+{
+"symbol": "IRB",
+"name": "IRB Infrastructure Developers Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Infrastructure Operations",
+"mcap_cr": 21885
+},
+{
+"symbol": "ITI",
+"name": "ITI Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Communication Equipment",
+"mcap_cr": 24584
+},
+{
+"symbol": "J&KBANK",
+"name": "Jammu & Kashmir Bank Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 15121
+},
+{
+"symbol": "JINDALSAW",
+"name": "Jindal Saw Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 16627
+},
+{
+"symbol": "JIOFIN",
+"name": "Jio Financial Services Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Asset Management",
+"mcap_cr": 154881
+},
+{
+"symbol": "JKCEMENT",
+"name": "J.K. Cement Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Building Materials",
+"mcap_cr": 40586
+},
+{
+"symbol": "LTF",
+"name": "L&T Finance Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 69930
+},
+{
+"symbol": "MFSL",
+"name": "Max Financial Services Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Insurance - Life",
+"mcap_cr": 49262
+},
+{
+"symbol": "MRF",
+"name": "MRF Ltd.",
+"fno": false,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 54323
+},
+{
+"symbol": "NAVA",
+"name": "Nava Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Conglomerates",
+"mcap_cr": 15770
+},
+{
+"symbol": "NEULANDLAB",
+"name": "Neuland Laboratories Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 27764
+},
+{
+"symbol": "NTPC",
+"name": "NTPC Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Utilities - Regulated Electric",
+"mcap_cr": 311505
+},
+{
+"symbol": "PNBHOUSING",
+"name": "PNB Housing Finance Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Mortgage Finance",
+"mcap_cr": 29625
+},
+{
+"symbol": "POWERGRID",
+"name": "Power Grid Corporation of India Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Utilities - Regulated Electric",
+"mcap_cr": 243862
+},
+{
+"symbol": "SIGNATURE",
+"name": "Signatureglobal (India) Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Real Estate - Development",
+"mcap_cr": 10771
+},
+{
+"symbol": "SOBHA",
+"name": "Sobha Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Real Estate - Development",
+"mcap_cr": 13386
+},
+{
+"symbol": "TRIDENT",
+"name": "Trident Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Textile Manufacturing",
+"mcap_cr": 11898
 },
 {
 "symbol": "UCOBANK",
@@ -3454,26 +3275,134 @@
 "Nifty 500"
 ],
 "sector": "Banks - Regional",
-"mcap_cr": 31148
+"mcap_cr": 30935
 },
 {
-"symbol": "UJJIVANSFB",
-"name": "UJJIVANSFB",
+"symbol": "ACC",
+"name": "ACC Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Building Materials",
+"mcap_cr": 22965
+},
+{
+"symbol": "AJANTPHARM",
+"name": "Ajanta Pharmaceuticals Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 41994
+},
+{
+"symbol": "BAJAJ-AUTO",
+"name": "Bajaj Auto Ltd.",
 "fno": true,
-"indices": [],
-"sector": "Banks - Regional",
-"mcap_cr": 11842
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Auto Manufacturers",
+"mcap_cr": 294974
 },
 {
-"symbol": "UPL",
-"name": "UPL Ltd.",
+"symbol": "CANFINHOME",
+"name": "Can Fin Homes Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Mortgage Finance",
+"mcap_cr": 10200
+},
+{
+"symbol": "CARBORUNIV",
+"name": "Carborundum Universal Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Tools & Accessories",
+"mcap_cr": 20186
+},
+{
+"symbol": "CRISIL",
+"name": "CRISIL Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Financial Data & Stock Exchanges",
+"mcap_cr": 31041
+},
+{
+"symbol": "GODREJCP",
+"name": "Godrej Consumer Products Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Household & Personal Products",
+"mcap_cr": 91364
+},
+{
+"symbol": "LTM",
+"name": "LTM Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 124520
+},
+{
+"symbol": "MTARTECH",
+"name": "MTAR Technologies Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 18176
+},
+{
+"symbol": "NATCOPHARM",
+"name": "NATCO Pharma Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 16255
+},
+{
+"symbol": "SAMMAANCAP",
+"name": "Sammaan Capital Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Mortgage Finance",
+"mcap_cr": 16972
+},
+{
+"symbol": "SRF",
+"name": "SRF Ltd.",
 "fno": true,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Agricultural Inputs",
-"mcap_cr": 47285
+"sector": "Conglomerates",
+"mcap_cr": 73420
 },
 {
 "symbol": "VEDL",
@@ -3485,142 +3414,7 @@
 "Nifty 500"
 ],
 "sector": "Other Industrial Metals & Mining",
-"mcap_cr": 101400
-},
-{
-"symbol": "AEGISVOPAK",
-"name": "Aegis Vopak Terminals Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Oil & Gas Equipment & Services",
-"mcap_cr": 31681
-},
-{
-"symbol": "AJANTPHARM",
-"name": "Ajanta Pharmaceuticals Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 41037
-},
-{
-"symbol": "CANFINHOME",
-"name": "Can Fin Homes Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Mortgage Finance",
-"mcap_cr": 10405
-},
-{
-"symbol": "CARBORUNIV",
-"name": "Carborundum Universal Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Tools & Accessories",
-"mcap_cr": 20238
-},
-{
-"symbol": "CRISIL",
-"name": "CRISIL Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Financial Data & Stock Exchanges",
-"mcap_cr": 31829
-},
-{
-"symbol": "GVT&D",
-"name": "GE Vernova T&D India Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 113173
-},
-{
-"symbol": "IKS",
-"name": "Inventurus Knowledge Solutions Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Health Information Services",
-"mcap_cr": 27413
-},
-{
-"symbol": "IRCTC",
-"name": "Indian Railway Catering And Tourism Corporation Ltd.",
-"fno": false,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Travel Services",
-"mcap_cr": 36616
-},
-{
-"symbol": "MTARTECH",
-"name": "MTAR Technologies Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 18630
-},
-{
-"symbol": "SRF",
-"name": "SRF Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Conglomerates",
-"mcap_cr": 73360
-},
-{
-"symbol": "USHAMART",
-"name": "Usha Martin Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 14664
-},
-{
-"symbol": "ZFCVINDIA",
-"name": "ZF Commercial Vehicle Control Systems India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 26544
-},
-{
-"symbol": "ADANIENT",
-"name": "Adani Enterprises Ltd.",
-"fno": true,
-"indices": [
-"Nifty 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Thermal Coal",
-"mcap_cr": 363881
+"mcap_cr": 98791
 },
 {
 "symbol": "AEGISLOG",
@@ -3630,27 +3424,37 @@
 "Nifty 500"
 ],
 "sector": "Oil & Gas Refining & Marketing",
-"mcap_cr": 42976
+"mcap_cr": 43106
 },
 {
-"symbol": "ALKEM",
-"name": "Alkem Laboratories Ltd.",
+"symbol": "AMBER",
+"name": "Amber Enterprises India Ltd.",
 "fno": true,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 61146
+"sector": "Furnishings, Fixtures & Appliances",
+"mcap_cr": 22049
 },
 {
-"symbol": "BELRISE",
-"name": "Belrise Industries Ltd.",
+"symbol": "AVANTIFEED",
+"name": "Avanti Feeds Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Auto Parts",
-"mcap_cr": 20813
+"sector": "Packaged Foods",
+"mcap_cr": 9935
+},
+{
+"symbol": "CAPLIPOINT",
+"name": "Caplin Point Laboratories Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 17838
 },
 {
 "symbol": "CGPOWER",
@@ -3662,27 +3466,17 @@
 "Nifty 500"
 ],
 "sector": "Electrical Equipment & Parts",
-"mcap_cr": 130451
+"mcap_cr": 128985
 },
 {
-"symbol": "DATAPATTNS",
-"name": "Data Patterns (India) Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Aerospace & Defense",
-"mcap_cr": 23894
-},
-{
-"symbol": "GMDCLTD",
-"name": "Gujarat Mineral Development Corporation Ltd.",
+"symbol": "GRANULES",
+"name": "Granules India Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Thermal Coal",
-"mcap_cr": 15528
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 21794
 },
 {
 "symbol": "HEGAM",
@@ -3692,17 +3486,7 @@
 "Nifty 500"
 ],
 "sector": "Electrical Equipment & Parts",
-"mcap_cr": 9163
-},
-{
-"symbol": "IRB",
-"name": "IRB Infrastructure Developers Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Infrastructure Operations",
-"mcap_cr": 22682
+"mcap_cr": 9080
 },
 {
 "symbol": "IRCON",
@@ -3712,27 +3496,19 @@
 "Nifty 500"
 ],
 "sector": "Engineering & Construction",
-"mcap_cr": 10460
+"mcap_cr": 10259
 },
 {
-"symbol": "JINDALSAW",
-"name": "Jindal Saw Ltd.",
-"fno": false,
+"symbol": "IRFC",
+"name": "Indian Railway Finance Corporation Ltd.",
+"fno": true,
 "indices": [
+"Nifty Next 50",
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Steel",
-"mcap_cr": 16677
-},
-{
-"symbol": "JSL",
-"name": "Jindal Stainless Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 58711
+"sector": "Credit Services",
+"mcap_cr": 107306
 },
 {
 "symbol": "KAYNES",
@@ -3742,28 +3518,38 @@
 "Nifty 500"
 ],
 "sector": "Electronic Components",
-"mcap_cr": 23057
+"mcap_cr": 20032
 },
 {
-"symbol": "MRF",
-"name": "MRF Ltd.",
-"fno": false,
+"symbol": "KPITTECH",
+"name": "KPIT Technologies Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Software - Application",
+"mcap_cr": 14600
+},
+{
+"symbol": "NAUKRI",
+"name": "Info Edge (India) Ltd.",
+"fno": true,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Auto Parts",
-"mcap_cr": 54268
+"sector": "Internet Content & Information",
+"mcap_cr": 75810
 },
 {
-"symbol": "OLAELEC",
-"name": "Ola Electric Mobility Ltd.",
-"fno": false,
+"symbol": "NBCC",
+"name": "NBCC (India) Ltd.",
+"fno": true,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Auto Manufacturers",
-"mcap_cr": 16594
+"sector": "Engineering & Construction",
+"mcap_cr": 21119
 },
 {
 "symbol": "RAILTEL",
@@ -3773,7 +3559,7 @@
 "Nifty 500"
 ],
 "sector": "Telecom Services",
-"mcap_cr": 8158
+"mcap_cr": 7905
 },
 {
 "symbol": "RVNL",
@@ -3784,7 +3570,7 @@
 "Nifty 500"
 ],
 "sector": "Engineering & Construction",
-"mcap_cr": 41588
+"mcap_cr": 40524
 },
 {
 "symbol": "SIEMENS",
@@ -3796,38 +3582,17 @@
 "Nifty 500"
 ],
 "sector": "Specialty Industrial Machinery",
-"mcap_cr": 130340
+"mcap_cr": 127523
 },
 {
-"symbol": "SIGNATURE",
-"name": "Signatureglobal (India) Ltd.",
+"symbol": "USHAMART",
+"name": "Usha Martin Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Real Estate - Development",
-"mcap_cr": 10785
-},
-{
-"symbol": "TATATECH",
-"name": "Tata Technologies Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 27157
-},
-{
-"symbol": "VOLTAS",
-"name": "Voltas Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Furnishings, Fixtures & Appliances",
-"mcap_cr": 37493
+"sector": "Steel",
+"mcap_cr": 14307
 },
 {
 "symbol": "WAAREEENER",
@@ -3838,7 +3603,7 @@
 "Nifty 500"
 ],
 "sector": "Solar",
-"mcap_cr": 73236
+"mcap_cr": 70216
 },
 {
 "symbol": "AUBANK",
@@ -3849,37 +3614,17 @@
 "Nifty 500"
 ],
 "sector": "Banks - Regional",
-"mcap_cr": 72469
+"mcap_cr": 72795
 },
 {
-"symbol": "AVANTIFEED",
-"name": "Avanti Feeds Ltd.",
+"symbol": "BAJAJHFL",
+"name": "Bajaj Housing Finance Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Packaged Foods",
-"mcap_cr": 10172
-},
-{
-"symbol": "CCL",
-"name": "CCL Products (I) Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Packaged Foods",
-"mcap_cr": 13043
-},
-{
-"symbol": "CHOICEIN",
-"name": "Choice International Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Capital Markets",
-"mcap_cr": 16204
+"sector": "Mortgage Finance",
+"mcap_cr": 68256
 },
 {
 "symbol": "DMART",
@@ -3891,27 +3636,29 @@
 "Nifty 500"
 ],
 "sector": "Discount Stores",
-"mcap_cr": 224349
+"mcap_cr": 225543
 },
 {
-"symbol": "DOMS",
-"name": "DOMS Industries Ltd.",
+"symbol": "ENDURANCE",
+"name": "Endurance Technologies Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Business Equipment & Supplies",
-"mcap_cr": 12223
+"sector": "Auto Parts",
+"mcap_cr": 35652
 },
 {
-"symbol": "FACT",
-"name": "Fertilisers and Chemicals Travancore Ltd.",
-"fno": false,
+"symbol": "GRASIM",
+"name": "Grasim Industries Ltd.",
+"fno": true,
 "indices": [
+"Nifty 50",
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Agricultural Inputs",
-"mcap_cr": 52296
+"sector": "Building Materials",
+"mcap_cr": 209212
 },
 {
 "symbol": "HDBFS",
@@ -3921,7 +3668,19 @@
 "Nifty 500"
 ],
 "sector": "Credit Services",
-"mcap_cr": 46947
+"mcap_cr": 46914
+},
+{
+"symbol": "HINDALCO",
+"name": "Hindalco Industries Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Aluminum",
+"mcap_cr": 204958
 },
 {
 "symbol": "HOMEFIRST",
@@ -3931,38 +3690,29 @@
 "Nifty 500"
 ],
 "sector": "Mortgage Finance",
-"mcap_cr": 11603
+"mcap_cr": 11327
 },
 {
-"symbol": "IGL",
-"name": "Indraprastha Gas Ltd.",
+"symbol": "PARADEEP",
+"name": "Paradeep Phosphates Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Utilities - Regulated Gas",
-"mcap_cr": 19926
+"sector": "Agricultural Inputs",
+"mcap_cr": 14209
 },
 {
-"symbol": "ITI",
-"name": "ITI Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Communication Equipment",
-"mcap_cr": 25811
-},
-{
-"symbol": "LUPIN",
-"name": "Lupin Ltd.",
+"symbol": "PFC",
+"name": "Power Finance Corporation Ltd.",
 "fno": true,
 "indices": [
+"Nifty Next 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 90558
+"sector": "Credit Services",
+"mcap_cr": 109827
 },
 {
 "symbol": "RAINBOW",
@@ -3972,7 +3722,39 @@
 "Nifty 500"
 ],
 "sector": "Medical Care Facilities",
-"mcap_cr": 12863
+"mcap_cr": 12917
+},
+{
+"symbol": "RAMCOCEM",
+"name": "The Ramco Cements Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Building Materials",
+"mcap_cr": 19593
+},
+{
+"symbol": "SUNDARMFIN",
+"name": "Sundaram Finance Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 47287
+},
+{
+"symbol": "ADANIENT",
+"name": "Adani Enterprises Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Thermal Coal",
+"mcap_cr": 359955
 },
 {
 "symbol": "APARINDS",
@@ -3983,27 +3765,19 @@
 "Nifty 500"
 ],
 "sector": "Electrical Equipment & Parts",
-"mcap_cr": 61414
+"mcap_cr": 62101
 },
 {
-"symbol": "CAPLIPOINT",
-"name": "Caplin Point Laboratories Ltd.",
-"fno": false,
+"symbol": "HAL",
+"name": "Hindustan Aeronautics Ltd.",
+"fno": true,
 "indices": [
+"Nifty Next 50",
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 18157
-},
-{
-"symbol": "CARTRADE",
-"name": "Cartrade Tech Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto & Truck Dealerships",
-"mcap_cr": 13107
+"sector": "Aerospace & Defense",
+"mcap_cr": 320276
 },
 {
 "symbol": "HFCL",
@@ -4013,7 +3787,19 @@
 "Nifty 500"
 ],
 "sector": "Communication Equipment",
-"mcap_cr": 31442
+"mcap_cr": 29871
+},
+{
+"symbol": "IDEA",
+"name": "Vodafone Idea Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Telecom Services",
+"mcap_cr": 135754
 },
 {
 "symbol": "OFSS",
@@ -4024,7 +3810,7 @@
 "Nifty 500"
 ],
 "sector": "Software - Infrastructure",
-"mcap_cr": 86370
+"mcap_cr": 86814
 },
 {
 "symbol": "AADHARHFC",
@@ -4034,7 +3820,37 @@
 "Nifty 500"
 ],
 "sector": "Mortgage Finance",
-"mcap_cr": 18980
+"mcap_cr": 18607
+},
+{
+"symbol": "ABSLAMC",
+"name": "Aditya Birla Sun Life AMC Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Asset Management",
+"mcap_cr": 25949
+},
+{
+"symbol": "AFCONS",
+"name": "Afcons Infrastructure Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Engineering & Construction",
+"mcap_cr": 7931
+},
+{
+"symbol": "CCL",
+"name": "CCL Products (I) Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Packaged Foods",
+"mcap_cr": 13188
 },
 {
 "symbol": "CMPDI",
@@ -4047,25 +3863,97 @@
 "mcap_cr": null
 },
 {
-"symbol": "FORTIS",
-"name": "Fortis Healthcare Ltd.",
+"symbol": "FIVESTAR",
+"name": "Five-Star Business Finance Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 12705
+},
+{
+"symbol": "JUBLINGREA",
+"name": "Jubilant Ingrevia Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 9331
+},
+{
+"symbol": "LUPIN",
+"name": "Lupin Ltd.",
 "fno": true,
 "indices": [
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Medical Care Facilities",
-"mcap_cr": 57679
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 90393
 },
 {
-"symbol": "ABSLAMC",
-"name": "Aditya Birla Sun Life AMC Ltd.",
+"symbol": "M&MFIN",
+"name": "Mahindra & Mahindra Financial Services Ltd.",
+"fno": false,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 39681
+},
+{
+"symbol": "SCHAEFFLER",
+"name": "Schaeffler India Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Asset Management",
-"mcap_cr": 25924
+"sector": "Auto Parts",
+"mcap_cr": 56332
+},
+{
+"symbol": "SUPREMEIND",
+"name": "Supreme Industries Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Building Products & Equipment",
+"mcap_cr": 41509
+},
+{
+"symbol": "TEGA",
+"name": "Tega Industries Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 12058
+},
+{
+"symbol": "TENNIND",
+"name": "Tenneco Clean Air India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 17458
+},
+{
+"symbol": "VIJAYA",
+"name": "Vijaya Diagnostic Centre Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Diagnostics & Research",
+"mcap_cr": 15321
 },
 {
 "symbol": "ARE&M",
@@ -4075,7 +3963,7 @@
 "Nifty 500"
 ],
 "sector": "Electrical Equipment & Parts",
-"mcap_cr": 13760
+"mcap_cr": 13522
 },
 {
 "symbol": "BHARATCOAL",
@@ -4086,6 +3974,17 @@
 ],
 "sector": "Coking Coal",
 "mcap_cr": null
+},
+{
+"symbol": "BIOCON",
+"name": "Biocon Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Biotechnology",
+"mcap_cr": 59319
 },
 {
 "symbol": "BIRET",
@@ -4105,7 +4004,17 @@
 "Nifty 500"
 ],
 "sector": "Agricultural Inputs",
-"mcap_cr": 15395
+"mcap_cr": 14884
+},
+{
+"symbol": "CIEINDIA",
+"name": "CIE Automotive India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 13788
 },
 {
 "symbol": "COLPAL",
@@ -4116,7 +4025,7 @@
 "Nifty 500"
 ],
 "sector": "Household & Personal Products",
-"mcap_cr": 46618
+"mcap_cr": 46341
 },
 {
 "symbol": "CONCOR",
@@ -4127,7 +4036,27 @@
 "Nifty 500"
 ],
 "sector": "Railroads",
-"mcap_cr": 33675
+"mcap_cr": 33664
+},
+{
+"symbol": "CROMPTON",
+"name": "Crompton Greaves Consumer Electricals Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Furnishings, Fixtures & Appliances",
+"mcap_cr": 13715
+},
+{
+"symbol": "DOMS",
+"name": "DOMS Industries Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Business Equipment & Supplies",
+"mcap_cr": 12251
 },
 {
 "symbol": "EMMVEE",
@@ -4137,17 +4066,28 @@
 "Nifty 500"
 ],
 "sector": "Solar",
-"mcap_cr": 19184
+"mcap_cr": 19028
 },
 {
-"symbol": "ENDURANCE",
-"name": "Endurance Technologies Ltd.",
+"symbol": "EXIDEIND",
+"name": "Exide Industries Ltd.",
+"fno": false,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 31068
+},
+{
+"symbol": "GRAVITA",
+"name": "Gravita India Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Auto Parts",
-"mcap_cr": 35731
+"sector": "Metal Fabrication",
+"mcap_cr": 10923
 },
 {
 "symbol": "HINDCOPPER",
@@ -4158,7 +4098,29 @@
 "Nifty 500"
 ],
 "sector": "Copper",
-"mcap_cr": 42535
+"mcap_cr": 41635
+},
+{
+"symbol": "HINDZINC",
+"name": "Hindustan Zinc Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Other Industrial Metals & Mining",
+"mcap_cr": 232477
+},
+{
+"symbol": "INDIAMART",
+"name": "Indiamart Intermesh Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Internet Retail",
+"mcap_cr": 9469
 },
 {
 "symbol": "JMFINANCIL",
@@ -4168,7 +4130,17 @@
 "Nifty 500"
 ],
 "sector": "Capital Markets",
-"mcap_cr": 10963
+"mcap_cr": 10954
+},
+{
+"symbol": "JSL",
+"name": "Jindal Stainless Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 59217
 },
 {
 "symbol": "JUBLFOOD",
@@ -4189,7 +4161,7 @@
 "Nifty 500"
 ],
 "sector": "Medical Care Facilities",
-"mcap_cr": 30646
+"mcap_cr": 32061
 },
 {
 "symbol": "NATIONALUM",
@@ -4200,19 +4172,17 @@
 "Nifty 500"
 ],
 "sector": "Aluminum",
-"mcap_cr": 60609
+"mcap_cr": 58579
 },
 {
-"symbol": "POLYCAB",
-"name": "Polycab India Ltd.",
-"fno": true,
+"symbol": "NETWEB",
+"name": "Netweb Technologies India Ltd.",
+"fno": false,
 "indices": [
-"Nifty Next 50",
-"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Electrical Equipment & Parts",
-"mcap_cr": 119111
+"sector": "Computer Hardware",
+"mcap_cr": 24130
 },
 {
 "symbol": "PREMIERENE",
@@ -4223,38 +4193,7 @@
 "Nifty 500"
 ],
 "sector": "Solar",
-"mcap_cr": 40455
-},
-{
-"symbol": "RHIM",
-"name": "RHI MAGNESITA INDIA LTD.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Metal Fabrication",
-"mcap_cr": 7539
-},
-{
-"symbol": "RITES",
-"name": "RITES Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Engineering & Construction",
-"mcap_cr": 9397
-},
-{
-"symbol": "SBICARD",
-"name": "SBI Cards and Payment Services Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 55034
+"mcap_cr": 37141
 },
 {
 "symbol": "SCI",
@@ -4264,7 +4203,7 @@
 "Nifty 500"
 ],
 "sector": "Marine Shipping",
-"mcap_cr": 12604
+"mcap_cr": 12344
 },
 {
 "symbol": "SJVN",
@@ -4274,39 +4213,29 @@
 "Nifty 500"
 ],
 "sector": "Utilities - Renewable",
-"mcap_cr": 22561
+"mcap_cr": 22235
 },
 {
-"symbol": "SUZLON",
-"name": "Suzlon Energy Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 52581
-},
-{
-"symbol": "TIINDIA",
-"name": "Tube Investments of India Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Conglomerates",
-"mcap_cr": 43689
-},
-{
-"symbol": "TORNTPOWER",
-"name": "Torrent Power Ltd.",
+"symbol": "TDPOWERSYS",
+"name": "TD Power Systems Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Utilities - Independent Power Producers",
-"mcap_cr": 61527
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 20426
+},
+{
+"symbol": "TMPV",
+"name": "Tata Motors Passenger Vehicles Ltd.",
+"fno": true,
+"indices": [
+"Nifty 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Auto Manufacturers",
+"mcap_cr": 96643
 },
 {
 "symbol": "TRITURBINE",
@@ -4316,7 +4245,15 @@
 "Nifty 500"
 ],
 "sector": "Specialty Industrial Machinery",
-"mcap_cr": 16205
+"mcap_cr": 15348
+},
+{
+"symbol": "UJJIVANSFB",
+"name": "UJJIVANSFB",
+"fno": true,
+"indices": [],
+"sector": "Banks - Regional",
+"mcap_cr": 11735
 },
 {
 "symbol": "VMM",
@@ -4327,201 +4264,17 @@
 "Nifty 500"
 ],
 "sector": "Department Stores",
-"mcap_cr": 45148
+"mcap_cr": 44459
 },
 {
-"symbol": "YESBANK",
-"name": "Yes Bank Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Banks - Regional",
-"mcap_cr": 54683
-},
-{
-"symbol": "AIAENG",
-"name": "AIA Engineering Ltd.",
+"symbol": "VTL",
+"name": "Vardhman Textiles Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": null
-},
-{
-"symbol": "APTUS",
-"name": "Aptus Value Housing Finance India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Mortgage Finance",
-"mcap_cr": 8764
-},
-{
-"symbol": "ATUL",
-"name": "Atul Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 15179
-},
-{
-"symbol": "AWL",
-"name": "AWL Agri Business Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Packaged Foods",
-"mcap_cr": 21185
-},
-{
-"symbol": "CANHLIFE",
-"name": "Canara HSBC Life Insurance Company Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Insurance - Life",
-"mcap_cr": 12751
-},
-{
-"symbol": "DALBHARAT",
-"name": "Dalmia Bharat Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Building Materials",
-"mcap_cr": 28007
-},
-{
-"symbol": "DEEPAKFERT",
-"name": "Deepak Fertilisers & Petrochemicals Corp. Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Chemicals",
-"mcap_cr": 15945
-},
-{
-"symbol": "EIDPARRY",
-"name": "E.I.D. Parry (India) Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Agricultural Inputs",
-"mcap_cr": 11654
-},
-{
-"symbol": "ENRIN",
-"name": "Siemens Energy India Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Utilities - Renewable",
-"mcap_cr": 111320
-},
-{
-"symbol": "ESCORTS",
-"name": "Escorts Kubota Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Farm & Heavy Construction Machinery",
-"mcap_cr": 26430
-},
-{
-"symbol": "M&MFIN",
-"name": "Mahindra & Mahindra Financial Services Ltd.",
-"fno": false,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 39861
-},
-{
-"symbol": "NATCOPHARM",
-"name": "NATCO Pharma Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Drug Manufacturers - Specialty & Generic",
-"mcap_cr": 15898
-},
-{
-"symbol": "NSLNISP",
-"name": "NMDC Steel Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 11881
-},
-{
-"symbol": "NTPCGREEN",
-"name": "NTPC Green Energy Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Utilities - Renewable",
-"mcap_cr": 69913
-},
-{
-"symbol": "SCHAEFFLER",
-"name": "Schaeffler India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 56044
-},
-{
-"symbol": "TDPOWERSYS",
-"name": "TD Power Systems Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 20494
-},
-{
-"symbol": "THERMAX",
-"name": "Thermax Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Conglomerates",
-"mcap_cr": 31274
-},
-{
-"symbol": "UTIAMC",
-"name": "UTI Asset Management Company Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Asset Management",
-"mcap_cr": 10826
+"sector": "Textile Manufacturing",
+"mcap_cr": 15245
 },
 {
 "symbol": "AAVAS",
@@ -4531,17 +4284,151 @@
 "Nifty 500"
 ],
 "sector": "Mortgage Finance",
-"mcap_cr": 8909
+"mcap_cr": 8841
 },
 {
-"symbol": "ANANTRAJ",
-"name": "Anant Raj Ltd.",
+"symbol": "ATUL",
+"name": "Atul Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Real Estate - Development",
-"mcap_cr": 17222
+"sector": "Specialty Chemicals",
+"mcap_cr": 15074
+},
+{
+"symbol": "BHARATFORG",
+"name": "Bharat Forge Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Metal Fabrication",
+"mcap_cr": 83807
+},
+{
+"symbol": "CONCORDBIO",
+"name": "Concord Biotech Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Biotechnology",
+"mcap_cr": 12156
+},
+{
+"symbol": "CREDITACC",
+"name": "CreditAccess Grameen Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 17538
+},
+{
+"symbol": "ESCORTS",
+"name": "Escorts Kubota Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Farm & Heavy Construction Machinery",
+"mcap_cr": 26454
+},
+{
+"symbol": "HEXT",
+"name": "Hexaware Technologies Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Information Technology Services",
+"mcap_cr": 29247
+},
+{
+"symbol": "IGL",
+"name": "Indraprastha Gas Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Utilities - Regulated Gas",
+"mcap_cr": 20636
+},
+{
+"symbol": "IRCTC",
+"name": "Indian Railway Catering And Tourism Corporation Ltd.",
+"fno": false,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Travel Services",
+"mcap_cr": 36132
+},
+{
+"symbol": "NSLNISP",
+"name": "NMDC Steel Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Steel",
+"mcap_cr": 11708
+},
+{
+"symbol": "PFOCUS",
+"name": "Prime Focus Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Entertainment",
+"mcap_cr": 20840
+},
+{
+"symbol": "POLICYBZR",
+"name": "PB Fintech Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Insurance Brokers",
+"mcap_cr": 50224
+},
+{
+"symbol": "RHIM",
+"name": "RHI MAGNESITA INDIA LTD.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Metal Fabrication",
+"mcap_cr": 6818
+},
+{
+"symbol": "SBICARD",
+"name": "SBI Cards and Payment Services Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 54530
+},
+{
+"symbol": "THERMAX",
+"name": "Thermax Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Conglomerates",
+"mcap_cr": 31075
 },
 {
 "symbol": "ATGL",
@@ -4552,7 +4439,17 @@
 "Nifty 500"
 ],
 "sector": "Utilities - Regulated Gas",
-"mcap_cr": 63283
+"mcap_cr": 62799
+},
+{
+"symbol": "BRIGADE",
+"name": "Brigade Enterprises Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Real Estate - Development",
+"mcap_cr": 17686
 },
 {
 "symbol": "CESC",
@@ -4562,27 +4459,37 @@
 "Nifty 500"
 ],
 "sector": "Utilities - Regulated Electric",
-"mcap_cr": 17031
+"mcap_cr": 16843
 },
 {
-"symbol": "EMBASSY",
-"name": "EMBASSY OFFICE PARKS REIT",
+"symbol": "CLEAN",
+"name": "Clean Science and Technology Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Unknown",
-"mcap_cr": 35064
+"sector": "Specialty Chemicals",
+"mcap_cr": 7517
 },
 {
-"symbol": "FIVESTAR",
-"name": "Five-Star Business Finance Ltd.",
+"symbol": "EIDPARRY",
+"name": "E.I.D. Parry (India) Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Credit Services",
-"mcap_cr": 13067
+"sector": "Agricultural Inputs",
+"mcap_cr": 11534
+},
+{
+"symbol": "GMDCLTD",
+"name": "Gujarat Mineral Development Corporation Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Thermal Coal",
+"mcap_cr": 15173
 },
 {
 "symbol": "GRSE",
@@ -4592,7 +4499,7 @@
 "Nifty 500"
 ],
 "sector": "Aerospace & Defense",
-"mcap_cr": 25027
+"mcap_cr": 24403
 },
 {
 "symbol": "IDBI",
@@ -4602,37 +4509,17 @@
 "Nifty 500"
 ],
 "sector": "Banks - Regional",
-"mcap_cr": 86019
+"mcap_cr": 85675
 },
 {
-"symbol": "INOXWIND",
-"name": "Inox Wind Ltd.",
-"fno": true,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 11138
-},
-{
-"symbol": "JPPOWER",
-"name": "Jaiprakash Power Ventures Ltd.",
+"symbol": "JAINREC",
+"name": "Jain Resource Recycling Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Utilities - Independent Power Producers",
-"mcap_cr": 9643
-},
-{
-"symbol": "JUBLINGREA",
-"name": "Jubilant Ingrevia Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 9334
+"sector": "Other Industrial Metals & Mining",
+"mcap_cr": 9990
 },
 {
 "symbol": "JWL",
@@ -4642,28 +4529,27 @@
 "Nifty 500"
 ],
 "sector": "Railroads",
-"mcap_cr": 8845
+"mcap_cr": 8698
 },
 {
-"symbol": "KEC",
-"name": "Kec International Ltd.",
+"symbol": "KIRLOSBROS",
+"name": "Kirloskar Brothers Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Engineering & Construction",
-"mcap_cr": 8882
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 12848
 },
 {
-"symbol": "KEI",
-"name": "KEI Industries Ltd.",
-"fno": true,
+"symbol": "MMTC",
+"name": "MMTC Ltd.",
+"fno": false,
 "indices": [
-"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Electrical Equipment & Parts",
-"mcap_cr": 38641
+"sector": "Conglomerates",
+"mcap_cr": 8087
 },
 {
 "symbol": "NESTLEIND",
@@ -4675,7 +4561,7 @@
 "Nifty 500"
 ],
 "sector": "Packaged Foods",
-"mcap_cr": 243585
+"mcap_cr": 250102
 },
 {
 "symbol": "NLCINDIA",
@@ -4686,7 +4572,7 @@
 "Nifty 500"
 ],
 "sector": "Utilities - Regulated Electric",
-"mcap_cr": 32989
+"mcap_cr": 32723
 },
 {
 "symbol": "OLECTRA",
@@ -4696,7 +4582,464 @@
 "Nifty 500"
 ],
 "sector": "Farm & Heavy Construction Machinery",
-"mcap_cr": 8415
+"mcap_cr": 8322
+},
+{
+"symbol": "POLYCAB",
+"name": "Polycab India Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Electrical Equipment & Parts",
+"mcap_cr": 119887
+},
+{
+"symbol": "RITES",
+"name": "RITES Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Engineering & Construction",
+"mcap_cr": 9216
+},
+{
+"symbol": "SUZLON",
+"name": "Suzlon Energy Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 51454
+},
+{
+"symbol": "TATACHEM",
+"name": "Tata Chemicals Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Chemicals",
+"mcap_cr": 15594
+},
+{
+"symbol": "TATAINVEST",
+"name": "Tata Investment Corporation Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Asset Management",
+"mcap_cr": 29166
+},
+{
+"symbol": "TATAPOWER",
+"name": "Tata Power Co. Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Utilities - Independent Power Producers",
+"mcap_cr": 110399
+},
+{
+"symbol": "TIINDIA",
+"name": "Tube Investments of India Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Conglomerates",
+"mcap_cr": 43294
+},
+{
+"symbol": "TITAGARH",
+"name": "Titagarh Rail Systems Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Railroads",
+"mcap_cr": 9860
+},
+{
+"symbol": "UTIAMC",
+"name": "UTI Asset Management Company Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Asset Management",
+"mcap_cr": 10740
+},
+{
+"symbol": "YESBANK",
+"name": "Yes Bank Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Banks - Regional",
+"mcap_cr": 56566
+},
+{
+"symbol": "ZEEL",
+"name": "Zee Entertainment Enterprises Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Broadcasting",
+"mcap_cr": 6883
+},
+{
+"symbol": "BELRISE",
+"name": "Belrise Industries Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 22737
+},
+{
+"symbol": "BRITANNIA",
+"name": "Britannia Industries Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Packaged Foods",
+"mcap_cr": 114509
+},
+{
+"symbol": "CANHLIFE",
+"name": "Canara HSBC Life Insurance Company Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Insurance - Life",
+"mcap_cr": 12704
+},
+{
+"symbol": "CHOICEIN",
+"name": "Choice International Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Capital Markets",
+"mcap_cr": 16143
+},
+{
+"symbol": "DEEPAKFERT",
+"name": "Deepak Fertilisers & Petrochemicals Corp. Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Chemicals",
+"mcap_cr": 17095
+},
+{
+"symbol": "FORTIS",
+"name": "Fortis Healthcare Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Medical Care Facilities",
+"mcap_cr": 60638
+},
+{
+"symbol": "GODFRYPHLP",
+"name": "Godfrey Phillips India Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Tobacco",
+"mcap_cr": 28262
+},
+{
+"symbol": "TORNTPOWER",
+"name": "Torrent Power Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Utilities - Independent Power Producers",
+"mcap_cr": 61713
+},
+{
+"symbol": "ANANTRAJ",
+"name": "Anant Raj Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Real Estate - Development",
+"mcap_cr": 16655
+},
+{
+"symbol": "APTUS",
+"name": "Aptus Value Housing Finance India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Mortgage Finance",
+"mcap_cr": 8811
+},
+{
+"symbol": "ASTRAL",
+"name": "Astral Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Building Products & Equipment",
+"mcap_cr": 33769
+},
+{
+"symbol": "AWL",
+"name": "AWL Agri Business Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Packaged Foods",
+"mcap_cr": 21342
+},
+{
+"symbol": "DALBHARAT",
+"name": "Dalmia Bharat Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Building Materials",
+"mcap_cr": 28439
+},
+{
+"symbol": "FIRSTCRY",
+"name": "Brainbees Solutions Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Internet Retail",
+"mcap_cr": 7704
+},
+{
+"symbol": "HONAUT",
+"name": "Honeywell Automation India Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Electrical Equipment & Parts",
+"mcap_cr": 26692
+},
+{
+"symbol": "HSCL",
+"name": "Himadri Speciality Chemical Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 27633
+},
+{
+"symbol": "IFCI",
+"name": "IFCI Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 16724
+},
+{
+"symbol": "IKS",
+"name": "Inventurus Knowledge Solutions Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Health Information Services",
+"mcap_cr": 27158
+},
+{
+"symbol": "INOXWIND",
+"name": "Inox Wind Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 10283
+},
+{
+"symbol": "JBMA",
+"name": "JBM Auto Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Parts",
+"mcap_cr": 11543
+},
+{
+"symbol": "JPPOWER",
+"name": "Jaiprakash Power Ventures Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Utilities - Independent Power Producers",
+"mcap_cr": 9465
+},
+{
+"symbol": "KEC",
+"name": "Kec International Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Engineering & Construction",
+"mcap_cr": 8640
+},
+{
+"symbol": "KEI",
+"name": "KEI Industries Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Electrical Equipment & Parts",
+"mcap_cr": 38450
+},
+{
+"symbol": "KIRLOSENG",
+"name": "Kirloskar Oil Eng Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 24348
+},
+{
+"symbol": "KSB",
+"name": "KSB Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": 11679
+},
+{
+"symbol": "MANAPPURAM",
+"name": "Manappuram Finance Ltd.",
+"fno": true,
+"indices": [
+"Nifty 500"
+],
+"sector": "Credit Services",
+"mcap_cr": 28537
+},
+{
+"symbol": "MAZDOCK",
+"name": "Mazagoan Dock Shipbuilders Ltd.",
+"fno": true,
+"indices": [
+"Nifty Next 50",
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Aerospace & Defense",
+"mcap_cr": 75553
+},
+{
+"symbol": "NIACL",
+"name": "The New India Assurance Company Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Insurance - Diversified",
+"mcap_cr": 25738
+},
+{
+"symbol": "NTPCGREEN",
+"name": "NTPC Green Energy Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Utilities - Renewable",
+"mcap_cr": 69374
+},
+{
+"symbol": "OLAELEC",
+"name": "Ola Electric Mobility Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Auto Manufacturers",
+"mcap_cr": 16153
+},
+{
+"symbol": "PAGEIND",
+"name": "Page Industries Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Apparel Manufacturing",
+"mcap_cr": 35096
+},
+{
+"symbol": "PCBL",
+"name": "PCBL Chemical Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Chemicals",
+"mcap_cr": 10911
+},
+{
+"symbol": "PIIND",
+"name": "PI Industries Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Agricultural Inputs",
+"mcap_cr": 25487
 },
 {
 "symbol": "RPOWER",
@@ -4709,360 +5052,6 @@
 "mcap_cr": null
 },
 {
-"symbol": "SUPREMEIND",
-"name": "Supreme Industries Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Building Products & Equipment",
-"mcap_cr": 42032
-},
-{
-"symbol": "TATACHEM",
-"name": "Tata Chemicals Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Chemicals",
-"mcap_cr": 15436
-},
-{
-"symbol": "TATAINVEST",
-"name": "Tata Investment Corporation Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Asset Management",
-"mcap_cr": 29667
-},
-{
-"symbol": "TENNIND",
-"name": "Tenneco Clean Air India Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 18069
-},
-{
-"symbol": "TITAGARH",
-"name": "Titagarh Rail Systems Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Railroads",
-"mcap_cr": 9927
-},
-{
-"symbol": "VTL",
-"name": "Vardhman Textiles Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Textile Manufacturing",
-"mcap_cr": 15302
-},
-{
-"symbol": "ZEEL",
-"name": "Zee Entertainment Enterprises Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Broadcasting",
-"mcap_cr": 6930
-},
-{
-"symbol": "BRITANNIA",
-"name": "Britannia Industries Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Packaged Foods",
-"mcap_cr": 114424
-},
-{
-"symbol": "GODFRYPHLP",
-"name": "Godfrey Phillips India Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Tobacco",
-"mcap_cr": 28184
-},
-{
-"symbol": "NMDC",
-"name": "NMDC Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 61367
-},
-{
-"symbol": "POLICYBZR",
-"name": "PB Fintech Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Insurance Brokers",
-"mcap_cr": 51330
-},
-{
-"symbol": "AFCONS",
-"name": "Afcons Infrastructure Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Engineering & Construction",
-"mcap_cr": 8170
-},
-{
-"symbol": "ASTRAL",
-"name": "Astral Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Building Products & Equipment",
-"mcap_cr": 33689
-},
-{
-"symbol": "BDL",
-"name": "Bharat Dynamics Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Aerospace & Defense",
-"mcap_cr": 37756
-},
-{
-"symbol": "BHARATFORG",
-"name": "Bharat Forge Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Metal Fabrication",
-"mcap_cr": 85542
-},
-{
-"symbol": "CLEAN",
-"name": "Clean Science and Technology Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 7695
-},
-{
-"symbol": "COCHINSHIP",
-"name": "Cochin Shipyard Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Aerospace & Defense",
-"mcap_cr": 30991
-},
-{
-"symbol": "CONCORDBIO",
-"name": "Concord Biotech Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Biotechnology",
-"mcap_cr": 12428
-},
-{
-"symbol": "CREDITACC",
-"name": "CreditAccess Grameen Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 17672
-},
-{
-"symbol": "ECLERX",
-"name": "eClerx Services Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 14524
-},
-{
-"symbol": "FIRSTCRY",
-"name": "Brainbees Solutions Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Internet Retail",
-"mcap_cr": 7792
-},
-{
-"symbol": "GALLANTT",
-"name": "Gallantt Ispat Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Steel",
-"mcap_cr": 12666
-},
-{
-"symbol": "HEXT",
-"name": "Hexaware Technologies Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Information Technology Services",
-"mcap_cr": 30057
-},
-{
-"symbol": "HSCL",
-"name": "Himadri Speciality Chemical Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 28241
-},
-{
-"symbol": "IFCI",
-"name": "IFCI Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Credit Services",
-"mcap_cr": 16761
-},
-{
-"symbol": "JBMA",
-"name": "JBM Auto Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Auto Parts",
-"mcap_cr": 11769
-},
-{
-"symbol": "KIRLOSBROS",
-"name": "Kirloskar Brothers Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 13019
-},
-{
-"symbol": "KIRLOSENG",
-"name": "Kirloskar Oil Eng Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 24635
-},
-{
-"symbol": "KSB",
-"name": "KSB Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Industrial Machinery",
-"mcap_cr": 11367
-},
-{
-"symbol": "MAZDOCK",
-"name": "Mazagoan Dock Shipbuilders Ltd.",
-"fno": true,
-"indices": [
-"Nifty Next 50",
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Aerospace & Defense",
-"mcap_cr": 76239
-},
-{
-"symbol": "NIACL",
-"name": "The New India Assurance Company Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Insurance - Diversified",
-"mcap_cr": 26043
-},
-{
-"symbol": "PAGEIND",
-"name": "Page Industries Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Apparel Manufacturing",
-"mcap_cr": 34940
-},
-{
-"symbol": "PCBL",
-"name": "PCBL Chemical Ltd.",
-"fno": false,
-"indices": [
-"Nifty 500"
-],
-"sector": "Specialty Chemicals",
-"mcap_cr": 11117
-},
-{
-"symbol": "PIIND",
-"name": "PI Industries Ltd.",
-"fno": true,
-"indices": [
-"Nifty 200",
-"Nifty 500"
-],
-"sector": "Agricultural Inputs",
-"mcap_cr": 26015
-},
-{
 "symbol": "RRKABEL",
 "name": "R R Kabel Ltd.",
 "fno": false,
@@ -5070,7 +5059,7 @@
 "Nifty 500"
 ],
 "sector": "Electrical Equipment & Parts",
-"mcap_cr": 22434
+"mcap_cr": 21308
 },
 {
 "symbol": "SARDAEN",
@@ -5080,7 +5069,7 @@
 "Nifty 500"
 ],
 "sector": "Steel",
-"mcap_cr": 15656
+"mcap_cr": 15565
 },
 {
 "symbol": "SCHNEIDER",
@@ -5090,7 +5079,7 @@
 "Nifty 500"
 ],
 "sector": "Electrical Equipment & Parts",
-"mcap_cr": 25369
+"mcap_cr": 24506
 },
 {
 "symbol": "SUMICHEM",
@@ -5100,7 +5089,7 @@
 "Nifty 500"
 ],
 "sector": "Agricultural Inputs",
-"mcap_cr": 17300
+"mcap_cr": 17206
 },
 {
 "symbol": "SWANCORP",
@@ -5110,18 +5099,17 @@
 "Nifty 500"
 ],
 "sector": "Conglomerates",
-"mcap_cr": 7288
+"mcap_cr": 7174
 },
 {
-"symbol": "SWIGGY",
-"name": "Swiggy Ltd.",
-"fno": true,
+"symbol": "TATATECH",
+"name": "Tata Technologies Ltd.",
+"fno": false,
 "indices": [
-"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Internet Retail",
-"mcap_cr": 48969
+"sector": "Information Technology Services",
+"mcap_cr": 26986
 },
 {
 "symbol": "THANGAMAYL",
@@ -5131,7 +5119,7 @@
 "Nifty 500"
 ],
 "sector": "Luxury Goods",
-"mcap_cr": 13039
+"mcap_cr": 12610
 },
 {
 "symbol": "ZYDUSWELL",
@@ -5141,7 +5129,17 @@
 "Nifty 500"
 ],
 "sector": "Packaged Foods",
-"mcap_cr": 14952
+"mcap_cr": 14831
+},
+{
+"symbol": "AIAENG",
+"name": "AIA Engineering Ltd.",
+"fno": false,
+"indices": [
+"Nifty 500"
+],
+"sector": "Specialty Industrial Machinery",
+"mcap_cr": null
 },
 {
 "symbol": "CUMMINSIND",
@@ -5153,17 +5151,17 @@
 "Nifty 500"
 ],
 "sector": "Specialty Industrial Machinery",
-"mcap_cr": 121109
+"mcap_cr": 117339
 },
 {
-"symbol": "HONAUT",
-"name": "Honeywell Automation India Ltd.",
+"symbol": "ECLERX",
+"name": "eClerx Services Ltd.",
 "fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Electrical Equipment & Parts",
-"mcap_cr": 26980
+"sector": "Information Technology Services",
+"mcap_cr": 14429
 },
 {
 "symbol": "INTELLECT",
@@ -5173,17 +5171,18 @@
 "Nifty 500"
 ],
 "sector": "Software - Application",
-"mcap_cr": 7382
+"mcap_cr": 7546
 },
 {
-"symbol": "MMTC",
-"name": "MMTC Ltd.",
-"fno": false,
+"symbol": "NMDC",
+"name": "NMDC Ltd.",
+"fno": true,
 "indices": [
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Conglomerates",
-"mcap_cr": 8375
+"sector": "Steel",
+"mcap_cr": 60593
 },
 {
 "symbol": "OIL",
@@ -5194,39 +5193,50 @@
 "Nifty 500"
 ],
 "sector": "Oil & Gas Integrated",
-"mcap_cr": 71815
+"mcap_cr": 71798
 },
 {
-"symbol": "POWERINDIA",
-"name": "Hitachi Energy India Ltd.",
+"symbol": "SWIGGY",
+"name": "Swiggy Ltd.",
 "fno": true,
 "indices": [
-"Nifty Next 50",
 "Nifty 200",
 "Nifty 500"
 ],
-"sector": "Electrical Equipment & Parts",
-"mcap_cr": 140826
+"sector": "Internet Retail",
+"mcap_cr": 50018
 },
 {
-"symbol": "NETWEB",
-"name": "Netweb Technologies India Ltd.",
-"fno": false,
+"symbol": "ALKEM",
+"name": "Alkem Laboratories Ltd.",
+"fno": true,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Computer Hardware",
-"mcap_cr": 24945
+"sector": "Drug Manufacturers - Specialty & Generic",
+"mcap_cr": 61409
 },
 {
-"symbol": "PFOCUS",
-"name": "Prime Focus Ltd.",
-"fno": false,
+"symbol": "BDL",
+"name": "Bharat Dynamics Ltd.",
+"fno": true,
 "indices": [
+"Nifty 200",
 "Nifty 500"
 ],
-"sector": "Entertainment",
-"mcap_cr": 21023
+"sector": "Aerospace & Defense",
+"mcap_cr": 37866
+},
+{
+"symbol": "COCHINSHIP",
+"name": "Cochin Shipyard Ltd.",
+"fno": true,
+"indices": [
+"Nifty 200",
+"Nifty 500"
+],
+"sector": "Aerospace & Defense",
+"mcap_cr": 30465
 },
 {
 "symbol": "TEJASNET",
@@ -5236,17 +5246,17 @@
 "Nifty 500"
 ],
 "sector": "Communication Equipment",
-"mcap_cr": 7494
+"mcap_cr": 7229
 },
 {
-"symbol": "AMBER",
-"name": "Amber Enterprises India Ltd.",
-"fno": true,
+"symbol": "GALLANTT",
+"name": "Gallantt Ispat Ltd.",
+"fno": false,
 "indices": [
 "Nifty 500"
 ],
-"sector": "Furnishings, Fixtures & Appliances",
-"mcap_cr": 23883
+"sector": "Steel",
+"mcap_cr": 13104
 }
 ]
 }
