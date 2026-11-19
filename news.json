@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T17:16:27.233709",
+ "updated": "2026-11-19T00:24:35.979755",
  "days": 30,
  "stocks": {
   "SBILIFE": {
-   "impact": "NEGATIVE",
-   "score": -1.0,
-   "impact_reason": "Main drivers: Shareholders meeting; Shareholders meeting.",
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Shareholders meeting.",
    "days": 30,
    "items": [
     {
@@ -28,17 +28,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/SBILIFE_18112026210924_SE_18112026signed.pdf",
      "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "SBILIFE",
-     "date": "03-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Shareholders meeting",
-     "text": "SBI Life Insurance Company Limited has informed the Exchange regarding Notice of Postal Ballot",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/SBILIFE_03112026223618_SEPB03112026_signed.pdf",
-     "sentiment": "NEGATIVE",
      "age": null
     },
     {
@@ -161,17 +150,6 @@
      "text": "Shreyashi Goenka has Submitted to the Exchange a copy of Disclosure under Regulation 10(5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/team_sandeshc_05112026162759_Dis7.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "INOXINDIA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "INOX India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/KAMLESHS_03112026185527_OutcomeofBM03112026signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -532,7 +510,7 @@
   },
   "ASTRAL": {
    "impact": "POSITIVE",
-   "score": 1.5,
+   "score": 1.0,
    "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Copy of Newspaper Publication.",
    "days": 30,
    "items": [
@@ -611,17 +589,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/ASTRAL_05112026161523_OutcomeofBoardMeeting.pdf",
      "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "ASTRAL",
-     "date": "03-Nov-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "Astral Limited has informed the Exchange about Intimation Under Regulation 30 - Receipt of GST Order",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ASTRAL_03112026175002_SELFILE.pdf",
-     "sentiment": "POSITIVE",
      "age": null
     },
     {
@@ -1050,12 +1017,34 @@
      "link": "https://nsearchives.nseindia.in/corporate/THANGAMAYL_04112026140903_OUTCOME_OF_MEETING_COVERING_LETTER.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "THANGAMAYL",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "General Updates",
+     "text": "Thangamayil Jewellery Limited has informed the Exchange about General Updates-Outcome of Board Meeting held on November 04, 2026   Approval of Unaudited Financial Results for Q2 & H1 FY 2026-27 and Appointment of Directors.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/THANGAMAYL_04112026141751_OUTCOME_OF_MEETING_COVERING_LETTER.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "THANGAMAYL",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Thangamayil Jewellery Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.-Outcome of Board Meeting held on November 04, 2026   Approval of Unaudited Financial Results for Q2 & H1 FY 2026-27 ",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/THANGAMAYL_04112026140903_OUTCOME_OF_MEETING_COVERING_LETTER.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
   "HINDALCO": {
    "impact": "NEGATIVE",
-   "score": -1.0,
+   "score": -1.5,
    "impact_reason": "Main drivers: Copy of Newspaper Publication; Copy of Newspaper Publication.",
    "days": 30,
    "items": [
@@ -1113,6 +1102,17 @@
      "link": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_04112026154711_Share_Re_lodgement_SE_Intimation_Merged_signed.pdf",
      "sentiment": "NEGATIVE",
      "age": null
+    },
+    {
+     "symbol": "HINDALCO",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Copy of Newspaper Publication",
+     "text": "Hindalco Industries Limited has informed the Exchange about Newspaper Advertisement(s) regarding Notice of Special Window for Re-lodgement of Transfer Requests of Physical Shares",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_04112026154711_Share_Re_lodgement_SE_Intimation_Merged_signed.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
     }
    ]
   },
@@ -1122,28 +1122,6 @@
    "impact_reason": "Main drivers: Shareholders meeting.",
    "days": 30,
    "items": [
-    {
-     "symbol": "FEDERALBNK",
-     "date": "19-Oct-202",
-     "type": "Corporate action",
-     "title": "News Verification",
-     "text": "The Exchange has sought clarification from The Federal Bank  Limited with respect to recent news item captioned Federal Bank not in active acquisition talks, but open to deals: ED Harsh Dugar   ET Now Exclusive.  The response from the Compa",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/FEDERALBNK_19102026152318_NSE_Clarification_S.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "FEDERALBNK",
-     "date": "19-Oct-202",
-     "type": "Corporate action",
-     "title": "News Verification",
-     "text": "The Exchange has sought clarification from The Federal Bank  Limited with respect to recent news item captioned Federal Bank not in active acquisition talks, but open to deals: ED Harsh Dugar   ET Now Exclusive.  The response from the Compa",
-     "source": "NSE corporate filing",
-     "link": "-",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
     {
      "symbol": "FEDERALBNK",
      "date": "18-Nov-202",
@@ -1233,7 +1211,7 @@
   },
   "AUROPHARMA": {
    "impact": "NEUTRAL",
-   "score": 0.0,
+   "score": 0.5,
    "impact_reason": "Main drivers: Shareholders meeting; Record Date.",
    "days": 30,
    "items": [
@@ -1256,6 +1234,61 @@
      "text": "Aurobindo Pharma Limited has informed the Exchange about Copy of financial results published in newspapers.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/AUROPHARMA_06112026112647_LtrToSEsQ2UFRpublished06112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AUROPHARMA",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Aurobindo Pharma Limited has informed the Exchange about transfer ownership of Auro Pharma LLC, Russia, from Auro Active Pharma Private Limited to Auropharm Overseas Limited, wholly owned subsidiaries of the Company",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AUROPHARMA_04112026203119_LtrToSEsOwnershipTransferRussia04112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AUROPHARMA",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Amalgamation/Merger",
+     "text": "Aurobindo Pharma Limited has informed the Exchange about Amalgamation/Merger of Auroactive Pharma Private Limited with Apitoria Pharma Private Limited wholly owned subsidiaries of the Company.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AUROPHARMA_04112026202447_LtrToSEAuroactiveApitoriaMerger04112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AUROPHARMA",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "Aurobindo Pharma Limited has informed the Exchange that Record date for the purpose of Dividend  is 11-Nov-2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AUROPHARMA_04112026201247_LtrToSEsDividendUpdate04112026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "AUROPHARMA",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Aurobindo Pharma Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Press release on Q2 FY27 Financial Results.\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AUROPHARMA_04112026200852_LtrToSEsPressRelease04112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AUROPHARMA",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Aurobindo Pharma Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AUROPHARMA_04112026194825_LtrToSEsOutcomeOfBM04112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -1341,39 +1374,6 @@
      "text": "Clean Max Enviro Energy Solutions Limited has informed the Exchange about Copy of Newspaper Publication of Financial Results for quarter and half year ended 30 September 2026",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_05112026130829_Newspaper_advertisement_September_2026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "CLEANMAX",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Incorporation of a wholly owned subsidiary of the Company at the International Financial ServicesCentre (IFSC) in Gujarat Finance Tec-City (GIFT City), Gujarat, India",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_03112026235251_FR30092026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "CLEANMAX",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "General Updates",
-     "text": "Clean Max Enviro Energy Solutions Limited has informed the Exchange about Financial Results for quarter and half year ended 30 September 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_03112026224023_FR30092026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "CLEANMAX",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Clean Max Enviro Energy Solutions Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_03112026213525_Outcome031126.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -1869,17 +1869,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/PRESTIGE_03112026194631_Intimation_under_Reg_30_Acquisition.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "PRESTIGE",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Prestige Estates Projects Limited has informed the Exchange about Acquisition of 100% stake in Gloind Vintage Infra Private Limited.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/PRESTIGE_03112026194631_Intimation_under_Reg_30_Acquisition.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -1954,17 +1943,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/BRAINBEES_03112026182841_DisclosureReg30AcquisitionbyGBBetterBrighter.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "FIRSTCRY",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Brainbees Solutions Limited has informed the Exchange about acquisition of additional stake in Better & Brighter Homecare Private Limited by Globalbees Brands Private Limited, material subsidiary of the Company.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BRAINBEES_03112026182841_DisclosureReg30AcquisitionbyGBBetterBrighter.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -1998,12 +1976,12 @@
     },
     {
      "symbol": "JAINREC",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Jain Resource Recycling Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "Jain Resource Recycling Limited has informed the Exchange about Link of Audio Recording of earnings call on the unaudited financial results for the quarter and half year ended 30.09.2026",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/JAINMETAL_03112026120820_NSEBSEOUT.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/JAINMETAL_04112026161454_BSENSEAREC.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -2233,6 +2211,17 @@
      "link": "https://nsearchives.nseindia.in/corporate/BSE1_04112026175851_NSEINTIMATION.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "BSE",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "BSE Limited has submitted to the Exchange, the financial results for the quarter and six months ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BSE1_04112026175851_NSEINTIMATION.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
@@ -2389,17 +2378,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/GLAXO1924_03112026184904_Outcome_of_Meeting.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "GLAXO",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "GlaxoSmithKline Pharmaceuticals Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/GLAXO1924_03112026184904_Outcome_of_Meeting.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -2502,6 +2480,28 @@
      "text": "Lupin Limited has informed the Exchange regarding copies of Newspaper Publication regarding Unaudited Financial Results of the Company for the quarter and half year ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/Lupin2_05112026163455_SEintimationletter.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LUPIN",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Lupin Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Lupin Q2 FY2027 Results \".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/Lupin2_04112026014246_SE_Intimation_Press_Release_04112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LUPIN",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Lupin Limited has submitted to the Exchange, the Standalone and Consolidated Unaudited Financial Results for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/Lupin2_04112026004100_SE_Outcome_UFR_Intimation.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -2762,17 +2762,6 @@
      "text": "Transcript of Earnings Call for the un-audited Financial Results for the Quarter (Q2) and Half Year ended September 30, 2026",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/YESBANK_23102026214522_SE_Intimation_signed_23102026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "YESBANK",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Audio recording of Earnings Call for the un-audited Financial Results for the Quarter (Q2) and Half Year ended September 30, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/YESBANK_19102026154251_SE_Intimation_Recording_of_Earnings_Call_1910_signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -3041,12 +3030,34 @@
     },
     {
      "symbol": "BHARTIARTL",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Governance / regulatory",
-     "title": "General Updates",
-     "text": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company ).",
+     "title": "Shareholders meeting",
+     "text": "Bharti Airtel Limited has informed the Exchange regarding Notice of Postal Ballot",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_03112026222840_Airtelstx.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_04112026214407_STXIntimationPostalBallotNotice.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "04-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Copy of Newspaper Publication",
+     "text": "Bharti Airtel Limited ( Company ) has informed the Exchange about Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_04112026153131_STXintimation.pdf",
      "sentiment": "NEGATIVE",
      "age": null
     },
@@ -3101,12 +3112,23 @@
      "link": "https://nsearchives.nseindia.in/corporate/KIRLOSENG_04112026162737_SE_Outcome_Result_4Nov26.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "KIRLOSENG",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Kirloskar Oil Engines Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/KIRLOSENG_04112026162737_SE_Outcome_Result_4Nov26.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
   "SUNDARMFIN": {
    "impact": "NEGATIVE",
-   "score": -1.0,
+   "score": -1.5,
    "impact_reason": "Main drivers: Shareholders meeting; Resignation.",
    "days": 30,
    "items": [
@@ -3119,6 +3141,50 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/SUNDARMFIN_16112026172341_SF_POSTAL_BALLOT_NOTICE_Final.pdf",
      "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "SUNDARMFIN",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "\"Sundaram Finance Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Unaudited Standalone and Consolidated Financial Results for the Quarter and Half Year Ended 30th September 2026\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNDARMFIN_04112026144908_Pressrelease_SD.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "SUNDARMFIN",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation",
+     "text": "Sundaram Finance Limited has informed the Exchange regarding the resignation of Mr. S. Viji, Chairman and Non-Executive Director of the Company",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNDARMFIN_04112026143658_Resignationinitmation.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "SUNDARMFIN",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Sundaram Finance Limited has informed the Exchange regarding the approval granted for acquisition of 100% stake in Sundaram Alternate Assets Limited from Sundaram Asset Management Company Limited",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNDARMFIN_04112026143500_AcquisitionSD.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "SUNDARMFIN",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Sundaram Finance Limited has submitted to the Exchange, the unaudited financial results for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNDARMFIN_04112026143215_UFR30092026SD.pdf",
+     "sentiment": "NEUTRAL",
      "age": null
     },
     {
@@ -3328,17 +3394,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/SBIN_03112026134649_FR_DSC.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "SBIN",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "State Bank Of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/SBIN_03112026134649_FR_DSC.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -3473,17 +3528,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/KMBLOMKAR_03112026201742_UpdateDeutscheBank.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "KOTAKBANK",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "General Updates",
-     "text": "Update on acquisition of Deutsche Bank AG s Retail Banking, Private Banking and Wealth Management Business in India",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/KMBLOMKAR_03112026201742_UpdateDeutscheBank.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -3512,28 +3556,6 @@
      "text": "HFCL Limited has informed the Exchange about Copy of Publication of Un-audited Financial Results for the 2nd Quarter and half year ended September 30, 2026, of the Financial Year 2026-27, in Newspapers",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/AHMED_20102026143102_HFCL_STX_Newspaper_20102026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "HFCL",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "HFCL Limited has informed the Exchange regarding a press release dated October 19, 2026, titled \"Press Release on Un-audited Financial Results of the Company for the 2nd Quarter and Half Year ended September 30, 2026, of the Financial Year ",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/AHMED_19102026120047_HFCL_STX_Outcome_BM_19102026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "HFCL",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "HFCL Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/AHMED_19102026115343_HFCL_STX_Outcome_BM_19102026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -4015,12 +4037,12 @@
     },
     {
      "symbol": "BLS",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "BLS International Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "title": "Copy of Newspaper Publication",
+     "text": "BLS International Services Limited has informed the Exchange about Copy of Newspaper Publication of Unaudited Financial Results of the Company for the Second quarter ended on September 30, 2026",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BLS_03112026143832_Outcome_Board_meeting_03112026_Signed.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/BLS_04112026145733_Intimation_of_Newspaper_publication_signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -4231,28 +4253,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/AMBER_03112026185712_SEIntimationUpdateonAcquisitionAscent.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "AMBER",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, we wish to inform the exchange that IL JIN Electronics (India) Limited, a material subsidiary of the Company (\"IL JIN\") has completed the acquisition of the balance 40% equity stak",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/AMBER_03112026191915_SEIntimationUpdateonAcquisitionPowerOne.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "AMBER",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, we wish to inform the exchange that IL JIN Electronics (India) Limited, a material subsidiary of the Company (\"IL JIN\") has completed acquisition of the balance 1.50% equity stake ",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/AMBER_03112026185712_SEIntimationUpdateonAcquisitionAscent.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -4406,17 +4406,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/GPIL_03112026172639_GPILNSEBSEJPL03112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "GPIL",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Updates",
-     "text": "Godawari Power And Ispat limited has informed the Exchange regarding 'Updates on Disposal of Stake in Jammu Pigments Limited, An Associate Company of GPIL.'.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/GPIL_03112026172639_GPILNSEBSEJPL03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -4499,17 +4488,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/LINDEINDIA1_03112026165015_Outcome_of_BM_03112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "LINDEINDIA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Linde India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LINDEINDIA1_03112026165015_Outcome_of_BM_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -4555,9 +4533,9 @@
    ]
   },
   "UJJIVANSFB": {
-   "impact": "NEGATIVE",
-   "score": -1.0,
-   "impact_reason": "Main drivers: Copy of Newspaper Publication; Shareholders meeting.",
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Copy of Newspaper Publication.",
    "days": 30,
    "items": [
     {
@@ -4568,17 +4546,6 @@
      "text": "Ujjivan Small Finance Bank Limited has informed the Exchange about Copy of Newspaper Publication - Post dispatch of EGM notice",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/BANKUJJIVAN_20102026182725_109_Newspaper_publication_Post_EGM_Notice_20102026.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "UJJIVANSFB",
-     "date": "19-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Shareholders meeting",
-     "text": "Ujjivan Small Finance Bank Limited has informed the Exchange regarding Notice of Extraordinary General Meeting to be held on November 13, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_19102026153922_108_Filing_of_EGM_Notice_19102026.pdf",
      "sentiment": "NEGATIVE",
      "age": null
     },
@@ -4653,17 +4620,6 @@
      "text": "Anupam Rasayan India Limited has submitted to the Exchange, the unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter and half year ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/ANURAS_06112026153623_ARILSLDSTX20261106076OutcomeofBM.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "ANURAS",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Anupam Rasayan India Limited has informed the Exchange about Earnings Call on the Unaudited Financial Results (Standalone and Consolidated) for the quarter and half year ended September 30, 2026, scheduled to be held on Friday, November 06,",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ANURAS_03112026234954_ARILSLDSTX20261103075IntimationofEarningsCall.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -4979,8 +4935,8 @@
    ]
   },
   "ITI": {
-   "impact": "VERY POSITIVE",
-   "score": 2.0,
+   "impact": "POSITIVE",
+   "score": 1.0,
    "impact_reason": "Main drivers: Spurt in Volume; Spurt in Volume.",
    "days": 30,
    "items": [
@@ -4993,28 +4949,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/ITI_13112026170859_Q2_30th_Sept_2026_Signed_Financials.pdf",
      "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "ITI",
-     "date": "03-Nov-202",
-     "type": "Order / contract",
-     "title": "Spurt in Volume",
-     "text": "Significant increase in volume has been observed in ITI Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safe",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ITI_03112026185942_Volume_Movement_Reply.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "ITI",
-     "date": "03-Nov-202",
-     "type": "Order / contract",
-     "title": "Spurt in Volume",
-     "text": "Significant increase in volume has been observed in ITI Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safe",
-     "source": "NSE corporate filing",
-     "link": "-",
-     "sentiment": "POSITIVE",
      "age": null
     },
     {
@@ -5175,12 +5109,23 @@
     },
     {
      "symbol": "CHOICEIN",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Earnings Conference Call - Audio Recording for Q2 & H1 FY27 Results.",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "General Updates",
+     "text": "Acquisition of \"M/s Truestock Universe Private Limited\" and \"M/s. Quanthm Bit Works Private Limited\" by the Company and sale of Investment in \"SKP Green Ventures Private Limited\" by our Material Subsidiary.",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/CHOICE_03112026220856_upload.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/CHOICE_04112026200002_upload.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "CHOICEIN",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Copy of Newspaper Publication",
+     "text": "Newspaper Publication for the Un-audited (Standalone and Consolidated) Financial results for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CHOICE_04112026144626_Upload_signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -5864,7 +5809,7 @@
   },
   "RITES": {
    "impact": "VERY POSITIVE",
-   "score": 2.0,
+   "score": 3.5,
    "impact_reason": "Main drivers: Press Release; Record Date.",
    "days": 30,
    "items": [
@@ -5899,6 +5844,39 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/RITES_05112026150952_Intimation.pdf",
      "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "RITES",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Press Release",
+     "text": "RITES Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"RITES Q2FY27 Revenue &#8377;583 cr; PAT &#8377;97 cr Declares 2nd Interim Dividend of &#8377;1.9/share\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/RITES_04112026214619_IntimationSigned.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "RITES",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "RITES Limited has informed the Exchange that Record date for the purpose of Dividend  is 11-Nov-2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/RITES_04112026170726_OutcomeSigned.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "RITES",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "RITES Limited has informed the Exchange that Board of Directors at its meeting held on November 04, 2026, declared Interim Dividend of Rs. 1.90 per equity share.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/RITES_04112026164414_OutcomeSigned.pdf",
+     "sentiment": "POSITIVE",
      "age": null
     },
     {
@@ -6037,17 +6015,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_03112026165105_ACL_Investor_Transcript_03112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "AMBUJACEM",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Ambuja Cements Limited has informed the exchange regarding Transcript of earning call held on October 29, 2026, pertaining to Unaudited financial results of the company for quarter and half year ended September 30, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_03112026165105_ACL_Investor_Transcript_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -6111,17 +6078,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/ACC_1_03112026172336_ACC_Transcript_03112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "ACC",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "ACC Limited has informed the Exchange about Transcript of earning call held on October 29, 2026, pertaining to Unaudited financial results of the company for quarter and half year ended September 30, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ACC_1_03112026172336_ACC_Transcript_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -6139,17 +6095,6 @@
      "text": "Gujarat Fluorochemicals Limited has informed the Exchange about Acquisition",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_13112026111440_GFCL_Intimation_Reg_30_Incorporation_of_GFCL_EV_Critical_Minerals.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "FLUOROCHEM",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Gujarat Fluorochemicals Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -6456,8 +6401,8 @@
    ]
   },
   "LALPATHLAB": {
-   "impact": "NEUTRAL",
-   "score": 0.5,
+   "impact": "POSITIVE",
+   "score": 1.5,
    "impact_reason": "Main drivers: Shareholders meeting; Record Date.",
    "days": 30,
    "items": [
@@ -6470,6 +6415,50 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/LALPATHLAB_12112026153650_PBNoticedated04112026.pdf",
      "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "LALPATHLAB",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Dr. Lal Path Labs Ltd. has informed the Exchange regarding a press release dated November 04, 2026, titled \"Press Release on Un-audited Financial Results (Standalone and Consolidated) for the Quarter and Half Year ended September 30, 2026\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LALPATHLAB_04112026141544_pressrelease.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LALPATHLAB",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "Dr. Lal Path Labs Ltd. has informed the Exchange that Record date for the purpose of 2nd Interim Dividend is 11-Nov-2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LALPATHLAB_04112026133519_BMoutcome041126.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "LALPATHLAB",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "Dr. Lal Path Labs Ltd. has informed the Exchange that Board of Directors at its meeting held on November 04, 2026, declared 2nd Interim Dividend of Rs. 5 per equity share.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LALPATHLAB_04112026133122_BMoutcome041126.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "LALPATHLAB",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Dr. Lal Path Labs Ltd. has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LALPATHLAB_04112026132659_BMoutcome041126.pdf",
+     "sentiment": "NEUTRAL",
      "age": null
     },
     {
@@ -6695,17 +6684,6 @@
     },
     {
      "symbol": "INFY",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Updates",
-     "text": "Infosys Limited has informed the Exchange regarding 'Infosys to Announce Second Quarter Results on October 23, 2026'.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/Infosys_19102026154028_PR_19102026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "INFY",
      "date": "12-Nov-202",
      "type": "Order / contract",
      "title": "Updates",
@@ -6755,17 +6733,6 @@
    "items": [
     {
      "symbol": "PIIND",
-     "date": "19-Oct-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "PI Industries Limited has informed the Exchange about Update on Incorporation of a Wholly Owned Subsidiary of the Company namely  PI Foundation  under section 8 of the Companies Act, 2013.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/PIIND_19102026184713_PI_Foundation-_Reg_30_disclosure_October_19_2026_sd.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "PIIND",
      "date": "12-Nov-202",
      "type": "Results",
      "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
@@ -6794,6 +6761,17 @@
      "text": "PI Industries Limited has informed the Exchange about Link of Audio Recording of Earnings Conference Call pertaining to the Unaudited Financial Results for the quarter and half year ended September 30, 2026",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/PIIND_05112026173249_Intimation_Earning_Call_AudioRecording_05112026_sd.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "PIIND",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "PI Industries Limited has submitted to the Exchange, the Outcome of Board Meeting held on November 04, 2026 for approval of Unaudited Standalone and Consolidated Financial Results for the quarter and half year September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/PIIND_04112026193824_Resultssd.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -7099,7 +7077,7 @@
   },
   "BHEL": {
    "impact": "VERY POSITIVE",
-   "score": 2.0,
+   "score": 2.5,
    "impact_reason": "Main drivers: Bagging/Receiving of orders/contracts; Action(s) taken or orders passed.",
    "days": 30,
    "items": [
@@ -7146,6 +7124,17 @@
      "link": "https://nsearchives.nseindia.in/corporate/BHEL_04112026085754_APLorder04112026.pdf",
      "sentiment": "POSITIVE",
      "age": null
+    },
+    {
+     "symbol": "BHEL",
+     "date": "04-Nov-202",
+     "type": "Order / contract",
+     "title": "Bagging/Receiving of orders/contracts",
+     "text": "Bharat Heavy Electricals Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHEL_04112026085754_APLorder04112026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
     }
    ]
   },
@@ -7174,6 +7163,39 @@
      "text": "Lenskart Solutions Limited has informed the Exchange about Copy of Newspaper Publication on Financial Results for the quarter and half-year ended September 30, 2026",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/LENSKART_05112026112753_NewsPaper_Publication_-_SE_Intimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LENSKART",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "Lenskart Solutions Limited has informed the Exchange about Link of Recording of Earnings Call with respect to Financial Results for the quarter and half-year ended September 30, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LENSKART_04112026232439_Reg30_-_Audio_Recording_FR_-_SE_Intimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LENSKART",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "General Updates",
+     "text": "Lenskart Solutions Limited has informed the Exchange about Shareholders Letter and Results dated November 4, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LENSKART_04112026154204_Reg30_-_Shareholders_Letter_-_SE_Intimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LENSKART",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Lenskart Solutions Limited has submitted to the Exchange the financial results for the quarter and half-year ended September 30, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LENSKART_04112026153338_Outcome_Intimation_-_BM_dated_04112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -7610,7 +7632,7 @@
   },
   "APTUS": {
    "impact": "NEUTRAL",
-   "score": 0.0,
+   "score": 0.5,
    "impact_reason": "Main drivers: Shareholders meeting; Record Date.",
    "days": 30,
    "items": [
@@ -7623,6 +7645,28 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/APTUS_09112026180203_Aptus_Postal_Ballot_2026_sd.pdf",
      "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "APTUS",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "Aptus Value Housing Finance India Limited has informed the Exchange that Record date for the purpose of Dividend  is 13-Nov-2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APTUS_04112026165243_AVHFIL_Board_Meeting_Outcome_November_04_2026_sd.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "APTUS",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Aptus Value Housing Finance India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APTUS_04112026164833_AVHFIL_Board_Meeting_Outcome_November_04_2026_sd.pdf",
+     "sentiment": "NEUTRAL",
      "age": null
     },
     {
@@ -7680,9 +7724,9 @@
    ]
   },
   "WHIRLPOOL": {
-   "impact": "NEUTRAL",
-   "score": -0.5,
-   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP.",
+   "impact": "NEGATIVE",
+   "score": -1.0,
+   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Resignation of Director/KMP/SMP.",
    "days": 30,
    "items": [
     {
@@ -7694,6 +7738,17 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/WHIRLPOOL_09112026164908_SEIntimation_signed.pdf",
      "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "WHIRLPOOL",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation of Director/KMP/SMP",
+     "text": "Whirlpool of India Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/WHIRLPOOL_ROID_103565_KMP_Doc.zip",
+     "sentiment": "NEGATIVE",
      "age": null
     },
     {
@@ -7866,8 +7921,8 @@
    ]
   },
   "CASTROLIND": {
-   "impact": "NEGATIVE",
-   "score": -1.0,
+   "impact": "VERY NEGATIVE",
+   "score": -2.0,
    "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Resignation.",
    "days": 30,
    "items": [
@@ -7925,12 +7980,34 @@
      "link": "https://nsearchives.nseindia.in/corporate/CASTROLINDIA_04112026151136_SE_Intimation_JP_Resignation_4_Nov_2026.pdf",
      "sentiment": "NEGATIVE",
      "age": null
+    },
+    {
+     "symbol": "CASTROLIND",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation of Director/KMP/SMP",
+     "text": "Castrol India Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CASTROLIND_ROID_103393_KMP_Doc.zip",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "CASTROLIND",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation",
+     "text": "Castrol India Limited has informed the Exchange regarding Resignation of Mr. Jyoti Prakash as Vice President & Head   Supply Chain of the Company (Senior Management Personnel position) w.e.f. close of business hours on 14 January 2027.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CASTROLINDIA_04112026151136_SE_Intimation_JP_Resignation_4_Nov_2026.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
     }
    ]
   },
   "LT": {
    "impact": "VERY POSITIVE",
-   "score": 2.5,
+   "score": 2.0,
    "impact_reason": "Main drivers: Bagging/Receiving of orders/contracts; Bagging/Receiving of orders/contracts.",
    "days": 30,
    "items": [
@@ -7964,17 +8041,6 @@
      "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/PAM_21102026094637_PressRelease21102026.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "LT",
-     "date": "19-Oct-202",
-     "type": "Order / contract",
-     "title": "Bagging/Receiving of orders/contracts",
-     "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/PAM_19102026101805_PressRelease19102026.pdf",
      "sentiment": "POSITIVE",
      "age": null
     },
@@ -8061,17 +8127,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/MEESHO_06112026234101_Cover_letter_Postal_Ballot_Notice_06112026.pdf",
      "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "MEESHO",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "General Updates",
-     "text": "Meesho Limited has informed the Exchange under Regulation 30 of SEBI (LODR) Regulations, 2015 - Updates on Acquisition.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/MEESHO_03112026072231_MLIntimtionRightissueallotment03Nov2026.pdf",
-     "sentiment": "NEUTRAL",
      "age": null
     },
     {
@@ -8240,6 +8295,28 @@
      "link": "https://nsearchives.nseindia.in/corporate/CUMMINSIND_04112026223607_SEintimation_OutcomeFR_04112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "CUMMINSIND",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Cummins India Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Cummins India Limited - Results for the quarter and period ended September 30, 2026\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CUMMINSIND_04112026232559_SEIntimationPressRelease_04112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "CUMMINSIND",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Cummins India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CUMMINSIND_04112026223607_SEintimation_OutcomeFR_04112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
@@ -8268,17 +8345,6 @@
      "text": "Tata Steel Limited has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_07112026130531_BOARDOUTCOME-NOV7.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "TATASTEEL",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Amalgamation/Merger",
-     "text": "Tata Steel Limited has informed the Exchange about  Effective Date  of the Scheme of Amalgamation amongst Tata Steel Limited and Rujuvalika Investments Limited, wholly owned subsidiary, and their respective shareholders",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_03112026124745_BSENSE.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -8421,12 +8487,12 @@
     },
     {
      "symbol": "KEC",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Audio Recording of the Earnings Conference Call held today i.e. November 03, 2026, at 10:00 a.m. (IST), for the Unaudited Financial Results of the Company for the quarter and half year ended September 30, 2026, has been made available on th",
+     "title": "Copy of Newspaper Publication",
+     "text": "Please find enclosed herewith copies of newspaper advertisements published regarding Unaudited Financial Results of the Company for the quarter and half year ended September 30, 2026.",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/KEC_03112026175244_SE_Intimation.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/KEC_04112026152248_SEintimation.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -8518,7 +8584,7 @@
      "source": "NSE bulk deals file",
      "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
      "sentiment": "POSITIVE",
-     "age": 0
+     "age": 1
     },
     {
      "symbol": "AZAD",
@@ -8529,7 +8595,7 @@
      "source": "NSE bulk deals file",
      "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
      "sentiment": "VERY POSITIVE",
-     "age": 0
+     "age": 1
     },
     {
      "symbol": "AZAD",
@@ -8540,7 +8606,7 @@
      "source": "NSE bulk deals file",
      "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
      "sentiment": "VERY POSITIVE",
-     "age": 0
+     "age": 1
     },
     {
      "symbol": "AZAD",
@@ -8551,7 +8617,7 @@
      "source": "NSE bulk deals file",
      "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
      "sentiment": "VERY POSITIVE",
-     "age": 0
+     "age": 1
     },
     {
      "symbol": "AZAD",
@@ -8562,7 +8628,7 @@
      "source": "NSE bulk deals file",
      "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
      "sentiment": "POSITIVE",
-     "age": 0
+     "age": 1
     },
     {
      "symbol": "AZAD",
@@ -8573,7 +8639,7 @@
      "source": "NSE bulk deals file",
      "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
      "sentiment": "NEGATIVE",
-     "age": 0
+     "age": 1
     },
     {
      "symbol": "AZAD",
@@ -8584,7 +8650,7 @@
      "source": "NSE bulk deals file",
      "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
      "sentiment": "VERY NEGATIVE",
-     "age": 0
+     "age": 1
     },
     {
      "symbol": "AZAD",
@@ -8605,6 +8671,17 @@
      "text": "Unaudited financial results for the quarter and half year ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/AZAD2356_06112026182458_Covering.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AZAD",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "Earnings Conference Call to discuss the Unaudited financial results of the Company for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AZAD2356_04112026102912_Covering.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -8699,17 +8776,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/marico_06112026120813_PBNotice.pdf",
      "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "MARICO",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Copy of Newspaper Publication",
-     "text": "Pursuant to Regulation 47 of the SEBI Listing Regulations, please find enclosed the newspaper extract of the un-audited consolidated financial results of the Company for the quarter and half year ended September 30, 2026, approved by the Bo",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/marico_03112026163108_SEint.pdf",
-     "sentiment": "NEUTRAL",
      "age": null
     },
     {
@@ -9109,8 +9175,8 @@
    ]
   },
   "HUDCO": {
-   "impact": "POSITIVE",
-   "score": 1.0,
+   "impact": "VERY POSITIVE",
+   "score": 2.0,
    "impact_reason": "Main drivers: Record Date; Dividend.",
    "days": 30,
    "items": [
@@ -9122,6 +9188,39 @@
      "text": "Housing & Urban Development Corporation Limited has informed the Exchange about Link of Recording - Audio link of Earnings Conference Call held on 06.11.2026, for Unaudited Financial Results for the quarter and half year ended 30.09.2026",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/HUDCO_06112026171110_NSEBSEReg3006112026_Audio.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "HUDCO",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "Housing & Urban Development Corporation Limited has informed the Exchange that Record date for the purpose of Dividend  is 11-Nov-2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HUDCO_04112026141032_FR_SEP_2026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "HUDCO",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "Housing & Urban Development Corporation Limited has informed the Exchange that Board of Directors at its meeting held on November 04, 2026, declared Interim Dividend of Rs. 1.35 per equity share.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HUDCO_04112026140801_FR_SEP_2026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "HUDCO",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Housing & Urban Development Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HUDCO_04112026140744_FR_SEP_2026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -9387,12 +9486,12 @@
     },
     {
      "symbol": "DOMS",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "DOMS Industries Limited has informed the Exchange about Audio Recording of Unaudited Financial Results for the quarter and six months ended September 30, 2026",
+     "title": "Copy of Newspaper Publication",
+     "text": "DOMS Industries Limited has informed the Exchange about Copy of Newspaper Publication in relation to Unaudited Financial Results for the quarter and six months ended September 30, 2026",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/RAHULBS35_03112026220028_IntimationofAudioRecording.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/RAHULBS35_04112026161858_IntimationOfNewspaperAdvertisement.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -9590,12 +9689,34 @@
     },
     {
      "symbol": "DABUR",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Record Date",
-     "text": "Dabur India Limited has informed the Exchange that Record date for the purpose of  Interim Dividend for FY 2026-27  is 10-Nov-2026",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation",
+     "text": "Dabur India Limited has informed the Exchange regarding Resignation of Mr. Mohit Malhotra as Global Chief Executive Officer and Whole-time Director, from the Company, with effect from November 13, 2026",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/DABUR_03112026110500_Recorddate.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/DABURA_04112026172329_ChangeinManagement.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "DABUR",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "Dabur India Limited has informed the Exchange that Board of Directors at its meeting held on November 04, 2026, declared Interim Dividend of Rs. 3.50 per equity share.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/DABURA_04112026164107_results.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "DABUR",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Outcome of Board Meeting",
+     "text": "Dabur India Limited has submitted to the Exchange, the Unaudited Financial and Segment wise Results for the quarter and half year ended September 30, 2026 and declaration of Interim Dividend for the FY 2026-27",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/DABURA_04112026161740_results.pdf",
      "sentiment": "POSITIVE",
      "age": null
     },
@@ -9709,17 +9830,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/MINDACORP_ROID_104059_KMP_Doc.zip",
      "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "MINDACORP",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Minda Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/MINDACORP_03112026150024_BMOutcome.pdf",
-     "sentiment": "NEUTRAL",
      "age": null
     },
     {
@@ -9869,17 +9979,6 @@
     },
     {
      "symbol": "PCBL",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Copy of Newspaper Publication",
-     "text": "PCBL Chemical Limited has informed the Exchange about Copy of Newspaper Publication of Unaudited Financial Results for the quarter and half year ended 30th September, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/PCBL_03112026124755_NewspaperPublicationofUnauditedFinancialResults.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "PCBL",
      "date": "02-Nov-202",
      "type": "Governance / regulatory",
      "title": "Shareholders meeting",
@@ -9957,28 +10056,6 @@
      "text": "Revised Intimation of Earnings Conference call in respect of the Unaudited Standaloneand Consolidated Financial Results of the Company for the quarter and half year ended September 30, 2026",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/TATACAPITAL_24102026203415_SEIntimationEarningsCCallOctobersigned.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "TATACAP",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "General Updates",
-     "text": "Tata Capital Limited has informed the Exchange about Conference call with Media in respect of the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TATACAPITAL_19102026185454_SEIntimationEarningSCallOctober272026signed.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "TATACAP",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Tata Capital Limited has informed the Exchange about Conference call with Media and Earnings Conference call in respect of the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended Septem",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TATACAPITAL_19102026185315_SEIntimationEarningSCallOctober272026signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -10203,23 +10280,34 @@
     },
     {
      "symbol": "FRACTAL",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Fractal Analytics Limited has submitted to the Exchange, the financial results for the quarter and six months ended September 30, 2026.",
+     "title": "Copy of Newspaper Publication",
+     "text": "Newspaper Publication of Unaudited Consolidated and Standalone Financial Results for thequarter and six months ended September 30, 2026",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/FRACTAL_03112026223034_Outcome_of_BM_03112026.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/FRACTAL_04112026183940_Newspaper_Publication.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
     {
      "symbol": "FRACTAL",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "General Updates",
-     "text": "Acquisition of certain assets and certain liabilities of Pricing One SA, by Asper. AI Inc., a step-down subsidiary of the Company",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "Audio recording of earnings call   Q2 FY27   Financial Results",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/FRACTAL_03112026205732_SEIntimationPricing_One.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/FRACTAL_04112026182917_Earnings_Audio_Call.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "FRACTAL",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "In continuation of our intimation dated November 03, 2026, regarding the outcome of the Board meeting on the Unaudited Consolidated and Standalone Financial Results for the quarter and six months ended September 30, 2026, please find the en",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/FRACTAL_04112026003610_Press_Release_September_30_2026_FS.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -10261,6 +10349,17 @@
      "text": "SWAN CORP LIMITED has informed the Exchange about Copy of Newspaper Publication of Unaudited Financial Results for the quarter and half year ended 30th September, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/SWANENERGY_06112026122107_SCL_Newspaper_Publication.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "SWANCORP",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "SWANCORP: SWAN CORP LIMITED has submitted to the Exchange, the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SWANENERGY_04112026162441_BM_Outcome.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -10519,7 +10618,7 @@
   },
   "NH": {
    "impact": "POSITIVE",
-   "score": 1.0,
+   "score": 1.5,
    "impact_reason": "Main drivers: Updates; Demerger.",
    "days": 30,
    "items": [
@@ -10569,6 +10668,17 @@
     },
     {
      "symbol": "NH",
+     "date": "04-Nov-202",
+     "type": "Order / contract",
+     "title": "Demerger",
+     "text": "Narayana Hrudayalaya Ltd. has informed the Exchange about Filing of the Orderof the Hon ble National Company Law Tribunal, Bengaluru Bench sanctioning the Scheme ofArrangement between NH Integrated Care Private Limited (WOS) and NarayanaHru",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/Narayana_04112026222839_SE-Order_-NHIC_Demerger.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "NH",
      "date": "01-Nov-202",
      "type": "Results",
      "title": "Copy of Newspaper Publication",
@@ -10582,7 +10692,7 @@
   },
   "BALRAMCHIN": {
    "impact": "VERY POSITIVE",
-   "score": 2.0,
+   "score": 3.5,
    "impact_reason": "Main drivers: Copy of Newspaper Publication; Updates.",
    "days": 30,
    "items": [
@@ -10606,6 +10716,61 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/SUNILBCML_05112026193708_BCML_NewspaperAdvertisement_tds.pdf",
      "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Updates",
+     "text": "Balrampur Chini Mills Limited has informed the Exchange regarding 'Communication to the Shareholders regarding Tax Deduction at Source on Dividend payout'.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNILBCML_04112026222744_BCML_SEIntimation_TDSComm_2627.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Balrampur Chini Mills Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Q2 FY27 Financial Results\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNILBCML_04112026183706_BCML_Pressrelease_041126.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "Balrampur Chini Mills Limited has informed the Exchange that Record date for the purpose of Interim Dividend declared by the Board in its meeting held on 4th November, 2026 is 11th November, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNILBCML_04112026151108_BCML_Outcome_BM_04112026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "Balrampur Chini Mills Limited has informed the Exchange that Board of Directors at its meeting held on today i.e November 04, 2026, declared an Interim Dividend of 400% i.e. Rs. 4.00/- per equity share of Re. 1/- each fully paid up for the ",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNILBCML_04112026144953_BCML_Outcome_BM_04112026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BALRAMCHIN",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Balrampur Chini Mills Limited has submitted to the Exchange, the Un-audited Financial Results (Standalone and Consolidated) for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNILBCML_04112026144306_BCML_Outcome_BM_04112026.pdf",
+     "sentiment": "NEUTRAL",
      "age": null
     },
     {
@@ -10764,6 +10929,17 @@
      "text": "NHPC Limited has informed the Exchange about General Updates-Presentation on unaudited financial results for the quarter ended 30.09.2026",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/NHPC_05112026104653_STX_Presentation_Results_30092026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "NHPC",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "NHPC Limited has submitted to the Exchange, the unaudited financial results for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NHPC_04112026192444_STX_Intimation_Results_30092026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -11016,9 +11192,9 @@
    ]
   },
   "SCHNEIDER": {
-   "impact": "POSITIVE",
-   "score": 1.0,
-   "impact_reason": "Main drivers: Action(s) taken or orders passed; Action(s) taken or orders passed.",
+   "impact": "NEUTRAL",
+   "score": 0.5,
+   "impact_reason": "Main drivers: Action(s) taken or orders passed.",
    "days": 30,
    "items": [
     {
@@ -11030,17 +11206,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/SCHNEIDER_05112026153711_SEILOutcome_FR_05112026.pdf",
      "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "SCHNEIDER",
-     "date": "03-Nov-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "Schneider Electric Infrastructure Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/SCHNEIDER_03112026130152_IntimationReg_30GST_MatterNov022026.pdf",
-     "sentiment": "POSITIVE",
      "age": null
     },
     {
@@ -11092,6 +11257,28 @@
      "text": "Afcons Infrastructure Limited has informed the Exchange about Link of Recording                      ( Audio Link for Earnings Conference Call on Unaudited Financial Results for the quarter and half year ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/AFCONS_05112026153459_Afcons_Recording_of_EarningsCall_05112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AFCONS",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Afcons Infrastructure Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Press Release on Unaudited Financial Results for the Quarter and Half Year Ended September 30, 2026\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AFCONS_04112026195458_Afcons_Press_Release_date04112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AFCONS",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Afcons Infrastructure Limited has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AFCONS_04112026191300_Afcons_Outcome_of_the_Board_meetingdate04112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -11310,12 +11497,56 @@
      "link": "https://nsearchives.nseindia.in/corporate/NEAPSPW_04112026171411_Intimationsd.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "PWL",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Physicswallah Limited has informed the Exchange about Acquisition",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NEAPSPW_04112026182722_seintimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "PWL",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "General Updates",
+     "text": "Physicswallah Limited has informed the Exchange about Shareholders Letter on the financial results for the quarter and half year ended September 30, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NEAPSPW_04112026173007_shareholder_letter_intimationSD.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "PWL",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Physicswallah Limited has informed the exchange regarding press release on unaudited standalone and consolidated financial results for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NEAPSPW_04112026171920_Pressreleasesd.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "PWL",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Physicswallah Limited has informed the exchange regarding approval of unaudited standalone and consolidated financial results for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NEAPSPW_04112026171411_Intimationsd.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
   "AAVAS": {
-   "impact": "NEGATIVE",
-   "score": -1.5,
+   "impact": "VERY NEGATIVE",
+   "score": -2.0,
    "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Copy of Newspaper Publication.",
    "days": 30,
    "items": [
@@ -11349,6 +11580,17 @@
      "text": "Aavas Financiers Limited has informed the Exchange about Copy of Newspaper Advertisement regarding dispatch of Postal Ballot Notice and E-Voting Information.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/AAVAS_05112026143428_Newspaper_Intimation.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "AAVAS",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "Aavas Financiers Limited has informed the Exchange regarding Notice of Postal Ballot and E-voting information",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AAVAS_04112026164542_ExchangeIntimation.pdf",
      "sentiment": "NEGATIVE",
      "age": null
     },
@@ -11534,17 +11776,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_03112026200547_20261103_Outcome_of_Board_Meeting.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "LLOYDSME",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Approval for further investment in Thriveni Earthmovers and Infra Private Limited, subsidiary of the company, by way of subscription to rights issue / further issue of capital.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_03112026200547_20261103_Outcome_of_Board_Meeting.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -11716,8 +11947,8 @@
    ]
   },
   "NLCINDIA": {
-   "impact": "POSITIVE",
-   "score": 1.0,
+   "impact": "VERY POSITIVE",
+   "score": 2.0,
    "impact_reason": "Main drivers: Record Date; Dividend.",
    "days": 30,
    "items": [
@@ -11729,6 +11960,39 @@
      "text": "NLC India Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"FINANCIAL RESULTS OF NLCIL FOR THE QUARTER & HALF YEARENDED 30.09.2026\".",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/NLCINDIA_05112026124933_Press_Release_dt_04112026_Signed.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "NLCINDIA",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "NLC India Limited has informed the Exchange that Record date for the purpose of Dividend  is 12-Nov-2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NLCINDIA_04112026140709_573_BM_-_Outcome_04112026_Signed.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "NLCINDIA",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "NLC India Limited has informed the Exchange that Board of Directors at its meeting held on November 04, 2026, declared Interim Dividend of Rs. 1.5 per equity share.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NLCINDIA_04112026140524_573_BM_-_Outcome_04112026_Signed.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "NLCINDIA",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "NLC India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NLCINDIA_04112026135958_573_BM_-_Outcome_04112026_Signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -11794,17 +12058,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/Authum123_03112026205231_OutcomeBM03112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "AIIL",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Authum Investment & Infrastructure Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/Authum123_03112026205231_OutcomeBM03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -11828,8 +12081,8 @@
    ]
   },
   "PREMIERENE": {
-   "impact": "POSITIVE",
-   "score": 1.0,
+   "impact": "VERY POSITIVE",
+   "score": 2.0,
    "impact_reason": "Main drivers: Record Date; Dividend.",
    "days": 30,
    "items": [
@@ -11841,6 +12094,39 @@
      "text": "Premier Energies Limited has informed the Exchange regarding a press release dated November 05, 2026, titled \"Premier Energies Reports Strong Q2 FY27 Results\"",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/PEL2024_05112026101211_Press_Release_Signed.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "PREMIERENE",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "Premier Energies Limited has informed the Exchange that Record date for the purpose of Dividend  is 11-Nov-2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/PEL2024_04112026184116_BM_Outcome_Q2_FY27_Financial_Results.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "PREMIERENE",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "Premier Energies Limited has informed the Exchange that Board of Directors at its meeting held on November 04, 2026, declared Interim Dividend of Rs. 0.50 per equity share.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/PEL2024_04112026183655_BM_Outcome_Q2_FY27_Financial_Results.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "PREMIERENE",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Premier Energies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/PEL2024_04112026182631_Outcome_Q2_FY_2026-27_Signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -11909,12 +12195,12 @@
     },
     {
      "symbol": "GRAPHITE",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Graphite India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "title": "Copy of Newspaper Publication",
+     "text": "Graphite India Limited has informed the Exchange about Copy of Newspaper Publication of the Un-audited Financial Results of the Company for the quarter/half year ended ended September 30, 2026",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/GILKOLKATA_03112026135910_RESULT30092026F.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/GILKOLKATA_04112026232450_GIL_FR_NP.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -11937,6 +12223,28 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
+    {
+     "symbol": "TENNIND",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Tenneco Clean Air India Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Tenneco Clean Air India Limited Announces Q2 and H1 FY 27 Results\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TENNECO_04112026222545_Press_Release_Intimation_Signed.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "TENNIND",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Tenneco Clean Air India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TENNECO_04112026221229_BMOutcomeIntimation_Signed.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
     {
      "symbol": "TENNIND",
      "date": "04-Nov-202",
@@ -11988,15 +12296,70 @@
      "link": "https://nsearchives.nseindia.in/corporate/KIMS_04112026184239_Outcome-final.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "KIMS",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Amalgamation/Merger",
+     "text": "Krishna Institute of Medical Sciences Limited has informed the Exchange about Amalgamation/Merger",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/KIMS_04112026203114_Disclosure_to_SE_Rajhmundry.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "KIMS",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Krishna Institute of Medical Sciences Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/KIMS_04112026184239_Outcome-final.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
   "SCI": {
-   "impact": "POSITIVE",
-   "score": 1.0,
+   "impact": "VERY POSITIVE",
+   "score": 2.0,
    "impact_reason": "Main drivers: Record Date; Dividend.",
    "days": 30,
    "items": [
+    {
+     "symbol": "SCI",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "Shipping Corporation of India Limited has informed the Exchange that Record date for the purpose of Interim Dividend is 16-Nov-2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SCI1_04112026201140_Finalsd.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "SCI",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "Shipping Corporation of India Limited has informed the Exchange that Board of Directors at its meeting held on November 04, 2026, declared First Interim Dividend of Rs. 4 per equity share of face value of Rs. 10 each",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SCI1_04112026193040_Finalsd.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "SCI",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Shipping Corporation Of India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SCI1_04112026191407_Finalsd.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
     {
      "symbol": "SCI",
      "date": "04-Nov-202",
@@ -12034,7 +12397,7 @@
   },
   "BALKRISIND": {
    "impact": "VERY POSITIVE",
-   "score": 2.0,
+   "score": 2.5,
    "impact_reason": "Main drivers: Updates; Dividend.",
    "days": 30,
    "items": [
@@ -12073,12 +12436,34 @@
     },
     {
      "symbol": "BALKRISIND",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Corporate action",
-     "title": "Record Date",
-     "text": "Balkrishna Industries Limited has informed the Exchange that Record date for the purpose of Dividend  is 11-Nov-2026.",
+     "title": "Updates",
+     "text": "Balkrishna Industries Limited has informed the Exchange regarding 'The Board has approved 2nd Interim Dividend for FY 2026-27'.",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BALKRISIND_03112026111559_Board_Meeting_Intimation_signed_and_record_date.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/BALKRISIND_04112026190741_Outcome_uploaded_signed.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BALKRISIND",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Balkrishna Industries Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BALKRISIND_04112026185711_Outcome_uploaded_signed.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BALKRISIND",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "Balkrishna Industries Limited has informed the Exchange that Board of Directors at its meeting held on November 04, 2026, declared Interim Dividend of Rs. 4 per equity share.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BALKRISIND_04112026185911_Outcome_uploaded_signed.pdf",
      "sentiment": "POSITIVE",
      "age": null
     },
@@ -12169,6 +12554,17 @@
     },
     {
      "symbol": "RRKABEL",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "RRKABEL: R R Kabel Limited has informed the Exchange about the Transcript of the Earnings Conference Call held on 29 October 2026 in relation to the financial results of the Company for the quarter and half-year ended 30 September 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/RRKL1995_04112026184202_Intimation_Earnings_Call_Transcript_Q2_FY_26_27.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "RRKABEL",
      "date": "01-Nov-202",
      "type": "Corporate action",
      "title": "Acquisition",
@@ -12186,6 +12582,28 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
+    {
+     "symbol": "APOLLOHOSP",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Apollo Hospitals Enterprise Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Apollo Hospitals Q2FY27 Financial Results\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APOLLOHOSP_04112026181106_SE_Communication_04112026_s.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "APOLLOHOSP",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Apollo Hospitals Enterprise Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APOLLOHOSP_04112026174756_SE_Communication_04112026_s.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
     {
      "symbol": "APOLLOHOSP",
      "date": "04-Nov-202",
@@ -12259,15 +12677,59 @@
      "link": "https://nsearchives.nseindia.in/corporate/GMRINFRA_04112026175706_TranscriptofConferencecall.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "GMRAIRPORT",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "GMR AIRPORTS LIMITED has informed the Exchange about Transcript of Earnings Call on the Un-audited Financial Results (Standalone and Consolidated) for the quarter and half year ended September 30, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/GMRINFRA_04112026175706_TranscriptofConferencecall.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
   "JMFINANCIL": {
-   "impact": "POSITIVE",
-   "score": 1.0,
+   "impact": "VERY POSITIVE",
+   "score": 2.0,
    "impact_reason": "Main drivers: Record Date; Dividend.",
    "days": 30,
    "items": [
+    {
+     "symbol": "JMFINANCIL",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Record Date",
+     "text": "JM Financial Limited has informed the Exchange that Record date for the purpose of Interim Dividend is November 11, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/JMFINANCIL_04112026174245_OutcomeoftheBoardMeeting04112026upload.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "JMFINANCIL",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "JM Financial Limited has informed the Exchange that Board of Directors at its meeting held on November 4, 2026, declared Interim Dividend of Rs. 1.65 per equity share for the financial year 2026-27.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/JMFINANCIL_04112026173804_OutcomeoftheBoardMeeting04112026upload.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "JMFINANCIL",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "JM Financial Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/JMFINANCIL_04112026172519_OutcomeoftheBoardMeeting04112026upload.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
     {
      "symbol": "JMFINANCIL",
      "date": "04-Nov-202",
@@ -12305,8 +12767,8 @@
   },
   "NATIONALUM": {
    "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "Main drivers: Copy of Newspaper Publication; Copy of Newspaper Publication.",
+   "score": 0.5,
+   "impact_reason": "Main drivers: Copy of Newspaper Publication; Record Date.",
    "days": 30,
    "items": [
     {
@@ -12322,23 +12784,12 @@
     },
     {
      "symbol": "NATIONALUM",
-     "date": "03-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Copy of Newspaper Publication",
-     "text": "National Aluminium Company Limited has informed the Exchange about Copy of Newspaper Publication regarding Notice for Record Date for Interim Dividend for FY 2026-27.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/bharatsahu_03112026104832_LetterNewspaperDividend.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "NATIONALUM",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Press Release",
-     "text": "National Aluminium Company Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"NALCO Scripts History with Best-Ever Half Yearly Financial Results Since Inception. \".",
+     "title": "General Updates",
+     "text": "National Aluminium Company Limited has informed the Exchange about Newspaper publications regarding Unaudited Financial Results (Standalone & consolidated) for the quarter and half- year ended 30.09.2026",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/bharatsahu_03112026080806_SELETTER.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/bharatsahu_04112026171730_SELetterNewspaper.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -12426,6 +12877,28 @@
      "link": "https://nsearchives.nseindia.in/corporate/IRCON_04112026161900_BODOUTCOME.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "IRCON",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Ircon International Limited has informed the Exchange regarding \"Press Release- Highlights of Unaudited Financial Results for the second quarter and half year ended 30th September, 2026\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/IRCON_04112026165915_STX_Intimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "IRCON",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Ircon International Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/IRCON_04112026161900_BODOUTCOME.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
@@ -12456,6 +12929,28 @@
      "link": "https://nsearchives.nseindia.in/corporate/TORNTPOWER_04112026164014_Outcome_of_BM.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "TORNTPOWER",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Torrent Power Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Torrent Power announces Q2 FY27 results\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TORNTPOWER_04112026165513_Media_Release.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "TORNTPOWER",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Torrent Power Limited has submitted to the Exchange, the Statement of Unaudited Financial Results (Standalone and Consolidated) for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TORNTPOWER_04112026164014_Outcome_of_BM.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
@@ -12465,6 +12960,50 @@
    "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; General Updates.",
    "days": 30,
    "items": [
+    {
+     "symbol": "BIOCON",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation of Director/KMP/SMP",
+     "text": "Biocon Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BIOCON_ROID_103428_KMP_Doc.zip",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "BIOCON",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "General Updates",
+     "text": "Biocon Limited has informed the Exchange about Communication regarding withholding of final dividend for the FY 2025-26",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BIOCON_04112026162937_SE_Intimation.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BIOCON",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Biocon Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Press Release on financial results for the quarter and half-year ended September 30, 2026\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BIOCON_04112026132336_Press_Release.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BIOCON",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Biocon Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BIOCON_04112026131527_BMOutcome.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
     {
      "symbol": "BIOCON",
      "date": "04-Nov-202",
@@ -12549,6 +13088,39 @@
      "link": "https://nsearchives.nseindia.in/corporate/NYKAA_04112026160123_outcome.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "NYKAA",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Press Release",
+     "text": "FSN E Commerce Ventures Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"\"Unaudited Standalone and Consolidated Financial Results for the quarter and half year endedSeptember 30, 2026\" and \"Nykaa ",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NYKAA_04112026161502_intimation_Press_release_final.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "NYKAA",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "FSN E Commerce Ventures Limited has informed the Exchange about Acquisition",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NYKAA_04112026160435_outcome.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "NYKAA",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Outcome of Board Meeting",
+     "text": "FSN E Commerce Ventures Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026 and details of acquisition.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NYKAA_04112026160123_outcome.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
@@ -12558,6 +13130,17 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
+    {
+     "symbol": "APOLLOTYRE",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Apollo Tyres Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APOLLOTYRE1_04112026161233_Outcome04112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
     {
      "symbol": "APOLLOTYRE",
      "date": "04-Nov-202",
@@ -12634,6 +13217,17 @@
     },
     {
      "symbol": "WAAREEENER",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "Waaree Energies Limited has informed the Exchange about Transcript of Conference call for the Unaudited Financial Results (Standalone and Consolidated) for the Quarter and Half year ended September 30, 2026 held on Wednesday, October 28, 20",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/WAAREE_04112026160637_Transcripts_Merged_Signed.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "WAAREEENER",
      "date": "02-Nov-202",
      "type": "Order / contract",
      "title": "Action(s) taken or orders passed",
@@ -12653,12 +13247,12 @@
    "items": [
     {
      "symbol": "BAJFINANCE",
-     "date": "19-Oct-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Bajaj Finance Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "title": "Shareholders meeting",
+     "text": "Bajaj Finance Limited has submitted the Exchange a copy Srutinizers report of  Extraordinary General Meeting held on November 02, 2026. Further, the company has informed the Exchange regarding voting results.",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_19102026172017_BMOutcome_19102026.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_04112026152849_SEintimationsScrutinizersReportSignedForUpload.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -12677,7 +13271,7 @@
   },
   "JWL": {
    "impact": "VERY POSITIVE",
-   "score": 3.5,
+   "score": 4.0,
    "impact_reason": "Main drivers: Press Release; General Updates.",
    "days": 30,
    "items": [
@@ -12716,6 +13310,17 @@
     },
     {
      "symbol": "JWL",
+     "date": "04-Nov-202",
+     "type": "Order / contract",
+     "title": "General Updates",
+     "text": "Jupiter Wagons Limited has informed the Exchange about Receipt of order for supply of 3 Railway Rakes-BFNS22.9T Wagons and Brake Van from Balmer Lawrie and Company Limited",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CEBBCO_04112026142251_REG30BALMERLAWRIEORDER.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "JWL",
      "date": "02-Nov-202",
      "type": "Order / contract",
      "title": "General Updates",
@@ -12739,20 +13344,31 @@
    ]
   },
   "PFC": {
-   "impact": "POSITIVE",
-   "score": 1.0,
+   "impact": "VERY POSITIVE",
+   "score": 2.0,
    "impact_reason": "Main drivers: Record Date; Dividend.",
    "days": 30,
    "items": [
     {
      "symbol": "PFC",
-     "date": "19-Oct-202",
+     "date": "04-Nov-202",
      "type": "Corporate action",
-     "title": "Amalgamation/Merger",
-     "text": "Intimation of receipt of No Objection letters from BSE Limited and National Stock Exchange of India Limited in relation to proposed scheme of merger of REC Limited ( Transferor Company ) with and into Power Finance Corporation Limited ( Com",
+     "title": "Record Date",
+     "text": "Power Finance Corporation Limited has informed the Exchange that Record date for the purpose of Dividend  is 17-Nov-2026.",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/PFC2023_19102026223732_IntimationNoCNSEBSE19102026signed.pdf",
-     "sentiment": "NEUTRAL",
+     "link": "https://nsearchives.nseindia.in/corporate/PFC2023_04112026141809_Intimation04112026signedoutcome.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "PFC",
+     "date": "04-Nov-202",
+     "type": "Corporate action",
+     "title": "Dividend",
+     "text": "Power Finance Corporation Limited has informed the Exchange that Board of Directors at its meeting held on November 04, 2026, declared Interim Dividend of Rs. 4.10 per equity share.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/PFC2023_04112026141638_Intimation04112026signedoutcome.pdf",
+     "sentiment": "POSITIVE",
      "age": null
     },
     {
@@ -12795,6 +13411,17 @@
      "link": "https://nsearchives.nseindia.in/corporate/Jhanviu_04112026134315_SEintimation_FS.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "REDINGTON",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Redington Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/Jhanviu_04112026134315_SEintimation_FS.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
@@ -12814,13 +13441,24 @@
      "link": "https://nsearchives.nseindia.in/corporate/EXIDEIND_04112026131738_signedOUTCOMEOFBM041126.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "EXIDEIND",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Exide Industries Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/EXIDEIND_04112026131738_signedOUTCOMEOFBM041126.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
   "MOTILALOFS": {
-   "impact": "NEUTRAL",
-   "score": -0.5,
-   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP.",
+   "impact": "NEGATIVE",
+   "score": -1.0,
+   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Resignation of Director/KMP/SMP.",
    "days": 30,
    "items": [
     {
@@ -12832,6 +13470,17 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/MOTILALOFS_29102026171324_MOFSL_Board_Meeting_Outcome_29102026.pdf",
      "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "MOTILALOFS",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation of Director/KMP/SMP",
+     "text": "Motilal Oswal Financial Services Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/MOTILALOFS_ROID_103349_KMP_Doc.zip",
+     "sentiment": "NEGATIVE",
      "age": null
     },
     {
@@ -12863,13 +13512,24 @@
      "link": "https://nsearchives.nseindia.in/corporate/Cadilahc_04112026121711_OutcomeofBM.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "ZYDUSLIFE",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Zydus Lifesciences Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/Cadilahc_04112026121711_OutcomeofBM.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
   "ENDURANCE": {
-   "impact": "NEGATIVE",
-   "score": -1.0,
-   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Resignation of Director/KMP/SMP.",
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP.",
    "days": 30,
    "items": [
     {
@@ -12896,34 +13556,12 @@
     },
     {
      "symbol": "ENDURANCE",
-     "date": "03-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Resignation of Director/KMP/SMP",
-     "text": "Endurance Technologies Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ENDURANCE_ROID_103285_KMP_Doc.zip",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "ENDURANCE",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Press Release",
-     "text": "Endurance Technologies Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"'Highlights of the unaudited financial results, both standalone and consolidated, for the quarter and half year ended 30th S",
+     "title": "Copy of Newspaper Publication",
+     "text": "Enclosed herewith copies of newspaper advertisements of unaudited financial results of the Company for the quarter and half year ended 30th September, 2026.",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ENDURANCE_03112026193150_2026_11_03_-_Press_release_-_30_09_2026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "ENDURANCE",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Endurance Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ENDURANCE_03112026192319_2026_11_03_-_Outcome_of_BM_-_Results_-_30_09_2026.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/ENDURANCE_04112026115249_Intimation.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -13011,12 +13649,23 @@
      "link": "https://nsearchives.nseindia.in/corporate/GABRIEL_04112026115003_BM_outcome_signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "GABRIEL",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Gabriel India Limited has submitted to the Exchange, the Standalone and Consolidated Financial Results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/GABRIEL_04112026115003_BM_outcome_signed.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
     }
    ]
   },
   "SUNPHARMA": {
    "impact": "POSITIVE",
-   "score": 1.0,
+   "score": 1.5,
    "impact_reason": "Main drivers: News Verification; News Verification.",
    "days": 30,
    "items": [
@@ -13040,6 +13689,17 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
      "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "SUNPHARMA",
+     "date": "04-Nov-202",
+     "type": "Order / contract",
+     "title": "News Verification",
+     "text": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses.  The response from the Compa",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf",
+     "sentiment": "POSITIVE",
      "age": null
     },
     {
@@ -13118,12 +13778,23 @@
     },
     {
      "symbol": "HEGAM",
-     "date": "03-Nov-202",
+     "date": "04-Nov-202",
      "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "HEG Advanced Materials Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "title": "Press Release",
+     "text": "HEG Advanced Materials Limited has informed the Exchange regarding a press release dated November 03, 2026, relating to Q2 and H1 FY27 financial results and other matters relating to capacity expansion of Anode plant, setting up of new busi",
      "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HEGAM_03112026231804_STEX.pdf",
+     "link": "https://nsearchives.nseindia.in/corporate/HEGAM_04112026002328_STEX_PressRelease.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "HEGAM",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "HEG Advanced Materials Limited has informed the Exchange regarding a press release dated November 03, 2026, relating to Q2 and H1 FY27 financial results and other matters relating to capacity expansion of Anode plant and setting up of new b",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HEGAM_04112026000428_STEX_PressRelease.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     },
@@ -13167,28 +13838,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/VIJAYA_03112026195557_VDCL_BM_Ootcome_03112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "VIJAYA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Vijaya Diagnostic Centre Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press Release on Q2 FY2027 Results\".",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/VIJAYA_03112026202818_VDCL_PR_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "VIJAYA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Vijaya Diagnostic Centre Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/VIJAYA_03112026195557_VDCL_BM_Ootcome_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -13198,17 +13847,6 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
-    {
-     "symbol": "TRIDENT",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Trident Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Trident Limited announces Q2FY27 Results \".",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TRIDENT_03112026195206_Intimation_PR_Filing.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
     {
      "symbol": "TRIDENT",
      "date": "03-Nov-202",
@@ -13282,37 +13920,15 @@
      "link": "https://nsearchives.nseindia.in/corporate/BANDHANBNK_03112026193648_SE_EarningsCall_Transcript_Q2FY26_03112026_sd.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "BANDHANBNK",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Bandhan Bank Limited has informed the Exchange about Transcript of the Earnings Call on the Unaudited Financial Results for the quarter (Q2) and half-year ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BANDHANBNK_03112026193648_SE_EarningsCall_Transcript_Q2FY26_03112026_sd.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
   "JUBLINGREA": {
-   "impact": "NEGATIVE",
-   "score": -1.0,
-   "impact_reason": "Main drivers: Shareholders meeting; Shareholders meeting.",
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Shareholders meeting.",
    "days": 30,
    "items": [
-    {
-     "symbol": "JUBLINGREA",
-     "date": "03-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Shareholders meeting",
-     "text": "Jubilant Ingrevia Limited has informed the Exchange regarding Notice of Postal Ballot",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/JUBLINGREA_03112026191749_Jubilant_Ingrevia_-_Postal_Ballot_Notice.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
     {
      "symbol": "JUBLINGREA",
      "date": "03-Nov-202",
@@ -13332,17 +13948,6 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
-    {
-     "symbol": "KSB",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Ksb Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/KSB_03112026190956_KSBBMOutcome03112026signedfinalUpload.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
     {
      "symbol": "KSB",
      "date": "03-Nov-202",
@@ -13383,35 +13988,13 @@
      "link": "https://nsearchives.nseindia.in/corporate/ASAHIINDIA_03112026133628_OutcomeNovember2026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "ASAHIINDIA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "General Updates",
-     "text": "Investor Presentation on unaudited financial results of the Company (Standalone and Consolidated) for the quarter and half year ended 30th September, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ASAHIINDIA_03112026190543_IPPR_sd.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "ASAHIINDIA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Asahi India Glass Limited has submitted to the Exchange, the financial results for for the Quarter and Half year ended 30th September 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ASAHIINDIA_03112026133628_OutcomeNovember2026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
   "TIMKEN": {
-   "impact": "POSITIVE",
-   "score": 1.0,
-   "impact_reason": "Main drivers: Updates; Updates.",
+   "impact": "NEUTRAL",
+   "score": 0.5,
+   "impact_reason": "Main drivers: Updates.",
    "days": 30,
    "items": [
     {
@@ -13468,28 +14051,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/TIMKEN_03112026123458_SEIntimation03112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "TIMKEN",
-     "date": "03-Nov-202",
-     "type": "Order / contract",
-     "title": "Updates",
-     "text": "Pursuant to Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby give an update on Order passed by Office of the Commissioner (Appeals), Central Goods and Ser",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TIMKEN_03112026185457_Letter03112026.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "TIMKEN",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we attach herewith transcript of Post Results Conference Call Q2 FY 2026-27 held on Friday, 30 Octo",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TIMKEN_03112026123458_SEIntimation03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -13509,17 +14070,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/BATAINDIA_03112026180005_BMOutcome_3112026_Signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "BATAINDIA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Pursuant to Regulations 30 and 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, Bata India Limited has informed about Board Meeting Outcome for Declaration of Unaudited Financial Results for the Quarter an",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BATAINDIA_03112026180005_BMOutcome_3112026_Signed.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -13529,28 +14079,6 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
-    {
-     "symbol": "ANTHEM",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Anthem Biosciences Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press Release on the Unaudited Consolidated Financial Results for the quarter and half year ended September 30, 2026 \".",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_ABL1_03112026175741_Press_Release_Q2FY27.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "ANTHEM",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Anthem Biosciences Limited has submitted to the Exchange, the unaudited standalone and consolidated financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_ABL1_03112026175122_Outcome_of_BM_Q2FY27__1_.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
     {
      "symbol": "ANTHEM",
      "date": "03-Nov-202",
@@ -13616,28 +14144,6 @@
     },
     {
      "symbol": "MEDANTA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Global Health Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press release for the Results of Second Quarter & Half Year ended September 30, 2026.\"",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/MEDANTA21_03112026172432_GHLPRESSRELEASENOVEMBER032026SIGNED.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Global Health Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/MEDANTA21_03112026160317_GHLOUTCOMEOFBMNOV032026SIGNED.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "MEDANTA",
      "date": "02-Nov-202",
      "type": "Governance / regulatory",
      "title": "Resignation of Director/KMP/SMP",
@@ -13665,23 +14171,12 @@
      "link": "https://nsearchives.nseindia.in/corporate/BAJAJHLDNG_03112026165942_BM_intimation_signed_BHIL.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "BAJAJHLDNG",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Bajaj Holdings & Investment Limited has submitted to the Exchange, the financial results for the quarter and half year ended 30 September 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BAJAJHLDNG_03112026165942_BM_intimation_signed_BHIL.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
   "CHAMBLFERT": {
    "impact": "POSITIVE",
-   "score": 1.5,
+   "score": 1.0,
    "impact_reason": "Main drivers: Record Date; Dividend.",
    "days": 30,
    "items": [
@@ -13694,28 +14189,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/YASHIKAN_30102026171350_20261030_Record_Date_Intimation.pdf",
      "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "CHAMBLFERT",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Dividend",
-     "text": "Chambal Fertilizers & Chemicals Limited has informed the Exchange that Board of Directors at its meeting held on November 03, 2026, declared Interim Dividend of Rs. 5 per equity share.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/YASHIKAN_03112026164126_Financial_Results_30092026.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "CHAMBLFERT",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Chambal Fertilizers & Chemicals Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/YASHIKAN_03112026163551_Financial_Results_30092026.pdf",
-     "sentiment": "NEUTRAL",
      "age": null
     },
     {
@@ -13769,34 +14242,12 @@
      "link": "https://nsearchives.nseindia.in/corporate/NEULANDLAB_03112026154657_SEOutcome_03112026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "NEULANDLAB",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Neuland Laboratories Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press Release on the Financial Results of the Company for the quarter and half year ended September 30, 2026\".",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/NEULANDLAB_03112026161539_SignedSEPR03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "NEULANDLAB",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Neuland Laboratories Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/NEULANDLAB_03112026154657_SEOutcome_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
   "RAILTEL": {
    "impact": "VERY POSITIVE",
-   "score": 5.0,
+   "score": 4.5,
    "impact_reason": "Main drivers: Bagging/Receiving of orders/contracts; Bagging/Receiving of orders/contracts.",
    "days": 30,
    "items": [
@@ -13909,59 +14360,15 @@
      "link": "https://nsearchives.nseindia.in/corporate/RAILTEL_03112026160658_Intimation_Imposition_Penalty_Fine.pdf",
      "sentiment": "POSITIVE",
      "age": null
-    },
-    {
-     "symbol": "RAILTEL",
-     "date": "03-Nov-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "Railtel Corporation Of India Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/RAILTEL_03112026160658_Intimation_Imposition_Penalty_Fine.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
     }
    ]
   },
   "HINDZINC": {
-   "impact": "NEGATIVE",
-   "score": -1.0,
-   "impact_reason": "Main drivers: Shareholders meeting; Shareholders meeting.",
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Shareholders meeting.",
    "days": 30,
    "items": [
-    {
-     "symbol": "HINDZINC",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Hindustan Zinc Limited has informed the Exchange regarding a press release dated October 19, 2026, titled \"Hindustan Zinc Limited, the World's Largest Integrated Zinc Producer, announces Results for the Second Quarter and Half Year ended Se",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HINDZINCNSE_19102026154508_SEintimationpressrelease.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "HINDZINC",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Hindustan Zinc Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HINDZINCNSE_19102026153330_Finaloutcome.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "HINDZINC",
-     "date": "03-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Shareholders meeting",
-     "text": "Hindustan Zinc Limited has informed the Exchange regarding Notice of Postal Ballot",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HINDZINCNSE_03112026145713_SEintimationfinal03112026.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
     {
      "symbol": "HINDZINC",
      "date": "03-Nov-202",
@@ -13981,17 +14388,6 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
-    {
-     "symbol": "MGL",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Mahanagar Gas Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/MGL25_03112026143523_OutcomeBM03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
     {
      "symbol": "MGL",
      "date": "03-Nov-202",
@@ -14032,34 +14428,12 @@
      "link": "https://nsearchives.nseindia.in/corporate/SOLARINDS_03112026140845_OutcomeBM.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "SOLARINDS",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Solar Industries India Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Updates on Unaudited Financial Results (Standalone & Consolidated) of the Company for the quarter and half year ended on Sep",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/SOLARINDS_03112026142931_Press_Release_sdcs.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "SOLARINDS",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Solar Industries India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/SOLARINDS_03112026140845_OutcomeBM.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
   "RKFORGE": {
    "impact": "VERY POSITIVE",
-   "score": 2.5,
+   "score": 2.0,
    "impact_reason": "Main drivers: Record Date; General Updates.",
    "days": 30,
    "items": [
@@ -14128,17 +14502,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/RKFORGE_03112026135443_StExcTDSIntim1stIntDivd26-27.pdf",
      "sentiment": "POSITIVE",
      "age": null
-    },
-    {
-     "symbol": "RKFORGE",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "General Updates",
-     "text": "Ramkrishna Forgings Limited has informed the Exchange about communication sent to shareholders for intimation on TDS on 1st Interim Dividend FY 2026-27",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/RKFORGE_03112026135443_StExcTDSIntim1stIntDivd26-27.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
     }
    ]
   },
@@ -14148,17 +14511,6 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
-    {
-     "symbol": "EMCURE",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Emcure Pharmaceuticals Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/EMCURE_03112026134234_EPLOutcomeofBMQ2FY27.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
     {
      "symbol": "EMCURE",
      "date": "03-Nov-202",
@@ -14188,17 +14540,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/AIAENG_03112026130540_Results.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "AIAENG",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "AIA Engineering Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/AIAENG_03112026130540_Results.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -14208,17 +14549,6 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
-    {
-     "symbol": "BAJAJFINSV",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Bajaj Finserv Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/walimbelk_03112026124657_BFSSEOUTCOMEOFBM_3NOV2026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
     {
      "symbol": "BAJAJFINSV",
      "date": "03-Nov-202",
@@ -14270,17 +14600,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/ZYDUSWELL_03112026122955_SEintimationOutcomeofBM.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "ZYDUSWELL",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Zydus Wellness Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ZYDUSWELL_03112026122955_SEintimationOutcomeofBM.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -14290,17 +14609,6 @@
    "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
-    {
-     "symbol": "JYOTICNC",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Jyoti CNC Automation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/JYOTICNC_NSE_03112026115810_Outcome_of_BM_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
     {
      "symbol": "JYOTICNC",
      "date": "03-Nov-202",
@@ -14329,17 +14637,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/POWERGRID1_28102026154132_BSENSEReg30dt28102026.pdf",
      "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "POWERGRID",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "General Updates",
-     "text": "Power Grid Corporation of India Limited has informed the Exchange about Regional Director, Northern Region Directorate I, Ministry of Corporate Affairs, confirmed the respective schemes of merger of Wholly owned subsidiaries of POWERGRID.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/POWERGRID1_03112026120246_BSENSEMerger.pdf",
-     "sentiment": "NEUTRAL",
      "age": null
     },
     {
@@ -14752,9 +15049,9 @@
    ]
   },
   "TRENT": {
-   "impact": "NEGATIVE",
-   "score": -1.0,
-   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Copy of Newspaper Publication.",
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
     {
@@ -14766,28 +15063,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/TRENT_29102026162053_PressReleaseOct2026.pdf",
      "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "TRENT",
-     "date": "19-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Resignation of Director/KMP/SMP",
-     "text": "Trent Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TRENT_ROID_100856_KMP_Doc.zip",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "TRENT",
-     "date": "19-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Copy of Newspaper Publication",
-     "text": "Trent Limited has informed the Exchange about Notice of Special Window for re-lodgement of transfer requests of physical shares",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TRENT_19102026105951_Reg30Noticeofrelodgementoftransferrequestsofphysicalshares.pdf",
-     "sentiment": "NEGATIVE",
      "age": null
     },
     {
@@ -15252,17 +15527,6 @@
      "text": "Max Healthcare Institute Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/MAXHEALTH_30102026144248_Outcome_BM.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "MAXHEALTH",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Shareholders meeting",
-     "text": "Max Healthcare Institute Limited has submitted the Exchange a copy Scrutinizers report of Postal Ballot. Further, the Company has informed the Exchange regarding voting results.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/MAXHEALTH_19102026214552_SE_Disclosure.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     }
@@ -17182,28 +17446,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/Piramalcapital_23102026145359_PFL_SE_Intimation_Transcript_Signed.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "PIRAMALFIN",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Audio recording of Conference call on the Unaudited Financial Results (Standalone and Consolidated) for the quarter and half year ended 30th September 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/Piramalcapital_19102026214348_06_PFL_SE_Intimation_Audio_Recordings_sd.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "PIRAMALFIN",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Outcome of the Board Meeting held on 19th October, 2026 - Approval of Unaudited Financial Results for the quarter and half year ended 30th September, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/Piramalcapital_19102026153342_01_PFL_SE_Intimation_Outcome_sd.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -17986,17 +18228,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/RECLTD_26102026164052_Signed_Outcome_of_Board_Meeting_261026.pdf",
      "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "RECLTD",
-     "date": "19-Oct-202",
-     "type": "Corporate action",
-     "title": "Scheme of Arrangement",
-     "text": "Intimation of receipt of NOC from NSE and BSE in relation to proposed scheme of merger of REC Limited with and into Power Finance Corporation Limited.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/RECLTD_19102026232553_Signed_Intimation_OL_191026.pdf",
-     "sentiment": "NEUTRAL",
      "age": null
     }
    ]
@@ -18896,17 +19127,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/KAJARIACER_21102026123120_Clarification.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "KAJARIACER",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Pursuant to the provisions of Regulation 30 read with Regulation 46 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we wish to inform you that the Company is organising a Conference Call at 7:00 p.m. (IST) o",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/KAJARIACER_19102026124643_Conference_Call.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
     }
    ]
   },
@@ -19001,9 +19221,9 @@
    ]
   },
   "SOBHA": {
-   "impact": "NEGATIVE",
-   "score": -1.0,
-   "impact_reason": "Main drivers: Copy of Newspaper Publication; General Updates.",
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Copy of Newspaper Publication.",
    "days": 30,
    "items": [
     {
@@ -19026,17 +19246,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/SOBHA_20102026121859_SOBHANewspaperAdvertisementQ2FY2027.pdf",
      "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "SOBHA",
-     "date": "19-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "General Updates",
-     "text": "Updates on Rights Issue - Final Reminder Cum Forfeiture Notice Related to Outstanding Call Money.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/SOBHA_19102026183921_Sobha_Final_Reminder_cum_forfeiture_Notice.pdf",
-     "sentiment": "NEGATIVE",
      "age": null
     }
    ]
@@ -19778,9 +19987,9 @@
    ]
   },
   "LTTS": {
-   "impact": "POSITIVE",
-   "score": 1.0,
-   "impact_reason": "Main drivers: Record Date; Dividend.",
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
     {
@@ -19791,170 +20000,6 @@
      "text": "L&T Technology Services Limited has informed the Exchange about Copy of Newspaper Clippings relating to the Unaudited Consolidated and Standalone financial results of the Company for the quarter and half year ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/LTTS_20102026164715_LTTS_Newspaperadv_19-10-2026sd.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "LTTS",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "L&T Technology Services Limited has informed the Exchange regarding a press release dated October 19, 2026, titled \"Unaudited (Consolidated and Standalone) Financial Results of the company for the quarter and half year ended September 30, 2",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LTTS_19102026161237_LTTSPressReleaseandInvestorPresentation19102026sd.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "LTTS",
-     "date": "19-Oct-202",
-     "type": "Corporate action",
-     "title": "Record Date",
-     "text": "L&T Technology Services Limited has fixed October 27, 2026 as the Record Date for the purpose of Interim Dividend",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LTTS_19102026160628_LTTSBMOutcome19102026signed.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "LTTS",
-     "date": "19-Oct-202",
-     "type": "Corporate action",
-     "title": "Dividend",
-     "text": "L&T Technology Services Limited has informed the Exchange that Board of Directors at its meeting held on October 19, 2026, declared Interim Dividend of Rs. 20 per equity share.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LTTS_19102026155906_LTTSBMOutcome19102026signed.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "LTTS",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "L&T Technology Services Limited has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LTTS_19102026155807_LTTSBMOutcome19102026signed.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "JPPOWER": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "JPPOWER",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Jaiprakash Power Ventures Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/JPPOWER_19102026200955_Outcome.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "ULTRACEMCO": {
-   "impact": "NEGATIVE",
-   "score": -1.5,
-   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Resignation of Director/KMP/SMP.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "ULTRACEMCO",
-     "date": "19-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Resignation of Director/KMP/SMP",
-     "text": "UltraTech Cement Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ULTRACEMCO_ROID_100834_KMP_Doc.zip",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "ULTRACEMCO",
-     "date": "19-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Resignation of Director/KMP/SMP",
-     "text": "UltraTech Cement Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ULTRACEMCO_ROID_100832_KMP_Doc.zip",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "ULTRACEMCO",
-     "date": "19-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Resignation",
-     "text": "UltraTech Cement Limited has informed the Exchange regarding relinquishment of position as Non-Executive Vice Chairman of the Company by Mr. K. K. Maheshwari (DIN: 00017572) w.e.f. 1st January, 2027.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ULTRACEMCO1_19102026135017_SE_Intimation_Change_in_board_composition.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "ULTRACEMCO",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "UltraTech Cement Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ULTRACEMCO1_19102026134508_Outcome_of_BM_-_Financial_Results.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "UNIONBANK": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "UNIONBANK",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Union Bank of India has informed the Exchange regarding a press release dated October 19, 2026, titled \"Press Release on the Financial Results of the Bank for the Quarter ended on September 30, 2026\".",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/UNIONBANK_19102026122544_Press_Release_Sept2026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "UNIONBANK",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Union Bank of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/UNIONBANK_19102026120305_Results_Sept2026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "TATATECH": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "TATATECH",
-     "date": "19-Oct-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "Tata Technologies Limited has informed the Exchange about Transcript of the earnings conference call on financial results for the quarter ended September 30, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TTLNSE_19102026095926_Investorcalltranscript_S.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     }
