@@ -1,7 +1,242 @@
 {
- "updated": "2026-11-20T12:54:57.032468",
+ "updated": "2026-11-20T21:50:45.175406",
  "days": 30,
  "stocks": {
+  "SRF": {
+   "impact": "POSITIVE",
+   "score": 1.5,
+   "impact_reason": "Main drivers: Action(s) taken or orders passed; Action(s) taken or orders passed.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "SRF",
+     "date": "21-Oct-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "SRF Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/ekta_maheshwari_21102026145316_ResultsSep26.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "SRF",
+     "date": "20-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "SRF Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/ekta_maheshwari_20112026230138_PenaltyIntimationRodtepNov2026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "SRF",
+     "date": "05-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "SRF Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/ekta_maheshwari_05112026130607_IntimationPenaltyNov2026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "SRF",
+     "date": "05-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "SRF Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/ekta_maheshwari_05112026130607_IntimationPenaltyNov2026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    }
+   ]
+  },
+  "HDFCBANK": {
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Shareholders meeting.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "HDFCBANK",
+     "date": "21-Oct-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_21102026115151_SEIntimationPostalBallotNoticeOct2026.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "HDFCBANK",
+     "date": "20-Nov-202",
+     "type": "Results",
+     "title": "Shareholders meeting",
+     "text": "HDFC Bank Limited has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20112026204256_SE_Intimation_-_PB_Results_-20112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "HDFCBANK",
+     "date": "06-Nov-202",
+     "type": "Results",
+     "title": "Shareholders meeting",
+     "text": "HDFC Bank Limited has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "ABB": {
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Shareholders meeting.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "ABB",
+     "date": "20-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "ABB India Limited has informed the Exchange regarding Notice of Postal Ballot",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/ABB_20112026192834_SEIntimationPBSigned.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "ABB",
+     "date": "13-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "ABB India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/ABB_13112026174803_Reg33QuartelryResultsQ32026signed.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "KARURVYSYA": {
+   "impact": "NEGATIVE",
+   "score": -1.0,
+   "impact_reason": "Main drivers: Updates.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "KARURVYSYA",
+     "date": "20-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Updates",
+     "text": "Karur Vysya Bank Limited has informed the Exchange regarding 'Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015   Update on Interim Stay Granted in the Matter of Writ Petition Filed Before Hon ble Hig",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/KARURVYSYA_20112026192627_NSE_BSE_Disclosure_DSC.pdf",
+     "sentiment": "VERY NEGATIVE",
+     "age": null
+    }
+   ]
+  },
+  "JSWCEMENT": {
+   "impact": "NEUTRAL",
+   "score": 0.5,
+   "impact_reason": "Main drivers: Action(s) taken or orders passed.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "JSWCEMENT",
+     "date": "20-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations, 2015.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/JSWCL_20112026192216_SEIntimation20112026upload.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    }
+   ]
+  },
+  "NHPC": {
+   "impact": "NEUTRAL",
+   "score": 0.5,
+   "impact_reason": "Main drivers: General Updates.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "NHPC",
+     "date": "20-Nov-202",
+     "type": "Order / contract",
+     "title": "General Updates",
+     "text": "In continuation to our earlier letter dated 22.09.2026 and in compliance to Regulation 30 of SEBI LODR, it is to inform that Ministry of Corporate Affairs (MCA) vide its letter dated 17th November 2026 received today i.e. 20th November 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NHPC_20112026182601_Letter_STX_JPCL_Merger.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "NHPC",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "NHPC Limited has informed the Exchange about Link of Audio Recording of Conference Call for discussion on financial results for the quarter ended September 30, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NHPC_05112026182459_STX_Concall_Audio_05112026_.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "NHPC",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "General Updates",
+     "text": "NHPC Limited has informed the Exchange about General Updates-Presentation on unaudited financial results for the quarter ended 30.09.2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NHPC_05112026104653_STX_Presentation_Results_30092026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "NHPC",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "NHPC Limited has informed the Exchange about Link of Audio Recording of Conference Call for discussion on financial results for the quarter ended September 30, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NHPC_05112026182459_STX_Concall_Audio_05112026_.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "NHPC",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "General Updates",
+     "text": "NHPC Limited has informed the Exchange about General Updates-Presentation on unaudited financial results for the quarter ended 30.09.2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NHPC_05112026104653_STX_Presentation_Results_30092026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "NHPC",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "NHPC Limited has submitted to the Exchange, the unaudited financial results for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/NHPC_04112026192444_STX_Intimation_Results_30092026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
   "JPPOWER": {
    "impact": "NEGATIVE",
    "score": -1.0,
@@ -3544,9 +3779,53 @@
   "GALLANTT": {
    "impact": "NEUTRAL",
    "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
+   "impact_reason": "Main drivers: Sell 1610292 shares at \u20b9523.93 (about \u20b984 cr) by DINESH R AGARWAL; Buy 550000 shares at \u20b9523.0 (about \u20b929 cr) by SHREE SURABHI FLOUR MILLS PRIVATE LIMITED.",
    "days": 30,
    "items": [
+    {
+     "symbol": "GALLANTT",
+     "date": "2026-11-20",
+     "type": "bulk deal",
+     "title": "Sell 1610292 shares at \u20b9523.93 (about \u20b984 cr) by DINESH R AGARWAL",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "NEGATIVE",
+     "age": 0
+    },
+    {
+     "symbol": "GALLANTT",
+     "date": "2026-11-20",
+     "type": "block deal",
+     "title": "Buy 550000 shares at \u20b9523.0 (about \u20b929 cr) by SHREE SURABHI FLOUR MILLS PRIVATE LIMITED",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "GALLANTT",
+     "date": "2026-11-20",
+     "type": "block deal",
+     "title": "Buy 1060292 shares at \u20b9524.41 (about \u20b956 cr) by SURYALAXMI INFRACON PRIVATE LIMITED",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "GALLANTT",
+     "date": "2026-11-20",
+     "type": "block deal",
+     "title": "Sell 1610292 shares at \u20b9523.93 (about \u20b984 cr) by DINESH R AGARWAL",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "NEGATIVE",
+     "age": 0
+    },
     {
      "symbol": "GALLANTT",
      "date": "17-Nov-202",
@@ -6265,25 +6544,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/CRAFTSMAN_13112026175501_analystcall.pdf",
      "sentiment": "NEGATIVE",
-     "age": null
-    }
-   ]
-  },
-  "ABB": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "ABB",
-     "date": "13-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "ABB India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ABB_13112026174803_Reg33QuartelryResultsQ32026signed.pdf",
-     "sentiment": "NEUTRAL",
      "age": null
     }
    ]
@@ -9963,36 +10223,6 @@
     }
    ]
   },
-  "HDFCBANK": {
-   "impact": "NEUTRAL",
-   "score": -0.5,
-   "impact_reason": "Main drivers: Shareholders meeting.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "HDFCBANK",
-     "date": "21-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Shareholders meeting",
-     "text": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_21102026115151_SEIntimationPostalBallotNoticeOct2026.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "HDFCBANK",
-     "date": "06-Nov-202",
-     "type": "Results",
-     "title": "Shareholders meeting",
-     "text": "HDFC Bank Limited has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
   "ASIANPAINT": {
    "impact": "POSITIVE",
    "score": 1.5,
@@ -11978,69 +12208,6 @@
     }
    ]
   },
-  "NHPC": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "NHPC",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "NHPC Limited has informed the Exchange about Link of Audio Recording of Conference Call for discussion on financial results for the quarter ended September 30, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/NHPC_05112026182459_STX_Concall_Audio_05112026_.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "NHPC",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "General Updates",
-     "text": "NHPC Limited has informed the Exchange about General Updates-Presentation on unaudited financial results for the quarter ended 30.09.2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/NHPC_05112026104653_STX_Presentation_Results_30092026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "NHPC",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "NHPC Limited has informed the Exchange about Link of Audio Recording of Conference Call for discussion on financial results for the quarter ended September 30, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/NHPC_05112026182459_STX_Concall_Audio_05112026_.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "NHPC",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "General Updates",
-     "text": "NHPC Limited has informed the Exchange about General Updates-Presentation on unaudited financial results for the quarter ended 30.09.2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/NHPC_05112026104653_STX_Presentation_Results_30092026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "NHPC",
-     "date": "04-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "NHPC Limited has submitted to the Exchange, the unaudited financial results for the quarter and half year ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/NHPC_04112026192444_STX_Intimation_Results_30092026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
   "CONCORDBIO": {
    "impact": "POSITIVE",
    "score": 1.5,
@@ -12964,47 +13131,6 @@
      "text": "Tube Investments of India Limited has informed the Exchange about Action(s) initiated or orders passed",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/TIINDIA_02112026192542_TIISEDiscPenalty.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    }
-   ]
-  },
-  "SRF": {
-   "impact": "POSITIVE",
-   "score": 1.0,
-   "impact_reason": "Main drivers: Action(s) taken or orders passed; Action(s) taken or orders passed.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "SRF",
-     "date": "21-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "SRF Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ekta_maheshwari_21102026145316_ResultsSep26.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "SRF",
-     "date": "05-Nov-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "SRF Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ekta_maheshwari_05112026130607_IntimationPenaltyNov2026.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "SRF",
-     "date": "05-Nov-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "SRF Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ekta_maheshwari_05112026130607_IntimationPenaltyNov2026.pdf",
      "sentiment": "POSITIVE",
      "age": null
     }
