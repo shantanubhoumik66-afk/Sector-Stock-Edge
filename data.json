@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T11:41:50.660779Z",
+"updated": "2026-11-21T18:18:48.030937Z",
 "nifty": {
 "r1": 13.1,
 "r3": 7.2,
@@ -9,14 +9,14 @@
 "top": [
 {
 "name": "Healthcare",
-"score": 1.9,
-"n": 44,
+"score": 1.4,
+"n": 43,
 "improving": true,
 "driver": "US generics pricing, domestic demand, approvals",
 "reasons": [
-"3M +4.0% vs Nifty +7.2%",
-"1M +12.9% vs Nifty +13.1%",
-"82% of stocks above 200-day average",
+"3M +3.5% vs Nifty +7.2%",
+"1M +12.7% vs Nifty +13.1%",
+"81% of stocks above 200-day average",
 "Momentum improving in the last month"
 ],
 "stocks": [
@@ -351,7 +351,7 @@
 "name": "ACME Solar Holdings Ltd.",
 "industry": "Power",
 "price": 406.0,
-"pe": 34.79,
+"pe": 35.12,
 "fpe": 15.61,
 "pb": 3.26,
 "ev": 17.91,
@@ -368,7 +368,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 34.8 vs sector median 24.4",
+"PE 35.1 vs sector median 24.4",
 "EV/EBITDA 17.9 vs sector median 14.1",
 "PEG 0.35",
 "ROE 12%"
@@ -582,14 +582,14 @@
 "peg": 3.7,
 "mcap_cr": 56289,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 34.1 vs sector median 51.8",
-"EV/EBITDA 27.6 vs sector median 29.5",
+"PE 34.1 vs sector median 51.5",
+"EV/EBITDA 27.6 vs sector median 27.7",
 "PEG 3.70",
 "ROE 40%"
 ]
@@ -638,14 +638,14 @@
 "peg": 0.98,
 "mcap_cr": 31324,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 71.6 vs sector median 51.8",
-"EV/EBITDA 50.0 vs sector median 29.5",
+"PE 71.6 vs sector median 51.5",
+"EV/EBITDA 50.0 vs sector median 27.7",
 "PEG 0.98",
 "ROE 26%"
 ]
@@ -1022,13 +1022,13 @@
 "mcap_cr": 8091,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "HIGH",
 "why": [
 "PE 102.3 vs sector median 22.1",
-"EV/EBITDA 16.1 vs sector median 16.1",
+"EV/EBITDA 16.1 vs sector median 15.7",
 "ROE 1%"
 ]
 },
@@ -1076,14 +1076,14 @@
 "peg": 0.67,
 "mcap_cr": 41460,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 32.8 vs sector median 51.8",
-"EV/EBITDA 23.6 vs sector median 29.5",
+"PE 32.8 vs sector median 51.5",
+"EV/EBITDA 23.6 vs sector median 27.7",
 "PEG 0.67",
 "ROE 28%"
 ]
@@ -1103,14 +1103,14 @@
 "de": 14.72,
 "mcap_cr": 61994,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 30.0 vs sector median 51.8",
-"EV/EBITDA 19.7 vs sector median 29.5",
+"PE 30.0 vs sector median 51.5",
+"EV/EBITDA 19.7 vs sector median 27.7",
 "ROE 14%"
 ]
 },
@@ -1318,14 +1318,14 @@
 "peg": 4.06,
 "mcap_cr": 53479,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 87.7 vs sector median 51.8",
-"EV/EBITDA 62.2 vs sector median 29.5",
+"PE 87.7 vs sector median 51.5",
+"EV/EBITDA 62.2 vs sector median 27.7",
 "PEG 4.06",
 "ROE 20%"
 ]
@@ -1384,34 +1384,6 @@
 "EV/EBITDA 24.6 vs sector median 30.6",
 "PEG 0.56",
 "ROE 21%"
-]
-},
-{
-"symbol": "APOLLOHOSP",
-"name": "Apollo Hospitals Enterprise Ltd.",
-"industry": "Healthcare",
-"price": 9200.0,
-"pe": 58.83,
-"fpe": 42.14,
-"pb": 12.47,
-"ev": 35.1,
-"roe": 0.23,
-"eg": 0.32,
-"rg": 0.21,
-"de": 73.04,
-"peg": 1.84,
-"mcap_cr": 132282,
-"sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
-},
-"verdict": "OK",
-"why": [
-"PE 58.8 vs sector median 51.8",
-"EV/EBITDA 35.1 vs sector median 29.5",
-"PEG 1.84",
-"ROE 23%"
 ]
 },
 {
@@ -1570,14 +1542,14 @@
 "peg": 1.99,
 "mcap_cr": 67695,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 98.9 vs sector median 51.8",
-"EV/EBITDA 52.6 vs sector median 29.5",
+"PE 98.9 vs sector median 51.5",
+"EV/EBITDA 52.6 vs sector median 27.7",
 "PEG 1.99",
 "ROE 8%"
 ]
@@ -1674,14 +1646,14 @@
 "peg": 0.77,
 "mcap_cr": 103510,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 26.1 vs sector median 51.8",
-"EV/EBITDA 13.6 vs sector median 29.5",
+"PE 26.1 vs sector median 51.5",
+"EV/EBITDA 13.6 vs sector median 27.7",
 "PEG 0.77",
 "ROE 11%"
 ]
@@ -2553,14 +2525,14 @@
 "de": 42.25,
 "mcap_cr": 59680,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 122.3 vs sector median 51.8",
-"EV/EBITDA 20.9 vs sector median 29.5",
+"PE 122.3 vs sector median 51.5",
+"EV/EBITDA 20.9 vs sector median 27.7",
 "ROE 1%"
 ]
 },
@@ -3016,14 +2988,14 @@
 "peg": 1.45,
 "mcap_cr": 15392,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 22.4 vs sector median 51.8",
-"EV/EBITDA 17.5 vs sector median 29.5",
+"PE 22.4 vs sector median 51.5",
+"EV/EBITDA 17.5 vs sector median 27.7",
 "PEG 1.45",
 "ROE 20%"
 ]
@@ -3176,13 +3148,13 @@
 "mcap_cr": 26144,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "HIGH",
 "why": [
 "PE 39.0 vs sector median 22.1",
-"EV/EBITDA 22.2 vs sector median 16.1",
+"EV/EBITDA 22.2 vs sector median 15.7",
 "PEG 1.84",
 "ROE 27%"
 ]
@@ -3357,7 +3329,7 @@
 "name": "Cholamandalam Financial Holdings Ltd.",
 "industry": "Financial Services",
 "price": 1399.0,
-"pe": 9.47,
+"pe": 9.51,
 "fpe": 6.96,
 "pb": 1.53,
 "ev": null,
@@ -3394,7 +3366,7 @@
 "rg": 0.32,
 "de": 671.8,
 "peg": 0.67,
-"mcap_cr": 160789,
+"mcap_cr": 160796,
 "sector_med": {
 "pe": 20.1,
 "ev": 29.4,
@@ -3423,14 +3395,14 @@
 "de": 1.97,
 "mcap_cr": 114316,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
-"verdict": "LOW",
+"verdict": "OK",
 "why": [
-"PE 39.5 vs sector median 51.8",
-"EV/EBITDA 22.7 vs sector median 29.5",
+"PE 39.5 vs sector median 51.5",
+"EV/EBITDA 22.7 vs sector median 27.7",
 "ROE 8%"
 ]
 },
@@ -3615,14 +3587,14 @@
 "de": 11.25,
 "mcap_cr": 17696,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 388.7 vs sector median 51.8",
-"EV/EBITDA 92.5 vs sector median 29.5",
+"PE 388.7 vs sector median 51.5",
+"EV/EBITDA 92.5 vs sector median 27.7",
 "ROE -0%"
 ]
 },
@@ -3698,14 +3670,14 @@
 "peg": 4.03,
 "mcap_cr": 11476,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 41.5 vs sector median 51.8",
-"EV/EBITDA 27.1 vs sector median 29.5",
+"PE 41.5 vs sector median 51.5",
+"EV/EBITDA 27.1 vs sector median 27.7",
 "PEG 4.03",
 "ROE 14%"
 ]
@@ -3804,7 +3776,7 @@
 "rg": 1.09,
 "de": 282.89,
 "peg": 0.03,
-"mcap_cr": 15755,
+"mcap_cr": 15756,
 "sector_med": {
 "pe": 20.1,
 "ev": 29.4,
@@ -4178,14 +4150,14 @@
 "peg": 1.39,
 "mcap_cr": 296807,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 88.2 vs sector median 51.8",
-"EV/EBITDA 63.3 vs sector median 29.5",
+"PE 88.2 vs sector median 51.5",
+"EV/EBITDA 63.3 vs sector median 27.7",
 "PEG 1.39",
 "ROE 20%"
 ]
@@ -4232,14 +4204,14 @@
 "peg": 2.08,
 "mcap_cr": 33258,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 57.0 vs sector median 51.8",
-"EV/EBITDA 37.8 vs sector median 29.5",
+"PE 57.0 vs sector median 51.5",
+"EV/EBITDA 37.8 vs sector median 27.7",
 "PEG 2.08",
 "ROE 23%"
 ]
@@ -4259,14 +4231,14 @@
 "de": 18.57,
 "mcap_cr": 115896,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
-"verdict": "LOW",
+"verdict": "OK",
 "why": [
-"PE 41.4 vs sector median 51.8",
-"EV/EBITDA 23.2 vs sector median 29.5",
+"PE 41.4 vs sector median 51.5",
+"EV/EBITDA 23.2 vs sector median 27.7",
 "ROE 7%"
 ]
 },
@@ -4474,14 +4446,14 @@
 "peg": 1.22,
 "mcap_cr": 44373,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 40.6 vs sector median 51.8",
-"EV/EBITDA 23.4 vs sector median 29.5",
+"PE 40.6 vs sector median 51.5",
+"EV/EBITDA 23.4 vs sector median 27.7",
 "PEG 1.22",
 "ROE 21%"
 ]
@@ -4559,13 +4531,13 @@
 "mcap_cr": 16687,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "LOW",
 "why": [
 "PE 18.6 vs sector median 22.1",
-"EV/EBITDA 18.0 vs sector median 16.1",
+"EV/EBITDA 18.0 vs sector median 15.7",
 "PEG 0.14",
 "ROE 30%"
 ]
@@ -4857,14 +4829,14 @@
 "de": 29.4,
 "mcap_cr": 62284,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 60.0 vs sector median 51.8",
-"EV/EBITDA 31.3 vs sector median 29.5",
+"PE 60.0 vs sector median 51.5",
+"EV/EBITDA 31.3 vs sector median 27.7",
 "ROE 10%"
 ]
 },
@@ -5131,14 +5103,14 @@
 "peg": 0.77,
 "mcap_cr": 54950,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 44.4 vs sector median 51.8",
-"EV/EBITDA 27.4 vs sector median 29.5",
+"PE 44.4 vs sector median 51.5",
+"EV/EBITDA 27.4 vs sector median 27.7",
 "PEG 0.77",
 "ROE 12%"
 ]
@@ -5159,14 +5131,14 @@
 "peg": 1.33,
 "mcap_cr": 46417,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 40.5 vs sector median 51.8",
-"EV/EBITDA 31.5 vs sector median 29.5",
+"PE 40.5 vs sector median 51.5",
+"EV/EBITDA 31.5 vs sector median 27.7",
 "PEG 1.33",
 "ROE 64%"
 ]
@@ -5186,14 +5158,14 @@
 "de": 12.55,
 "mcap_cr": 74733,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 51.5 vs sector median 51.8",
-"EV/EBITDA 23.3 vs sector median 29.5",
+"PE 51.5 vs sector median 51.5",
+"EV/EBITDA 23.3 vs sector median 27.7",
 "ROE 14%"
 ]
 },
@@ -5213,14 +5185,14 @@
 "peg": 1.65,
 "mcap_cr": 39875,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
-"verdict": "OK",
+"verdict": "HIGH",
 "why": [
-"PE 64.5 vs sector median 51.8",
-"EV/EBITDA 36.4 vs sector median 29.5",
+"PE 64.5 vs sector median 51.5",
+"EV/EBITDA 36.4 vs sector median 27.7",
 "PEG 1.65",
 "ROE 15%"
 ]
@@ -5375,14 +5347,14 @@
 "peg": 0.93,
 "mcap_cr": 22272,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 28.6 vs sector median 51.8",
-"EV/EBITDA 15.4 vs sector median 29.5",
+"PE 28.6 vs sector median 51.5",
+"EV/EBITDA 15.4 vs sector median 27.7",
 "PEG 0.93",
 "ROE 14%"
 ]
@@ -5483,7 +5455,7 @@
 "rg": 0.47,
 "de": 4.4,
 "peg": 0.04,
-"mcap_cr": 20506,
+"mcap_cr": 19743,
 "sector_med": {
 "pe": 27.1,
 "ev": 17.3,
@@ -6481,13 +6453,13 @@
 "mcap_cr": 21740,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "OK",
 "why": [
 "PE 20.2 vs sector median 22.1",
-"EV/EBITDA 14.3 vs sector median 16.1",
+"EV/EBITDA 14.3 vs sector median 15.7",
 "PEG 0.22",
 "ROE 5%"
 ]
@@ -6508,13 +6480,13 @@
 "mcap_cr": 10247,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "OK",
 "why": [
 "PE 21.0 vs sector median 22.1",
-"EV/EBITDA 12.7 vs sector median 16.1",
+"EV/EBITDA 12.7 vs sector median 15.7",
 "ROE 7%"
 ]
 },
@@ -7155,14 +7127,14 @@
 "peg": 1.4,
 "mcap_cr": 46656,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 33.3 vs sector median 51.8",
-"EV/EBITDA 19.4 vs sector median 29.5",
+"PE 33.3 vs sector median 51.5",
+"EV/EBITDA 19.4 vs sector median 27.7",
 "PEG 1.40",
 "ROE 16%"
 ]
@@ -7830,13 +7802,13 @@
 "mcap_cr": 22544,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "LOW",
 "why": [
 "PE 19.0 vs sector median 22.1",
-"EV/EBITDA 10.6 vs sector median 16.1",
+"EV/EBITDA 10.6 vs sector median 15.7",
 "PEG 0.94",
 "ROE 15%"
 ]
@@ -7939,13 +7911,13 @@
 "mcap_cr": 7983,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "OK",
 "why": [
 "PE 18.9 vs sector median 22.1",
-"EV/EBITDA 10.3 vs sector median 16.1",
+"EV/EBITDA 10.3 vs sector median 15.7",
 "ROE 7%"
 ]
 },
@@ -8075,14 +8047,14 @@
 "peg": 21.07,
 "mcap_cr": 33265,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 151.7 vs sector median 51.8",
-"EV/EBITDA 43.7 vs sector median 29.5",
+"PE 151.7 vs sector median 51.5",
+"EV/EBITDA 43.7 vs sector median 27.7",
 "PEG 21.07",
 "ROE 6%"
 ]
@@ -8270,13 +8242,13 @@
 "mcap_cr": 579125,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "OK",
 "why": [
 "PE 32.4 vs sector median 22.1",
-"EV/EBITDA 18.0 vs sector median 16.1",
+"EV/EBITDA 18.0 vs sector median 15.7",
 "PEG 1.00",
 "ROE 18%"
 ]
@@ -8297,14 +8269,14 @@
 "peg": 0.73,
 "mcap_cr": 123980,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 92.6 vs sector median 51.8",
-"EV/EBITDA 53.2 vs sector median 29.5",
+"PE 92.6 vs sector median 51.5",
+"EV/EBITDA 53.2 vs sector median 27.7",
 "PEG 0.73",
 "ROE 24%"
 ]
@@ -8490,14 +8462,14 @@
 "de": 25.7,
 "mcap_cr": 92099,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 17.7 vs sector median 51.8",
-"EV/EBITDA 10.6 vs sector median 29.5",
+"PE 17.7 vs sector median 51.5",
+"EV/EBITDA 10.6 vs sector median 27.7",
 "ROE 24%"
 ]
 },
@@ -8733,16 +8705,16 @@
 "rg": 0.17,
 "de": 30.36,
 "peg": 1.26,
-"mcap_cr": 110077,
+"mcap_cr": 110087,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 49.1 vs sector median 51.8",
-"EV/EBITDA 27.7 vs sector median 29.5",
+"PE 49.1 vs sector median 51.5",
+"EV/EBITDA 27.7 vs sector median 27.7",
 "PEG 1.26",
 "ROE 14%"
 ]
@@ -8844,14 +8816,14 @@
 "de": 32.91,
 "mcap_cr": 105217,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 76.5 vs sector median 51.8",
-"EV/EBITDA 45.5 vs sector median 29.5",
+"PE 76.5 vs sector median 51.5",
+"EV/EBITDA 45.5 vs sector median 27.7",
 "ROE 13%"
 ]
 },
@@ -9088,14 +9060,14 @@
 "de": 10.58,
 "mcap_cr": 15988,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 17.8 vs sector median 51.8",
-"EV/EBITDA 18.8 vs sector median 29.5",
+"PE 17.8 vs sector median 51.5",
+"EV/EBITDA 18.8 vs sector median 27.7",
 "ROE 9%"
 ]
 },
@@ -9116,13 +9088,13 @@
 "mcap_cr": 21492,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "OK",
 "why": [
 "PE 27.1 vs sector median 22.1",
-"EV/EBITDA 21.6 vs sector median 16.1",
+"EV/EBITDA 21.6 vs sector median 15.7",
 "PEG 0.81",
 "ROE 26%"
 ]
@@ -9144,13 +9116,13 @@
 "mcap_cr": 8278,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "LOW",
 "why": [
 "PE 11.4 vs sector median 22.1",
-"EV/EBITDA 6.3 vs sector median 16.1",
+"EV/EBITDA 6.3 vs sector median 15.7",
 "PEG 0.59",
 "ROE 10%"
 ]
@@ -9335,14 +9307,14 @@
 "peg": 2.77,
 "mcap_cr": 39503,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 45.7 vs sector median 51.8",
-"EV/EBITDA 23.5 vs sector median 29.5",
+"PE 45.7 vs sector median 51.5",
+"EV/EBITDA 23.5 vs sector median 27.7",
 "PEG 2.77",
 "ROE 19%"
 ]
@@ -9502,14 +9474,14 @@
 "de": 16.86,
 "mcap_cr": 26301,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 58.1 vs sector median 51.8",
-"EV/EBITDA 37.8 vs sector median 29.5",
+"PE 58.1 vs sector median 51.5",
+"EV/EBITDA 37.8 vs sector median 27.7",
 "ROE 25%"
 ]
 },
@@ -9774,9 +9746,9 @@
 "de": 29.64,
 "mcap_cr": 18463,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "N/A",
 "why": [
@@ -10294,9 +10266,9 @@
 "de": 71.93,
 "mcap_cr": 31644,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "N/A",
 "why": [
@@ -10319,14 +10291,14 @@
 "peg": 15.3,
 "mcap_cr": 16538,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 52.0 vs sector median 51.8",
-"EV/EBITDA 33.7 vs sector median 29.5",
+"PE 52.0 vs sector median 51.5",
+"EV/EBITDA 33.7 vs sector median 27.7",
 "PEG 15.30",
 "ROE 10%"
 ]
@@ -10703,13 +10675,13 @@
 "mcap_cr": 8990,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "OK",
 "why": [
 "PE 22.2 vs sector median 22.1",
-"EV/EBITDA 14.6 vs sector median 16.1",
+"EV/EBITDA 14.6 vs sector median 15.7",
 "ROE 16%"
 ]
 },
@@ -10758,13 +10730,13 @@
 "mcap_cr": 39824,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "HIGH",
 "why": [
 "PE 43.3 vs sector median 22.1",
-"EV/EBITDA 45.9 vs sector median 16.1",
+"EV/EBITDA 45.9 vs sector median 15.7",
 "PEG 4.76",
 "ROE 9%"
 ]
@@ -10811,14 +10783,14 @@
 "peg": 4.7,
 "mcap_cr": 12726,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 43.7 vs sector median 51.8",
-"EV/EBITDA 24.8 vs sector median 29.5",
+"PE 43.7 vs sector median 51.5",
+"EV/EBITDA 24.8 vs sector median 27.7",
 "PEG 4.70",
 "ROE 18%"
 ]
@@ -10945,14 +10917,14 @@
 "peg": 1.58,
 "mcap_cr": 28554,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 88.5 vs sector median 51.8",
-"EV/EBITDA 59.2 vs sector median 29.5",
+"PE 88.5 vs sector median 51.5",
+"EV/EBITDA 59.2 vs sector median 27.7",
 "PEG 1.58",
 "ROE 31%"
 ]
@@ -11141,14 +11113,14 @@
 "peg": 6.21,
 "mcap_cr": 38247,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 102.4 vs sector median 51.8",
-"EV/EBITDA 60.2 vs sector median 29.5",
+"PE 102.4 vs sector median 51.5",
+"EV/EBITDA 60.2 vs sector median 27.7",
 "PEG 6.21",
 "ROE 15%"
 ]
@@ -11736,14 +11708,14 @@
 "de": 3.62,
 "mcap_cr": 452251,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 41.2 vs sector median 51.8",
-"EV/EBITDA 24.6 vs sector median 29.5",
+"PE 41.2 vs sector median 51.5",
+"EV/EBITDA 24.6 vs sector median 27.7",
 "ROE 13%"
 ]
 },
@@ -11922,14 +11894,14 @@
 "de": 10.44,
 "mcap_cr": 18207,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 98.1 vs sector median 51.8",
-"EV/EBITDA 21.2 vs sector median 29.5",
+"PE 98.1 vs sector median 51.5",
+"EV/EBITDA 21.2 vs sector median 27.7",
 "ROE 4%"
 ]
 },
@@ -12407,7 +12379,7 @@
 "rg": 0.16,
 "de": 7.25,
 "peg": 0.86,
-"mcap_cr": 154708,
+"mcap_cr": 154741,
 "sector_med": {
 "pe": 26.6,
 "ev": 16.3,
@@ -12429,23 +12401,23 @@
 "pe": 22.08,
 "fpe": 15.84,
 "pb": 2.47,
-"ev": 16.59,
+"ev": 15.71,
 "roe": 0.12,
-"eg": 0.52,
-"rg": 0.29,
+"eg": 0.1,
+"rg": 0.31,
 "de": 1.27,
-"peg": 0.42,
+"peg": 2.14,
 "mcap_cr": 10723,
 "sector_med": {
 "pe": 22.1,
-"ev": 16.1,
+"ev": 15.7,
 "pb": 2.7
 },
 "verdict": "OK",
 "why": [
 "PE 22.1 vs sector median 22.1",
-"EV/EBITDA 16.6 vs sector median 16.1",
-"PEG 0.42",
+"EV/EBITDA 15.7 vs sector median 15.7",
+"PEG 2.14",
 "ROE 12%"
 ]
 },
@@ -12728,14 +12700,14 @@
 "de": 76.78,
 "mcap_cr": 178374,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "OK",
 "why": [
-"PE 79.2 vs sector median 51.8",
-"EV/EBITDA 33.2 vs sector median 29.5",
+"PE 79.2 vs sector median 51.5",
+"EV/EBITDA 33.2 vs sector median 27.7",
 "ROE 16%"
 ]
 },
@@ -13138,7 +13110,7 @@
 "eg": null,
 "rg": 0.41,
 "de": 7.15,
-"mcap_cr": 25074,
+"mcap_cr": 27784,
 "sector_med": {
 "pe": 58.1,
 "ev": 34.9,
@@ -13276,14 +13248,14 @@
 "peg": 2.12,
 "mcap_cr": 16030,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 78.8 vs sector median 51.8",
-"EV/EBITDA 46.1 vs sector median 29.5",
+"PE 78.8 vs sector median 51.5",
+"EV/EBITDA 46.1 vs sector median 27.7",
 "PEG 2.12",
 "ROE 21%"
 ]
@@ -13521,14 +13493,14 @@
 "peg": 107.78,
 "mcap_cr": 35340,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "HIGH",
 "why": [
-"PE 86.2 vs sector median 51.8",
-"EV/EBITDA 50.0 vs sector median 29.5",
+"PE 86.2 vs sector median 51.5",
+"EV/EBITDA 50.0 vs sector median 27.7",
 "PEG 107.78",
 "ROE 8%"
 ]
@@ -13686,14 +13658,14 @@
 "de": 46.06,
 "mcap_cr": 119700,
 "sector_med": {
-"pe": 51.8,
-"ev": 29.5,
-"pb": 6.8
+"pe": 51.5,
+"ev": 27.7,
+"pb": 6.7
 },
 "verdict": "LOW",
 "why": [
-"PE 28.7 vs sector median 51.8",
-"EV/EBITDA 18.3 vs sector median 29.5",
+"PE 28.7 vs sector median 51.5",
+"EV/EBITDA 18.3 vs sector median 27.7",
 "ROE 15%"
 ]
 },
