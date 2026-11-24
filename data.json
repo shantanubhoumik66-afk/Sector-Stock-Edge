@@ -1,135 +1,135 @@
 {
-"updated": "2026-11-23T23:00:49.014918Z",
+"updated": "2026-11-24T21:36:51.051457Z",
 "nifty": {
-"r1": 13.1,
-"r3": 7.2,
+"r1": 11.7,
+"r3": 4.6,
 "up200": true
 },
 "sectors": {
 "top": [
 {
 "name": "Healthcare",
-"score": 1.9,
+"score": 3.1,
 "n": 44,
 "improving": true,
 "driver": "US generics pricing, domestic demand, approvals",
 "reasons": [
-"3M +4.0% vs Nifty +7.2%",
-"1M +12.9% vs Nifty +13.1%",
-"82% of stocks above 200-day average",
+"3M +3.8% vs Nifty +4.6%",
+"1M +12.2% vs Nifty +11.7%",
+"80% of stocks above 200-day average",
 "Momentum improving in the last month"
 ],
 "stocks": [
 {
+"symbol": "LAURUSLABS",
+"name": "Laurus Labs Ltd.",
+"price": 2370.7,
+"r1": 18.4,
+"r3": 30.0,
+"rs3": 25.3,
+"score": 40.7
+},
+{
 "symbol": "DIVISLAB",
 "name": "Divi's Laboratories Ltd.",
-"price": 11180.5,
-"r1": 21.7,
-"r3": 30.6,
-"rs3": 23.5,
-"score": 38.1
+"price": 11203.0,
+"r1": 22.3,
+"r3": 30.7,
+"rs3": 26.1,
+"score": 40.7
 },
 {
 "symbol": "SAILIFE",
 "name": "Sai Life Sciences Ltd.",
-"price": 1800.7,
-"r1": 29.2,
-"r3": 26.6,
-"rs3": 19.5,
-"score": 37.2
-},
-{
-"symbol": "LAURUSLABS",
-"name": "Laurus Labs Ltd.",
-"price": 2294.6,
-"r1": 14.1,
-"r3": 27.4,
-"rs3": 20.3,
-"score": 34.3
+"price": 1809.1,
+"r1": 29.6,
+"r3": 22.9,
+"rs3": 18.3,
+"score": 38.2
 }
 ]
 },
 {
 "name": "Realty",
-"score": -0.6,
+"score": 0.9,
 "n": 13,
 "improving": true,
 "driver": "Interest rates, housing demand",
 "reasons": [
-"3M -1.3% vs Nifty +7.2%",
-"1M +12.2% vs Nifty +13.1%",
-"69% of stocks above 200-day average",
+"3M -2.2% vs Nifty +4.6%",
+"1M +15.8% vs Nifty +11.7%",
+"62% of stocks above 200-day average",
 "Momentum improving in the last month"
 ],
 "stocks": [
 {
-"symbol": "PHOENIXLTD",
-"name": "Phoenix Mills Ltd.",
-"price": 2285.3,
-"r1": 21.9,
-"r3": 19.2,
-"rs3": 12.1,
-"score": 22.1
-},
-{
 "symbol": "DLF",
 "name": "DLF Ltd.",
-"price": 785.0,
-"r1": 18.2,
-"r3": 17.2,
-"rs3": 10.0,
+"price": 794.1,
+"r1": 19.7,
+"r3": 17.4,
+"rs3": 12.8,
+"score": 24.4
+},
+{
+"symbol": "PHOENIXLTD",
+"name": "Phoenix Mills Ltd.",
+"price": 2276.2,
+"r1": 19.2,
+"r3": 18.4,
+"rs3": 13.8,
 "score": 21.7
 },
 {
 "symbol": "LODHA",
 "name": "Lodha Developers Ltd.",
-"price": 1218.7,
-"r1": 20.1,
-"r3": 0.7,
-"rs3": -6.4,
-"score": 16.5
+"price": 1219.0,
+"r1": 21.1,
+"r3": -1.7,
+"rs3": -6.3,
+"score": 17.7
 }
 ]
 },
 {
 "name": "Automobile and Auto Components",
-"score": -1.8,
+"score": -0.6,
 "n": 40,
-"improving": false,
+"improving": true,
 "driver": "Consumer demand, festive season, interest rates, commodity costs",
 "reasons": [
-"3M -0.9% vs Nifty +7.2%",
-"1M +9.8% vs Nifty +13.1%",
-"65% of stocks above 200-day average",
-"Momentum slowing in the last month"
+"3M -2.2% vs Nifty +4.6%",
+"1M +10.2% vs Nifty +11.7%",
+"62% of stocks above 200-day average",
+"Momentum improving in the last month"
 ],
 "stocks": [
 {
 "symbol": "ATHERENERG",
 "name": "Ather Energy Ltd.",
-"price": 1935.4,
-"r1": 33.7,
-"r3": 34.6,
-"rs3": 27.4,
-"score": 56.3
-},
-{
-"symbol": "SANSERA",
-"name": "Sansera Engineering Ltd.",
-"price": 4798.4,
-"r1": 21.6,
-"r3": 23.3,
-"rs3": 16.2,
-"score": 42.3
+"price": 1979.2,
+"r1": 38.9,
+"r3": 36.5,
+"rs3": 31.9,
+"score": 63.5
 },
 {
 "symbol": "ASAHIINDIA",
 "name": "Asahi India Glass Ltd.",
-"price": 1163.6,
-"r1": 30.1,
-"r3": 21.8,
-"rs3": 14.7,
-"score": 30.5
+"price": 1178.5,
+"r1": 29.0,
+"r3": 24.1,
+"rs3": 19.5,
+"score": 32.4
+},
+{
+"symbol": "SANSERA",
+"name": "Sansera Engineering Ltd.",
+"price": 4619.3,
+"r1": 16.1,
+"r3": 18.6,
+"rs3": 13.9,
+"score": 31.3
 }
 ]
 }
@@ -137,97 +137,97 @@
 "under": [
 {
 "name": "Metals & Mining",
-"score": -19.7,
+"score": -20.1,
 "n": 18,
 "improving": false,
 "driver": "Global commodity prices, China demand, infra demand",
 "reasons": [
-"3M -8.0% vs Nifty +7.2%",
-"1M +0.4% vs Nifty +13.1%",
-"22% of stocks above 200-day average",
+"3M -10.4% vs Nifty +4.6%",
+"1M +0.1% vs Nifty +11.7%",
+"17% of stocks above 200-day average",
 "Momentum slowing in the last month"
 ],
 "stocks": [
 {
 "symbol": "JSWSTEEL",
 "name": "JSW Steel Ltd.",
-"price": 1337.0,
-"r1": 9.3,
-"r3": 4.0,
-"rs3": -3.2,
-"score": 6.3
-},
-{
-"symbol": "JSL",
-"name": "Jindal Stainless Ltd.",
-"price": 736.6,
-"r1": 0.4,
-"r3": 2.2,
-"rs3": -5.0,
-"score": -0.4
+"price": 1311.9,
+"r1": 7.5,
+"r3": 0.9,
+"rs3": -3.7,
+"score": 6.0
 },
 {
 "symbol": "JINDALSTEL",
 "name": "Jindal Steel Ltd.",
-"price": 1131.9,
-"r1": 10.1,
-"r3": 1.7,
-"rs3": -5.5,
-"score": -5.0
+"price": 1131.3,
+"r1": 9.1,
+"r3": 1.3,
+"rs3": -3.3,
+"score": -0.9
+},
+{
+"symbol": "JSL",
+"name": "Jindal Stainless Ltd.",
+"price": 724.9,
+"r1": 2.1,
+"r3": 1.3,
+"rs3": -3.3,
+"score": -3.7
 }
 ]
 },
 {
 "name": "Capital Goods",
-"score": -16.7,
+"score": -17.7,
 "n": 69,
 "improving": false,
 "driver": "Government capex, order books, private investment cycle",
 "reasons": [
-"3M -10.9% vs Nifty +7.2%",
-"1M -2.4% vs Nifty +13.1%",
-"36% of stocks above 200-day average",
+"3M -13.2% vs Nifty +4.6%",
+"1M -1.8% vs Nifty +11.7%",
+"30% of stocks above 200-day average",
 "Momentum slowing in the last month"
 ],
 "stocks": [
 {
 "symbol": "CPPLUS",
 "name": "Aditya Infotech Ltd.",
-"price": 4026.2,
-"r1": 3.1,
-"r3": 21.9,
-"rs3": 14.7,
-"score": 28.5
+"price": 4074.1,
+"r1": 4.3,
+"r3": 17.5,
+"rs3": 12.8,
+"score": 29.4
 },
 {
-"symbol": "SHYAMMETL",
-"name": "Shyam Metalics and Energy Ltd.",
-"price": 1314.3,
-"r1": 9.9,
-"r3": 32.8,
-"rs3": 25.6,
-"score": 27.5
+"symbol": "PTCIL",
+"name": "PTC Industries Ltd.",
+"price": 24425.0,
+"r1": -1.3,
+"r3": 24.5,
+"rs3": 19.9,
+"score": 26.5
 },
 {
 "symbol": "JYOTICNC",
 "name": "Jyoti CNC Automation Ltd.",
-"price": 1052.5,
-"r1": 15.0,
-"r3": 10.7,
-"rs3": 3.6,
-"score": 24.4
+"price": 1043.0,
+"r1": 12.9,
+"r3": 9.8,
+"rs3": 5.2,
+"score": 25.0
 }
 ]
 },
 {
 "name": "Construction",
-"score": -16.2,
+"score": -15.9,
 "n": 13,
 "improving": false,
 "driver": "Infra spending, housing demand, cement/steel costs",
 "reasons": [
-"3M -6.8% vs Nifty +7.2%",
-"1M +6.9% vs Nifty +13.1%",
+"3M -7.9% vs Nifty +4.6%",
+"1M +4.7% vs Nifty +11.7%",
 "31% of stocks above 200-day average",
 "Momentum slowing in the last month"
 ],
@@ -235,35 +235,36 @@
 {
 "symbol": "CEMPRO",
 "name": "Cemindia Projects Ltd.",
-"price": 1415.9,
-"r1": 21.2,
-"r3": 11.9,
-"rs3": 4.7,
-"score": 31.6
+"price": 1438.8,
+"r1": 27.1,
+"r3": 12.9,
+"rs3": 8.3,
+"score": 33.1
 },
 {
 "symbol": "ENGINERSIN",
 "name": "Engineers India Ltd.",
-"price": 296.6,
-"r1": 14.7,
-"r3": 26.8,
-"rs3": 19.7,
-"score": 21.0
+"price": 298.4,
+"r1": 19.3,
+"r3": 27.5,
+"rs3": 22.9,
+"score": 25.5
 },
 {
 "symbol": "LT",
 "name": "Larsen & Toubro Ltd.",
-"price": 4209.1,
-"r1": 15.8,
-"r3": 4.2,
-"rs3": -3.0,
-"score": 9.5
+"price": 4099.9,
+"r1": 12.7,
+"r3": 0.5,
+"rs3": -4.1,
+"score": 8.1
 }
 ]
 }
 ],
 "emerging": [
-"Textiles"
+"Consumer Durables",
+"Fast Moving Consumer Goods"
 ]
 },
 "valuation": [
@@ -983,7 +984,7 @@
 "name": "Aether Industries Ltd.",
 "industry": "Chemicals",
 "price": 1596.9,
-"pe": 81.31,
+"pe": 83.87,
 "fpe": 55.64,
 "pb": 8.17,
 "ev": 54.28,
@@ -991,7 +992,7 @@
 "eg": 0.26,
 "rg": 0.26,
 "de": 26.03,
-"peg": 3.18,
+"peg": 3.28,
 "mcap_cr": 21197,
 "sector_med": {
 "pe": 32.0,
@@ -1000,9 +1001,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 81.3 vs sector median 32.0",
+"PE 83.9 vs sector median 32.0",
 "EV/EBITDA 54.3 vs sector median 18.8",
-"PEG 3.18",
+"PEG 3.28",
 "ROE 10%"
 ]
 },
@@ -1094,7 +1095,7 @@
 "industry": "Healthcare",
 "price": 5067.0,
 "pe": 29.3,
-"fpe": 22.99,
+"fpe": 23.1,
 "pb": 4.08,
 "ev": 19.28,
 "roe": 0.14,
@@ -1420,7 +1421,7 @@
 "industry": "Automobile and Auto Components",
 "price": 420.7,
 "pe": 15.28,
-"fpe": 13.16,
+"fpe": 13.19,
 "pb": 1.52,
 "ev": 8.82,
 "roe": 0.11,
@@ -1825,8 +1826,8 @@
 "name": "BEML Ltd.",
 "industry": "Capital Goods",
 "price": 2008.1,
-"pe": 28.84,
-"fpe": 27.4,
+"pe": 28.83,
+"fpe": 27.93,
 "pb": 5.82,
 "ev": 49.78,
 "roe": 0.06,
@@ -1880,7 +1881,7 @@
 "industry": "Financial Services",
 "price": 3757.0,
 "pe": 50.21,
-"fpe": 39.26,
+"fpe": 39.31,
 "pb": 16.76,
 "ev": 29.12,
 "roe": 0.39,
@@ -1936,7 +1937,7 @@
 "industry": "Financial Services",
 "price": 1095.5,
 "pe": 31.5,
-"fpe": 21.79,
+"fpe": 21.76,
 "pb": 5.53,
 "ev": null,
 "roe": 0.19,
@@ -1991,7 +1992,7 @@
 "name": "Bajaj Holdings & Investment Ltd.",
 "industry": "Financial Services",
 "price": 11541.0,
-"pe": 13.82,
+"pe": 13.67,
 "fpe": null,
 "pb": 1.74,
 "ev": 176.16,
@@ -1999,7 +2000,7 @@
 "eg": 0.28,
 "rg": -0.55,
 "de": null,
-"peg": 0.5,
+"peg": 0.49,
 "mcap_cr": 128444,
 "sector_med": {
 "pe": 19.8,
@@ -2008,9 +2009,9 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 13.8 vs sector median 19.8",
+"PE 13.7 vs sector median 19.8",
 "P/B 1.7 vs sector median 2.3",
-"PEG 0.50",
+"PEG 0.49",
 "ROE 12%"
 ]
 },
@@ -2047,7 +2048,7 @@
 "name": "Balkrishna Industries Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 2345.3,
-"pe": 31.82,
+"pe": 31.57,
 "fpe": 23.59,
 "pb": 3.89,
 "ev": 16.97,
@@ -2055,7 +2056,7 @@
 "eg": 0.07,
 "rg": 0.45,
 "de": 51.88,
-"peg": 4.48,
+"peg": 4.45,
 "mcap_cr": 45339,
 "sector_med": {
 "pe": 37.6,
@@ -2064,9 +2065,9 @@
 },
 "verdict": "OK",
 "why": [
-"PE 31.8 vs sector median 37.6",
+"PE 31.6 vs sector median 37.6",
 "EV/EBITDA 17.0 vs sector median 19.3",
-"PEG 4.48",
+"PEG 4.45",
 "ROE 13%"
 ]
 },
@@ -2103,7 +2104,7 @@
 "name": "Bandhan Bank Ltd.",
 "industry": "Financial Services",
 "price": 172.4,
-"pe": 14.91,
+"pe": 14.68,
 "fpe": 8.74,
 "pb": 1.05,
 "ev": null,
@@ -2120,7 +2121,7 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 14.9 vs sector median 19.8",
+"PE 14.7 vs sector median 19.8",
 "P/B 1.0 vs sector median 2.3",
 "PEG 0.03",
 "ROE 7%"
@@ -2597,15 +2598,15 @@
 "name": "Black Box Ltd.",
 "industry": "Information Technology",
 "price": 854.05,
-"pe": 60.83,
+"pe": 61.53,
 "fpe": 28.85,
-"pb": 10.72,
+"pb": 10.71,
 "ev": 28.91,
 "roe": 0.21,
 "eg": 0.26,
 "rg": 0.22,
 "de": 109.55,
-"peg": 2.36,
+"peg": 2.38,
 "mcap_cr": 15168,
 "sector_med": {
 "pe": 26.9,
@@ -2614,9 +2615,9 @@
 },
 "verdict": "HIGH",
 "why": [
-"PE 60.8 vs sector median 26.9",
+"PE 61.5 vs sector median 26.9",
 "EV/EBITDA 28.9 vs sector median 17.1",
-"PEG 2.36",
+"PEG 2.38",
 "ROE 21%"
 ]
 },
@@ -2785,7 +2786,7 @@
 "name": "CCL Products (I) Ltd.",
 "industry": "Fast Moving Consumer Goods",
 "price": 937.55,
-"pe": 26.75,
+"pe": 27.08,
 "fpe": 19.83,
 "pb": 4.7,
 "ev": 18.64,
@@ -2793,7 +2794,7 @@
 "eg": 0.29,
 "rg": 0.08,
 "de": 46.02,
-"peg": 0.92,
+"peg": 0.93,
 "mcap_cr": 12502,
 "sector_med": {
 "pe": 44.2,
@@ -2802,9 +2803,9 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 26.7 vs sector median 44.2",
+"PE 27.1 vs sector median 44.2",
 "EV/EBITDA 18.6 vs sector median 27.0",
-"PEG 0.92",
+"PEG 0.93",
 "ROE 19%"
 ]
 },
@@ -3357,7 +3358,7 @@
 "name": "Cholamandalam Financial Holdings Ltd.",
 "industry": "Financial Services",
 "price": 1357.1,
-"pe": 9.19,
+"pe": 9.23,
 "fpe": 6.75,
 "pb": 1.49,
 "ev": null,
@@ -3365,7 +3366,7 @@
 "eg": 0.17,
 "rg": 0.07,
 "de": 610.13,
-"peg": 0.54,
+"peg": 0.55,
 "mcap_cr": 25483,
 "sector_med": {
 "pe": 19.8,
@@ -3376,7 +3377,7 @@
 "why": [
 "PE 9.2 vs sector median 19.8",
 "P/B 1.5 vs sector median 2.3",
-"PEG 0.54",
+"PEG 0.55",
 "ROE 19%"
 ]
 },
@@ -3440,7 +3441,7 @@
 "industry": "Financial Services",
 "price": 245.54,
 "pe": 15.42,
-"fpe": 12.34,
+"fpe": 12.32,
 "pb": 2.17,
 "ev": null,
 "roe": 0.14,
@@ -3523,7 +3524,7 @@
 "name": "Coal India Ltd.",
 "industry": "Oil Gas & Consumable Fuels",
 "price": 382.0,
-"pe": 7.06,
+"pe": 7.2,
 "fpe": 6.78,
 "pb": 1.85,
 "ev": 4.26,
@@ -3531,7 +3532,7 @@
 "eg": 0.49,
 "rg": 0.64,
 "de": 12.02,
-"peg": 0.14,
+"peg": 0.15,
 "mcap_cr": 235416,
 "sector_med": {
 "pe": 13.4,
@@ -3540,9 +3541,9 @@
 },
 "verdict": "LOW",
 "why": [
-"PE 7.1 vs sector median 13.4",
+"PE 7.2 vs sector median 13.4",
 "EV/EBITDA 4.3 vs sector median 7.9",
-"PEG 0.14",
+"PEG 0.15",
 "ROE 28%"
 ]
 },
@@ -3552,7 +3553,7 @@
 "industry": "Capital Goods",
 "price": 1090.0,
 "pe": 45.78,
-"fpe": 27.39,
+"fpe": 30.49,
 "pb": 4.73,
 "ev": 29.64,
 "roe": 0.11,
@@ -3767,7 +3768,7 @@
 "name": "Craftsman Automation Ltd.",
 "industry": "Automobile and Auto Components",
 "price": 11649.0,
-"pe": 54.34,
+"pe": 54.35,
 "fpe": 34.44,
 "pb": 5.53,
 "ev": 23.83,
@@ -3982,7 +3983,7 @@
 "industry": "Fast Moving Consumer Goods",
 "price": 399.0,
 "pe": 35.03,
-"fpe": 30.42,
+"fpe": 30.41,
 "pb": 6.16,
 "ev": 26.63,
 "roe": 0.17,
@@ -4195,7 +4196,7 @@
 "name": "Dixon Technologies (India) Ltd.",
 "industry": "Consumer Durables",
 "price": 13390.0,
-"pe": 46.74,
+"pe": 46.73,
 "fpe": 48.88,
 "pb": 11.61,
 "ev": 38.43,
@@ -4873,7 +4874,7 @@
 "name": "Fractal Analytics Ltd.",
 "industry": "Information Technology",
 "price": 809.4,
-"pe": 38.07,
+"pe": 38.05,
 "fpe": 29.04,
 "pb": 4.07,
 "ev": 23.72,
@@ -6231,7 +6232,7 @@
 "rg": 0.16,
 "de": null,
 "peg": 0.88,
-"mcap_cr": 1139116,
+"mcap_cr": 1139122,
 "sector_med": {
 "pe": 19.8,
 "ev": 29.1,
@@ -6469,7 +6470,7 @@
 "name": "IRB Infrastructure Developers Ltd.",
 "industry": "Construction",
 "price": 17.4,
-"pe": 19.55,
+"pe": 19.33,
 "fpe": 14.0,
 "pb": 0.97,
 "ev": 14.07,
@@ -6486,7 +6487,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 19.6 vs sector median 21.8",
+"PE 19.3 vs sector median 21.8",
 "EV/EBITDA 14.1 vs sector median 15.5",
 "PEG 0.21",
 "ROE 5%"
@@ -7523,7 +7524,7 @@
 "industry": "Metals & Mining",
 "price": 1131.3,
 "pe": 40.33,
-"fpe": 13.36,
+"fpe": 13.44,
 "pb": 2.2,
 "ev": 14.21,
 "roe": 0.05,
@@ -9022,7 +9023,7 @@
 "name": "Multi Commodity Exchange of India Ltd.",
 "industry": "Financial Services",
 "price": 3581.6,
-"pe": 61.78,
+"pe": 61.79,
 "fpe": 41.88,
 "pb": 18.32,
 "ev": 36.21,
@@ -9846,8 +9847,8 @@
 "price": 266.15,
 "pe": 38.63,
 "fpe": 18.34,
-"pb": 2.59,
-"ev": 14.85,
+"pb": 2.72,
+"ev": 15.35,
 "roe": 0.07,
 "eg": 0.16,
 "rg": 0.14,
@@ -9859,10 +9860,10 @@
 "ev": 18.8,
 "pb": 3.8
 },
-"verdict": "OK",
+"verdict": "HIGH",
 "why": [
 "PE 38.6 vs sector median 32.0",
-"EV/EBITDA 14.8 vs sector median 18.8",
+"EV/EBITDA 15.4 vs sector median 18.8",
 "PEG 2.41",
 "ROE 7%"
 ]
@@ -9954,7 +9955,7 @@
 "name": "PTC Industries Ltd.",
 "industry": "Capital Goods",
 "price": 24425.0,
-"pe": 260.39,
+"pe": 260.42,
 "fpe": 78.2,
 "pb": 24.61,
 "ev": 195.07,
@@ -12050,7 +12051,7 @@
 "name": "Tata Capital Ltd.",
 "industry": "Financial Services",
 "price": 343.05,
-"pe": 24.38,
+"pe": 24.23,
 "fpe": 16.14,
 "pb": 2.97,
 "ev": null,
@@ -12067,7 +12068,7 @@
 },
 "verdict": "OK",
 "why": [
-"PE 24.4 vs sector median 19.8",
+"PE 24.2 vs sector median 19.8",
 "P/B 3.0 vs sector median 2.3",
 "PEG 0.56",
 "ROE 14%"
@@ -12103,7 +12104,7 @@
 "industry": "Telecommunication",
 "price": 1723.6,
 "pe": 44.58,
-"fpe": 22.01,
+"fpe": 22.1,
 "pb": 14.45,
 "ev": 13.91,
 "roe": 0.34,
@@ -12486,7 +12487,7 @@
 "eg": null,
 "rg": 0.55,
 "de": 196.62,
-"mcap_cr": 7123,
+"mcap_cr": 7124,
 "sector_med": {
 "pe": 35.9,
 "ev": 18.0,
