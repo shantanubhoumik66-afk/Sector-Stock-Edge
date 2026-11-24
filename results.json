@@ -1,6 +1,117 @@
 {
- "updated": "2026-11-24T01:11:51.896631Z",
+ "updated": "2026-11-24T23:16:09.228254Z",
  "present": [
+  {
+   "symbol": "J&KBANK",
+   "name": "Jammu & Kashmir Bank Ltd.",
+   "fno": false,
+   "quarter_end": "2026-09-30",
+   "reported_on": "2026-11-23",
+   "verdict": "GOOD",
+   "score": 5.0,
+   "summary": "Good quarter: +14.5% vs a year ago; +6.2% vs last quarter; +28.9% vs last quarter.",
+   "next_step": "To stay GOOD, watch for falling margins or negative operating cash flow next quarter.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "+14.5% vs a year ago",
+     "points": 3.0
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "+6.2% vs last quarter",
+     "points": 1
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "No year-ago data",
+     "points": 0
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "+28.9% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "Not enough data",
+     "points": 0
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Not available",
+     "points": 0
+    },
+    {
+     "factor": "Debt",
+     "seen": "Up +23% in the quarter",
+     "points": -1
+    }
+   ],
+   "strengths": [
+    "+14.5% vs a year ago",
+    "+6.2% vs last quarter",
+    "+28.9% vs last quarter"
+   ],
+   "weaknesses": [
+    "Up +23% in the quarter"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 1822.5,
+     "pat": 552.7,
+     "opm": null,
+     "debt": 5381.0,
+     "ocf": null
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 1716.3,
+     "pat": 428.8,
+     "opm": null,
+     "debt": 4381.0,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 1751.8,
+     "pat": 798.6,
+     "opm": null,
+     "debt": 3381.0,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 1772.5,
+     "pat": 581.5,
+     "opm": null,
+     "debt": 2381.8,
+     "ocf": null
+    }
+   ],
+   "sales": 1822.5,
+   "sales_qoq": 6.2,
+   "sales_yoy": 14.5,
+   "pat": 552.7,
+   "pat_qoq": 28.9,
+   "pat_yoy": null,
+   "ebitda": null,
+   "ebitda_yoy": null,
+   "opm": null,
+   "eps": 5.02,
+   "debt": 5381.0,
+   "debt_chg": 22.8,
+   "ocf": null,
+   "fcf": null,
+   "reasons": [
+    "Sales growth YoY: +14.5% vs a year ago",
+    "Sales growth QoQ: +6.2% vs last quarter",
+    "Profit growth QoQ: +28.9% vs last quarter",
+    "Debt: Up +23% in the quarter"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=J&KBANK"
+  },
   {
    "symbol": "ASHOKLEY",
    "name": "Ashok Leyland Ltd.",
@@ -38661,6 +38772,121 @@
    "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=UJJIVANSFB"
   },
   {
+   "symbol": "WIPRO",
+   "name": "Wipro Ltd.",
+   "fno": true,
+   "quarter_end": "2026-09-30",
+   "reported_on": "2026-10-15",
+   "verdict": "NEUTRAL",
+   "score": 0.0,
+   "summary": "Mixed quarter. Positives: +9.1% vs a year ago; +1.1% vs last quarter. Negatives: -1.4% vs a year ago; -4.5% vs last quarter.",
+   "next_step": "Score 0.0. It needs about 4.0 more points to become GOOD, from faster profit growth, a rising margin or stronger cash flow.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "+9.1% vs a year ago",
+     "points": 1.5
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "+1.1% vs last quarter",
+     "points": 1
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "-1.4% vs a year ago",
+     "points": -1.5
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "-4.5% vs last quarter",
+     "points": -1
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "21.7% now vs 22.8% a year ago (-1.1 points)",
+     "points": -1
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Covers most of the profit",
+     "points": 1
+    },
+    {
+     "factor": "Debt",
+     "seen": "Change +4% in the quarter",
+     "points": 0
+    }
+   ],
+   "strengths": [
+    "+9.1% vs a year ago",
+    "+1.1% vs last quarter",
+    "Covers most of the profit"
+   ],
+   "weaknesses": [
+    "-1.4% vs a year ago",
+    "-4.5% vs last quarter",
+    "21.7% now vs 22.8% a year ago (-1.1 points)"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 24752.7,
+     "pat": 3200.6,
+     "opm": 21.7,
+     "debt": 22106.5,
+     "ocf": 5304.8
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 24478.6,
+     "pat": 3352.0,
+     "opm": 22.0,
+     "debt": 21282.2,
+     "ocf": 3288.0
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 24236.3,
+     "pat": 3501.8,
+     "opm": 23.0,
+     "debt": 20291.0,
+     "ocf": 3173.1
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 23555.8,
+     "pat": 3119.0,
+     "opm": 21.8,
+     "debt": 19804.6,
+     "ocf": 4259.4
+    }
+   ],
+   "sales": 24752.7,
+   "sales_qoq": 1.1,
+   "sales_yoy": 9.1,
+   "pat": 3200.6,
+   "pat_qoq": -4.5,
+   "pat_yoy": -1.4,
+   "ebitda": 5377.2,
+   "ebitda_yoy": 4.0,
+   "opm": 21.7,
+   "eps": 3.23,
+   "debt": 22106.5,
+   "debt_chg": 3.9,
+   "ocf": 5304.8,
+   "fcf": 4878.7,
+   "reasons": [
+    "Sales growth YoY: +9.1% vs a year ago",
+    "Sales growth QoQ: +1.1% vs last quarter",
+    "Profit growth YoY: -1.4% vs a year ago",
+    "Profit growth QoQ: -4.5% vs last quarter",
+    "Operating margin (OPM): 21.7% now vs 22.8% a year ago (-1.1 points)",
+    "Operating cash flow: Covers most of the profit"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=WIPRO"
+  },
+  {
    "symbol": "360ONE",
    "name": "360 ONE WAM Ltd.",
    "fno": true,
@@ -44003,117 +44229,6 @@
     "Debt: Up +26% in the quarter"
    ],
    "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=JKTYRE"
-  },
-  {
-   "symbol": "J&KBANK",
-   "name": "Jammu & Kashmir Bank Ltd.",
-   "fno": false,
-   "quarter_end": "2026-09-30",
-   "reported_on": "2026-08-04",
-   "verdict": "GOOD",
-   "score": 5.0,
-   "summary": "Good quarter: +14.5% vs a year ago; +6.2% vs last quarter; +28.9% vs last quarter.",
-   "next_step": "To stay GOOD, watch for falling margins or negative operating cash flow next quarter.",
-   "breakdown": [
-    {
-     "factor": "Sales growth YoY",
-     "seen": "+14.5% vs a year ago",
-     "points": 3.0
-    },
-    {
-     "factor": "Sales growth QoQ",
-     "seen": "+6.2% vs last quarter",
-     "points": 1
-    },
-    {
-     "factor": "Profit growth YoY",
-     "seen": "No year-ago data",
-     "points": 0
-    },
-    {
-     "factor": "Profit growth QoQ",
-     "seen": "+28.9% vs last quarter",
-     "points": 2
-    },
-    {
-     "factor": "Operating margin (OPM)",
-     "seen": "Not enough data",
-     "points": 0
-    },
-    {
-     "factor": "Operating cash flow",
-     "seen": "Not available",
-     "points": 0
-    },
-    {
-     "factor": "Debt",
-     "seen": "Up +23% in the quarter",
-     "points": -1
-    }
-   ],
-   "strengths": [
-    "+14.5% vs a year ago",
-    "+6.2% vs last quarter",
-    "+28.9% vs last quarter"
-   ],
-   "weaknesses": [
-    "Up +23% in the quarter"
-   ],
-   "history": [
-    {
-     "q": "Sep 2026",
-     "sales": 1822.5,
-     "pat": 552.7,
-     "opm": null,
-     "debt": 5381.0,
-     "ocf": null
-    },
-    {
-     "q": "Jun 2026",
-     "sales": 1716.3,
-     "pat": 428.8,
-     "opm": null,
-     "debt": 4381.0,
-     "ocf": null
-    },
-    {
-     "q": "Mar 2026",
-     "sales": 1751.8,
-     "pat": 798.6,
-     "opm": null,
-     "debt": 3381.0,
-     "ocf": null
-    },
-    {
-     "q": "Dec 2025",
-     "sales": 1772.5,
-     "pat": 581.5,
-     "opm": null,
-     "debt": 2381.8,
-     "ocf": null
-    }
-   ],
-   "sales": 1822.5,
-   "sales_qoq": 6.2,
-   "sales_yoy": 14.5,
-   "pat": 552.7,
-   "pat_qoq": 28.9,
-   "pat_yoy": null,
-   "ebitda": null,
-   "ebitda_yoy": null,
-   "opm": null,
-   "eps": 5.02,
-   "debt": 5381.0,
-   "debt_chg": 22.8,
-   "ocf": null,
-   "fcf": null,
-   "reasons": [
-    "Sales growth YoY: +14.5% vs a year ago",
-    "Sales growth QoQ: +6.2% vs last quarter",
-    "Profit growth QoQ: +28.9% vs last quarter",
-    "Debt: Up +23% in the quarter"
-   ],
-   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=J&KBANK"
   },
   {
    "symbol": "INOXINDIA",
@@ -52288,6 +52403,11 @@
   {
    "symbol": "INDUSTOWER",
    "name": "Indus Towers Ltd.",
+   "next_date": "2027-02-02"
+  },
+  {
+   "symbol": "J&KBANK",
+   "name": "Jammu & Kashmir Bank Ltd.",
    "next_date": "2027-02-02"
   },
   {
