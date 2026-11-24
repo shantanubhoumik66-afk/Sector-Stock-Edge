@@ -1,7 +1,555 @@
 {
- "updated": "2026-11-24T06:04:32.077401",
+ "updated": "2026-11-24T17:47:18.757713",
  "days": 30,
  "stocks": {
+  "GICRE": {
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "GICRE",
+     "date": "30-Oct-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "General Insurance Corporation of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/GICRE_30102026201103_signedOutcomeofBM30102026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "GICRE",
+     "date": "24-Nov-202",
+     "type": "Results",
+     "title": "Shareholders meeting",
+     "text": "General Insurance Corporation of India has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/GICRE_24112026225516_GICRERESULTS.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "CLEANMAX": {
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Shareholders meeting.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "CLEANMAX",
+     "date": "24-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "Clean Max Enviro Energy Solutions Limited has informed the Exchange regarding Notice of Postal Ballot",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_24112026210705_Intimation_of_PB_Notice_final.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "CLEANMAX",
+     "date": "18-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Clean Max Enviro Energy Solutions Limited has informed the Exchange about Acquisition of GSB Energy Company Limited by Cleanmax Energy (Thailand) Company Limited and Cleanmax IHQ (Thailand) Company Limited, both are wholly owned subsidiarie",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_18112026115633_Reg_30_Intimation_for_Acquisition_of_GSB_Energy.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "CLEANMAX",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Copy of Newspaper Publication",
+     "text": "Clean Max Enviro Energy Solutions Limited has informed the Exchange about Copy of Newspaper Publication of Financial Results for quarter and half year ended 30 September 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_05112026130829_Newspaper_advertisement_September_2026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "CLEANMAX",
+     "date": "03-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Incorporation of a wholly owned subsidiary of the Company at the International Financial ServicesCentre (IFSC) in Gujarat Finance Tec-City (GIFT City), Gujarat, India",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_03112026235251_FR30092026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "CLEANMAX",
+     "date": "03-Nov-202",
+     "type": "Results",
+     "title": "General Updates",
+     "text": "Clean Max Enviro Energy Solutions Limited has informed the Exchange about Financial Results for quarter and half year ended 30 September 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_03112026224023_FR30092026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "CLEANMAX",
+     "date": "03-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Clean Max Enviro Energy Solutions Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_03112026213525_Outcome031126.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "BHARTIHEXA": {
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Shareholders meeting; Action(s) taken or orders passed.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "BHARTIHEXA",
+     "date": "24-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "Bharti Hexacom Limited has informed the Exchange regarding Notice of Postal Ballot",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_24112026182248_STX_intimation_Postal_Ballot.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIHEXA",
+     "date": "18-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "Bharti Hexacom Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_18112026121039_Reg-30.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIHEXA",
+     "date": "06-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation of Director/KMP/SMP",
+     "text": "Bharti Hexacom Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIHEXA_ROID_104116_KMP_Doc.zip",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIHEXA",
+     "date": "06-Nov-202",
+     "type": "Results",
+     "title": "General Updates",
+     "text": "Bharti Hexacom Limited has informed the Exchange about Publication of Newspaper Advertisements w.r.t Audited Financial Results for the second quarter (Q2) and six months ended September 30, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_06112026134109_Stx_Hexacom_Intimation_Newspaper_Adv.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIHEXA",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Updates",
+     "text": "Bharti Hexacom Limited has informed the Exchange regarding 'Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_05112026162618_QR.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIHEXA",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Bharti Hexacom Limited has informed the Exchange regarding a press release dated November 5, 2026, titled \"financial results for second quarter (Q2) and six months ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_05112026162255_PR_Stx_intimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIHEXA",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Bharti Hexacom Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_05112026161535_STX_outcome.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "FLUOROCHEM": {
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "FLUOROCHEM",
+     "date": "24-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Gujarat Fluorochemicals Limited has informed the Exchange about Acquisition",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_24112026182411_GFCL_Intimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "FLUOROCHEM",
+     "date": "13-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Gujarat Fluorochemicals Limited has informed the Exchange about Acquisition",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_13112026111440_GFCL_Intimation_Reg_30_Incorporation_of_GFCL_EV_Critical_Minerals.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "FLUOROCHEM",
+     "date": "03-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Gujarat Fluorochemicals Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "TORNTPOWER": {
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "TORNTPOWER",
+     "date": "24-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Torrent Power Limited has informed the Exchange about Intimation for incorporation of a New Step-Down Subsidiary.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TORNTPOWER_24112026181847_Incorporation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "TORNTPOWER",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Torrent Power Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Torrent Power announces Q2 FY27 results\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TORNTPOWER_04112026165513_Media_Release.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "TORNTPOWER",
+     "date": "04-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Torrent Power Limited has submitted to the Exchange, the Statement of Unaudited Financial Results (Standalone and Consolidated) for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TORNTPOWER_04112026164014_Outcome_of_BM.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "LLOYDSME": {
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "LLOYDSME",
+     "date": "27-Oct-202",
+     "type": "Corporate action",
+     "title": "General Updates",
+     "text": "Update on Acquisitions",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_27102026182312_20261027_Share_Subscription_Agreement.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LLOYDSME",
+     "date": "26-Oct-202",
+     "type": "Results",
+     "title": "Shareholders meeting",
+     "text": "Lloyds Metals And Energy Limited has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_26102026133756_20261026_Postal_Ballot_Result_Initimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LLOYDSME",
+     "date": "24-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Intimation for Incorporation of Step down subsidiary",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_24112026181359_20261124_Intimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LLOYDSME",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Copy of Newspaper Publication",
+     "text": "Newspaper publication of extracts of standalone and consolidated unaudited Financial Results for the Quarter and Half year ended 30th September, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_05112026132710_20261105_Newspaper_Publication.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "LLOYDSME",
+     "date": "03-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Approval for further investment in Thriveni Earthmovers and Infra Private Limited, subsidiary of the company, by way of subscription to rights issue / further issue of capital.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_03112026200547_20261103_Outcome_of_Board_Meeting.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "ITI": {
+   "impact": "VERY POSITIVE",
+   "score": 2.0,
+   "impact_reason": "Main drivers: Spurt in Volume; Spurt in Volume.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "ITI",
+     "date": "24-Nov-202",
+     "type": "Order / contract",
+     "title": "Spurt in Volume",
+     "text": "Significant increase in volume has been observed in ITI Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safe",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/ITI_24112026151053_STOCK_EXCAHNGE_VOLUMME_-1.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "ITI",
+     "date": "23-Nov-202",
+     "type": "Order / contract",
+     "title": "Spurt in Volume",
+     "text": "Significant increase in volume has been observed in ITI Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safe",
+     "source": "NSE corporate filing",
+     "link": "-",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "ITI",
+     "date": "13-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "ITI Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/ITI_13112026170859_Q2_30th_Sept_2026_Signed_Financials.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "ITI",
+     "date": "03-Nov-202",
+     "type": "Order / contract",
+     "title": "Spurt in Volume",
+     "text": "Significant increase in volume has been observed in ITI Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safe",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/ITI_03112026185942_Volume_Movement_Reply.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "ITI",
+     "date": "03-Nov-202",
+     "type": "Order / contract",
+     "title": "Spurt in Volume",
+     "text": "Significant increase in volume has been observed in ITI Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safe",
+     "source": "NSE corporate filing",
+     "link": "-",
+     "sentiment": "POSITIVE",
+     "age": null
+    }
+   ]
+  },
+  "BHARTIARTL": {
+   "impact": "POSITIVE",
+   "score": 1.5,
+   "impact_reason": "Main drivers: Action(s) taken or orders passed; Action(s) taken or orders passed.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "BHARTIARTL",
+     "date": "30-Oct-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_30102026223927_BhartiAirtelSTXdisclosure.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "29-Oct-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_29102026134154_BhartiAirtelSTXIntimation.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "24-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_24112026131238_BhartiAirtelSTXdisclosure.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "16-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_16112026190520_BhartiAirtelSTXdisclosure.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "06-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_06112026144741_BhartiAirtelReg30disclosure.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "06-Nov-202",
+     "type": "Results",
+     "title": "General Updates",
+     "text": "Bharti Airtel Limited has informed the Exchange about Publication of Newspaper Advertisements w.r.t Audited Financial Results for the second quarter (Q2) and six months ended September 30, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_06112026130412_StxIntimationNewspaperAdv.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Updates",
+     "text": "Bharti Airtel Limited has informed the Exchange regarding 'Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026.'.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_05112026162542_QR.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Bharti Airtel Limited has informed the Exchange regarding a press release dated November 05, 2026, titled \"Bharti Airtel Limited has informed the Exchange regarding a press release dated November 5, 2026, titled financial results for second",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_05112026162337_PR.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "05-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Bharti Airtel Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_05112026162023_FR.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "Bharti Airtel Limited has informed the Exchange regarding Notice of Postal Ballot",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_04112026214407_STXIntimationPostalBallotNotice.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "04-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Copy of Newspaper Publication",
+     "text": "Bharti Airtel Limited ( Company ) has informed the Exchange about Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_04112026153131_STXintimation.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "BHARTIARTL",
+     "date": "03-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "General Updates",
+     "text": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company ).",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_03112026222840_Airtelstx.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    }
+   ]
+  },
   "LTM": {
    "impact": "NEUTRAL",
    "score": -0.5,
@@ -263,58 +811,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/Mahindracie_23112026190101_SEintimation.pdf",
      "sentiment": "NEGATIVE",
-     "age": null
-    }
-   ]
-  },
-  "ITI": {
-   "impact": "POSITIVE",
-   "score": 1.5,
-   "impact_reason": "Main drivers: Spurt in Volume; Spurt in Volume.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "ITI",
-     "date": "23-Nov-202",
-     "type": "Order / contract",
-     "title": "Spurt in Volume",
-     "text": "Significant increase in volume has been observed in ITI Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safe",
-     "source": "NSE corporate filing",
-     "link": "-",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "ITI",
-     "date": "13-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "ITI Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ITI_13112026170859_Q2_30th_Sept_2026_Signed_Financials.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "ITI",
-     "date": "03-Nov-202",
-     "type": "Order / contract",
-     "title": "Spurt in Volume",
-     "text": "Significant increase in volume has been observed in ITI Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safe",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/ITI_03112026185942_Volume_Movement_Reply.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "ITI",
-     "date": "03-Nov-202",
-     "type": "Order / contract",
-     "title": "Spurt in Volume",
-     "text": "Significant increase in volume has been observed in ITI Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safe",
-     "source": "NSE corporate filing",
-     "link": "-",
-     "sentiment": "POSITIVE",
      "age": null
     }
    ]
@@ -4056,80 +4552,6 @@
     }
    ]
   },
-  "BHARTIHEXA": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "Main drivers: Action(s) taken or orders passed; Resignation of Director/KMP/SMP.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "BHARTIHEXA",
-     "date": "18-Nov-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "Bharti Hexacom Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_18112026121039_Reg-30.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIHEXA",
-     "date": "06-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Resignation of Director/KMP/SMP",
-     "text": "Bharti Hexacom Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIHEXA_ROID_104116_KMP_Doc.zip",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIHEXA",
-     "date": "06-Nov-202",
-     "type": "Results",
-     "title": "General Updates",
-     "text": "Bharti Hexacom Limited has informed the Exchange about Publication of Newspaper Advertisements w.r.t Audited Financial Results for the second quarter (Q2) and six months ended September 30, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_06112026134109_Stx_Hexacom_Intimation_Newspaper_Adv.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIHEXA",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Updates",
-     "text": "Bharti Hexacom Limited has informed the Exchange regarding 'Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_05112026162618_QR.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIHEXA",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Bharti Hexacom Limited has informed the Exchange regarding a press release dated November 5, 2026, titled \"financial results for second quarter (Q2) and six months ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_05112026162255_PR_Stx_intimation.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIHEXA",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Bharti Hexacom Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HexacomApril20_05112026161535_STX_outcome.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
   "AUROPHARMA": {
    "impact": "NEUTRAL",
    "score": 0.0,
@@ -4210,69 +4632,6 @@
      "text": "Aurobindo Pharma Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/AUROPHARMA_04112026194825_LtrToSEsOutcomeOfBM04112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "CLEANMAX": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "CLEANMAX",
-     "date": "18-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Clean Max Enviro Energy Solutions Limited has informed the Exchange about Acquisition of GSB Energy Company Limited by Cleanmax Energy (Thailand) Company Limited and Cleanmax IHQ (Thailand) Company Limited, both are wholly owned subsidiarie",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_18112026115633_Reg_30_Intimation_for_Acquisition_of_GSB_Energy.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "CLEANMAX",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Copy of Newspaper Publication",
-     "text": "Clean Max Enviro Energy Solutions Limited has informed the Exchange about Copy of Newspaper Publication of Financial Results for quarter and half year ended 30 September 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_05112026130829_Newspaper_advertisement_September_2026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "CLEANMAX",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Incorporation of a wholly owned subsidiary of the Company at the International Financial ServicesCentre (IFSC) in Gujarat Finance Tec-City (GIFT City), Gujarat, India",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_03112026235251_FR30092026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "CLEANMAX",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "General Updates",
-     "text": "Clean Max Enviro Energy Solutions Limited has informed the Exchange about Financial Results for quarter and half year ended 30 September 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_03112026224023_FR30092026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "CLEANMAX",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Clean Max Enviro Energy Solutions Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/CLEANMAX_03112026213525_Outcome031126.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     }
@@ -5364,146 +5723,6 @@
      "text": "CCL Products (India) Limited has informed the Exchange about Resignation of Director/KMP/SMP",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/CCL_ROID_104947_KMP_Doc.zip",
-     "sentiment": "NEGATIVE",
-     "age": null
-    }
-   ]
-  },
-  "BHARTIARTL": {
-   "impact": "POSITIVE",
-   "score": 1.0,
-   "impact_reason": "Main drivers: Action(s) taken or orders passed; Action(s) taken or orders passed.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "BHARTIARTL",
-     "date": "30-Oct-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_30102026223927_BhartiAirtelSTXdisclosure.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "29-Oct-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_29102026134154_BhartiAirtelSTXIntimation.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "16-Nov-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_16112026190520_BhartiAirtelSTXdisclosure.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "06-Nov-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_06112026144741_BhartiAirtelReg30disclosure.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "06-Nov-202",
-     "type": "Results",
-     "title": "General Updates",
-     "text": "Bharti Airtel Limited has informed the Exchange about Publication of Newspaper Advertisements w.r.t Audited Financial Results for the second quarter (Q2) and six months ended September 30, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_06112026130412_StxIntimationNewspaperAdv.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Updates",
-     "text": "Bharti Airtel Limited has informed the Exchange regarding 'Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026.'.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_05112026162542_QR.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Bharti Airtel Limited has informed the Exchange regarding a press release dated November 05, 2026, titled \"Bharti Airtel Limited has informed the Exchange regarding a press release dated November 5, 2026, titled financial results for second",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_05112026162337_PR.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Bharti Airtel Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_05112026162023_FR.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "04-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Shareholders meeting",
-     "text": "Bharti Airtel Limited has informed the Exchange regarding Notice of Postal Ballot",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_04112026214407_STXIntimationPostalBallotNotice.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "04-Nov-202",
-     "type": "Order / contract",
-     "title": "Action(s) taken or orders passed",
-     "text": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "04-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Copy of Newspaper Publication",
-     "text": "Bharti Airtel Limited ( Company ) has informed the Exchange about Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_04112026153131_STXintimation.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "BHARTIARTL",
-     "date": "03-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "General Updates",
-     "text": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company ).",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_03112026222840_Airtelstx.pdf",
      "sentiment": "NEGATIVE",
      "age": null
     }
@@ -7875,36 +8094,6 @@
      "text": "ACC Limited has informed the Exchange about Transcript of earning call held on October 29, 2026, pertaining to Unaudited financial results of the company for quarter and half year ended September 30, 2026",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/ACC_1_03112026172336_ACC_Transcript_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "FLUOROCHEM": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "FLUOROCHEM",
-     "date": "13-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Gujarat Fluorochemicals Limited has informed the Exchange about Acquisition",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_13112026111440_GFCL_Intimation_Reg_30_Incorporation_of_GFCL_EV_Critical_Minerals.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "FLUOROCHEM",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Gujarat Fluorochemicals Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     }
@@ -12125,58 +12314,6 @@
     }
    ]
   },
-  "LLOYDSME": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "LLOYDSME",
-     "date": "27-Oct-202",
-     "type": "Corporate action",
-     "title": "General Updates",
-     "text": "Update on Acquisitions",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_27102026182312_20261027_Share_Subscription_Agreement.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "LLOYDSME",
-     "date": "26-Oct-202",
-     "type": "Results",
-     "title": "Shareholders meeting",
-     "text": "Lloyds Metals And Energy Limited has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_26102026133756_20261026_Postal_Ballot_Result_Initimation.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "LLOYDSME",
-     "date": "05-Nov-202",
-     "type": "Results",
-     "title": "Copy of Newspaper Publication",
-     "text": "Newspaper publication of extracts of standalone and consolidated unaudited Financial Results for the Quarter and Half year ended 30th September, 2026",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_05112026132710_20261105_Newspaper_Publication.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "LLOYDSME",
-     "date": "03-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Approval for further investment in Thriveni Earthmovers and Infra Private Limited, subsidiary of the company, by way of subscription to rights issue / further issue of capital.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/LLOYDSME_03112026200547_20261103_Outcome_of_Board_Meeting.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
   "TIINDIA": {
    "impact": "NEUTRAL",
    "score": 0.5,
@@ -12894,36 +13031,6 @@
      "text": "Ircon International Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/IRCON_04112026161900_BODOUTCOME.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "TORNTPOWER": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "TORNTPOWER",
-     "date": "04-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Torrent Power Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Torrent Power announces Q2 FY27 results\".",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TORNTPOWER_04112026165513_Media_Release.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "TORNTPOWER",
-     "date": "04-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Torrent Power Limited has submitted to the Exchange, the Statement of Unaudited Financial Results (Standalone and Consolidated) for the quarter and half year ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TORNTPOWER_04112026164014_Outcome_of_BM.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     }
@@ -15250,25 +15357,6 @@
      "text": "Indian Oil Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/IOC_30102026155653_2026_10_30_Reg_30_Integrated_filing_financial_Q2_26_27_S.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "GICRE": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "GICRE",
-     "date": "30-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "General Insurance Corporation of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/GICRE_30102026201103_signedOutcomeofBM30102026.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     }
