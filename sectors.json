@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-24T22:59:29.404525Z",
+ "updated": "2026-11-25T22:25:37.263265Z",
  "flows": {
-  "date": "23-Nov-2026",
-  "fii_net": 5672.99,
-  "dii_net": -2760.12,
-  "text": "Latest market-wide cash flow (23-Nov-2026): FII net \u20b95,673 cr, DII net \u20b9-2,760 cr (NSE). Sector-level flows are not published free, so this is shown as market context, not scored."
+  "date": "25-Nov-2026",
+  "fii_net": 4479.08,
+  "dii_net": 4018.72,
+  "text": "Latest market-wide cash flow (25-Nov-2026): FII net \u20b94,479 cr, DII net \u20b94,019 cr (NSE). Sector-level flows are not published free, so this is shown as market context, not scored."
  },
  "weights": {
   "Technical setup": 35,
@@ -18,7 +18,7 @@
   {
    "name": "Oil & Gas Refining & Marketing",
    "n": 9,
-   "score": 73.9,
+   "score": 73.4,
    "group": "TOP",
    "tech_rs3": -1.7,
    "factors": [
@@ -53,7 +53,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -64,7 +64,7 @@
      "weight": 15,
      "pct": 100,
      "dir": "UP",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is helped by rising crude",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is helped by rising crude",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -110,7 +110,7 @@
      "name": "Petronet LNG Ltd.",
      "price": 326.05,
      "rs3": 9.8,
-     "momentum": 90.0,
+     "momentum": 87.5,
      "bias": "UPSIDE"
     },
     {
@@ -126,7 +126,7 @@
      "name": "Indian Oil Corporation Ltd.",
      "price": 145.0,
      "rs3": 2.1,
-     "momentum": 70.0,
+     "momentum": 77.5,
      "bias": "UPSIDE"
     }
    ]
@@ -171,7 +171,7 @@
      "weight": 15,
      "pct": 0,
      "dir": "DOWN",
-     "text": "2 positive and 3 negative official headlines matched to this sector",
+     "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
     },
     {
@@ -180,36 +180,11 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
-   "headlines": [
-    {
-     "title": "Governor, Reserve Bank of India meets Managing Directors & Chief Executive Officers of select NBFCs, HFCs and Industry Representatives in Mumbai on November 23, 2026",
-     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64032",
-     "src": "RBI press release",
-     "dir": "UP"
-    },
-    {
-     "title": "Governor, Reserve Bank of India meets Chairpersons and Managing Directors & Chief Executive Officers of select UCBs and Industry Representatives in Mumbai on November 23, 2026",
-     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64031",
-     "src": "RBI press release",
-     "dir": "UP"
-    },
-    {
-     "title": "Reserve Bank (Securitisation Transactions) Amendment Directions, 2026",
-     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64028",
-     "src": "RBI press release",
-     "dir": "DOWN"
-    },
-    {
-     "title": "RBI issues Draft Amendment Directions for \u2018Preventive Safeguards for Electronic Banking Transactions (EBTs)\u2019",
-     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64026",
-     "src": "RBI press release",
-     "dir": "DOWN"
-    }
-   ],
+   "headlines": [],
    "drivers": [
     {
      "match": [
@@ -242,6 +217,14 @@
    ],
    "stocks": [
     {
+     "symbol": "BANKBARODA",
+     "name": "Bank of Baroda",
+     "price": 275.58,
+     "rs3": 8.1,
+     "momentum": 90.0,
+     "bias": "UPSIDE"
+    },
+    {
      "symbol": "BANKINDIA",
      "name": "Bank of India",
      "price": 159.01,
@@ -256,21 +239,13 @@
      "rs3": 8.2,
      "momentum": 90.0,
      "bias": "UPSIDE"
-    },
-    {
-     "symbol": "BANKBARODA",
-     "name": "Bank of Baroda",
-     "price": 275.58,
-     "rs3": 8.1,
-     "momentum": 87.5,
-     "bias": "UPSIDE"
     }
    ]
   },
   {
    "name": "Building Products & Equipment",
    "n": 5,
-   "score": 58.4,
+   "score": 57.9,
    "group": "TOP",
    "tech_rs3": -4.7,
    "factors": [
@@ -305,7 +280,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -316,7 +291,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -328,7 +303,7 @@
      "name": "Aditya Infotech Ltd.",
      "price": 4074.1,
      "rs3": 12.8,
-     "momentum": 82.5,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     },
     {
@@ -336,7 +311,7 @@
      "name": "Blue Star Ltd.",
      "price": 1785.1,
      "rs3": 13.6,
-     "momentum": 77.5,
+     "momentum": 72.5,
      "bias": "UPSIDE"
     },
     {
@@ -352,7 +327,7 @@
   {
    "name": "Auto Manufacturers",
    "n": 12,
-   "score": 57.9,
+   "score": 57.4,
    "group": "MID",
    "tech_rs3": -5.5,
    "factors": [
@@ -387,7 +362,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -398,7 +373,7 @@
      "weight": 15,
      "pct": 13,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is hurt by rising crude",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is hurt by rising crude",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -433,6 +408,14 @@
    ],
    "stocks": [
     {
+     "symbol": "ATHERENERG",
+     "name": "Ather Energy Ltd.",
+     "price": 1979.2,
+     "rs3": 31.9,
+     "momentum": 85.0,
+     "bias": "UPSIDE"
+    },
+    {
      "symbol": "FORCEMOT",
      "name": "Force Motors Ltd.",
      "price": 20098.0,
@@ -447,21 +430,13 @@
      "rs3": -2.8,
      "momentum": 85.0,
      "bias": "UPSIDE"
-    },
-    {
-     "symbol": "ATHERENERG",
-     "name": "Ather Energy Ltd.",
-     "price": 1979.2,
-     "rs3": 31.9,
-     "momentum": 80.0,
-     "bias": "UPSIDE"
     }
    ]
   },
   {
    "name": "Medical Care Facilities",
    "n": 8,
-   "score": 54.9,
+   "score": 54.4,
    "group": "MID",
    "tech_rs3": 0.0,
    "factors": [
@@ -496,7 +471,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -507,7 +482,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -519,7 +494,7 @@
      "name": "Narayana Hrudayalaya Ltd.",
      "price": 1974.2,
      "rs3": 5.1,
-     "momentum": 90.0,
+     "momentum": 87.5,
      "bias": "UPSIDE"
     },
     {
@@ -543,7 +518,7 @@
   {
    "name": "Internet Retail",
    "n": 6,
-   "score": 54.5,
+   "score": 54.0,
    "group": "MID",
    "tech_rs3": -6.3,
    "factors": [
@@ -578,7 +553,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -589,7 +564,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -620,7 +595,7 @@
      "name": "Eternal Ltd.",
      "price": 362.1,
      "rs3": 5.8,
-     "momentum": 97.5,
+     "momentum": 90.0,
      "bias": "UPSIDE"
     },
     {
@@ -628,7 +603,7 @@
      "name": "Meesho Ltd.",
      "price": 253.11,
      "rs3": 16.2,
-     "momentum": 90.0,
+     "momentum": 87.5,
      "bias": "UPSIDE"
     },
     {
@@ -644,7 +619,7 @@
   {
    "name": "Auto Parts",
    "n": 24,
-   "score": 53.2,
+   "score": 52.7,
    "group": "MID",
    "tech_rs3": -6.7,
    "factors": [
@@ -679,7 +654,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -690,7 +665,7 @@
      "weight": 15,
      "pct": 13,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is hurt by rising crude",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is hurt by rising crude",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -729,7 +704,7 @@
      "name": "Sansera Engineering Ltd.",
      "price": 4619.3,
      "rs3": 13.9,
-     "momentum": 90.0,
+     "momentum": 97.5,
      "bias": "UPSIDE"
     },
     {
@@ -753,7 +728,7 @@
   {
    "name": "Capital Markets",
    "n": 8,
-   "score": 50.6,
+   "score": 50.1,
    "group": "MID",
    "tech_rs3": -1.5,
    "factors": [
@@ -788,7 +763,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -799,7 +774,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -815,19 +790,19 @@
      "bias": "UPSIDE"
     },
     {
-     "symbol": "GROWW",
-     "name": "Billionbrains Garage Ventures Ltd.",
-     "price": 216.46,
-     "rs3": 3.2,
-     "momentum": 85.0,
-     "bias": "UPSIDE"
-    },
-    {
      "symbol": "MOTILALOFS",
      "name": "Motilal Oswal Financial Services Ltd.",
      "price": 1235.0,
      "rs3": 22.3,
      "momentum": 85.0,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "GROWW",
+     "name": "Billionbrains Garage Ventures Ltd.",
+     "price": 216.46,
+     "rs3": 3.2,
+     "momentum": 77.5,
      "bias": "UPSIDE"
     }
    ]
@@ -835,7 +810,7 @@
   {
    "name": "Insurance - Life",
    "n": 7,
-   "score": 46.2,
+   "score": 45.7,
    "group": "MID",
    "tech_rs3": -7.4,
    "factors": [
@@ -870,7 +845,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -881,21 +856,13 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
    "headlines": [],
    "drivers": [],
    "stocks": [
-    {
-     "symbol": "HDFCLIFE",
-     "name": "HDFC Life Insurance Company Ltd.",
-     "price": 574.95,
-     "rs3": 1.5,
-     "momentum": 62.5,
-     "bias": "UPSIDE"
-    },
     {
      "symbol": "SBILIFE",
      "name": "SBI Life Insurance Company Ltd.",
@@ -905,19 +872,27 @@
      "bias": "UPSIDE"
     },
     {
-     "symbol": "STARHEALTH",
-     "name": "Star Health and Allied Insurance Company Ltd.",
-     "price": 564.1,
-     "rs3": -6.6,
-     "momentum": 57.5,
-     "bias": "UPSIDE"
+     "symbol": "HDFCLIFE",
+     "name": "HDFC Life Insurance Company Ltd.",
+     "price": 574.95,
+     "rs3": 1.5,
+     "momentum": 52.5,
+     "bias": "NEUTRAL"
+    },
+    {
+     "symbol": "LICI",
+     "name": "Life Insurance Corporation of India",
+     "price": 407.3,
+     "rs3": -7.4,
+     "momentum": 50.0,
+     "bias": "NEUTRAL"
     }
    ]
   },
   {
    "name": "Utilities - Renewable",
    "n": 7,
-   "score": 45.2,
+   "score": 44.7,
    "group": "MID",
    "tech_rs3": -5.9,
    "factors": [
@@ -952,7 +927,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -963,7 +938,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1023,7 +998,7 @@
      "name": "Clean Max Enviro Energy Solutions Ltd.",
      "price": 1250.2,
      "rs3": -2.1,
-     "momentum": 42.5,
+     "momentum": 35.0,
      "bias": "DOWNSIDE"
     }
    ]
@@ -1031,7 +1006,7 @@
   {
    "name": "Information Technology Services",
    "n": 18,
-   "score": 43.3,
+   "score": 42.8,
    "group": "MID",
    "tech_rs3": -2.0,
    "factors": [
@@ -1066,7 +1041,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -1077,7 +1052,7 @@
      "weight": 15,
      "pct": 0,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1136,7 +1111,7 @@
      "name": "Tech Mahindra Ltd.",
      "price": 1777.5,
      "rs3": 8.0,
-     "momentum": 72.5,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     }
    ]
@@ -1144,7 +1119,7 @@
   {
    "name": "Specialty Chemicals",
    "n": 16,
-   "score": 43.2,
+   "score": 42.7,
    "group": "MID",
    "tech_rs3": -10.6,
    "factors": [
@@ -1179,7 +1154,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -1190,7 +1165,7 @@
      "weight": 15,
      "pct": 13,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is hurt by rising crude",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is hurt by rising crude",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1228,10 +1203,10 @@
      "bias": "UPSIDE"
     },
     {
-     "symbol": "FLUOROCHEM",
-     "name": "Gujarat Fluorochemicals Ltd.",
-     "price": 4895.0,
-     "rs3": -0.0,
+     "symbol": "PRIVISCL",
+     "name": "Privi Speciality Chemicals Ltd.",
+     "price": 3617.1,
+     "rs3": 0.4,
      "momentum": 77.5,
      "bias": "UPSIDE"
     }
@@ -1240,7 +1215,7 @@
   {
    "name": "Household & Personal Products",
    "n": 9,
-   "score": 41.6,
+   "score": 41.1,
    "group": "MID",
    "tech_rs3": -3.9,
    "factors": [
@@ -1275,7 +1250,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -1286,7 +1261,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1312,18 +1287,18 @@
    ],
    "stocks": [
     {
-     "symbol": "HONASA",
-     "name": "Honasa Consumer Ltd.",
-     "price": 539.75,
-     "rs3": 7.6,
-     "momentum": 85.0,
-     "bias": "UPSIDE"
-    },
-    {
      "symbol": "CUPID",
      "name": "Cupid Ltd.",
      "price": 362.15,
      "rs3": 23.6,
+     "momentum": 82.5,
+     "bias": "UPSIDE"
+    },
+    {
+     "symbol": "HONASA",
+     "name": "Honasa Consumer Ltd.",
+     "price": 539.75,
+     "rs3": 7.6,
      "momentum": 82.5,
      "bias": "UPSIDE"
     },
@@ -1340,7 +1315,7 @@
   {
    "name": "Metal Fabrication",
    "n": 5,
-   "score": 41.3,
+   "score": 40.8,
    "group": "MID",
    "tech_rs3": -9.4,
    "factors": [
@@ -1375,7 +1350,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -1386,7 +1361,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1425,15 +1400,15 @@
      "name": "PTC Industries Ltd.",
      "price": 24425.0,
      "rs3": 19.9,
-     "momentum": 75.0,
+     "momentum": 72.5,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "GRAVITA",
-     "name": "Gravita India Ltd.",
-     "price": 1470.3,
-     "rs3": -22.2,
-     "momentum": 15.0,
+     "symbol": "BHARATFORG",
+     "name": "Bharat Forge Ltd.",
+     "price": 1722.0,
+     "rs3": -21.1,
+     "momentum": 17.5,
      "bias": "DOWNSIDE"
     }
    ]
@@ -1441,7 +1416,7 @@
   {
    "name": "Drug Manufacturers - Specialty & Generic",
    "n": 24,
-   "score": 39.6,
+   "score": 39.1,
    "group": "MID",
    "tech_rs3": -4.7,
    "factors": [
@@ -1476,7 +1451,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -1487,7 +1462,7 @@
      "weight": 15,
      "pct": 0,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1527,27 +1502,27 @@
    ],
    "stocks": [
     {
-     "symbol": "DIVISLAB",
-     "name": "Divi's Laboratories Ltd.",
-     "price": 11203.0,
-     "rs3": 26.1,
+     "symbol": "MANKIND",
+     "name": "Mankind Pharma Ltd.",
+     "price": 2615.1,
+     "rs3": 5.0,
      "momentum": 97.5,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "GLAND",
-     "name": "Gland Pharma Ltd.",
-     "price": 3297.4,
+     "symbol": "DRREDDY",
+     "name": "Dr. Reddy's Laboratories Ltd.",
+     "price": 1380.1,
      "rs3": 12.3,
-     "momentum": 97.5,
+     "momentum": 90.0,
      "bias": "UPSIDE"
     },
     {
-     "symbol": "EMCURE",
-     "name": "Emcure Pharmaceuticals Ltd.",
-     "price": 2309.9,
-     "rs3": 18.4,
-     "momentum": 92.5,
+     "symbol": "GLENMARK",
+     "name": "Glenmark Pharmaceuticals Ltd.",
+     "price": 2657.0,
+     "rs3": 9.4,
+     "momentum": 90.0,
      "bias": "UPSIDE"
     }
    ]
@@ -1555,7 +1530,7 @@
   {
    "name": "Real Estate - Development",
    "n": 8,
-   "score": 38.8,
+   "score": 38.3,
    "group": "MID",
    "tech_rs3": -7.7,
    "factors": [
@@ -1590,7 +1565,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -1601,7 +1576,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1628,7 +1603,7 @@
      "name": "DLF Ltd.",
      "price": 794.1,
      "rs3": 12.8,
-     "momentum": 80.0,
+     "momentum": 87.5,
      "bias": "UPSIDE"
     },
     {
@@ -1652,7 +1627,7 @@
   {
    "name": "Software - Application",
    "n": 6,
-   "score": 37.0,
+   "score": 36.5,
    "group": "MID",
    "tech_rs3": -4.0,
    "factors": [
@@ -1687,7 +1662,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -1698,7 +1673,7 @@
      "weight": 15,
      "pct": 0,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1749,7 +1724,7 @@
      "name": "Black Box Ltd.",
      "price": 854.05,
      "rs3": 9.2,
-     "momentum": 65.0,
+     "momentum": 70.0,
      "bias": "UPSIDE"
     },
     {
@@ -1757,15 +1732,15 @@
      "name": "Kfin Technologies Ltd.",
      "price": 929.75,
      "rs3": -7.9,
-     "momentum": 57.5,
-     "bias": "UPSIDE"
+     "momentum": 55.0,
+     "bias": "NEUTRAL"
     }
    ]
   },
   {
    "name": "Telecom Services",
    "n": 7,
-   "score": 34.5,
+   "score": 34.0,
    "group": "MID",
    "tech_rs3": -5.6,
    "factors": [
@@ -1800,7 +1775,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -1811,7 +1786,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1846,23 +1821,23 @@
      "name": "Tata Communications Ltd.",
      "price": 1723.6,
      "rs3": -1.9,
-     "momentum": 65.0,
-     "bias": "UPSIDE"
+     "momentum": 55.0,
+     "bias": "NEUTRAL"
     },
     {
      "symbol": "BHARTIHEXA",
      "name": "Bharti Hexacom Ltd.",
      "price": 1599.1,
      "rs3": -5.6,
-     "momentum": 52.5,
-     "bias": "NEUTRAL"
+     "momentum": 42.5,
+     "bias": "DOWNSIDE"
     }
    ]
   },
   {
    "name": "Utilities - Independent Power Producers",
    "n": 7,
-   "score": 34.4,
+   "score": 33.9,
    "group": "MID",
    "tech_rs3": -11.9,
    "factors": [
@@ -1897,7 +1872,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -1908,7 +1883,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -1952,7 +1927,7 @@
      "name": "Adani Power Ltd.",
      "price": 207.9,
      "rs3": -2.7,
-     "momentum": 70.0,
+     "momentum": 67.5,
      "bias": "UPSIDE"
     },
     {
@@ -1976,7 +1951,7 @@
   {
    "name": "Electrical Equipment & Parts",
    "n": 15,
-   "score": 31.6,
+   "score": 31.1,
    "group": "MID",
    "tech_rs3": -19.8,
    "factors": [
@@ -2011,7 +1986,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2022,7 +1997,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2095,10 +2070,10 @@
      "bias": "NEUTRAL"
     },
     {
-     "symbol": "HBLENGINE",
-     "name": "HBL Engineering Ltd.",
-     "price": 770.0,
-     "rs3": 3.5,
+     "symbol": "HAVELLS",
+     "name": "Havells India Ltd.",
+     "price": 1184.0,
+     "rs3": -12.0,
      "momentum": 42.5,
      "bias": "DOWNSIDE"
     }
@@ -2107,7 +2082,7 @@
   {
    "name": "Asset Management",
    "n": 11,
-   "score": 30.8,
+   "score": 30.3,
    "group": "MID",
    "tech_rs3": -11.3,
    "factors": [
@@ -2142,7 +2117,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2153,13 +2128,21 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
    "headlines": [],
    "drivers": [],
    "stocks": [
+    {
+     "symbol": "360ONE",
+     "name": "360 ONE WAM Ltd.",
+     "price": 1201.15,
+     "rs3": -4.0,
+     "momentum": 85.0,
+     "bias": "UPSIDE"
+    },
     {
      "symbol": "HDFCAMC",
      "name": "HDFC Asset Management Company Ltd.",
@@ -2169,19 +2152,11 @@
      "bias": "UPSIDE"
     },
     {
-     "symbol": "360ONE",
-     "name": "360 ONE WAM Ltd.",
-     "price": 1201.15,
-     "rs3": -4.0,
-     "momentum": 77.5,
-     "bias": "UPSIDE"
-    },
-    {
      "symbol": "ANANDRATHI",
      "name": "Anand Rathi Wealth Ltd.",
      "price": 2355.9,
      "rs3": 4.1,
-     "momentum": 62.5,
+     "momentum": 70.0,
      "bias": "UPSIDE"
     }
    ]
@@ -2189,7 +2164,7 @@
   {
    "name": "Conglomerates",
    "n": 9,
-   "score": 30.3,
+   "score": 29.8,
    "group": "MID",
    "tech_rs3": -16.7,
    "factors": [
@@ -2224,7 +2199,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2235,7 +2210,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2247,7 +2222,7 @@
      "name": "Cyient Ltd.",
      "price": 1160.5,
      "rs3": 25.2,
-     "momentum": 72.5,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     },
     {
@@ -2271,7 +2246,7 @@
   {
    "name": "Credit Services",
    "n": 24,
-   "score": 30.2,
+   "score": 29.7,
    "group": "MID",
    "tech_rs3": -14.9,
    "factors": [
@@ -2306,7 +2281,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2317,7 +2292,7 @@
      "weight": 15,
      "pct": 0,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is helped by a weaker rupee (exporter)",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is helped by a weaker rupee (exporter)",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2388,7 +2363,7 @@
      "name": "Bajaj Finance Ltd.",
      "price": 1095.5,
      "rs3": -4.6,
-     "momentum": 77.5,
+     "momentum": 75.0,
      "bias": "UPSIDE"
     },
     {
@@ -2400,11 +2375,11 @@
      "bias": "UPSIDE"
     },
     {
-     "symbol": "CHOLAFIN",
-     "name": "Cholamandalam Investment and Finance Company Ltd.",
-     "price": 1831.0,
-     "rs3": -7.7,
-     "momentum": 72.5,
+     "symbol": "POONAWALLA",
+     "name": "Poonawalla Fincorp Ltd.",
+     "price": 517.4,
+     "rs3": 0.1,
+     "momentum": 70.0,
      "bias": "UPSIDE"
     }
    ]
@@ -2412,7 +2387,7 @@
   {
    "name": "Building Materials",
    "n": 11,
-   "score": 29.1,
+   "score": 28.6,
    "group": "MID",
    "tech_rs3": -8.1,
    "factors": [
@@ -2447,7 +2422,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2458,7 +2433,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2510,7 +2485,7 @@
   {
    "name": "Engineering & Construction",
    "n": 12,
-   "score": 26.6,
+   "score": 26.1,
    "group": "MID",
    "tech_rs3": -14.1,
    "factors": [
@@ -2545,7 +2520,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2556,7 +2531,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2586,7 +2561,7 @@
      "name": "Engineers India Ltd.",
      "price": 298.4,
      "rs3": 22.9,
-     "momentum": 85.0,
+     "momentum": 90.0,
      "bias": "UPSIDE"
     },
     {
@@ -2602,7 +2577,7 @@
      "name": "Larsen & Toubro Ltd.",
      "price": 4099.9,
      "rs3": -4.1,
-     "momentum": 70.0,
+     "momentum": 67.5,
      "bias": "UPSIDE"
     }
    ]
@@ -2610,7 +2585,7 @@
   {
    "name": "Steel",
    "n": 16,
-   "score": 26.0,
+   "score": 25.5,
    "group": "MID",
    "tech_rs3": -12.0,
    "factors": [
@@ -2645,7 +2620,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2656,7 +2631,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2687,7 +2662,7 @@
      "name": "Shyam Metalics and Energy Ltd.",
      "price": 1276.2,
      "rs3": 23.4,
-     "momentum": 82.5,
+     "momentum": 72.5,
      "bias": "UPSIDE"
     },
     {
@@ -2695,7 +2670,7 @@
      "name": "JSW Steel Ltd.",
      "price": 1311.9,
      "rs3": -3.7,
-     "momentum": 70.0,
+     "momentum": 62.5,
      "bias": "UPSIDE"
     },
     {
@@ -2711,7 +2686,7 @@
   {
    "name": "Packaged Foods",
    "n": 9,
-   "score": 23.3,
+   "score": 22.8,
    "group": "MID",
    "tech_rs3": -15.0,
    "factors": [
@@ -2746,7 +2721,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2757,7 +2732,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2787,7 +2762,7 @@
      "name": "Tata Consumer Products Ltd.",
      "price": 1133.0,
      "rs3": 2.6,
-     "momentum": 85.0,
+     "momentum": 77.5,
      "bias": "UPSIDE"
     },
     {
@@ -2795,7 +2770,7 @@
      "name": "Patanjali Foods Ltd.",
      "price": 407.0,
      "rs3": 11.7,
-     "momentum": 65.0,
+     "momentum": 62.5,
      "bias": "UPSIDE"
     },
     {
@@ -2803,7 +2778,7 @@
      "name": "LT Foods Ltd.",
      "price": 423.95,
      "rs3": -6.0,
-     "momentum": 50.0,
+     "momentum": 52.5,
      "bias": "NEUTRAL"
     }
    ]
@@ -2811,7 +2786,7 @@
   {
    "name": "Aerospace & Defense",
    "n": 8,
-   "score": 21.7,
+   "score": 21.2,
    "group": "MID",
    "tech_rs3": -21.5,
    "factors": [
@@ -2846,7 +2821,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2857,7 +2832,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2909,7 +2884,7 @@
   {
    "name": "Specialty Industrial Machinery",
    "n": 20,
-   "score": 17.4,
+   "score": 16.9,
    "group": "UNDER",
    "tech_rs3": -22.3,
    "factors": [
@@ -2944,7 +2919,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -2955,7 +2930,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -2993,7 +2968,7 @@
      "name": "INOX India Ltd.",
      "price": 2088.0,
      "rs3": 3.9,
-     "momentum": 65.0,
+     "momentum": 70.0,
      "bias": "UPSIDE"
     },
     {
@@ -3009,7 +2984,7 @@
   {
    "name": "Agricultural Inputs",
    "n": 8,
-   "score": 13.7,
+   "score": 13.2,
    "group": "UNDER",
    "tech_rs3": -13.5,
    "factors": [
@@ -3044,7 +3019,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -3055,7 +3030,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -3097,19 +3072,19 @@
    ],
    "stocks": [
     {
-     "symbol": "COROMANDEL",
-     "name": "Coromandel International Ltd.",
-     "price": 1971.7,
-     "rs3": -6.3,
-     "momentum": 42.5,
-     "bias": "DOWNSIDE"
-    },
-    {
      "symbol": "UPL",
      "name": "UPL Ltd.",
      "price": 557.7,
      "rs3": -7.1,
-     "momentum": 35.0,
+     "momentum": 42.5,
+     "bias": "DOWNSIDE"
+    },
+    {
+     "symbol": "COROMANDEL",
+     "name": "Coromandel International Ltd.",
+     "price": 1971.7,
+     "rs3": -6.3,
+     "momentum": 40.0,
      "bias": "DOWNSIDE"
     },
     {
@@ -3117,7 +3092,7 @@
      "name": "Paradeep Phosphates Ltd.",
      "price": 141.11,
      "rs3": -8.7,
-     "momentum": 30.0,
+     "momentum": 27.5,
      "bias": "DOWNSIDE"
     }
    ]
@@ -3125,7 +3100,7 @@
   {
    "name": "Mortgage Finance",
    "n": 9,
-   "score": 13.3,
+   "score": 12.8,
    "group": "UNDER",
    "tech_rs3": -17.2,
    "factors": [
@@ -3160,7 +3135,7 @@
      "key": "policy",
      "label": "Government / RBI policy",
      "weight": 15,
-     "pct": 3,
+     "pct": 0,
      "dir": "DOWN",
      "text": "No matching official policy headlines this period",
      "src": "RBI and PIB releases"
@@ -3171,7 +3146,7 @@
      "weight": 15,
      "pct": 23,
      "dir": "DOWN",
-     "text": "Brent +0.8% and USD-INR -2.7% over 3 months; sector is not sensitive to these",
+     "text": "Brent +1.2% and USD-INR -3.4% over 3 months; sector is not sensitive to these",
      "src": "Yahoo Finance (Brent, USD-INR)"
     }
    ],
@@ -3183,7 +3158,7 @@
      "name": "LIC Housing Finance Ltd.",
      "price": 606.0,
      "rs3": 17.1,
-     "momentum": 97.5,
+     "momentum": 87.5,
      "bias": "UPSIDE"
     },
     {
@@ -3199,7 +3174,7 @@
      "name": "Can Fin Homes Ltd.",
      "price": 796.4,
      "rs3": -10.1,
-     "momentum": 40.0,
+     "momentum": 42.5,
      "bias": "DOWNSIDE"
     }
    ]
