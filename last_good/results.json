@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:47:04.243461Z",
+ "updated": "2026-11-26T22:33:51.690649Z",
  "present": [
   {
    "symbol": "J&KBANK",
@@ -42562,6 +42562,119 @@
     "Debt: Up +90% in the quarter"
    ],
    "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=JIOFIN"
+  },
+  {
+   "symbol": "JWL",
+   "name": "Jupiter Wagons Ltd.",
+   "fno": false,
+   "quarter_end": "2026-09-30",
+   "reported_on": null,
+   "verdict": "NEUTRAL",
+   "score": 3.0,
+   "summary": "Mixed quarter. Positives: +15.1% vs last quarter; +2.8% vs a year ago. Negatives: -1.7% vs a year ago; Up +63% in the quarter.",
+   "next_step": "Score 3.0. It needs about 1.0 more points to become GOOD, from faster profit growth, a rising margin or stronger cash flow.",
+   "breakdown": [
+    {
+     "factor": "Sales growth YoY",
+     "seen": "-1.7% vs a year ago",
+     "points": -1.5
+    },
+    {
+     "factor": "Sales growth QoQ",
+     "seen": "+15.1% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Profit growth YoY",
+     "seen": "+2.8% vs a year ago",
+     "points": 1.5
+    },
+    {
+     "factor": "Profit growth QoQ",
+     "seen": "+69.5% vs last quarter",
+     "points": 2
+    },
+    {
+     "factor": "Operating margin (OPM)",
+     "seen": "11.2% now vs 11.0% a year ago (+0.2 points)",
+     "points": 0
+    },
+    {
+     "factor": "Operating cash flow",
+     "seen": "Not available",
+     "points": 0
+    },
+    {
+     "factor": "Debt",
+     "seen": "Up +63% in the quarter",
+     "points": -1
+    }
+   ],
+   "strengths": [
+    "+15.1% vs last quarter",
+    "+2.8% vs a year ago",
+    "+69.5% vs last quarter"
+   ],
+   "weaknesses": [
+    "-1.7% vs a year ago",
+    "Up +63% in the quarter"
+   ],
+   "history": [
+    {
+     "q": "Sep 2026",
+     "sales": 772.2,
+     "pat": 47.9,
+     "opm": 11.2,
+     "debt": 1628.5,
+     "ocf": null
+    },
+    {
+     "q": "Jun 2026",
+     "sales": 670.7,
+     "pat": 28.3,
+     "opm": 8.4,
+     "debt": 996.5,
+     "ocf": null
+    },
+    {
+     "q": "Mar 2026",
+     "sales": 780.2,
+     "pat": 28.8,
+     "opm": 8.1,
+     "debt": 748.5,
+     "ocf": null
+    },
+    {
+     "q": "Dec 2025",
+     "sales": 890.4,
+     "pat": 63.0,
+     "opm": 11.8,
+     "debt": 501.6,
+     "ocf": null
+    }
+   ],
+   "sales": 772.2,
+   "sales_qoq": 15.1,
+   "sales_yoy": -1.7,
+   "pat": 47.9,
+   "pat_qoq": 69.5,
+   "pat_yoy": 2.8,
+   "ebitda": 86.4,
+   "ebitda_yoy": -0.1,
+   "opm": 11.2,
+   "eps": 1.12,
+   "debt": 1628.5,
+   "debt_chg": 63.4,
+   "ocf": null,
+   "fcf": null,
+   "reasons": [
+    "Sales growth YoY: -1.7% vs a year ago",
+    "Sales growth QoQ: +15.1% vs last quarter",
+    "Profit growth YoY: +2.8% vs a year ago",
+    "Profit growth QoQ: +69.5% vs last quarter",
+    "Debt: Up +63% in the quarter"
+   ],
+   "filings_url": "https://www.nseindia.com/get-quotes/equity?symbol=JWL"
   },
   {
    "symbol": "LINDEINDIA",

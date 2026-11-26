@@ -1,18 +1,34 @@
 {
- "updated": "2026-11-25T23:14:16.637365Z",
+ "updated": "2026-11-26T23:13:38.166582Z",
  "note": "Power score = momentum ranked within sector (up to 50) + latest results (up to 20) + valuation (up to 15) + bias (up to 15), minus 5 if overbought. Rule-based, not advice.",
  "top": [
+  {
+   "symbol": "PVRINOX",
+   "name": "PVR INOX Ltd.",
+   "sector": "Entertainment",
+   "fno": false,
+   "score": 96.4,
+   "bias": "UPSIDE",
+   "val": "LOW",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 7% of Entertainment",
+    "Latest results: GOOD",
+    "Valuation: LOW",
+    "Bias: UPSIDE"
+   ]
+  },
   {
    "symbol": "BANKBARODA",
    "name": "Bank of Baroda",
    "sector": "Banks - Regional",
    "fno": true,
-   "score": 97.2,
+   "score": 96.3,
    "bias": "UPSIDE",
    "val": "LOW",
    "results": "GOOD",
    "why": [
-    "Momentum in top 6% of Banks - Regional",
+    "Momentum in top 7% of Banks - Regional",
     "Latest results: GOOD",
     "Valuation: LOW",
     "Bias: UPSIDE"
@@ -23,78 +39,46 @@
    "name": "Bank of India",
    "sector": "Banks - Regional",
    "fno": true,
-   "score": 97.2,
+   "score": 96.3,
    "bias": "UPSIDE",
    "val": "LOW",
    "results": "GOOD",
    "why": [
-    "Momentum in top 6% of Banks - Regional",
+    "Momentum in top 7% of Banks - Regional",
     "Latest results: GOOD",
     "Valuation: LOW",
     "Bias: UPSIDE"
    ]
   },
   {
-   "symbol": "JSWSTEEL",
-   "name": "JSW Steel Ltd.",
-   "sector": "Steel",
+   "symbol": "IOC",
+   "name": "Indian Oil Corporation Ltd.",
+   "sector": "Oil & Gas Refining & Marketing",
    "fno": true,
-   "score": 96.9,
+   "score": 94.4,
    "bias": "UPSIDE",
    "val": "LOW",
    "results": "GOOD",
    "why": [
-    "Momentum in top 6% of Steel",
+    "Momentum in top 11% of Oil & Gas Refining & Marketing",
     "Latest results: GOOD",
     "Valuation: LOW",
     "Bias: UPSIDE"
    ]
   },
   {
-   "symbol": "PVRINOX",
-   "name": "PVR INOX Ltd.",
-   "sector": "Entertainment",
-   "fno": false,
-   "score": 95.9,
-   "bias": "UPSIDE",
-   "val": "LOW",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 8% of Entertainment",
-    "Latest results: GOOD",
-    "Valuation: LOW",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "GESHIP",
-   "name": "Great Eastern Shipping Co. Ltd.",
-   "sector": "Marine Shipping",
-   "fno": false,
-   "score": 94.0,
-   "bias": "UPSIDE",
-   "val": "LOW",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 12% of Marine Shipping",
-    "Latest results: GOOD",
-    "Valuation: LOW",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "BHARTIARTL",
-   "name": "Bharti Airtel Ltd.",
-   "sector": "Telecom Services",
+   "symbol": "ATHERENERG",
+   "name": "Ather Energy Ltd.",
+   "sector": "Auto Manufacturers",
    "fno": true,
    "score": 93.0,
    "bias": "UPSIDE",
-   "val": "OK",
+   "val": "NA",
    "results": "GOOD",
    "why": [
-    "Momentum in top 1% of Telecom Services",
+    "Momentum in top 1% of Auto Manufacturers",
     "Latest results: GOOD",
-    "Valuation: OK",
+    "Valuation: NA",
     "Bias: UPSIDE"
    ]
   },
@@ -109,22 +93,6 @@
    "results": "GOOD",
    "why": [
     "Momentum in top 1% of Engineering & Construction",
-    "Latest results: GOOD",
-    "Valuation: OK",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "NH",
-   "name": "Narayana Hrudayalaya Ltd.",
-   "sector": "Medical Care Facilities",
-   "fno": false,
-   "score": 93.0,
-   "bias": "UPSIDE",
-   "val": "OK",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 1% of Medical Care Facilities",
     "Latest results: GOOD",
     "Valuation: OK",
     "Bias: UPSIDE"
@@ -147,38 +115,6 @@
    ]
   },
   {
-   "symbol": "RKFORGE",
-   "name": "Ramkrishna Forgings Ltd.",
-   "sector": "Metal Fabrication",
-   "fno": false,
-   "score": 93.0,
-   "bias": "UPSIDE",
-   "val": "OK",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 1% of Metal Fabrication",
-    "Latest results: GOOD",
-    "Valuation: OK",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "CPPLUS",
-   "name": "Aditya Infotech Ltd.",
-   "sector": "Building Products & Equipment",
-   "fno": false,
-   "score": 93.0,
-   "bias": "UPSIDE",
-   "val": "OK",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 1% of Building Products & Equipment",
-    "Latest results: GOOD",
-    "Valuation: OK",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
    "symbol": "SHYAMMETL",
    "name": "Shyam Metalics and Energy Ltd.",
    "sector": "Steel",
@@ -189,6 +125,38 @@
    "results": "GOOD",
    "why": [
     "Momentum in top 1% of Steel",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "NH",
+   "name": "Narayana Hrudayalaya Ltd.",
+   "sector": "Medical Care Facilities",
+   "fno": false,
+   "score": 93.0,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 1% of Medical Care Facilities",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "name": "Bharti Airtel Ltd.",
+   "sector": "Telecom Services",
+   "fno": true,
+   "score": 93.0,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 1% of Telecom Services",
     "Latest results: GOOD",
     "Valuation: OK",
     "Bias: UPSIDE"
@@ -211,32 +179,32 @@
    ]
   },
   {
-   "symbol": "PHOENIXLTD",
-   "name": "Phoenix Mills Ltd.",
-   "sector": "Real Estate - Diversified",
+   "symbol": "GAIL",
+   "name": "GAIL (India) Ltd.",
+   "sector": "Utilities - Regulated Gas",
    "fno": true,
    "score": 92.8,
    "bias": "UPSIDE",
-   "val": "OK",
+   "val": "LOW",
    "results": "GOOD",
    "why": [
-    "Momentum in top 1% of Real Estate - Diversified",
+    "Momentum in top 14% of Utilities - Regulated Gas",
     "Latest results: GOOD",
-    "Valuation: OK",
+    "Valuation: LOW",
     "Bias: UPSIDE"
    ]
   },
   {
-   "symbol": "SYNGENE",
-   "name": "Syngene International Ltd.",
-   "sector": "Diagnostics & Research",
+   "symbol": "ITCHOTELS",
+   "name": "ITC Hotels Ltd.",
+   "sector": "Resorts & Casinos",
    "fno": false,
-   "score": 92.8,
+   "score": 92.7,
    "bias": "UPSIDE",
    "val": "OK",
    "results": "GOOD",
    "why": [
-    "Momentum in top 1% of Diagnostics & Research",
+    "Momentum in top 1% of Resorts & Casinos",
     "Latest results: GOOD",
     "Valuation: OK",
     "Bias: UPSIDE"
@@ -259,64 +227,96 @@
    ]
   },
   {
-   "symbol": "GAIL",
-   "name": "GAIL (India) Ltd.",
-   "sector": "Utilities - Regulated Gas",
-   "fno": true,
-   "score": 91.8,
-   "bias": "UPSIDE",
-   "val": "LOW",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 16% of Utilities - Regulated Gas",
-    "Latest results: GOOD",
-    "Valuation: LOW",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "BSE",
-   "name": "BSE Ltd.",
-   "sector": "Financial Data & Stock Exchanges",
-   "fno": true,
-   "score": 91.7,
-   "bias": "UPSIDE",
-   "val": "OK",
-   "results": "GOOD",
-   "why": [
-    "Momentum in top 3% of Financial Data & Stock Exchanges",
-    "Latest results: GOOD",
-    "Valuation: OK",
-    "Bias: UPSIDE"
-   ]
-  },
-  {
-   "symbol": "IGIL",
-   "name": "International Gemological Institute Ltd.",
-   "sector": "Other Precious Metals & Mining",
+   "symbol": "POONAWALLA",
+   "name": "Poonawalla Fincorp Ltd.",
+   "sector": "Credit Services",
    "fno": false,
-   "score": 91.7,
+   "score": 92.0,
    "bias": "UPSIDE",
    "val": "OK",
    "results": "GOOD",
    "why": [
-    "Momentum in top 3% of Other Precious Metals & Mining",
+    "Momentum in top 2% of Credit Services",
     "Latest results: GOOD",
     "Valuation: OK",
     "Bias: UPSIDE"
    ]
   },
   {
-   "symbol": "IOC",
-   "name": "Indian Oil Corporation Ltd.",
-   "sector": "Oil & Gas Refining & Marketing",
+   "symbol": "LGEINDIA",
+   "name": "LG Electronics India Ltd.",
+   "sector": "Consumer Electronics",
+   "fno": false,
+   "score": 91.6,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 3% of Consumer Electronics",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "NAVINFLUOR",
+   "name": "Navin Fluorine International Ltd.",
+   "sector": "Chemicals",
    "fno": true,
-   "score": 91.7,
+   "score": 91.6,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 3% of Chemicals",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "LTTS",
+   "name": "L&T Technology Services Ltd.",
+   "sector": "Information Technology Services",
+   "fno": false,
+   "score": 91.6,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 3% of Information Technology Services",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "TECHM",
+   "name": "Tech Mahindra Ltd.",
+   "sector": "Information Technology Services",
+   "fno": true,
+   "score": 91.6,
+   "bias": "UPSIDE",
+   "val": "OK",
+   "results": "GOOD",
+   "why": [
+    "Momentum in top 3% of Information Technology Services",
+    "Latest results: GOOD",
+    "Valuation: OK",
+    "Bias: UPSIDE"
+   ]
+  },
+  {
+   "symbol": "GESHIP",
+   "name": "Great Eastern Shipping Co. Ltd.",
+   "sector": "Marine Shipping",
+   "fno": false,
+   "score": 91.1,
    "bias": "UPSIDE",
    "val": "LOW",
    "results": "GOOD",
    "why": [
-    "Momentum in top 17% of Oil & Gas Refining & Marketing",
+    "Momentum in top 18% of Marine Shipping",
     "Latest results: GOOD",
     "Valuation: LOW",
     "Bias: UPSIDE"
@@ -332,12 +332,12 @@
      "name": "Bank of Baroda",
      "sector": "Banks - Regional",
      "fno": true,
-     "score": 97.2,
+     "score": 96.3,
      "bias": "UPSIDE",
      "val": "LOW",
      "results": "GOOD",
      "why": [
-      "Momentum in top 6% of Banks - Regional",
+      "Momentum in top 7% of Banks - Regional",
       "Latest results: GOOD",
       "Valuation: LOW",
       "Bias: UPSIDE"
@@ -348,29 +348,82 @@
      "name": "Bank of India",
      "sector": "Banks - Regional",
      "fno": true,
-     "score": 97.2,
+     "score": 96.3,
      "bias": "UPSIDE",
      "val": "LOW",
      "results": "GOOD",
      "why": [
-      "Momentum in top 6% of Banks - Regional",
+      "Momentum in top 7% of Banks - Regional",
       "Latest results: GOOD",
       "Valuation: LOW",
       "Bias: UPSIDE"
      ]
     },
     {
-     "symbol": "KOTAKBANK",
-     "name": "Kotak Mahindra Bank Ltd.",
+     "symbol": "MAHABANK",
+     "name": "Bank of Maharashtra",
      "sector": "Banks - Regional",
      "fno": true,
-     "score": 90.2,
+     "score": 90.7,
+     "bias": "UPSIDE",
+     "val": "LOW",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 19% of Banks - Regional",
+      "Latest results: GOOD",
+      "Valuation: LOW",
+      "Bias: UPSIDE"
+     ]
+    }
+   ]
+  },
+  {
+   "sector": "Oil & Gas Refining & Marketing",
+   "top": [
+    {
+     "symbol": "IOC",
+     "name": "Indian Oil Corporation Ltd.",
+     "sector": "Oil & Gas Refining & Marketing",
+     "fno": true,
+     "score": 94.4,
+     "bias": "UPSIDE",
+     "val": "LOW",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 11% of Oil & Gas Refining & Marketing",
+      "Latest results: GOOD",
+      "Valuation: LOW",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "PETRONET",
+     "name": "Petronet LNG Ltd.",
+     "sector": "Oil & Gas Refining & Marketing",
+     "fno": true,
+     "score": 93.0,
      "bias": "UPSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 6% of Banks - Regional",
+      "Momentum in top 1% of Oil & Gas Refining & Marketing",
       "Latest results: GOOD",
+      "Valuation: OK",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "RELIANCE",
+     "name": "Reliance Industries Ltd.",
+     "sector": "Oil & Gas Refining & Marketing",
+     "fno": true,
+     "score": 69.1,
+     "bias": "UPSIDE",
+     "val": "OK",
+     "results": "NEUTRAL",
+     "why": [
+      "Momentum in top 28% of Oil & Gas Refining & Marketing",
+      "Latest results: NEUTRAL",
       "Valuation: OK",
       "Bias: UPSIDE"
      ]
@@ -378,106 +431,53 @@
    ]
   },
   {
-   "sector": "Steel",
+   "sector": "Auto Manufacturers",
    "top": [
     {
-     "symbol": "JSWSTEEL",
-     "name": "JSW Steel Ltd.",
-     "sector": "Steel",
+     "symbol": "ATHERENERG",
+     "name": "Ather Energy Ltd.",
+     "sector": "Auto Manufacturers",
      "fno": true,
-     "score": 96.9,
-     "bias": "UPSIDE",
-     "val": "LOW",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 6% of Steel",
-      "Latest results: GOOD",
-      "Valuation: LOW",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "SHYAMMETL",
-     "name": "Shyam Metalics and Energy Ltd.",
-     "sector": "Steel",
-     "fno": false,
      "score": 93.0,
      "bias": "UPSIDE",
-     "val": "OK",
+     "val": "NA",
      "results": "GOOD",
      "why": [
-      "Momentum in top 1% of Steel",
+      "Momentum in top 1% of Auto Manufacturers",
       "Latest results: GOOD",
-      "Valuation: OK",
+      "Valuation: NA",
       "Bias: UPSIDE"
      ]
     },
     {
-     "symbol": "JSL",
-     "name": "Jindal Stainless Ltd.",
-     "sector": "Steel",
-     "fno": false,
-     "score": 76.6,
-     "bias": "NEUTRAL",
-     "val": "OK",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 19% of Steel",
-      "Latest results: GOOD",
-      "Valuation: OK",
-      "Bias: NEUTRAL"
-     ]
-    }
-   ]
-  },
-  {
-   "sector": "Building Products & Equipment",
-   "top": [
-    {
-     "symbol": "CPPLUS",
-     "name": "Aditya Infotech Ltd.",
-     "sector": "Building Products & Equipment",
-     "fno": false,
-     "score": 93.0,
+     "symbol": "FORCEMOT",
+     "name": "Force Motors Ltd.",
+     "sector": "Auto Manufacturers",
+     "fno": true,
+     "score": 78.8,
      "bias": "UPSIDE",
      "val": "OK",
-     "results": "GOOD",
+     "results": "NEUTRAL",
      "why": [
-      "Momentum in top 1% of Building Products & Equipment",
-      "Latest results: GOOD",
+      "Momentum in top 8% of Auto Manufacturers",
+      "Latest results: NEUTRAL",
       "Valuation: OK",
       "Bias: UPSIDE"
      ]
     },
     {
-     "symbol": "KAJARIACER",
-     "name": "Kajaria Ceramics Ltd.",
-     "sector": "Building Products & Equipment",
-     "fno": false,
-     "score": 70.0,
+     "symbol": "M&M",
+     "name": "Mahindra & Mahindra Ltd.",
+     "sector": "Auto Manufacturers",
+     "fno": true,
+     "score": 77.5,
      "bias": "UPSIDE",
      "val": "LOW",
      "results": "NEUTRAL",
      "why": [
-      "Momentum in top 40% of Building Products & Equipment",
+      "Momentum in top 25% of Auto Manufacturers",
       "Latest results: NEUTRAL",
       "Valuation: LOW",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "BLUESTARCO",
-     "name": "Blue Star Ltd.",
-     "sector": "Building Products & Equipment",
-     "fno": true,
-     "score": 65.0,
-     "bias": "UPSIDE",
-     "val": "HIGH",
-     "results": "NEUTRAL",
-     "why": [
-      "Momentum in top 20% of Building Products & Equipment",
-      "Latest results: NEUTRAL",
-      "Valuation: HIGH",
       "Bias: UPSIDE"
      ]
     }
@@ -556,141 +556,89 @@
      ]
     },
     {
-     "symbol": "KIMS",
-     "name": "Krishna Institute of Medical Sciences Ltd.",
-     "sector": "Medical Care Facilities",
-     "fno": false,
-     "score": 78.8,
-     "bias": "UPSIDE",
-     "val": "HIGH",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 12% of Medical Care Facilities",
-      "Latest results: GOOD",
-      "Valuation: HIGH",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
      "symbol": "ASTERDM",
      "name": "Aster DM Quality Care Ltd.",
      "sector": "Medical Care Facilities",
      "fno": false,
-     "score": 72.5,
+     "score": 75.6,
      "bias": "UPSIDE",
      "val": "HIGH",
      "results": "GOOD",
      "why": [
-      "Momentum in top 25% of Medical Care Facilities",
+      "Momentum in top 19% of Medical Care Facilities",
       "Latest results: GOOD",
       "Valuation: HIGH",
       "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "MAXHEALTH",
+     "name": "Max Healthcare Institute Ltd.",
+     "sector": "Medical Care Facilities",
+     "fno": true,
+     "score": 68.6,
+     "bias": "UPSIDE",
+     "val": "OK",
+     "results": "NEUTRAL",
+     "why": [
+      "Momentum in top 19% of Medical Care Facilities",
+      "Latest results: NEUTRAL",
+      "Valuation: OK",
+      "Bias: UPSIDE",
+      "RSI above 75: overbought, pullback risk"
      ]
     }
    ]
   },
   {
-   "sector": "Metal Fabrication",
+   "sector": "Steel",
    "top": [
     {
-     "symbol": "RKFORGE",
-     "name": "Ramkrishna Forgings Ltd.",
-     "sector": "Metal Fabrication",
+     "symbol": "SHYAMMETL",
+     "name": "Shyam Metalics and Energy Ltd.",
+     "sector": "Steel",
      "fno": false,
      "score": 93.0,
      "bias": "UPSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 1% of Metal Fabrication",
+      "Momentum in top 1% of Steel",
       "Latest results: GOOD",
       "Valuation: OK",
       "Bias: UPSIDE"
      ]
     },
     {
-     "symbol": "PTCIL",
-     "name": "PTC Industries Ltd.",
-     "sector": "Metal Fabrication",
-     "fno": false,
-     "score": 75.0,
-     "bias": "UPSIDE",
-     "val": "HIGH",
+     "symbol": "JSWSTEEL",
+     "name": "JSW Steel Ltd.",
+     "sector": "Steel",
+     "fno": true,
+     "score": 89.9,
+     "bias": "NEUTRAL",
+     "val": "LOW",
      "results": "GOOD",
      "why": [
-      "Momentum in top 20% of Metal Fabrication",
+      "Momentum in top 6% of Steel",
       "Latest results: GOOD",
-      "Valuation: HIGH",
-      "Bias: UPSIDE"
+      "Valuation: LOW",
+      "Bias: NEUTRAL"
      ]
     },
     {
-     "symbol": "BHARATFORG",
-     "name": "Bharat Forge Ltd.",
-     "sector": "Metal Fabrication",
-     "fno": true,
-     "score": 48.0,
+     "symbol": "WELCORP",
+     "name": "Welspun Corp Ltd.",
+     "sector": "Steel",
+     "fno": false,
+     "score": 60.8,
      "bias": "DOWNSIDE",
      "val": "OK",
-     "results": "NEUTRAL",
+     "results": "GOOD",
      "why": [
-      "Momentum in top 40% of Metal Fabrication",
-      "Latest results: NEUTRAL",
+      "Momentum in top 34% of Steel",
+      "Latest results: GOOD",
       "Valuation: OK",
       "Bias: DOWNSIDE"
-     ]
-    }
-   ]
-  },
-  {
-   "sector": "Oil & Gas Refining & Marketing",
-   "top": [
-    {
-     "symbol": "PETRONET",
-     "name": "Petronet LNG Ltd.",
-     "sector": "Oil & Gas Refining & Marketing",
-     "fno": true,
-     "score": 93.0,
-     "bias": "UPSIDE",
-     "val": "OK",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 1% of Oil & Gas Refining & Marketing",
-      "Latest results: GOOD",
-      "Valuation: OK",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "IOC",
-     "name": "Indian Oil Corporation Ltd.",
-     "sector": "Oil & Gas Refining & Marketing",
-     "fno": true,
-     "score": 91.7,
-     "bias": "UPSIDE",
-     "val": "LOW",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 17% of Oil & Gas Refining & Marketing",
-      "Latest results: GOOD",
-      "Valuation: LOW",
-      "Bias: UPSIDE"
-     ]
-    },
-    {
-     "symbol": "MRPL",
-     "name": "Mangalore Refinery & Petrochemicals Ltd.",
-     "sector": "Oil & Gas Refining & Marketing",
-     "fno": false,
-     "score": 67.8,
-     "bias": "UPSIDE",
-     "val": "LOW",
-     "results": "NEUTRAL",
-     "why": [
-      "Momentum in top 44% of Oil & Gas Refining & Marketing",
-      "Latest results: NEUTRAL",
-      "Valuation: LOW",
-      "Bias: UPSIDE"
      ]
     }
    ]
@@ -715,6 +663,22 @@
      ]
     },
     {
+     "symbol": "BHARTIHEXA",
+     "name": "Bharti Hexacom Ltd.",
+     "sector": "Telecom Services",
+     "fno": false,
+     "score": 71.7,
+     "bias": "NEUTRAL",
+     "val": "OK",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 29% of Telecom Services",
+      "Latest results: GOOD",
+      "Valuation: OK",
+      "Bias: NEUTRAL"
+     ]
+    },
+    {
      "symbol": "TATACOMM",
      "name": "Tata Communications Ltd.",
      "sector": "Telecom Services",
@@ -728,22 +692,6 @@
       "Latest results: NEUTRAL",
       "Valuation: OK",
       "Bias: NEUTRAL"
-     ]
-    },
-    {
-     "symbol": "BHARTIHEXA",
-     "name": "Bharti Hexacom Ltd.",
-     "sector": "Telecom Services",
-     "fno": false,
-     "score": 63.7,
-     "bias": "DOWNSIDE",
-     "val": "OK",
-     "results": "GOOD",
-     "why": [
-      "Momentum in top 29% of Telecom Services",
-      "Latest results: GOOD",
-      "Valuation: OK",
-      "Bias: DOWNSIDE"
      ]
     }
    ]
@@ -772,15 +720,15 @@
      "name": "Adani Energy Solutions Ltd.",
      "sector": "Utilities - Independent Power Producers",
      "fno": true,
-     "score": 85.9,
-     "bias": "UPSIDE",
+     "score": 78.9,
+     "bias": "NEUTRAL",
      "val": "OK",
      "results": "GOOD",
      "why": [
       "Momentum in top 14% of Utilities - Independent Power Producers",
       "Latest results: GOOD",
       "Valuation: OK",
-      "Bias: UPSIDE"
+      "Bias: NEUTRAL"
      ]
     },
     {
@@ -788,12 +736,12 @@
      "name": "JSW Energy Ltd.",
      "sector": "Utilities - Independent Power Producers",
      "fno": true,
-     "score": 63.7,
+     "score": 56.6,
      "bias": "DOWNSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 29% of Utilities - Independent Power Producers",
+      "Momentum in top 43% of Utilities - Independent Power Producers",
       "Latest results: GOOD",
       "Valuation: OK",
       "Bias: DOWNSIDE"
@@ -825,12 +773,12 @@
      "name": "Poonawalla Fincorp Ltd.",
      "sector": "Credit Services",
      "fno": false,
-     "score": 88.8,
+     "score": 92.0,
      "bias": "UPSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 8% of Credit Services",
+      "Momentum in top 2% of Credit Services",
       "Latest results: GOOD",
       "Valuation: OK",
       "Bias: UPSIDE"
@@ -841,16 +789,68 @@
      "name": "Indian Renewable Energy Development Agency Ltd.",
      "sector": "Credit Services",
      "fno": false,
-     "score": 87.0,
+     "score": 88.8,
      "bias": "UPSIDE",
      "val": "OK",
      "results": "GOOD",
      "why": [
-      "Momentum in top 2% of Credit Services",
+      "Momentum in top 8% of Credit Services",
       "Latest results: GOOD",
       "Valuation: OK",
-      "Bias: UPSIDE",
-      "RSI above 75: overbought, pullback risk"
+      "Bias: UPSIDE"
+     ]
+    }
+   ]
+  },
+  {
+   "sector": "Information Technology Services",
+   "top": [
+    {
+     "symbol": "LTTS",
+     "name": "L&T Technology Services Ltd.",
+     "sector": "Information Technology Services",
+     "fno": false,
+     "score": 91.6,
+     "bias": "UPSIDE",
+     "val": "OK",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 3% of Information Technology Services",
+      "Latest results: GOOD",
+      "Valuation: OK",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "TECHM",
+     "name": "Tech Mahindra Ltd.",
+     "sector": "Information Technology Services",
+     "fno": true,
+     "score": 91.6,
+     "bias": "UPSIDE",
+     "val": "OK",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 3% of Information Technology Services",
+      "Latest results: GOOD",
+      "Valuation: OK",
+      "Bias: UPSIDE"
+     ]
+    },
+    {
+     "symbol": "TCS",
+     "name": "Tata Consultancy Services Ltd.",
+     "sector": "Information Technology Services",
+     "fno": true,
+     "score": 83.3,
+     "bias": "UPSIDE",
+     "val": "OK",
+     "results": "GOOD",
+     "why": [
+      "Momentum in top 19% of Information Technology Services",
+      "Latest results: GOOD",
+      "Valuation: OK",
+      "Bias: UPSIDE"
      ]
     }
    ]
