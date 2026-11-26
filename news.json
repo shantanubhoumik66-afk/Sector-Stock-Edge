@@ -1,7 +1,521 @@
 {
- "updated": "2026-11-26T10:55:50.801491",
+ "updated": "2026-11-26T21:34:07.933354",
  "days": 30,
  "stocks": {
+  "ZFCVINDIA": {
+   "impact": "NEUTRAL",
+   "score": 0.5,
+   "impact_reason": "Main drivers: Action(s) initiated or orders passed.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "ZFCVINDIA",
+     "date": "26-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) initiated or orders passed",
+     "text": "ZF Commercial Vehicle Control Systems India Limited has informed the Exchange about favourable orders passed by CESTAT, Chennai",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/WABCOINDIA_26112026212930_sdSEIntimation_order-edit.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "ZFCVINDIA",
+     "date": "13-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "ZF Commercial Vehicle Control Systems India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/WABCOINDIA_13112026134521_sd-SEOutcomeNov.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "TMCV": {
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Resignation of Statutory Auditor.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "TMCV",
+     "date": "31-Oct-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation of Statutory Auditor",
+     "text": "Tata Motors Limited has informed the Exchange about Resignation of Statutory Auditor",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TMCV_ROSA_102750_KMP_Doc.zip",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "TMCV",
+     "date": "30-Oct-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Tata Motors Limited has informed the Exchange about Acquisition",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TMLCOMMERCIAL_30102026201734_NSEBSELETTERFINALIVECOFINAL.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "TMCV",
+     "date": "26-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Tata Motors Limited has informed the Exchange about Acquisition",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/TMLCOMMERCIAL_26112026202844_NSEBSELETTERFINALDRAFTACGL.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "RBLBANK": {
+   "impact": "NEGATIVE",
+   "score": -1.0,
+   "impact_reason": "Main drivers: Shareholders meeting; Shareholders meeting.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "RBLBANK",
+     "date": "27-Oct-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "RBL Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/RBLBANK_27102026165750_PBNoticeIntimation27102026Signed.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "RBLBANK",
+     "date": "26-Nov-202",
+     "type": "Results",
+     "title": "Shareholders meeting",
+     "text": "RBL Bank Limited has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/RBLBANK_26112026201031_RBLBankNSEBSEIntimationResults.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "RBLBANK",
+     "date": "20-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "RBL Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/RBLBANK_20112026124948_SEPostalBallotNoticeIntimation20112026Signed.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    }
+   ]
+  },
+  "HDBFS": {
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "HDBFS",
+     "date": "26-Nov-202",
+     "type": "Results",
+     "title": "Shareholders meeting",
+     "text": "HDB Financial Services Limited has submitted the Exchange a copy Srutinizers report of  Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HDBF_26112026191312_Outcome_of_Postal_Ballot.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "BHARATCOAL": {
+   "impact": "NEUTRAL",
+   "score": 0.5,
+   "impact_reason": "Main drivers: Spurt in Volume.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "BHARATCOAL",
+     "date": "26-Nov-202",
+     "type": "Order / contract",
+     "title": "Spurt in Volume",
+     "text": "Significant increase in volume has been observed in Bharat Coking Coal Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the in",
+     "source": "NSE corporate filing",
+     "link": "-",
+     "sentiment": "POSITIVE",
+     "age": null
+    }
+   ]
+  },
+  "AWL": {
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Shareholders meeting.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "AWL",
+     "date": "27-Oct-202",
+     "type": "Results",
+     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
+     "text": "AWL Agri Business Limited has informed the Exchange about Link of Recording of  unaudited financial results for quarter and half year ended 30 September 2027",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AWL_27102026231429_SE_Audio_recording_link.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AWL",
+     "date": "27-Oct-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "AWL Agri Business Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Press Release on the Unaudited Financial Results for the quarter and half year ended on 30th September 2026\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AWL_27102026165657_SE_Press_Release.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AWL",
+     "date": "27-Oct-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "AWL Agri Business Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AWL_27102026162459_SE_Outcome.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "AWL",
+     "date": "26-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "AWL Agri Business Limited has informed the Exchange regarding Notice of Postal Ballot",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/AWL_26112026184615_SEPBNotice_Intimation26112026.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    }
+   ]
+  },
+  "APARINDS": {
+   "impact": "NEUTRAL",
+   "score": 0.5,
+   "impact_reason": "Main drivers: Action(s) initiated or orders passed.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "APARINDS",
+     "date": "30-Oct-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Apar Industries Limited has informed the Exchange about Acquisition by Wholly Owned Subsidiary of the Company.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APARINDS_30102026145125_Chinaintimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "APARINDS",
+     "date": "29-Oct-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Apar Industries Limited has informed the Exchange about Approval for further investment in Petroleum Specialties Pte Ltd., Singapore.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APARINDS_29102026140146_OutcomeQ2FY27.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "APARINDS",
+     "date": "29-Oct-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Apar Industries Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press release on the Un-audited Financial Results of the Company for the Second Quarter and Half-year ended September 30, 2026 of th",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APARINDS_29102026134745_OutcomeQ2FY27.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "APARINDS",
+     "date": "29-Oct-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Apar Industries Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APARINDS_29102026134048_OutcomeQ2FY27.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "APARINDS",
+     "date": "26-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) initiated or orders passed",
+     "text": "Apar Industries Limited has informed the Exchange about Action(s) initiated or orders passed",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/APARINDS_26112026183743_Intimation_-_GST.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    }
+   ]
+  },
+  "VIJAYA": {
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "VIJAYA",
+     "date": "26-Nov-202",
+     "type": "Corporate action",
+     "title": "Updates",
+     "text": "Vijaya Diagnostic Centre Limited has informed the Exchange regarding 'Completion of Acquisition of the Integrated Diagnostic Business of Arya Wellness Centre, Guwahati, Assam'.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/VIJAYA_26112026180149_Signed_STX_intimation2611.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "VIJAYA",
+     "date": "03-Nov-202",
+     "type": "Results",
+     "title": "Press Release",
+     "text": "Vijaya Diagnostic Centre Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press Release on Q2 FY2027 Results\".",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/VIJAYA_03112026202818_VDCL_PR_03112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "VIJAYA",
+     "date": "03-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Vijaya Diagnostic Centre Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/VIJAYA_03112026195557_VDCL_BM_Ootcome_03112026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "HEXT": {
+   "impact": "NEUTRAL",
+   "score": 0.5,
+   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Updates.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "HEXT",
+     "date": "28-Oct-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation of Director/KMP/SMP",
+     "text": "Hexaware Technologies Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HEXT_ROID_102265_KMP_Doc.zip",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "HEXT",
+     "date": "28-Oct-202",
+     "type": "Corporate action",
+     "title": "Amalgamation/Merger",
+     "text": "Hexaware Technologies Limited has informed the Exchange about Amalgamation/Merger of subsidiary and Slump Sale of Subsidiary",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HEXAWARETECH_28102026220927_outcome.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "HEXT",
+     "date": "28-Oct-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Hexaware Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HEXAWARETECH_28102026220321_outcome.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "HEXT",
+     "date": "26-Nov-202",
+     "type": "Order / contract",
+     "title": "Updates",
+     "text": "Hexaware Technologies Limited has informed the Exchange regarding 'Hexaware Receives Guidewire 2026 Consulting Partner Outstanding Market Growth Award EMEA'.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HEXAWARETECH_26112026175432_Press_Release.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "HEXT",
+     "date": "18-Nov-202",
+     "type": "Order / contract",
+     "title": "Updates",
+     "text": "Hexaware Technologies Limited has informed the Exchange regarding 'Hexaware Celebrates Seven Consecutive Years of Recognition atthe ISG Star of Excellence  Awards'.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/HEXAWARETECH_18112026075911_Final_PR_ISG_1811_2026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    }
+   ]
+  },
+  "FLUOROCHEM": {
+   "impact": "NEUTRAL",
+   "score": -0.5,
+   "impact_reason": "Main drivers: Shareholders meeting.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "FLUOROCHEM",
+     "date": "26-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Shareholders meeting",
+     "text": "Gujarat Fluorochemicals Limited has informed the Exchange regarding Notice of Extraordinary General Meeting to be held on December 22, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_26112026170639_GFC-EGM_Notice.pdf",
+     "sentiment": "NEGATIVE",
+     "age": null
+    },
+    {
+     "symbol": "FLUOROCHEM",
+     "date": "24-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Gujarat Fluorochemicals Limited has informed the Exchange about Acquisition",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_24112026182411_GFCL_Intimation.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "FLUOROCHEM",
+     "date": "13-Nov-202",
+     "type": "Corporate action",
+     "title": "Acquisition",
+     "text": "Gujarat Fluorochemicals Limited has informed the Exchange about Acquisition",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_13112026111440_GFCL_Intimation_Reg_30_Incorporation_of_GFCL_EV_Critical_Minerals.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "FLUOROCHEM",
+     "date": "03-Nov-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Gujarat Fluorochemicals Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    }
+   ]
+  },
+  "DALBHARAT": {
+   "impact": "VERY POSITIVE",
+   "score": 2.0,
+   "impact_reason": "Main drivers: Buyback; Copy of Newspaper Publication.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "DALBHARAT",
+     "date": "26-Nov-202",
+     "type": "Corporate action",
+     "title": "Buyback",
+     "text": "Dalmia Bharat Limited has informed the Exchange about Buyback. Board Resolution & Public Announcement pertaining to Buyback",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/DALBHARAT_26112026164701_SEfilingPA26112026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "DALBHARAT",
+     "date": "26-Nov-202",
+     "type": "Corporate action",
+     "title": "Copy of Newspaper Publication",
+     "text": "Dalmia Bharat Limited has informed the Exchange about Copy of Newspaper Publication. Submission of the public announcement dated November 25, 2026 (\"Public Announcement\") for the buyback of fully paid-up equity shares of face value of INR 2",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/DALBHARAT_26112026164002_SEfilingPA26112026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "DALBHARAT",
+     "date": "26-Nov-202",
+     "type": "Corporate action",
+     "title": "Public Announcement - Buyback of Shares",
+     "text": "Dalmia Bharat Limited has informed the Exchange about public Announcement - Buyback of Shares. Submission of the public announcement dated November 25, 2026 (\"Public Announcement\") for the buyback of fully paid-up equity shares of face valu",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/DALBHARAT_26112026163637_SEfilingPA26112026.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "DALBHARAT",
+     "date": "23-Nov-202",
+     "type": "Corporate action",
+     "title": "Outcome of Board Meeting",
+     "text": "Dalmia Bharat Limited has informed the Exchange regarding Outcome of Board Meeting held on November 23, 2026, inter-alia approving buyback of equity shares",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/DALBHARAT_23112026113131_outcomeBMbb23112026n.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    }
+   ]
+  },
+  "MOTILALOFS": {
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "Main drivers: Action(s) taken or orders passed; Resignation of Director/KMP/SMP.",
+   "days": 30,
+   "items": [
+    {
+     "symbol": "MOTILALOFS",
+     "date": "29-Oct-202",
+     "type": "Results",
+     "title": "Outcome of Board Meeting",
+     "text": "Motilal Oswal Financial Services Limited has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/MOTILALOFS_29102026171324_MOFSL_Board_Meeting_Outcome_29102026.pdf",
+     "sentiment": "NEUTRAL",
+     "age": null
+    },
+    {
+     "symbol": "MOTILALOFS",
+     "date": "26-Nov-202",
+     "type": "Order / contract",
+     "title": "Action(s) taken or orders passed",
+     "text": "We wish to inform the Exchanges that the Securities and Exchange Board of India haspassed an Adjudication Order dated November 25, 2026",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/MOTILALOFS_26112026162819_Intimation_SEBIOrder_26112026_Final_signed.pdf",
+     "sentiment": "POSITIVE",
+     "age": null
+    },
+    {
+     "symbol": "MOTILALOFS",
+     "date": "04-Nov-202",
+     "type": "Governance / regulatory",
+     "title": "Resignation of Director/KMP/SMP",
+     "text": "Motilal Oswal Financial Services Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+     "source": "NSE corporate filing",
+     "link": "https://nsearchives.nseindia.in/corporate/MOTILALOFS_ROID_103349_KMP_Doc.zip",
+     "sentiment": "NEGATIVE",
+     "age": null
+    }
+   ]
+  },
   "TORNTPOWER": {
    "impact": "NEUTRAL",
    "score": 0.0,
@@ -1304,47 +1818,6 @@
     }
    ]
   },
-  "FLUOROCHEM": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "FLUOROCHEM",
-     "date": "24-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Gujarat Fluorochemicals Limited has informed the Exchange about Acquisition",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_24112026182411_GFCL_Intimation.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "FLUOROCHEM",
-     "date": "13-Nov-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Gujarat Fluorochemicals Limited has informed the Exchange about Acquisition",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_13112026111440_GFCL_Intimation_Reg_30_Incorporation_of_GFCL_EV_Critical_Minerals.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "FLUOROCHEM",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Gujarat Fluorochemicals Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/FLUOROCHEM_03112026141153_GFCL_Financial_Results.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
   "LLOYDSME": {
    "impact": "NEUTRAL",
    "score": 0.0,
@@ -1726,7 +2199,7 @@
   "IIFL": {
    "impact": "NEGATIVE",
    "score": -1.0,
-   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Shareholders meeting.",
+   "impact_reason": "Main drivers: Buy 4320402 shares at \u20b9600.0 (about \u20b9259 cr) by UBS AG; Sell 5615936 shares at \u20b9600.16 (about \u20b9337 cr) by SMALLCAP WORLD FUND INC.",
    "days": 30,
    "items": [
     {
@@ -1739,6 +2212,28 @@
      "link": "https://nsearchives.nseindia.in/corporate/IIFL_ROID_105176_KMP_Doc.zip",
      "sentiment": "NEGATIVE",
      "age": null
+    },
+    {
+     "symbol": "IIFL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Buy 4320402 shares at \u20b9600.0 (about \u20b9259 cr) by UBS AG",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "VERY POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "IIFL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 5615936 shares at \u20b9600.16 (about \u20b9337 cr) by SMALLCAP WORLD FUND INC",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "VERY NEGATIVE",
+     "age": 0
     },
     {
      "symbol": "IIFL",
@@ -2200,9 +2695,9 @@
    ]
   },
   "APLAPOLLO": {
-   "impact": "VERY NEGATIVE",
-   "score": -2.0,
-   "impact_reason": "Main drivers: Buy 3476928 shares at \u20b91469.25 (about \u20b9511 cr) by GRAVITON RESEARCH CAPITAL LLP; Sell 3071937 shares at \u20b91411.37 (about \u20b9434 cr) by SMALLCAP WORLD FUND INC.",
+   "impact": "NEUTRAL",
+   "score": 0.0,
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
     {
@@ -2226,39 +2721,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/APLAPOLLO_22112026192256_SE_Disclsoure.pdf",
      "sentiment": "NEUTRAL",
      "age": null
-    },
-    {
-     "symbol": "APLAPOLLO",
-     "date": "2026-11-25",
-     "type": "bulk deal",
-     "title": "Buy 3476928 shares at \u20b91469.25 (about \u20b9511 cr) by GRAVITON RESEARCH CAPITAL LLP",
-     "text": "",
-     "source": "NSE bulk deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
-     "sentiment": "VERY POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "APLAPOLLO",
-     "date": "2026-11-25",
-     "type": "bulk deal",
-     "title": "Sell 3071937 shares at \u20b91411.37 (about \u20b9434 cr) by SMALLCAP WORLD FUND INC",
-     "text": "",
-     "source": "NSE bulk deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
-     "sentiment": "VERY NEGATIVE",
-     "age": 1
-    },
-    {
-     "symbol": "APLAPOLLO",
-     "date": "2026-11-25",
-     "type": "bulk deal",
-     "title": "Sell 3475270 shares at \u20b91470.09 (about \u20b9511 cr) by GRAVITON RESEARCH CAPITAL LLP",
-     "text": "",
-     "source": "NSE bulk deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
-     "sentiment": "VERY NEGATIVE",
-     "age": 1
     }
    ]
   },
@@ -2310,25 +2772,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/TWL_10112026204612_OutcomeofBM10112026.pdf",
      "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "DALBHARAT": {
-   "impact": "NEUTRAL",
-   "score": 0.5,
-   "impact_reason": "Main drivers: Outcome of Board Meeting.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "DALBHARAT",
-     "date": "23-Nov-202",
-     "type": "Corporate action",
-     "title": "Outcome of Board Meeting",
-     "text": "Dalmia Bharat Limited has informed the Exchange regarding Outcome of Board Meeting held on November 23, 2026, inter-alia approving buyback of equity shares",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/DALBHARAT_23112026113131_outcomeBMbb23112026n.pdf",
-     "sentiment": "POSITIVE",
      "age": null
     }
    ]
@@ -3513,36 +3956,6 @@
     }
    ]
   },
-  "RBLBANK": {
-   "impact": "NEGATIVE",
-   "score": -1.0,
-   "impact_reason": "Main drivers: Shareholders meeting; Shareholders meeting.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "RBLBANK",
-     "date": "27-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Shareholders meeting",
-     "text": "RBL Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/RBLBANK_27102026165750_PBNoticeIntimation27102026Signed.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "RBLBANK",
-     "date": "20-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Shareholders meeting",
-     "text": "RBL Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/RBLBANK_20112026124948_SEPostalBallotNoticeIntimation20112026Signed.pdf",
-     "sentiment": "NEGATIVE",
-     "age": null
-    }
-   ]
-  },
   "GODREJCP": {
    "impact": "NEUTRAL",
    "score": -0.5,
@@ -3779,7 +4192,7 @@
   "JWL": {
    "impact": "VERY POSITIVE",
    "score": 4.5,
-   "impact_reason": "Main drivers: Press Release; General Updates.",
+   "impact_reason": "Main drivers: Buy 4478721 shares at \u20b9234.56 (about \u20b9105 cr) by QE SECURITIES LLP; Sell 4464252 shares at \u20b9234.53 (about \u20b9105 cr) by QE SECURITIES LLP.",
    "days": 30,
    "items": [
     {
@@ -3806,25 +4219,135 @@
     },
     {
      "symbol": "JWL",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "type": "bulk deal",
-     "title": "Buy 2117125 shares at \u20b9209.91 (about \u20b944 cr) by QE SECURITIES LLP",
+     "title": "Buy 3520852 shares at \u20b9235.37 (about \u20b983 cr) by MICROCURVES TRADING PRIVATE LIMITED",
      "text": "",
      "source": "NSE bulk deals file",
      "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
      "sentiment": "POSITIVE",
-     "age": 1
+     "age": 0
     },
     {
      "symbol": "JWL",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "type": "bulk deal",
-     "title": "Sell 2149572 shares at \u20b9208.56 (about \u20b945 cr) by QE SECURITIES LLP",
+     "title": "Buy 4478721 shares at \u20b9234.56 (about \u20b9105 cr) by QE SECURITIES LLP",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "VERY POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Buy 3020209 shares at \u20b9234.39 (about \u20b971 cr) by JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Buy 2807378 shares at \u20b9235.36 (about \u20b966 cr) by ALPHAGREP SECURITIES PRIVATE LIMITED",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Buy 2825694 shares at \u20b9235.55 (about \u20b967 cr) by PLUTUS WEALTH MANAGEMENT LLP",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Buy 2198863 shares at \u20b9235.09 (about \u20b952 cr) by HRTI PRIVATE LIMITED",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 3519382 shares at \u20b9235.44 (about \u20b983 cr) by MICROCURVES TRADING PRIVATE LIMITED",
      "text": "",
      "source": "NSE bulk deals file",
      "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
      "sentiment": "NEGATIVE",
-     "age": 1
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 4464252 shares at \u20b9234.53 (about \u20b9105 cr) by QE SECURITIES LLP",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "VERY NEGATIVE",
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 2825694 shares at \u20b9235.68 (about \u20b967 cr) by PLUTUS WEALTH MANAGEMENT LLP",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "NEGATIVE",
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 2805939 shares at \u20b9235.5 (about \u20b966 cr) by ALPHAGREP SECURITIES PRIVATE LIMITED",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "NEGATIVE",
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 2256433 shares at \u20b9235.11 (about \u20b953 cr) by HRTI PRIVATE LIMITED",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "NEGATIVE",
+     "age": 0
+    },
+    {
+     "symbol": "JWL",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 2938691 shares at \u20b9234.17 (about \u20b969 cr) by JUMP TRADING FINANCIAL INDIA PRIVATE LIMITED",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "NEGATIVE",
+     "age": 0
     },
     {
      "symbol": "JWL",
@@ -5399,58 +5922,6 @@
     }
    ]
   },
-  "HEXT": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Updates.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "HEXT",
-     "date": "28-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Resignation of Director/KMP/SMP",
-     "text": "Hexaware Technologies Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HEXT_ROID_102265_KMP_Doc.zip",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "HEXT",
-     "date": "28-Oct-202",
-     "type": "Corporate action",
-     "title": "Amalgamation/Merger",
-     "text": "Hexaware Technologies Limited has informed the Exchange about Amalgamation/Merger of subsidiary and Slump Sale of Subsidiary",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HEXAWARETECH_28102026220927_outcome.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "HEXT",
-     "date": "28-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Hexaware Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HEXAWARETECH_28102026220321_outcome.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "HEXT",
-     "date": "18-Nov-202",
-     "type": "Order / contract",
-     "title": "Updates",
-     "text": "Hexaware Technologies Limited has informed the Exchange regarding 'Hexaware Celebrates Seven Consecutive Years of Recognition atthe ISG Star of Excellence  Awards'.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/HEXAWARETECH_18112026075911_Final_PR_ISG_1811_2026.pdf",
-     "sentiment": "POSITIVE",
-     "age": null
-    }
-   ]
-  },
   "ONESOURCE": {
    "impact": "NEUTRAL",
    "score": -0.5,
@@ -5700,7 +6171,7 @@
   "CARBORUNIV": {
    "impact": "NEUTRAL",
    "score": -0.5,
-   "impact_reason": "Main drivers: Copy of Newspaper Publication.",
+   "impact_reason": "Main drivers: Buy 3344472 shares at \u20b9975.0 (about \u20b9326 cr) by SBI MUTUAL FUND; Sell 2793669 shares at \u20b9975.0 (about \u20b9272 cr) by SBI MUTUAL FUND.",
    "days": 30,
    "items": [
     {
@@ -5713,6 +6184,28 @@
      "link": "https://nsearchives.nseindia.in/corporate/CARBORUNIV_28102026182028_intimation_sd.pdf",
      "sentiment": "NEUTRAL",
      "age": null
+    },
+    {
+     "symbol": "CARBORUNIV",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Buy 3344472 shares at \u20b9975.0 (about \u20b9326 cr) by SBI MUTUAL FUND",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "VERY POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "CARBORUNIV",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 2793669 shares at \u20b9975.0 (about \u20b9272 cr) by SBI MUTUAL FUND",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "VERY NEGATIVE",
+     "age": 0
     },
     {
      "symbol": "CARBORUNIV",
@@ -5925,9 +6418,9 @@
    ]
   },
   "SCHAEFFLER": {
-   "impact": "NEUTRAL",
-   "score": 0.5,
-   "impact_reason": "Main drivers: Action(s) initiated or orders passed.",
+   "impact": "VERY POSITIVE",
+   "score": 67.5,
+   "impact_reason": "Main drivers: Buy 847000 shares at \u20b93493.0 (about \u20b9296 cr) by NATIONAL PENSION SYSTEM (NPS) TRUST; Sell 10159738 shares at \u20b93493.0 (about \u20b93,549 cr) by SCHAEFFLER SCHWEINFURT BETEILIGUNGS G.",
    "days": 30,
    "items": [
     {
@@ -5965,25 +6458,245 @@
     },
     {
      "symbol": "SCHAEFFLER",
-     "date": "17-Nov-202",
-     "type": "Results",
-     "title": "Updates",
-     "text": "Schaeffler India Limited has informed the Exchange regarding 'Machine readable copy of Unaudited consolidated financial results of Schaeffler India Limited (the  Holding Company ) for quarter ended September 30, 2026'. apart from this, ther",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/SCHAEFFLERUSER1_17112026145509_SIL_Reg_33_LR_Results_Consolidated_Q32026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Buy 847000 shares at \u20b93493.0 (about \u20b9296 cr) by NATIONAL PENSION SYSTEM (NPS) TRUST",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "VERY POSITIVE",
+     "age": 0
     },
     {
      "symbol": "SCHAEFFLER",
-     "date": "17-Nov-202",
-     "type": "Results",
-     "title": "Updates",
-     "text": "Schaeffler India Limited has informed the Exchange regarding 'Machine readable copy of unaudited standalone financial results of Schaeffler India Limited (the  Company ) for the quarter ended September 30, 2026'. Apart from this, there is n",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/SCHAEFFLERUSER1_17112026145249_SIL_Reg_33_LR_Results_Standalone_Q32026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 10159738 shares at \u20b93493.0 (about \u20b93,549 cr) by SCHAEFFLER SCHWEINFURT BETEILIGUNGS GMBH",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "VERY NEGATIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 97162 shares at \u20b93493.0 (about \u20b934 cr) by ABU DHABI INVESTMENT AUTHORITY",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 36756 shares at \u20b93493.0 (about \u20b913 cr) by ADITYA BIRLA SUN LIFE MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 275677 shares at \u20b93493.0 (about \u20b996 cr) by ADITYA BIRLA SUN LIFE MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 34908 shares at \u20b93493.0 (about \u20b912 cr) by ASHOKA INDIA EQUITY INVESTMENT TRUST PLC",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 200000 shares at \u20b93493.0 (about \u20b970 cr) by BAJAJ ALLIANZ LIFE INSURANCE COMPANY LIMITED",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 132000 shares at \u20b93493.0 (about \u20b946 cr) by BNP PARIBAS ARBITRAGE",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 52123 shares at \u20b93493.0 (about \u20b918 cr) by DSP MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 55454 shares at \u20b93493.0 (about \u20b919 cr) by DSP MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 174557 shares at \u20b93493.0 (about \u20b961 cr) by DSP MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 207319 shares at \u20b93493.0 (about \u20b972 cr) by DSP MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 210547 shares at \u20b93493.0 (about \u20b974 cr) by DSP MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 42495 shares at \u20b93493.0 (about \u20b915 cr) by EASTSPRING INVESTMENTS INDIA EQUITY FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 72000 shares at \u20b93493.0 (about \u20b925 cr) by GHISALLO MASTER FUND LP",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 72000 shares at \u20b93493.0 (about \u20b925 cr) by GOLDMAN SACHS BANK EUROPE SE",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 260000 shares at \u20b93493.0 (about \u20b991 cr) by HDFC STANDARD LIFE INSURANCE CO LTD",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 85000 shares at \u20b93493.0 (about \u20b930 cr) by ICICI PRUDENTIAL LIFE INSURANCE COMPANY LIMITED",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 644046 shares at \u20b93493.0 (about \u20b9225 cr) by ICICI PRUDENTIAL MUTUAL  FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "VERY POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 49683 shares at \u20b93493.0 (about \u20b917 cr) by ICICI PRUDENTIAL MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 66245 shares at \u20b93493.0 (about \u20b923 cr) by ICICI PRUDENTIAL MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 73605 shares at \u20b93493.0 (about \u20b926 cr) by ICICI PRUDENTIAL MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
     }
    ]
   },
@@ -6554,9 +7267,9 @@
    ]
   },
   "LGEINDIA": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "Main drivers: Action(s) taken or orders passed; Shareholders meeting.",
+   "impact": "VERY NEGATIVE",
+   "score": -2.0,
+   "impact_reason": "Main drivers: Sell 13575447 shares at \u20b91765.28 (about \u20b92,396 cr) by LG ELECTRONICS INC; Action(s) taken or orders passed.",
    "days": 30,
    "items": [
     {
@@ -6569,6 +7282,17 @@
      "link": "https://nsearchives.nseindia.in/corporate/LGEINDIA_31102026185009_Intimation_under_Regulation_30_dated_31st_October_2026.pdf",
      "sentiment": "POSITIVE",
      "age": null
+    },
+    {
+     "symbol": "LGEINDIA",
+     "date": "2026-11-26",
+     "type": "bulk deal",
+     "title": "Sell 13575447 shares at \u20b91765.28 (about \u20b92,396 cr) by LG ELECTRONICS INC",
+     "text": "",
+     "source": "NSE bulk deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
+     "sentiment": "VERY NEGATIVE",
+     "age": 0
     },
     {
      "symbol": "LGEINDIA",
@@ -8289,25 +9013,6 @@
     }
    ]
   },
-  "ZFCVINDIA": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "ZFCVINDIA",
-     "date": "13-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "ZF Commercial Vehicle Control Systems India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/WABCOINDIA_13112026134521_sd-SEOutcomeNov.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
   "JUBLFOOD": {
    "impact": "NEGATIVE",
    "score": -1.0,
@@ -9017,11 +9722,66 @@
    ]
   },
   "ALKEM": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
+   "impact": "VERY POSITIVE",
+   "score": 2.0,
+   "impact_reason": "Main drivers: Sell 358695 shares at \u20b95075.0 (about \u20b9182 cr) by SEEMA SINGH; Buy 95000 shares at \u20b95075.0 (about \u20b948 cr) by ICICI PRUDENTIAL MUTUAL FUND.",
    "days": 30,
    "items": [
+    {
+     "symbol": "ALKEM",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 95000 shares at \u20b95075.0 (about \u20b948 cr) by ICICI PRUDENTIAL MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "ALKEM",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 95000 shares at \u20b95075.0 (about \u20b948 cr) by NIPPON INDIA MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "ALKEM",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 95000 shares at \u20b95075.0 (about \u20b948 cr) by HDFC MUTUAL FUND",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "ALKEM",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Buy 73695 shares at \u20b95075.0 (about \u20b937 cr) by BAJAJ LIFE INSURANCE LIMITED",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "POSITIVE",
+     "age": 0
+    },
+    {
+     "symbol": "ALKEM",
+     "date": "2026-11-26",
+     "type": "block deal",
+     "title": "Sell 358695 shares at \u20b95075.0 (about \u20b9182 cr) by SEEMA SINGH",
+     "text": "",
+     "source": "NSE block deals file",
+     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
+     "sentiment": "VERY NEGATIVE",
+     "age": 0
+    },
     {
      "symbol": "ALKEM",
      "date": "12-Nov-202",
@@ -10377,31 +11137,9 @@
   "FINCABLES": {
    "impact": "NEUTRAL",
    "score": 0.0,
-   "impact_reason": "Main drivers: Buy 460000 shares at \u20b91159.0 (about \u20b953 cr) by ORBITELECTRICALS PRIVATE LIMITED; Sell 460000 shares at \u20b91159.0 (about \u20b953 cr) by ARUNA MUKESH KATARA.",
+   "impact_reason": "No strong positive or negative items in the last 30 days.",
    "days": 30,
    "items": [
-    {
-     "symbol": "FINCABLES",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 460000 shares at \u20b91159.0 (about \u20b953 cr) by ORBITELECTRICALS PRIVATE LIMITED",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "FINCABLES",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Sell 460000 shares at \u20b91159.0 (about \u20b953 cr) by ARUNA MUKESH KATARA",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "NEGATIVE",
-     "age": 1
-    },
     {
      "symbol": "FINCABLES",
      "date": "07-Nov-202",
@@ -13611,36 +14349,6 @@
     }
    ]
   },
-  "MOTILALOFS": {
-   "impact": "NEUTRAL",
-   "score": -0.5,
-   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "MOTILALOFS",
-     "date": "29-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Motilal Oswal Financial Services Limited has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/MOTILALOFS_29102026171324_MOFSL_Board_Meeting_Outcome_29102026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "MOTILALOFS",
-     "date": "04-Nov-202",
-     "type": "Governance / regulatory",
-     "title": "Resignation of Director/KMP/SMP",
-     "text": "Motilal Oswal Financial Services Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/MOTILALOFS_ROID_103349_KMP_Doc.zip",
-     "sentiment": "NEGATIVE",
-     "age": null
-    }
-   ]
-  },
   "ZYDUSLIFE": {
    "impact": "NEUTRAL",
    "score": 0.0,
@@ -13879,36 +14587,6 @@
     }
    ]
   },
-  "VIJAYA": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "VIJAYA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Vijaya Diagnostic Centre Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press Release on Q2 FY2027 Results\".",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/VIJAYA_03112026202818_VDCL_PR_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "VIJAYA",
-     "date": "03-Nov-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Vijaya Diagnostic Centre Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/VIJAYA_03112026195557_VDCL_BM_Ootcome_03112026.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
   "TRIDENT": {
    "impact": "NEUTRAL",
    "score": 0.0,
@@ -14082,9 +14760,9 @@
    ]
   },
   "MEDANTA": {
-   "impact": "VERY POSITIVE",
-   "score": 8.0,
-   "impact_reason": "Main drivers: Buy 2863074 shares at \u20b91460.0 (about \u20b9418 cr) by HDFC MUTUAL FUND; Sell 4140435 shares at \u20b91460.0 (about \u20b9605 cr) by DUNEARN INVESTMENTS (MAURITIUS) PTE LTD.",
+   "impact": "NEGATIVE",
+   "score": -1.0,
+   "impact_reason": "Main drivers: Resignation of Director/KMP/SMP; Resignation of Director/KMP/SMP.",
    "days": 30,
    "items": [
     {
@@ -14097,204 +14775,6 @@
      "link": "https://nsearchives.nseindia.in/corporate/MEDANTA_ROID_102803_KMP_Doc.zip",
      "sentiment": "NEGATIVE",
      "age": null
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "bulk deal",
-     "title": "Buy 2863074 shares at \u20b91460.0 (about \u20b9418 cr) by HDFC MUTUAL FUND",
-     "text": "",
-     "source": "NSE bulk deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
-     "sentiment": "VERY POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "bulk deal",
-     "title": "Sell 4140435 shares at \u20b91460.0 (about \u20b9605 cr) by DUNEARN INVESTMENTS (MAURITIUS) PTE LTD",
-     "text": "",
-     "source": "NSE bulk deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
-     "sentiment": "VERY NEGATIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "bulk deal",
-     "title": "Sell 2229465 shares at \u20b91460.0 (about \u20b9326 cr) by DUNEARN INVESTMENTS (MAURITIUS) PTE LTD",
-     "text": "",
-     "source": "NSE bulk deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/bulk.csv",
-     "sentiment": "VERY NEGATIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 171235 shares at \u20b91460.0 (about \u20b925 cr) by SBI MUTUAL FUND",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 171233 shares at \u20b91460.0 (about \u20b925 cr) by SBI MUTUAL FUND",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 390400 shares at \u20b91460.0 (about \u20b957 cr) by NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 2863074 shares at \u20b91460.0 (about \u20b9418 cr) by HDFC MUTUAL FUND",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "VERY POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 1027397 shares at \u20b91460.0 (about \u20b9150 cr) by HDFC MUTUAL FUND",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "VERY POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 130530 shares at \u20b91460.0 (about \u20b919 cr) by KUWAIT INVESTMENT AUTHORITY",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 390410 shares at \u20b91460.0 (about \u20b957 cr) by NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 171233 shares at \u20b91460.0 (about \u20b925 cr) by WHITEOAK CAPITAL MUTUAL FUND",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 171240 shares at \u20b91460.0 (about \u20b925 cr) by WHITEOAK CAPITAL MUTUAL FUND",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 171233 shares at \u20b91460.0 (about \u20b925 cr) by CANARA ROBECO MUTUAL FUND",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 205479 shares at \u20b91460.0 (about \u20b930 cr) by CITIGROUP GLOBAL MARKETS SINGAPORE PTE LIMITED",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 294500 shares at \u20b91460.0 (about \u20b943 cr) by DSP INDIA FUND IFSC",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Buy 171233 shares at \u20b91460.0 (about \u20b925 cr) by GOLDMAN SACHS BANK EUROPE SE",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "POSITIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Sell 4140435 shares at \u20b91460.0 (about \u20b9605 cr) by DUNEARN INVESTMENTS (MAURITIUS) PTE LTD",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "VERY NEGATIVE",
-     "age": 1
-    },
-    {
-     "symbol": "MEDANTA",
-     "date": "2026-11-25",
-     "type": "block deal",
-     "title": "Sell 2229465 shares at \u20b91460.0 (about \u20b9326 cr) by DUNEARN INVESTMENTS (MAURITIUS) PTE LTD",
-     "text": "",
-     "source": "NSE block deals file",
-     "link": "https://nsearchives.nseindia.com/content/equities/block.csv",
-     "sentiment": "VERY NEGATIVE",
-     "age": 1
     },
     {
      "symbol": "MEDANTA",
@@ -15455,36 +15935,6 @@
     }
    ]
   },
-  "TMCV": {
-   "impact": "NEUTRAL",
-   "score": -0.5,
-   "impact_reason": "Main drivers: Resignation of Statutory Auditor.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "TMCV",
-     "date": "31-Oct-202",
-     "type": "Governance / regulatory",
-     "title": "Resignation of Statutory Auditor",
-     "text": "Tata Motors Limited has informed the Exchange about Resignation of Statutory Auditor",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TMCV_ROSA_102750_KMP_Doc.zip",
-     "sentiment": "NEGATIVE",
-     "age": null
-    },
-    {
-     "symbol": "TMCV",
-     "date": "30-Oct-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Tata Motors Limited has informed the Exchange about Acquisition",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/TMLCOMMERCIAL_30102026201734_NSEBSELETTERFINALIVECOFINAL.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
   "SARDAEN": {
    "impact": "NEUTRAL",
    "score": 0.0,
@@ -16061,58 +16511,6 @@
      "text": "SJVN Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/SJVN_30102026151326_fr.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    }
-   ]
-  },
-  "APARINDS": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "APARINDS",
-     "date": "30-Oct-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Apar Industries Limited has informed the Exchange about Acquisition by Wholly Owned Subsidiary of the Company.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/APARINDS_30102026145125_Chinaintimation.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "APARINDS",
-     "date": "29-Oct-202",
-     "type": "Corporate action",
-     "title": "Acquisition",
-     "text": "Apar Industries Limited has informed the Exchange about Approval for further investment in Petroleum Specialties Pte Ltd., Singapore.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/APARINDS_29102026140146_OutcomeQ2FY27.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "APARINDS",
-     "date": "29-Oct-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "Apar Industries Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press release on the Un-audited Financial Results of the Company for the Second Quarter and Half-year ended September 30, 2026 of th",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/APARINDS_29102026134745_OutcomeQ2FY27.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "APARINDS",
-     "date": "29-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "Apar Industries Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/APARINDS_29102026134048_OutcomeQ2FY27.pdf",
      "sentiment": "NEUTRAL",
      "age": null
     }
@@ -17052,47 +17450,6 @@
      "source": "NSE corporate filing",
      "link": "https://nsearchives.nseindia.in/corporate/HINDUNILVR_28102026094634_SEIntimationOutcomeofBM28102026signed.pdf",
      "sentiment": "POSITIVE",
-     "age": null
-    }
-   ]
-  },
-  "AWL": {
-   "impact": "NEUTRAL",
-   "score": 0.0,
-   "impact_reason": "No strong positive or negative items in the last 30 days.",
-   "days": 30,
-   "items": [
-    {
-     "symbol": "AWL",
-     "date": "27-Oct-202",
-     "type": "Results",
-     "title": "Analysts/Institutional Investor Meet/Con. Call Updates",
-     "text": "AWL Agri Business Limited has informed the Exchange about Link of Recording of  unaudited financial results for quarter and half year ended 30 September 2027",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/AWL_27102026231429_SE_Audio_recording_link.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "AWL",
-     "date": "27-Oct-202",
-     "type": "Results",
-     "title": "Press Release",
-     "text": "AWL Agri Business Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Press Release on the Unaudited Financial Results for the quarter and half year ended on 30th September 2026\".",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/AWL_27102026165657_SE_Press_Release.pdf",
-     "sentiment": "NEUTRAL",
-     "age": null
-    },
-    {
-     "symbol": "AWL",
-     "date": "27-Oct-202",
-     "type": "Results",
-     "title": "Outcome of Board Meeting",
-     "text": "AWL Agri Business Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-     "source": "NSE corporate filing",
-     "link": "https://nsearchives.nseindia.in/corporate/AWL_27102026162459_SE_Outcome.pdf",
-     "sentiment": "NEUTRAL",
      "age": null
     }
    ]
